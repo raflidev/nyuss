@@ -1,10 +1,10 @@
 <template>
   <div class="app">
     <div class="container">
-      <div class="d-flex justify-content-between flex-row mt-5">
+      <section id="promo" class="d-flex justify-content-between flex-row mt-5">
         <!-- <div style="width:540px;height:400px">test</div> -->
-        <!-- <img src="https://picsum.photos/540/400" alt srcset /> -->
-        <v-lazy-image src="http://lorempixel.com/540/400/" />
+        <img src="https://picsum.photos/540/400" alt srcset />
+        <!-- <ImageBlur :image="gambar.large" :thumb="gambar.thumb" /> -->
         <div class="d-flex flex-column justify-content-between">
           <img src="https://lorempixel.com/255/185" alt srcset />
           <img src="https://lorempixel.com/255/185" alt srcset />
@@ -12,9 +12,9 @@
           <div style="width:255;height:185px">test</div>-->
         </div>
         <img src="https://lorempixel.com/255/400" alt srcset />
-      </div>
-
-      <div class="mt-5">
+      </section>
+      <a class="myBtn" href="#app">^</a>
+      <section id="unggulan" class="mt-5">
         <div class="unggulan text-left">
           <div class="unggulan-text">Produk Unggulan Kami</div>
           <div class="unggulan-subtext">Coba dulu aja siapa tau suka kan.</div>
@@ -28,14 +28,14 @@
             srcset
           />
         </div>
-      </div>
-      <div class="mt-5">
+      </section>
+      <section id="menu" class="mt-5">
         <div class="menu">
           <div class="menu-text text-center">Menu</div>
           <div class="menu-subtext text-center">Pilih sesuai selera kamu.</div>
           <div class="menu-category my-4">
             <button
-              class="btn btn-primary px-5 mr-4 py-0"
+              class="btn btn-primary px-5 mr-3 py-0"
               v-for="category in category"
               :key="category.index"
             >
@@ -49,13 +49,11 @@
             :key="kelas.index"
             style="margin-bottom:30px;filter:drop-shadow(5px 8px 5px rgba(0, 0, 0, 0.25));"
             src="https://lorempixel.com/255/255"
-            alt
-            srcset
           />
         </div>
-      </div>
+      </section>
     </div>
-    <div class="footer py-5 bg-primary">
+    <section id="kontak" class="footer py-5 bg-primary">
       <div class="container">
         <div class="d-flex justify-content-between">
           <div style="width:317px">
@@ -81,9 +79,7 @@
           </div>
           <div style="width:317px">
             <div class="footer-help">Tech Support</div>
-            <div>
-              Terdapat kesalahan pada sistem kami? silakan hubungi.
-            </div>
+            <div>Terdapat kesalahan pada sistem kami? silakan hubungi.</div>
             <div class="info">
               <div class="contact">contact@nyuss.com</div>
               <div class="telp">+62 812 8192 5236</div>
@@ -91,13 +87,15 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import VLazyImage from "v-lazy-image";
+// import VLazyImage from "v-lazy-image";
+// import { ImageBlur } from "@djanoskova/vue-image-blur";
+// import "@djanoskova/vue-image-blur/public/css/imageBlur.css";
 export default {
   name: "Home",
   data() {
@@ -106,12 +104,33 @@ export default {
     };
   },
   components: {
-    VLazyImage,
+    // VLazyImage,
+    // ImageBlur,
   },
 };
 </script>
 
 <style scoped>
+.myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-weight: 700;
+  text-decoration: none;
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
 a:hover {
   background-color: #513ba9 !important;
 }

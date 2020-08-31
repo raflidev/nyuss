@@ -4,16 +4,16 @@
       <div class="brand-logo">Nyuss</div>
       <ul class="navbar-nav flex-row">
         <li class="nav-item mx-3">
-          <a href class="nav-link">Promo</a>
+          <a href="#promo" class="nav-link">Promo</a>
         </li>
         <li class="nav-item mx-3">
-          <a href class="nav-link">Unggulan</a>
+          <a href="#unggulan" class="nav-link">Unggulan</a>
         </li>
         <li class="nav-item mx-3">
-          <a href class="nav-link">Menu</a>
+          <a href="#menu" class="nav-link">Menu</a>
         </li>
         <li class="nav-item mx-3">
-          <a href class="nav-link">Kontak</a>
+          <a href="#kontak" class="nav-link">Kontak</a>
         </li>
       </ul>
       <a href="#" class="btn btn-primary pb-0 m-0 px-4 login-bottom">Login</a>
@@ -58,6 +58,9 @@
 </template>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 .bg-primary {
   background-color: #513ba9;
 }
