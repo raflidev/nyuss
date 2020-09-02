@@ -2,14 +2,10 @@
   <div class="app">
     <div class="container">
       <section id="promo" class="d-flex justify-content-between flex-row mt-5">
-        <!-- <div style="width:540px;height:400px">test</div> -->
         <img src="https://picsum.photos/540/400" alt srcset />
-        <!-- <ImageBlur :image="gambar.large" :thumb="gambar.thumb" /> -->
         <div class="d-flex flex-column justify-content-between">
           <img src="https://lorempixel.com/255/185" alt srcset />
           <img src="https://lorempixel.com/255/185" alt srcset />
-          <!-- <div style="width:255;height:185px">test</div>
-          <div style="width:255;height:185px">test</div>-->
         </div>
         <img src="https://lorempixel.com/255/400" alt srcset />
       </section>
@@ -35,21 +31,31 @@
           <div class="menu-subtext text-center">Pilih sesuai selera kamu.</div>
           <div class="menu-category my-4">
             <button
+              v-on:click="filterKey = category.filter"
               class="btn btn-primary px-5 mr-3 py-0"
               v-for="category in category"
               :key="category.index"
             >
-              {{ category }}
+              {{ category.nama }}
             </button>
           </div>
         </div>
-        <div class="d-flex justify-content-between flex-wrap mt-4">
-          <img
-            v-for="kelas in 9"
-            :key="kelas.index"
-            style="margin-bottom:30px;filter:drop-shadow(5px 8px 5px rgba(0, 0, 0, 0.25));"
-            src="https://lorempixel.com/255/255"
-          />
+        <div class="class-menu d-flex justify-content-between flex-wrap mt-4">
+          <div
+            class="item-menu"
+            v-for="(photoCategory, index) in filterCategory"
+            :key="photoCategory.index"
+          >
+            <img
+              height="255"
+              width="255"
+              style="margin-bottom:30px;filter:drop-shadow(5px 8px 5px rgba(0, 0, 0, 0.25));"
+              :src="photoCategory.gambar"
+              :data-aos="photoCategory.animation"
+              :data-aos-delay="(index + 1) * 50"
+              data-aos-anchor-placement="top-center"
+            />
+          </div>
         </div>
       </section>
     </div>
@@ -100,17 +106,60 @@ export default {
   name: "Home",
   data() {
     return {
-      category: ["Cheese", "Ice Tea", "Hot", "Yakult"],
+      filterKey: "IceTea",
+      category: [
+        {
+          nama: "Ice Tea",
+          filter: "IceTea",
+        },
+        {
+          nama: "Cheese",
+          filter: "Cheese",
+        },
+        {
+          nama: "Hot",
+          filter: "Hot",
+        },
+        {
+          nama: "Yakult",
+          filter: "Yakult",
+        },
+      ],
+      // category: ["Cheese", "Ice Tea", "Hot", "Yakult"],
     };
   },
   components: {
     // VLazyImage,
     // ImageBlur,
   },
+  computed: {
+    filterCategory() {
+      return this[this.filterKey];
+    },
+    IceTea() {
+      return this.$store.state.iceTea;
+    },
+    Cheese() {
+      return this.$store.state.cheese;
+    },
+    Hot() {
+      return this.$store.state.hot;
+    },
+    Yakult() {
+      return this.$store.state.yakult;
+    },
+  },
 };
 </script>
 
 <style scoped>
+.item-menu {
+  width: 25%;
+}
+.class-menu::after {
+  content: "";
+  flex: 1 100px;
+}
 .myBtn {
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
