@@ -2,12 +2,12 @@
   <div class="app">
     <div class="container">
       <section id="promo" class="d-flex justify-content-between flex-row mt-5">
-        <img src="https://picsum.photos/540/400" alt srcset />
+        <img src="/promo/1.jpg" alt srcset />
         <div class="d-flex flex-column justify-content-between">
-          <img src="https://lorempixel.com/255/185" alt srcset />
-          <img src="https://lorempixel.com/255/185" alt srcset />
+          <img src="/promo/2.jpg" alt srcset />
+          <img src="/promo/3.jpg" alt srcset />
         </div>
-        <img src="https://lorempixel.com/255/400" alt srcset />
+        <img src="/promo/4.jpg" alt srcset />
       </section>
       <a class="myBtn" href="#app">^</a>
       <section id="unggulan" class="mt-5">
@@ -17,9 +17,9 @@
         </div>
         <div class="d-flex justify-content-between mt-4">
           <img
-            v-for="kelas in 4"
+            v-for="(kelas, index) in 4"
             :key="kelas.index"
-            src="https://lorempixel.com/255/400"
+            :src="'/unggul/' + (index + 1) + '.jpg'"
             alt
             srcset
           />
