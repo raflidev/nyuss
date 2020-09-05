@@ -35,9 +35,7 @@
               class="btn btn-primary px-5 mr-3 py-0"
               v-for="category in category"
               :key="category.index"
-            >
-              {{ category.nama }}
-            </button>
+            >{{ category.nama }}</button>
           </div>
         </div>
         <div class="class-menu d-flex justify-content-between flex-wrap mt-4">
@@ -75,9 +73,7 @@
           </div>
           <div style="width:317px">
             <div class="footer-help">Sales Support</div>
-            <div>
-              Ingin membuat mitra atau kerjasama dengan kami? silakan hubungi.
-            </div>
+            <div>Ingin membuat mitra atau kerjasama dengan kami? silakan hubungi.</div>
             <div class="info">
               <div class="contact">contact@nyuss.com</div>
               <div class="telp">+62 812 8192 5236</div>
@@ -98,10 +94,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import VLazyImage from "v-lazy-image";
-// import { ImageBlur } from "@djanoskova/vue-image-blur";
-// import "@djanoskova/vue-image-blur/public/css/imageBlur.css";
 export default {
   name: "Home",
   data() {
