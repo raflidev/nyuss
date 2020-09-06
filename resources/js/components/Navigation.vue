@@ -15,7 +15,7 @@
         <a href="#kontak" class="nav-link">Kontak</a>
       </li>
     </ul>
-    <a href="#" class="btn btn-primary pb-0 m-0 px-4 login-bottom">Login</a>
+    <router-link to="login" class="btn btn-primary pb-0 m-0 px-4 login-bottom">Login</router-link>
   </div>
 </template>
 

@@ -17,10 +17,17 @@ Vue.use(VueRouter);
 import store from "./store";
 import routes from "./router";
 
+import "aos/dist/aos.css";
+import "aos/dist/aos.js";
+import AOS from "aos";
+
 Vue.component("navigation", require("./components/Navigation.vue").default);
 
 const app = new Vue({
     el: "#app",
     store,
+    created() {
+        AOS.init({ disable: "phone" });
+    },
     router: new VueRouter(routes)
 });
