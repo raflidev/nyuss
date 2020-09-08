@@ -16,6 +16,7 @@ class CreatePembayaransTable extends Migration
         Schema::create('pembayarans', function (Blueprint $table) {
             $table->id();
             // id_transaksi
+            $table->String("total_harga");
             $table->String("total_bayar");
             $table->timestamps();
         });

@@ -17,7 +17,6 @@ class CreateTransaksisTable extends Migration
             $table->id();
             // id_produk here 
             $table->String("id_pelanggan");
-            $table->String("total_harga");
             $table->date("tanggal");
             $table->timestamps();
         });
