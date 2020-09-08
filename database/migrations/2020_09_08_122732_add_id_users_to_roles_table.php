@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddIdUsersToTablesRoles extends Migration
+class AddIdUsersToRolesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,8 @@ class AddIdUsersToTablesRoles extends Migration
      */
     public function up()
     {
-        Schema::table('tables_roles', function (Blueprint $table) {
-            //
+        Schema::table('roles', function (Blueprint $table) {
+            $table->foreignId('id_user')->nullable()->after('id'); 
         });
     }
 
@@ -25,8 +25,8 @@ class AddIdUsersToTablesRoles extends Migration
      */
     public function down()
     {
-        Schema::table('tables_roles', function (Blueprint $table) {
-            //
+        Schema::table('roles', function (Blueprint $table) {
+            $table->dropColumn('id_user');
         });
     }
 }

@@ -14,7 +14,7 @@ class AddIdProdukToTransaksisTable extends Migration
     public function up()
     {
         Schema::table('transaksis', function (Blueprint $table) {
-            //
+            $table->foreignId('id_produk')->nullable()->after('id');
         });
     }
 
@@ -26,7 +26,7 @@ class AddIdProdukToTransaksisTable extends Migration
     public function down()
     {
         Schema::table('transaksis', function (Blueprint $table) {
-            //
+            $table->dropColumn("id_produk");
         });
     }
 }
