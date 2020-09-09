@@ -14,7 +14,7 @@ class AddIdProdukToTransaksisTable extends Migration
     public function up()
     {
         Schema::table('transaksis', function (Blueprint $table) {
-            $table->foreignId('id_produk')->nullable()->after('id');
+            $table->foreignId('id_produk')->nullable()->after('id_transaksi');
         });
     }
 

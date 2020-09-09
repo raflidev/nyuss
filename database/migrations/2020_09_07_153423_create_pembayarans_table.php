@@ -18,6 +18,7 @@ class CreatePembayaransTable extends Migration
             // id_transaksi
             $table->String("total_harga");
             $table->String("total_bayar");
+            $table->date("tanggal_bayar");
             $table->timestamps();
         });
     }

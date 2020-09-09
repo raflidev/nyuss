@@ -14,10 +14,8 @@ class CreateTransaksisTable extends Migration
     public function up()
     {
         Schema::create('transaksis', function (Blueprint $table) {
-            $table->id();
+            $table->String("id_transaksi");
             // id_produk here 
-            $table->String("id_pelanggan");
-            $table->date("tanggal");
             $table->timestamps();
         });
     }

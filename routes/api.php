@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Produk;
 use App\Kategori;
 use App\Promo;
+use App\Transaksi; 
+use App\Pembayaran; 
 
 /*
 |--------------------------------------------------------------------------
@@ -42,4 +44,10 @@ Route::get("/kategori", function(){
 });
 Route::get("/promo", function(){
     return Promo::all();
+});
+Route::get("/transaksi", function(){
+    return Transaksi::all();
+});
+Route::get("/transaksi/{id}", function($id){
+    return Pembayaran::with('transaksi')->where('id_transaksi',$id)->get();
 });
