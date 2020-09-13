@@ -23,21 +23,17 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get("/produk", function(){
-    return Produk::all();
-});
-Route::get("/produk/category", function(){
-    return Produk::with('kategori:id_produk,nama_kategori')->get();
-});
-Route::get("/produk/promo", function(){
-    return Produk::with('promo:id_produk,diskon')->get();
-});
-Route::get("/produk/all", function(){
-    return Produk::with('promo:id_produk,diskon','kategori:id_produk,nama_kategori')->get();
-});
-Route::get("/produk/{id}", function($id){
-    return Produk::where('id', $id)->get();
-});
+Route::get("/produk", "ProdukController@Get");
+Route::get("/produk/category", "ProdukController@Category");
+Route::get("/produk/promo", "ProdukController@Promo");
+Route::get("/produk/all", "ProdukController@All");
+Route::get("/produk/{id}", "ProdukController@Where");
+
+// CRUD PRODUK
+Route::post("/produk", "ProdukController@store");
+Route::put("/produk/{id}", "ProdukController@update");
+Route::delete("/produk/{id}", "ProdukController@delete");
+
 
 Route::get("/kategori", function(){
     return Kategori::all();
@@ -49,5 +45,5 @@ Route::get("/transaksi", function(){
     return Transaksi::all();
 });
 Route::get("/transaksi/{id}", function($id){
-    return Pembayaran::with('transaksi')->where('id_transaksi',$id)->get();
+    return Pembayaran::with('transaksi.produk:id,nama_produk,harga_produk')->where('id_transaksi',$id)->get();
 });

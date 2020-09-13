@@ -8,6 +8,6 @@ class Transaksi extends Model
 {
     public function produk()
     {
-        return $this->hasOneThrough(Produk::class, Transaksi::class, 'id_produk', 'id');
+        return $this->hasOneThrough(Produk::class, Transaksi::class, 'id_transaksi', 'id', 'id_produk','id_transaksi');
     }
 }
