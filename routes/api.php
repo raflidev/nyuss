@@ -34,16 +34,27 @@ Route::post("/produk", "ProdukController@store");
 Route::put("/produk/{id}", "ProdukController@update");
 Route::delete("/produk/{id}", "ProdukController@delete");
 
+// CRUD KATEGORI
+Route::get("/kategori", "KategoriController@Get");
+Route::post("/kategori", "KategoriController@store");
+Route::put("/kategori/{id}", "KategoriController@update");
+Route::delete("/kategori/{id}", "KategoriController@delete");
 
-Route::get("/kategori", function(){
-    return Kategori::all();
-});
-Route::get("/promo", function(){
-    return Promo::all();
-});
-Route::get("/transaksi", function(){
-    return Transaksi::all();
-});
-Route::get("/transaksi/{id}", function($id){
-    return Pembayaran::with('transaksi.produk:id,nama_produk,harga_produk')->where('id_transaksi',$id)->get();
-});
+// CRUD PROMO
+Route::get("/promo", "PromoController@Get");
+Route::post("/promo", "PromoController@store");
+Route::put("/promo/{id}", "PromoController@update");
+Route::delete("/promo/{id}", "PromoController@delete");
+
+// CRUD TRANSAKSI
+Route::get("/transaksi", "TransaksiController@Get");
+Route::get("/transaksi/{id}", "TransaksiController@pembayaran");
+// Route::put("/transaksi/{id}", "TransaksiController@update");
+Route::post("/transaksi", "TransaksiController@store");
+Route::delete("/transaksi/{id}", "TransaksiController@delete");
+
+// CRUD PEMBAYARAN
+Route::get("/pembayaran", "PembayaranController@Get");
+Route::post("/pembayaran", "PembayaranController@store");
+Route::put("/pembayaran/{id}", "PembayaranController@update");
+Route::delete("/pembayaran/{id}", "PembayaranController@delete");
