@@ -58,3 +58,15 @@ Route::get("/pembayaran", "PembayaranController@Get");
 Route::post("/pembayaran", "PembayaranController@store");
 Route::put("/pembayaran/{id}", "PembayaranController@update");
 Route::delete("/pembayaran/{id}", "PembayaranController@delete");
+
+// CRUD USER
+Route::get("/user","UserController@Get");
+Route::post("/user","UserController@store");
+Route::put("/user/{id}","UserController@update");
+Route::delete("/user/{id}","UserController@delete");
+
+// CRUD ROLE
+Route::get("/role","RoleController@Get");
+Route::post("/role","RoleController@store");
+Route::put("/role/{id}","RoleController@update");
+Route::delete("/role/{id}","RoleController@delete");
