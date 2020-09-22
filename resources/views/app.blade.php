@@ -12,7 +12,7 @@
 </head>
 <body>
     <main id="app">
-        <navigation></navigation>
+        <navigation v-if="!$route.meta.hideNavigation"></navigation>
 
         <div class="py-4">
             <router-view></router-view>

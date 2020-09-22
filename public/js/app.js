@@ -2148,6 +2148,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Home",
   data: function data() {
@@ -2190,6 +2191,956 @@ __webpack_require__.r(__webpack_exports__);
     }
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/dashboard/Dashboard.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var jquery_nicescroll_dist_jquery_nicescroll_min__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery.nicescroll/dist/jquery.nicescroll.min */ "./node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js");
+/* harmony import */ var jquery_nicescroll_dist_jquery_nicescroll_min__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery_nicescroll_dist_jquery_nicescroll_min__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var dropzone__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dropzone */ "./node_modules/dropzone/dist/dropzone.js");
+/* harmony import */ var dropzone__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dropzone__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var codemirror__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! codemirror */ "./node_modules/codemirror/lib/codemirror.js");
+/* harmony import */ var codemirror__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(codemirror__WEBPACK_IMPORTED_MODULE_3__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+ // import Chart from "chart.js";
+
+
+ // import Chocolat from 'chocolat';
+// ChartJS
+// if (window.Chart) {
+//   Chart.defaults.global.defaultFontFamily = "'Nunito', 'Segoe UI', 'Arial'";
+//   Chart.defaults.global.defaultFontSize = 11;
+//   Chart.defaults.global.defaultFontStyle = 500;
+//   Chart.defaults.global.defaultFontColor = "#999";
+//   Chart.defaults.global.tooltips.backgroundColor = "#000";
+//   Chart.defaults.global.tooltips.titleFontFamily =
+//     "'Nunito', 'Segoe UI', 'Arial'";
+//   Chart.defaults.global.tooltips.titleFontColor = "#fff";
+//   Chart.defaults.global.tooltips.titleFontSize = 20;
+//   Chart.defaults.global.tooltips.xPadding = 10;
+//   Chart.defaults.global.tooltips.yPadding = 10;
+//   Chart.defaults.global.tooltips.cornerRadius = 3;
+// }
+// DropzoneJS
+
+if (window.Dropzone) {
+  dropzone__WEBPACK_IMPORTED_MODULE_2___default.a.autoDiscover = false;
+} // Basic confirm box
+// $("[data-confirm]").each(function() {
+//   var me = $(this),
+//     me_data = me.data("confirm");
+//   me_data = me_data.split("|");
+//   me.fireModal({
+//     title: me_data[0],
+//     body: me_data[1],
+//     buttons: [
+//       {
+//         text: me.data("confirm-text-yes") || "Yes",
+//         class: "btn btn-danger btn-shadow",
+//         handler: function() {
+//           eval(me.data("confirm-yes"));
+//         },
+//       },
+//       {
+//         text: me.data("confirm-text-cancel") || "Cancel",
+//         class: "btn btn-secondary",
+//         handler: function(modal) {
+//           $.destroyModal(modal);
+//           eval(me.data("confirm-no"));
+//         },
+//       },
+//     ],
+//   });
+// });
+// Global
+
+
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
+  var sidebar_nicescroll_opts = {
+    cursoropacitymin: 0,
+    cursoropacitymax: 0.8,
+    zindex: 892
+  },
+      now_layout_class = null;
+
+  var sidebar_sticky = function sidebar_sticky() {
+    if (jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").hasClass("layout-2")) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body.layout-2 #sidebar-wrapper").stick_in_parent({
+        parent: jquery__WEBPACK_IMPORTED_MODULE_0___default()("body")
+      });
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body.layout-2 #sidebar-wrapper").stick_in_parent({
+        recalc_every: 1
+      });
+    }
+  };
+
+  sidebar_sticky();
+  var sidebar_nicescroll;
+
+  var update_sidebar_nicescroll = function update_sidebar_nicescroll() {
+    var a = setInterval(function () {
+      if (sidebar_nicescroll != null) sidebar_nicescroll.resize();
+    }, 10);
+    setTimeout(function () {
+      clearInterval(a);
+    }, 600);
+  };
+
+  var sidebar_dropdown = function sidebar_dropdown() {
+    if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").length) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").niceScroll(sidebar_nicescroll_opts);
+      sidebar_nicescroll = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").getNiceScroll();
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar .sidebar-menu li a.has-dropdown").off("click").on("click", function () {
+        var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+        me.parent().find("> .dropdown-menu").slideToggle(500, function () {
+          update_sidebar_nicescroll();
+          return false;
+        });
+        return false;
+      });
+    }
+  };
+
+  sidebar_dropdown();
+
+  if (jquery__WEBPACK_IMPORTED_MODULE_0___default()("#top-5-scroll").length) {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()("#top-5-scroll").css({
+      height: 315
+    }).niceScroll();
+  }
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-content").css({
+    minHeight: jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).outerHeight() - 95
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".nav-collapse-toggle").click(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).parent().find(".navbar-nav").toggleClass("show");
+    return false;
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on("click", function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".nav-collapse .navbar-nav").removeClass("show");
+  });
+
+  var toggle_sidebar_mini = function toggle_sidebar_mini(mini) {
+    var body = jquery__WEBPACK_IMPORTED_MODULE_0___default()("body");
+
+    if (!mini) {
+      body.removeClass("sidebar-mini");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").css({
+        overflow: "hidden"
+      });
+      setTimeout(function () {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").niceScroll(sidebar_nicescroll_opts);
+        sidebar_nicescroll = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").getNiceScroll();
+      }, 500);
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar .sidebar-menu > li > ul .dropdown-title").remove();
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar .sidebar-menu > li > a").removeAttr("data-toggle");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar .sidebar-menu > li > a").removeAttr("data-original-title");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar .sidebar-menu > li > a").removeAttr("title");
+    } else {
+      body.addClass("sidebar-mini");
+      body.removeClass("sidebar-show");
+      sidebar_nicescroll.remove();
+      sidebar_nicescroll = null;
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar .sidebar-menu > li").each(function () {
+        var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+
+        if (me.find("> .dropdown-menu").length) {
+          me.find("> .dropdown-menu").hide();
+          me.find("> .dropdown-menu").prepend('<li class="dropdown-title pt-3">' + me.find("> a").text() + "</li>");
+        } else {
+          me.find("> a").attr("data-toggle", "tooltip");
+          me.find("> a").attr("data-original-title", me.find("> a").text());
+          jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-toggle='tooltip']").tooltip({
+            placement: "right"
+          });
+        }
+      });
+    }
+  };
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-toggle='sidebar']").click(function () {
+    var body = jquery__WEBPACK_IMPORTED_MODULE_0___default()("body"),
+        w = jquery__WEBPACK_IMPORTED_MODULE_0___default()(window);
+
+    if (w.outerWidth() <= 1024) {
+      body.removeClass("search-show search-gone");
+
+      if (body.hasClass("sidebar-gone")) {
+        body.removeClass("sidebar-gone");
+        body.addClass("sidebar-show");
+      } else {
+        body.addClass("sidebar-gone");
+        body.removeClass("sidebar-show");
+      }
+
+      update_sidebar_nicescroll();
+    } else {
+      body.removeClass("search-show search-gone");
+
+      if (body.hasClass("sidebar-mini")) {
+        toggle_sidebar_mini(false);
+      } else {
+        toggle_sidebar_mini(true);
+      }
+    }
+
+    return false;
+  });
+
+  var toggleLayout = function toggleLayout() {
+    var w = jquery__WEBPACK_IMPORTED_MODULE_0___default()(window),
+        layout_class = jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").attr("class") || "",
+        layout_classes = layout_class.trim().length > 0 ? layout_class.split(" ") : "";
+
+    if (layout_classes.length > 0) {
+      layout_classes.forEach(function (item) {
+        if (item.indexOf("layout-") != -1) {
+          now_layout_class = item;
+        }
+      });
+    }
+
+    if (w.outerWidth() <= 1024) {
+      if (jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").hasClass("sidebar-mini")) {
+        toggle_sidebar_mini(false);
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").niceScroll(sidebar_nicescroll_opts);
+        sidebar_nicescroll = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").getNiceScroll();
+      }
+
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").addClass("sidebar-gone");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").removeClass("layout-2 layout-3 sidebar-mini sidebar-show");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").off("click").on("click", function (e) {
+        if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(e.target).hasClass("sidebar-show") || jquery__WEBPACK_IMPORTED_MODULE_0___default()(e.target).hasClass("search-show")) {
+          jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").removeClass("sidebar-show");
+          jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").addClass("sidebar-gone");
+          jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").removeClass("search-show");
+          update_sidebar_nicescroll();
+        }
+      });
+      update_sidebar_nicescroll();
+
+      if (now_layout_class == "layout-3") {
+        var nav_second_classes = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".navbar-secondary").attr("class"),
+            nav_second = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".navbar-secondary");
+        nav_second.attr("data-nav-classes", nav_second_classes);
+        nav_second.removeAttr("class");
+        nav_second.addClass("main-sidebar");
+        var main_sidebar = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar");
+        main_sidebar.find(".container").addClass("sidebar-wrapper").removeClass("container");
+        main_sidebar.find(".navbar-nav").addClass("sidebar-menu").removeClass("navbar-nav");
+        main_sidebar.find(".sidebar-menu .nav-item.dropdown.show a").click();
+        main_sidebar.find(".sidebar-brand").remove();
+        main_sidebar.find(".sidebar-menu").before(jquery__WEBPACK_IMPORTED_MODULE_0___default()("<div>", {
+          "class": "sidebar-brand"
+        }).append(jquery__WEBPACK_IMPORTED_MODULE_0___default()("<a>", {
+          href: jquery__WEBPACK_IMPORTED_MODULE_0___default()(".navbar-brand").attr("href")
+        }).html(jquery__WEBPACK_IMPORTED_MODULE_0___default()(".navbar-brand").html())));
+        setTimeout(function () {
+          sidebar_nicescroll = main_sidebar.niceScroll(sidebar_nicescroll_opts);
+          sidebar_nicescroll = main_sidebar.getNiceScroll();
+        }, 700);
+        sidebar_dropdown();
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-wrapper").removeClass("container");
+      }
+    } else {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").removeClass("sidebar-gone sidebar-show");
+      if (now_layout_class) jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").addClass(now_layout_class);
+
+      var _nav_second_classes = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar").attr("data-nav-classes"),
+          _nav_second = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-sidebar");
+
+      if (now_layout_class == "layout-3" && _nav_second.hasClass("main-sidebar")) {
+        _nav_second.find(".sidebar-menu li a.has-dropdown").off("click");
+
+        _nav_second.find(".sidebar-brand").remove();
+
+        _nav_second.removeAttr("class");
+
+        _nav_second.addClass(_nav_second_classes);
+
+        var _main_sidebar = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".navbar-secondary");
+
+        _main_sidebar.find(".sidebar-wrapper").addClass("container").removeClass("sidebar-wrapper");
+
+        _main_sidebar.find(".sidebar-menu").addClass("navbar-nav").removeClass("sidebar-menu");
+
+        _main_sidebar.find(".dropdown-menu").hide();
+
+        _main_sidebar.removeAttr("style");
+
+        _main_sidebar.removeAttr("tabindex");
+
+        _main_sidebar.removeAttr("data-nav-classes");
+
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(".main-wrapper").addClass("container"); // if(sidebar_nicescroll != null)
+        //   sidebar_nicescroll.remove();
+      } else if (now_layout_class == "layout-2") {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").addClass("layout-2");
+      } else {
+        update_sidebar_nicescroll();
+      }
+    }
+  };
+
+  toggleLayout();
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).resize(toggleLayout);
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-toggle='search']").click(function () {
+    var body = jquery__WEBPACK_IMPORTED_MODULE_0___default()("body");
+
+    if (body.hasClass("search-gone")) {
+      body.addClass("search-gone");
+      body.removeClass("search-show");
+    } else {
+      body.removeClass("search-gone");
+      body.addClass("search-show");
+    }
+  }); // tooltip
+  // $("[data-toggle='tooltip']").tooltip();
+  // popover
+  // $('[data-toggle="popover"]').popover({
+  //   container: "body",
+  // });
+  // Select2
+  // if (jQuery().select2) {
+  //   $(".select2").select2();
+  // }
+  // Selectric
+  // if (jQuery().selectric) {
+  //   $(".selectric").selectric({
+  //     disableOnMobile: false,
+  //     nativeOnMobile: false,
+  //   });
+  // }
+  // $(".notification-toggle").dropdown();
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".notification-toggle").parent().on("shown.bs.dropdown", function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".dropdown-list-icons").niceScroll({
+      cursoropacitymin: 0.3,
+      cursoropacitymax: 0.8,
+      cursorwidth: 7
+    });
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".message-toggle").parent().on("shown.bs.dropdown", function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".dropdown-list-message").niceScroll({
+      cursoropacitymin: 0.3,
+      cursoropacitymax: 0.8,
+      cursorwidth: 7
+    });
+  });
+
+  if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(".chat-content").length) {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".chat-content").niceScroll({
+      cursoropacitymin: 0.3,
+      cursoropacitymax: 0.8
+    });
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".chat-content").getNiceScroll(0).doScrollTop(jquery__WEBPACK_IMPORTED_MODULE_0___default()(".chat-content").height());
+  } // if (jQuery().summernote) {
+  //   $(".summernote").summernote({
+  //     dialogsInBody: true,
+  //     minHeight: 250,
+  //   });
+  //   $(".summernote-simple").summernote({
+  //     dialogsInBody: true,
+  //     minHeight: 150,
+  //     toolbar: [
+  //       ["style", ["bold", "italic", "underline", "clear"]],
+  //       ["font", ["strikethrough"]],
+  //       ["para", ["paragraph"]],
+  //     ],
+  //   });
+  // }
+
+
+  if (window.CodeMirror) {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".codeeditor").each(function () {
+      var editor = codemirror__WEBPACK_IMPORTED_MODULE_3__["CodeMirror"].fromTextArea(this, {
+        lineNumbers: true,
+        theme: "duotone-dark",
+        mode: "javascript",
+        height: 200
+      });
+      editor.setSize("100%", 200);
+    });
+  } // Follow function
+
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".follow-btn, .following-btn").each(function () {
+    var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this),
+        follow_text = "Follow",
+        unfollow_text = "Following";
+    me.click(function () {
+      if (me.hasClass("following-btn")) {
+        me.removeClass("btn-danger");
+        me.removeClass("following-btn");
+        me.addClass("btn-primary");
+        me.html(follow_text);
+        eval(me.data("unfollow-action"));
+      } else {
+        me.removeClass("btn-primary");
+        me.addClass("btn-danger");
+        me.addClass("following-btn");
+        me.html(unfollow_text);
+        eval(me.data("follow-action"));
+      }
+
+      return false;
+    });
+  }), // Dismiss function
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-dismiss]").each(function () {
+    var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this),
+        target = me.data("dismiss");
+    me.click(function () {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(target).fadeOut(function () {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(target).remove();
+      });
+      return false;
+    });
+  }), // Collapsable
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-collapse]").each(function () {
+    var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this),
+        target = me.data("collapse");
+    me.click(function () {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(target).collapse("toggle");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(target).on("shown.bs.collapse", function () {
+        me.html('<i class="fas fa-minus"></i>');
+      });
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(target).on("hidden.bs.collapse", function () {
+        me.html('<i class="fas fa-plus"></i>');
+      });
+      return false;
+    });
+  }), // Gallery
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".gallery .gallery-item").each(function () {
+    var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+    me.attr("href", me.data("image"));
+    me.attr("title", me.data("title"));
+
+    if (me.parent().hasClass("gallery-fw")) {
+      me.css({
+        height: me.parent().data("item-height")
+      });
+      me.find("div").css({
+        lineHeight: me.parent().data("item-height") + "px"
+      });
+    }
+
+    me.css({
+      backgroundImage: 'url("' + me.data("image") + '")'
+    });
+  }), // Background
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-background]").each(function () {
+    var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+    me.css({
+      backgroundImage: "url(" + me.data("background") + ")"
+    });
+  }), // Custom Tab
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-tab]").each(function () {
+    var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+    me.click(function () {
+      if (!me.hasClass("active")) {
+        // var tab_group = $('[data-tab-group="' + me.data("tab") + '"]'),
+        var tab_group_active = jquery__WEBPACK_IMPORTED_MODULE_0___default()('[data-tab-group="' + me.data("tab") + '"].active'),
+            target = jquery__WEBPACK_IMPORTED_MODULE_0___default()(me.attr("href")),
+            links = jquery__WEBPACK_IMPORTED_MODULE_0___default()('[data-tab="' + me.data("tab") + '"]');
+        links.removeClass("active");
+        me.addClass("active");
+        target.addClass("active");
+        tab_group_active.removeClass("active");
+      }
+
+      return false;
+    });
+  }), // Bootstrap 4 Validation
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".needs-validation").submit(function () {
+    var form = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+
+    if (form[0].checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    form.addClass("was-validated");
+  }), // alert dismissible
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".alert-dismissible").each(function () {
+    var me = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+    me.find(".close").click(function () {
+      me.alert("close");
+    });
+  }), // if ($(".main-navbar").length) {
+  // }
+  // Image cropper
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-crop-image]").each(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).css({
+      overflow: "hidden",
+      position: "relative",
+      height: jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).data("crop-image")
+    });
+  }), // Slide Toggle
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-toggle-slide]").click(function () {
+    var target = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).data("toggle-slide");
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(target).slideToggle();
+    return false;
+  }), // Dismiss modal
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-dismiss=modal]").click(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).closest(".modal").modal("hide");
+    return false;
+  }), // Width attribute
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-width]").each(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).css({
+      width: jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).data("width")
+    });
+  }), // Height attribute
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("[data-height]").each(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).css({
+      height: jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).data("height")
+    });
+  }); // Chocolat
+  // if ($(".chocolat-parent").length && jQuery().Chocolat) {
+  //   $(".chocolat-parent").Chocolat();
+  // }
+  // Sortable card
+  // if ($(".sortable-card").length && jQuery().sortable) {
+  //   $(".sortable-card").sortable({
+  //     handle: ".card-header",
+  //     opacity: 0.8,
+  //     tolerance: "pointer",
+  //   });
+  // }
+  // Daterangepicker
+  // if (jQuery().daterangepicker) {
+  //   if ($(".datepicker").length) {
+  //     $(".datepicker").daterangepicker({
+  //       locale: { format: "YYYY-MM-DD" },
+  //       singleDatePicker: true,
+  //     });
+  //   }
+  //   if ($(".datetimepicker").length) {
+  //     $(".datetimepicker").daterangepicker({
+  //       locale: { format: "YYYY-MM-DD hh:mm" },
+  //       singleDatePicker: true,
+  //       timePicker: true,
+  //       timePicker24Hour: true,
+  //     });
+  //   }
+  //   if ($(".daterange").length) {
+  //     $(".daterange").daterangepicker({
+  //       locale: { format: "YYYY-MM-DD" },
+  //       drops: "down",
+  //       opens: "right",
+  //     });
+  //   }
+  // }
+  // Timepicker
+  // if (jQuery().timepicker && $(".timepicker").length) {
+  //   $(".timepicker").timepicker({
+  //     icons: {
+  //       up: "fas fa-chevron-up",
+  //       down: "fas fa-chevron-down",
+  //     },
+  //   });
+  // }
+});
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -6613,6 +7564,9824 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/codemirror/lib/codemirror.js":
+/*!***************************************************!*\
+  !*** ./node_modules/codemirror/lib/codemirror.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// CodeMirror, copyright (c) by Marijn Haverbeke and others
+// Distributed under an MIT license: https://codemirror.net/LICENSE
+
+// This is CodeMirror (https://codemirror.net), a code editor
+// implemented in JavaScript on top of the browser's DOM.
+//
+// You can find some technical background for some of the code below
+// at http://marijnhaverbeke.nl/blog/#cm-internals .
+
+(function (global, factory) {
+   true ? module.exports = factory() :
+  undefined;
+}(this, (function () { 'use strict';
+
+  // Kludges for bugs and behavior differences that can't be feature
+  // detected are enabled based on userAgent etc sniffing.
+  var userAgent = navigator.userAgent;
+  var platform = navigator.platform;
+
+  var gecko = /gecko\/\d/i.test(userAgent);
+  var ie_upto10 = /MSIE \d/.test(userAgent);
+  var ie_11up = /Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(userAgent);
+  var edge = /Edge\/(\d+)/.exec(userAgent);
+  var ie = ie_upto10 || ie_11up || edge;
+  var ie_version = ie && (ie_upto10 ? document.documentMode || 6 : +(edge || ie_11up)[1]);
+  var webkit = !edge && /WebKit\//.test(userAgent);
+  var qtwebkit = webkit && /Qt\/\d+\.\d+/.test(userAgent);
+  var chrome = !edge && /Chrome\//.test(userAgent);
+  var presto = /Opera\//.test(userAgent);
+  var safari = /Apple Computer/.test(navigator.vendor);
+  var mac_geMountainLion = /Mac OS X 1\d\D([8-9]|\d\d)\D/.test(userAgent);
+  var phantom = /PhantomJS/.test(userAgent);
+
+  var ios = !edge && /AppleWebKit/.test(userAgent) && /Mobile\/\w+/.test(userAgent);
+  var android = /Android/.test(userAgent);
+  // This is woefully incomplete. Suggestions for alternative methods welcome.
+  var mobile = ios || android || /webOS|BlackBerry|Opera Mini|Opera Mobi|IEMobile/i.test(userAgent);
+  var mac = ios || /Mac/.test(platform);
+  var chromeOS = /\bCrOS\b/.test(userAgent);
+  var windows = /win/i.test(platform);
+
+  var presto_version = presto && userAgent.match(/Version\/(\d*\.\d*)/);
+  if (presto_version) { presto_version = Number(presto_version[1]); }
+  if (presto_version && presto_version >= 15) { presto = false; webkit = true; }
+  // Some browsers use the wrong event properties to signal cmd/ctrl on OS X
+  var flipCtrlCmd = mac && (qtwebkit || presto && (presto_version == null || presto_version < 12.11));
+  var captureRightClick = gecko || (ie && ie_version >= 9);
+
+  function classTest(cls) { return new RegExp("(^|\\s)" + cls + "(?:$|\\s)\\s*") }
+
+  var rmClass = function(node, cls) {
+    var current = node.className;
+    var match = classTest(cls).exec(current);
+    if (match) {
+      var after = current.slice(match.index + match[0].length);
+      node.className = current.slice(0, match.index) + (after ? match[1] + after : "");
+    }
+  };
+
+  function removeChildren(e) {
+    for (var count = e.childNodes.length; count > 0; --count)
+      { e.removeChild(e.firstChild); }
+    return e
+  }
+
+  function removeChildrenAndAdd(parent, e) {
+    return removeChildren(parent).appendChild(e)
+  }
+
+  function elt(tag, content, className, style) {
+    var e = document.createElement(tag);
+    if (className) { e.className = className; }
+    if (style) { e.style.cssText = style; }
+    if (typeof content == "string") { e.appendChild(document.createTextNode(content)); }
+    else if (content) { for (var i = 0; i < content.length; ++i) { e.appendChild(content[i]); } }
+    return e
+  }
+  // wrapper for elt, which removes the elt from the accessibility tree
+  function eltP(tag, content, className, style) {
+    var e = elt(tag, content, className, style);
+    e.setAttribute("role", "presentation");
+    return e
+  }
+
+  var range;
+  if (document.createRange) { range = function(node, start, end, endNode) {
+    var r = document.createRange();
+    r.setEnd(endNode || node, end);
+    r.setStart(node, start);
+    return r
+  }; }
+  else { range = function(node, start, end) {
+    var r = document.body.createTextRange();
+    try { r.moveToElementText(node.parentNode); }
+    catch(e) { return r }
+    r.collapse(true);
+    r.moveEnd("character", end);
+    r.moveStart("character", start);
+    return r
+  }; }
+
+  function contains(parent, child) {
+    if (child.nodeType == 3) // Android browser always returns false when child is a textnode
+      { child = child.parentNode; }
+    if (parent.contains)
+      { return parent.contains(child) }
+    do {
+      if (child.nodeType == 11) { child = child.host; }
+      if (child == parent) { return true }
+    } while (child = child.parentNode)
+  }
+
+  function activeElt() {
+    // IE and Edge may throw an "Unspecified Error" when accessing document.activeElement.
+    // IE < 10 will throw when accessed while the page is loading or in an iframe.
+    // IE > 9 and Edge will throw when accessed in an iframe if document.body is unavailable.
+    var activeElement;
+    try {
+      activeElement = document.activeElement;
+    } catch(e) {
+      activeElement = document.body || null;
+    }
+    while (activeElement && activeElement.shadowRoot && activeElement.shadowRoot.activeElement)
+      { activeElement = activeElement.shadowRoot.activeElement; }
+    return activeElement
+  }
+
+  function addClass(node, cls) {
+    var current = node.className;
+    if (!classTest(cls).test(current)) { node.className += (current ? " " : "") + cls; }
+  }
+  function joinClasses(a, b) {
+    var as = a.split(" ");
+    for (var i = 0; i < as.length; i++)
+      { if (as[i] && !classTest(as[i]).test(b)) { b += " " + as[i]; } }
+    return b
+  }
+
+  var selectInput = function(node) { node.select(); };
+  if (ios) // Mobile Safari apparently has a bug where select() is broken.
+    { selectInput = function(node) { node.selectionStart = 0; node.selectionEnd = node.value.length; }; }
+  else if (ie) // Suppress mysterious IE10 errors
+    { selectInput = function(node) { try { node.select(); } catch(_e) {} }; }
+
+  function bind(f) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    return function(){return f.apply(null, args)}
+  }
+
+  function copyObj(obj, target, overwrite) {
+    if (!target) { target = {}; }
+    for (var prop in obj)
+      { if (obj.hasOwnProperty(prop) && (overwrite !== false || !target.hasOwnProperty(prop)))
+        { target[prop] = obj[prop]; } }
+    return target
+  }
+
+  // Counts the column offset in a string, taking tabs into account.
+  // Used mostly to find indentation.
+  function countColumn(string, end, tabSize, startIndex, startValue) {
+    if (end == null) {
+      end = string.search(/[^\s\u00a0]/);
+      if (end == -1) { end = string.length; }
+    }
+    for (var i = startIndex || 0, n = startValue || 0;;) {
+      var nextTab = string.indexOf("\t", i);
+      if (nextTab < 0 || nextTab >= end)
+        { return n + (end - i) }
+      n += nextTab - i;
+      n += tabSize - (n % tabSize);
+      i = nextTab + 1;
+    }
+  }
+
+  var Delayed = function() {
+    this.id = null;
+    this.f = null;
+    this.time = 0;
+    this.handler = bind(this.onTimeout, this);
+  };
+  Delayed.prototype.onTimeout = function (self) {
+    self.id = 0;
+    if (self.time <= +new Date) {
+      self.f();
+    } else {
+      setTimeout(self.handler, self.time - +new Date);
+    }
+  };
+  Delayed.prototype.set = function (ms, f) {
+    this.f = f;
+    var time = +new Date + ms;
+    if (!this.id || time < this.time) {
+      clearTimeout(this.id);
+      this.id = setTimeout(this.handler, ms);
+      this.time = time;
+    }
+  };
+
+  function indexOf(array, elt) {
+    for (var i = 0; i < array.length; ++i)
+      { if (array[i] == elt) { return i } }
+    return -1
+  }
+
+  // Number of pixels added to scroller and sizer to hide scrollbar
+  var scrollerGap = 50;
+
+  // Returned or thrown by various protocols to signal 'I'm not
+  // handling this'.
+  var Pass = {toString: function(){return "CodeMirror.Pass"}};
+
+  // Reused option objects for setSelection & friends
+  var sel_dontScroll = {scroll: false}, sel_mouse = {origin: "*mouse"}, sel_move = {origin: "+move"};
+
+  // The inverse of countColumn -- find the offset that corresponds to
+  // a particular column.
+  function findColumn(string, goal, tabSize) {
+    for (var pos = 0, col = 0;;) {
+      var nextTab = string.indexOf("\t", pos);
+      if (nextTab == -1) { nextTab = string.length; }
+      var skipped = nextTab - pos;
+      if (nextTab == string.length || col + skipped >= goal)
+        { return pos + Math.min(skipped, goal - col) }
+      col += nextTab - pos;
+      col += tabSize - (col % tabSize);
+      pos = nextTab + 1;
+      if (col >= goal) { return pos }
+    }
+  }
+
+  var spaceStrs = [""];
+  function spaceStr(n) {
+    while (spaceStrs.length <= n)
+      { spaceStrs.push(lst(spaceStrs) + " "); }
+    return spaceStrs[n]
+  }
+
+  function lst(arr) { return arr[arr.length-1] }
+
+  function map(array, f) {
+    var out = [];
+    for (var i = 0; i < array.length; i++) { out[i] = f(array[i], i); }
+    return out
+  }
+
+  function insertSorted(array, value, score) {
+    var pos = 0, priority = score(value);
+    while (pos < array.length && score(array[pos]) <= priority) { pos++; }
+    array.splice(pos, 0, value);
+  }
+
+  function nothing() {}
+
+  function createObj(base, props) {
+    var inst;
+    if (Object.create) {
+      inst = Object.create(base);
+    } else {
+      nothing.prototype = base;
+      inst = new nothing();
+    }
+    if (props) { copyObj(props, inst); }
+    return inst
+  }
+
+  var nonASCIISingleCaseWordChar = /[\u00df\u0587\u0590-\u05f4\u0600-\u06ff\u3040-\u309f\u30a0-\u30ff\u3400-\u4db5\u4e00-\u9fcc\uac00-\ud7af]/;
+  function isWordCharBasic(ch) {
+    return /\w/.test(ch) || ch > "\x80" &&
+      (ch.toUpperCase() != ch.toLowerCase() || nonASCIISingleCaseWordChar.test(ch))
+  }
+  function isWordChar(ch, helper) {
+    if (!helper) { return isWordCharBasic(ch) }
+    if (helper.source.indexOf("\\w") > -1 && isWordCharBasic(ch)) { return true }
+    return helper.test(ch)
+  }
+
+  function isEmpty(obj) {
+    for (var n in obj) { if (obj.hasOwnProperty(n) && obj[n]) { return false } }
+    return true
+  }
+
+  // Extending unicode characters. A series of a non-extending char +
+  // any number of extending chars is treated as a single unit as far
+  // as editing and measuring is concerned. This is not fully correct,
+  // since some scripts/fonts/browsers also treat other configurations
+  // of code points as a group.
+  var extendingChars = /[\u0300-\u036f\u0483-\u0489\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7\u0610-\u061a\u064b-\u065e\u0670\u06d6-\u06dc\u06de-\u06e4\u06e7\u06e8\u06ea-\u06ed\u0711\u0730-\u074a\u07a6-\u07b0\u07eb-\u07f3\u0816-\u0819\u081b-\u0823\u0825-\u0827\u0829-\u082d\u0900-\u0902\u093c\u0941-\u0948\u094d\u0951-\u0955\u0962\u0963\u0981\u09bc\u09be\u09c1-\u09c4\u09cd\u09d7\u09e2\u09e3\u0a01\u0a02\u0a3c\u0a41\u0a42\u0a47\u0a48\u0a4b-\u0a4d\u0a51\u0a70\u0a71\u0a75\u0a81\u0a82\u0abc\u0ac1-\u0ac5\u0ac7\u0ac8\u0acd\u0ae2\u0ae3\u0b01\u0b3c\u0b3e\u0b3f\u0b41-\u0b44\u0b4d\u0b56\u0b57\u0b62\u0b63\u0b82\u0bbe\u0bc0\u0bcd\u0bd7\u0c3e-\u0c40\u0c46-\u0c48\u0c4a-\u0c4d\u0c55\u0c56\u0c62\u0c63\u0cbc\u0cbf\u0cc2\u0cc6\u0ccc\u0ccd\u0cd5\u0cd6\u0ce2\u0ce3\u0d3e\u0d41-\u0d44\u0d4d\u0d57\u0d62\u0d63\u0dca\u0dcf\u0dd2-\u0dd4\u0dd6\u0ddf\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0eb1\u0eb4-\u0eb9\u0ebb\u0ebc\u0ec8-\u0ecd\u0f18\u0f19\u0f35\u0f37\u0f39\u0f71-\u0f7e\u0f80-\u0f84\u0f86\u0f87\u0f90-\u0f97\u0f99-\u0fbc\u0fc6\u102d-\u1030\u1032-\u1037\u1039\u103a\u103d\u103e\u1058\u1059\u105e-\u1060\u1071-\u1074\u1082\u1085\u1086\u108d\u109d\u135f\u1712-\u1714\u1732-\u1734\u1752\u1753\u1772\u1773\u17b7-\u17bd\u17c6\u17c9-\u17d3\u17dd\u180b-\u180d\u18a9\u1920-\u1922\u1927\u1928\u1932\u1939-\u193b\u1a17\u1a18\u1a56\u1a58-\u1a5e\u1a60\u1a62\u1a65-\u1a6c\u1a73-\u1a7c\u1a7f\u1b00-\u1b03\u1b34\u1b36-\u1b3a\u1b3c\u1b42\u1b6b-\u1b73\u1b80\u1b81\u1ba2-\u1ba5\u1ba8\u1ba9\u1c2c-\u1c33\u1c36\u1c37\u1cd0-\u1cd2\u1cd4-\u1ce0\u1ce2-\u1ce8\u1ced\u1dc0-\u1de6\u1dfd-\u1dff\u200c\u200d\u20d0-\u20f0\u2cef-\u2cf1\u2de0-\u2dff\u302a-\u302f\u3099\u309a\ua66f-\ua672\ua67c\ua67d\ua6f0\ua6f1\ua802\ua806\ua80b\ua825\ua826\ua8c4\ua8e0-\ua8f1\ua926-\ua92d\ua947-\ua951\ua980-\ua982\ua9b3\ua9b6-\ua9b9\ua9bc\uaa29-\uaa2e\uaa31\uaa32\uaa35\uaa36\uaa43\uaa4c\uaab0\uaab2-\uaab4\uaab7\uaab8\uaabe\uaabf\uaac1\uabe5\uabe8\uabed\udc00-\udfff\ufb1e\ufe00-\ufe0f\ufe20-\ufe26\uff9e\uff9f]/;
+  function isExtendingChar(ch) { return ch.charCodeAt(0) >= 768 && extendingChars.test(ch) }
+
+  // Returns a number from the range [`0`; `str.length`] unless `pos` is outside that range.
+  function skipExtendingChars(str, pos, dir) {
+    while ((dir < 0 ? pos > 0 : pos < str.length) && isExtendingChar(str.charAt(pos))) { pos += dir; }
+    return pos
+  }
+
+  // Returns the value from the range [`from`; `to`] that satisfies
+  // `pred` and is closest to `from`. Assumes that at least `to`
+  // satisfies `pred`. Supports `from` being greater than `to`.
+  function findFirst(pred, from, to) {
+    // At any point we are certain `to` satisfies `pred`, don't know
+    // whether `from` does.
+    var dir = from > to ? -1 : 1;
+    for (;;) {
+      if (from == to) { return from }
+      var midF = (from + to) / 2, mid = dir < 0 ? Math.ceil(midF) : Math.floor(midF);
+      if (mid == from) { return pred(mid) ? from : to }
+      if (pred(mid)) { to = mid; }
+      else { from = mid + dir; }
+    }
+  }
+
+  // BIDI HELPERS
+
+  function iterateBidiSections(order, from, to, f) {
+    if (!order) { return f(from, to, "ltr", 0) }
+    var found = false;
+    for (var i = 0; i < order.length; ++i) {
+      var part = order[i];
+      if (part.from < to && part.to > from || from == to && part.to == from) {
+        f(Math.max(part.from, from), Math.min(part.to, to), part.level == 1 ? "rtl" : "ltr", i);
+        found = true;
+      }
+    }
+    if (!found) { f(from, to, "ltr"); }
+  }
+
+  var bidiOther = null;
+  function getBidiPartAt(order, ch, sticky) {
+    var found;
+    bidiOther = null;
+    for (var i = 0; i < order.length; ++i) {
+      var cur = order[i];
+      if (cur.from < ch && cur.to > ch) { return i }
+      if (cur.to == ch) {
+        if (cur.from != cur.to && sticky == "before") { found = i; }
+        else { bidiOther = i; }
+      }
+      if (cur.from == ch) {
+        if (cur.from != cur.to && sticky != "before") { found = i; }
+        else { bidiOther = i; }
+      }
+    }
+    return found != null ? found : bidiOther
+  }
+
+  // Bidirectional ordering algorithm
+  // See http://unicode.org/reports/tr9/tr9-13.html for the algorithm
+  // that this (partially) implements.
+
+  // One-char codes used for character types:
+  // L (L):   Left-to-Right
+  // R (R):   Right-to-Left
+  // r (AL):  Right-to-Left Arabic
+  // 1 (EN):  European Number
+  // + (ES):  European Number Separator
+  // % (ET):  European Number Terminator
+  // n (AN):  Arabic Number
+  // , (CS):  Common Number Separator
+  // m (NSM): Non-Spacing Mark
+  // b (BN):  Boundary Neutral
+  // s (B):   Paragraph Separator
+  // t (S):   Segment Separator
+  // w (WS):  Whitespace
+  // N (ON):  Other Neutrals
+
+  // Returns null if characters are ordered as they appear
+  // (left-to-right), or an array of sections ({from, to, level}
+  // objects) in the order in which they occur visually.
+  var bidiOrdering = (function() {
+    // Character types for codepoints 0 to 0xff
+    var lowTypes = "bbbbbbbbbtstwsbbbbbbbbbbbbbbssstwNN%%%NNNNNN,N,N1111111111NNNNNNNLLLLLLLLLLLLLLLLLLLLLLLLLLNNNNNNLLLLLLLLLLLLLLLLLLLLLLLLLLNNNNbbbbbbsbbbbbbbbbbbbbbbbbbbbbbbbbb,N%%%%NNNNLNNNNN%%11NLNNN1LNNNNNLLLLLLLLLLLLLLLLLLLLLLLNLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLN";
+    // Character types for codepoints 0x600 to 0x6f9
+    var arabicTypes = "nnnnnnNNr%%r,rNNmmmmmmmmmmmrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrmmmmmmmmmmmmmmmmmmmmmnnnnnnnnnn%nnrrrmrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrmmmmmmmnNmmmmmmrrmmNmmmmrr1111111111";
+    function charType(code) {
+      if (code <= 0xf7) { return lowTypes.charAt(code) }
+      else if (0x590 <= code && code <= 0x5f4) { return "R" }
+      else if (0x600 <= code && code <= 0x6f9) { return arabicTypes.charAt(code - 0x600) }
+      else if (0x6ee <= code && code <= 0x8ac) { return "r" }
+      else if (0x2000 <= code && code <= 0x200b) { return "w" }
+      else if (code == 0x200c) { return "b" }
+      else { return "L" }
+    }
+
+    var bidiRE = /[\u0590-\u05f4\u0600-\u06ff\u0700-\u08ac]/;
+    var isNeutral = /[stwN]/, isStrong = /[LRr]/, countsAsLeft = /[Lb1n]/, countsAsNum = /[1n]/;
+
+    function BidiSpan(level, from, to) {
+      this.level = level;
+      this.from = from; this.to = to;
+    }
+
+    return function(str, direction) {
+      var outerType = direction == "ltr" ? "L" : "R";
+
+      if (str.length == 0 || direction == "ltr" && !bidiRE.test(str)) { return false }
+      var len = str.length, types = [];
+      for (var i = 0; i < len; ++i)
+        { types.push(charType(str.charCodeAt(i))); }
+
+      // W1. Examine each non-spacing mark (NSM) in the level run, and
+      // change the type of the NSM to the type of the previous
+      // character. If the NSM is at the start of the level run, it will
+      // get the type of sor.
+      for (var i$1 = 0, prev = outerType; i$1 < len; ++i$1) {
+        var type = types[i$1];
+        if (type == "m") { types[i$1] = prev; }
+        else { prev = type; }
+      }
+
+      // W2. Search backwards from each instance of a European number
+      // until the first strong type (R, L, AL, or sor) is found. If an
+      // AL is found, change the type of the European number to Arabic
+      // number.
+      // W3. Change all ALs to R.
+      for (var i$2 = 0, cur = outerType; i$2 < len; ++i$2) {
+        var type$1 = types[i$2];
+        if (type$1 == "1" && cur == "r") { types[i$2] = "n"; }
+        else if (isStrong.test(type$1)) { cur = type$1; if (type$1 == "r") { types[i$2] = "R"; } }
+      }
+
+      // W4. A single European separator between two European numbers
+      // changes to a European number. A single common separator between
+      // two numbers of the same type changes to that type.
+      for (var i$3 = 1, prev$1 = types[0]; i$3 < len - 1; ++i$3) {
+        var type$2 = types[i$3];
+        if (type$2 == "+" && prev$1 == "1" && types[i$3+1] == "1") { types[i$3] = "1"; }
+        else if (type$2 == "," && prev$1 == types[i$3+1] &&
+                 (prev$1 == "1" || prev$1 == "n")) { types[i$3] = prev$1; }
+        prev$1 = type$2;
+      }
+
+      // W5. A sequence of European terminators adjacent to European
+      // numbers changes to all European numbers.
+      // W6. Otherwise, separators and terminators change to Other
+      // Neutral.
+      for (var i$4 = 0; i$4 < len; ++i$4) {
+        var type$3 = types[i$4];
+        if (type$3 == ",") { types[i$4] = "N"; }
+        else if (type$3 == "%") {
+          var end = (void 0);
+          for (end = i$4 + 1; end < len && types[end] == "%"; ++end) {}
+          var replace = (i$4 && types[i$4-1] == "!") || (end < len && types[end] == "1") ? "1" : "N";
+          for (var j = i$4; j < end; ++j) { types[j] = replace; }
+          i$4 = end - 1;
+        }
+      }
+
+      // W7. Search backwards from each instance of a European number
+      // until the first strong type (R, L, or sor) is found. If an L is
+      // found, then change the type of the European number to L.
+      for (var i$5 = 0, cur$1 = outerType; i$5 < len; ++i$5) {
+        var type$4 = types[i$5];
+        if (cur$1 == "L" && type$4 == "1") { types[i$5] = "L"; }
+        else if (isStrong.test(type$4)) { cur$1 = type$4; }
+      }
+
+      // N1. A sequence of neutrals takes the direction of the
+      // surrounding strong text if the text on both sides has the same
+      // direction. European and Arabic numbers act as if they were R in
+      // terms of their influence on neutrals. Start-of-level-run (sor)
+      // and end-of-level-run (eor) are used at level run boundaries.
+      // N2. Any remaining neutrals take the embedding direction.
+      for (var i$6 = 0; i$6 < len; ++i$6) {
+        if (isNeutral.test(types[i$6])) {
+          var end$1 = (void 0);
+          for (end$1 = i$6 + 1; end$1 < len && isNeutral.test(types[end$1]); ++end$1) {}
+          var before = (i$6 ? types[i$6-1] : outerType) == "L";
+          var after = (end$1 < len ? types[end$1] : outerType) == "L";
+          var replace$1 = before == after ? (before ? "L" : "R") : outerType;
+          for (var j$1 = i$6; j$1 < end$1; ++j$1) { types[j$1] = replace$1; }
+          i$6 = end$1 - 1;
+        }
+      }
+
+      // Here we depart from the documented algorithm, in order to avoid
+      // building up an actual levels array. Since there are only three
+      // levels (0, 1, 2) in an implementation that doesn't take
+      // explicit embedding into account, we can build up the order on
+      // the fly, without following the level-based algorithm.
+      var order = [], m;
+      for (var i$7 = 0; i$7 < len;) {
+        if (countsAsLeft.test(types[i$7])) {
+          var start = i$7;
+          for (++i$7; i$7 < len && countsAsLeft.test(types[i$7]); ++i$7) {}
+          order.push(new BidiSpan(0, start, i$7));
+        } else {
+          var pos = i$7, at = order.length, isRTL = direction == "rtl" ? 1 : 0;
+          for (++i$7; i$7 < len && types[i$7] != "L"; ++i$7) {}
+          for (var j$2 = pos; j$2 < i$7;) {
+            if (countsAsNum.test(types[j$2])) {
+              if (pos < j$2) { order.splice(at, 0, new BidiSpan(1, pos, j$2)); at += isRTL; }
+              var nstart = j$2;
+              for (++j$2; j$2 < i$7 && countsAsNum.test(types[j$2]); ++j$2) {}
+              order.splice(at, 0, new BidiSpan(2, nstart, j$2));
+              at += isRTL;
+              pos = j$2;
+            } else { ++j$2; }
+          }
+          if (pos < i$7) { order.splice(at, 0, new BidiSpan(1, pos, i$7)); }
+        }
+      }
+      if (direction == "ltr") {
+        if (order[0].level == 1 && (m = str.match(/^\s+/))) {
+          order[0].from = m[0].length;
+          order.unshift(new BidiSpan(0, 0, m[0].length));
+        }
+        if (lst(order).level == 1 && (m = str.match(/\s+$/))) {
+          lst(order).to -= m[0].length;
+          order.push(new BidiSpan(0, len - m[0].length, len));
+        }
+      }
+
+      return direction == "rtl" ? order.reverse() : order
+    }
+  })();
+
+  // Get the bidi ordering for the given line (and cache it). Returns
+  // false for lines that are fully left-to-right, and an array of
+  // BidiSpan objects otherwise.
+  function getOrder(line, direction) {
+    var order = line.order;
+    if (order == null) { order = line.order = bidiOrdering(line.text, direction); }
+    return order
+  }
+
+  // EVENT HANDLING
+
+  // Lightweight event framework. on/off also work on DOM nodes,
+  // registering native DOM handlers.
+
+  var noHandlers = [];
+
+  var on = function(emitter, type, f) {
+    if (emitter.addEventListener) {
+      emitter.addEventListener(type, f, false);
+    } else if (emitter.attachEvent) {
+      emitter.attachEvent("on" + type, f);
+    } else {
+      var map = emitter._handlers || (emitter._handlers = {});
+      map[type] = (map[type] || noHandlers).concat(f);
+    }
+  };
+
+  function getHandlers(emitter, type) {
+    return emitter._handlers && emitter._handlers[type] || noHandlers
+  }
+
+  function off(emitter, type, f) {
+    if (emitter.removeEventListener) {
+      emitter.removeEventListener(type, f, false);
+    } else if (emitter.detachEvent) {
+      emitter.detachEvent("on" + type, f);
+    } else {
+      var map = emitter._handlers, arr = map && map[type];
+      if (arr) {
+        var index = indexOf(arr, f);
+        if (index > -1)
+          { map[type] = arr.slice(0, index).concat(arr.slice(index + 1)); }
+      }
+    }
+  }
+
+  function signal(emitter, type /*, values...*/) {
+    var handlers = getHandlers(emitter, type);
+    if (!handlers.length) { return }
+    var args = Array.prototype.slice.call(arguments, 2);
+    for (var i = 0; i < handlers.length; ++i) { handlers[i].apply(null, args); }
+  }
+
+  // The DOM events that CodeMirror handles can be overridden by
+  // registering a (non-DOM) handler on the editor for the event name,
+  // and preventDefault-ing the event in that handler.
+  function signalDOMEvent(cm, e, override) {
+    if (typeof e == "string")
+      { e = {type: e, preventDefault: function() { this.defaultPrevented = true; }}; }
+    signal(cm, override || e.type, cm, e);
+    return e_defaultPrevented(e) || e.codemirrorIgnore
+  }
+
+  function signalCursorActivity(cm) {
+    var arr = cm._handlers && cm._handlers.cursorActivity;
+    if (!arr) { return }
+    var set = cm.curOp.cursorActivityHandlers || (cm.curOp.cursorActivityHandlers = []);
+    for (var i = 0; i < arr.length; ++i) { if (indexOf(set, arr[i]) == -1)
+      { set.push(arr[i]); } }
+  }
+
+  function hasHandler(emitter, type) {
+    return getHandlers(emitter, type).length > 0
+  }
+
+  // Add on and off methods to a constructor's prototype, to make
+  // registering events on such objects more convenient.
+  function eventMixin(ctor) {
+    ctor.prototype.on = function(type, f) {on(this, type, f);};
+    ctor.prototype.off = function(type, f) {off(this, type, f);};
+  }
+
+  // Due to the fact that we still support jurassic IE versions, some
+  // compatibility wrappers are needed.
+
+  function e_preventDefault(e) {
+    if (e.preventDefault) { e.preventDefault(); }
+    else { e.returnValue = false; }
+  }
+  function e_stopPropagation(e) {
+    if (e.stopPropagation) { e.stopPropagation(); }
+    else { e.cancelBubble = true; }
+  }
+  function e_defaultPrevented(e) {
+    return e.defaultPrevented != null ? e.defaultPrevented : e.returnValue == false
+  }
+  function e_stop(e) {e_preventDefault(e); e_stopPropagation(e);}
+
+  function e_target(e) {return e.target || e.srcElement}
+  function e_button(e) {
+    var b = e.which;
+    if (b == null) {
+      if (e.button & 1) { b = 1; }
+      else if (e.button & 2) { b = 3; }
+      else if (e.button & 4) { b = 2; }
+    }
+    if (mac && e.ctrlKey && b == 1) { b = 3; }
+    return b
+  }
+
+  // Detect drag-and-drop
+  var dragAndDrop = function() {
+    // There is *some* kind of drag-and-drop support in IE6-8, but I
+    // couldn't get it to work yet.
+    if (ie && ie_version < 9) { return false }
+    var div = elt('div');
+    return "draggable" in div || "dragDrop" in div
+  }();
+
+  var zwspSupported;
+  function zeroWidthElement(measure) {
+    if (zwspSupported == null) {
+      var test = elt("span", "\u200b");
+      removeChildrenAndAdd(measure, elt("span", [test, document.createTextNode("x")]));
+      if (measure.firstChild.offsetHeight != 0)
+        { zwspSupported = test.offsetWidth <= 1 && test.offsetHeight > 2 && !(ie && ie_version < 8); }
+    }
+    var node = zwspSupported ? elt("span", "\u200b") :
+      elt("span", "\u00a0", null, "display: inline-block; width: 1px; margin-right: -1px");
+    node.setAttribute("cm-text", "");
+    return node
+  }
+
+  // Feature-detect IE's crummy client rect reporting for bidi text
+  var badBidiRects;
+  function hasBadBidiRects(measure) {
+    if (badBidiRects != null) { return badBidiRects }
+    var txt = removeChildrenAndAdd(measure, document.createTextNode("A\u062eA"));
+    var r0 = range(txt, 0, 1).getBoundingClientRect();
+    var r1 = range(txt, 1, 2).getBoundingClientRect();
+    removeChildren(measure);
+    if (!r0 || r0.left == r0.right) { return false } // Safari returns null in some cases (#2780)
+    return badBidiRects = (r1.right - r0.right < 3)
+  }
+
+  // See if "".split is the broken IE version, if so, provide an
+  // alternative way to split lines.
+  var splitLinesAuto = "\n\nb".split(/\n/).length != 3 ? function (string) {
+    var pos = 0, result = [], l = string.length;
+    while (pos <= l) {
+      var nl = string.indexOf("\n", pos);
+      if (nl == -1) { nl = string.length; }
+      var line = string.slice(pos, string.charAt(nl - 1) == "\r" ? nl - 1 : nl);
+      var rt = line.indexOf("\r");
+      if (rt != -1) {
+        result.push(line.slice(0, rt));
+        pos += rt + 1;
+      } else {
+        result.push(line);
+        pos = nl + 1;
+      }
+    }
+    return result
+  } : function (string) { return string.split(/\r\n?|\n/); };
+
+  var hasSelection = window.getSelection ? function (te) {
+    try { return te.selectionStart != te.selectionEnd }
+    catch(e) { return false }
+  } : function (te) {
+    var range;
+    try {range = te.ownerDocument.selection.createRange();}
+    catch(e) {}
+    if (!range || range.parentElement() != te) { return false }
+    return range.compareEndPoints("StartToEnd", range) != 0
+  };
+
+  var hasCopyEvent = (function () {
+    var e = elt("div");
+    if ("oncopy" in e) { return true }
+    e.setAttribute("oncopy", "return;");
+    return typeof e.oncopy == "function"
+  })();
+
+  var badZoomedRects = null;
+  function hasBadZoomedRects(measure) {
+    if (badZoomedRects != null) { return badZoomedRects }
+    var node = removeChildrenAndAdd(measure, elt("span", "x"));
+    var normal = node.getBoundingClientRect();
+    var fromRange = range(node, 0, 1).getBoundingClientRect();
+    return badZoomedRects = Math.abs(normal.left - fromRange.left) > 1
+  }
+
+  // Known modes, by name and by MIME
+  var modes = {}, mimeModes = {};
+
+  // Extra arguments are stored as the mode's dependencies, which is
+  // used by (legacy) mechanisms like loadmode.js to automatically
+  // load a mode. (Preferred mechanism is the require/define calls.)
+  function defineMode(name, mode) {
+    if (arguments.length > 2)
+      { mode.dependencies = Array.prototype.slice.call(arguments, 2); }
+    modes[name] = mode;
+  }
+
+  function defineMIME(mime, spec) {
+    mimeModes[mime] = spec;
+  }
+
+  // Given a MIME type, a {name, ...options} config object, or a name
+  // string, return a mode config object.
+  function resolveMode(spec) {
+    if (typeof spec == "string" && mimeModes.hasOwnProperty(spec)) {
+      spec = mimeModes[spec];
+    } else if (spec && typeof spec.name == "string" && mimeModes.hasOwnProperty(spec.name)) {
+      var found = mimeModes[spec.name];
+      if (typeof found == "string") { found = {name: found}; }
+      spec = createObj(found, spec);
+      spec.name = found.name;
+    } else if (typeof spec == "string" && /^[\w\-]+\/[\w\-]+\+xml$/.test(spec)) {
+      return resolveMode("application/xml")
+    } else if (typeof spec == "string" && /^[\w\-]+\/[\w\-]+\+json$/.test(spec)) {
+      return resolveMode("application/json")
+    }
+    if (typeof spec == "string") { return {name: spec} }
+    else { return spec || {name: "null"} }
+  }
+
+  // Given a mode spec (anything that resolveMode accepts), find and
+  // initialize an actual mode object.
+  function getMode(options, spec) {
+    spec = resolveMode(spec);
+    var mfactory = modes[spec.name];
+    if (!mfactory) { return getMode(options, "text/plain") }
+    var modeObj = mfactory(options, spec);
+    if (modeExtensions.hasOwnProperty(spec.name)) {
+      var exts = modeExtensions[spec.name];
+      for (var prop in exts) {
+        if (!exts.hasOwnProperty(prop)) { continue }
+        if (modeObj.hasOwnProperty(prop)) { modeObj["_" + prop] = modeObj[prop]; }
+        modeObj[prop] = exts[prop];
+      }
+    }
+    modeObj.name = spec.name;
+    if (spec.helperType) { modeObj.helperType = spec.helperType; }
+    if (spec.modeProps) { for (var prop$1 in spec.modeProps)
+      { modeObj[prop$1] = spec.modeProps[prop$1]; } }
+
+    return modeObj
+  }
+
+  // This can be used to attach properties to mode objects from
+  // outside the actual mode definition.
+  var modeExtensions = {};
+  function extendMode(mode, properties) {
+    var exts = modeExtensions.hasOwnProperty(mode) ? modeExtensions[mode] : (modeExtensions[mode] = {});
+    copyObj(properties, exts);
+  }
+
+  function copyState(mode, state) {
+    if (state === true) { return state }
+    if (mode.copyState) { return mode.copyState(state) }
+    var nstate = {};
+    for (var n in state) {
+      var val = state[n];
+      if (val instanceof Array) { val = val.concat([]); }
+      nstate[n] = val;
+    }
+    return nstate
+  }
+
+  // Given a mode and a state (for that mode), find the inner mode and
+  // state at the position that the state refers to.
+  function innerMode(mode, state) {
+    var info;
+    while (mode.innerMode) {
+      info = mode.innerMode(state);
+      if (!info || info.mode == mode) { break }
+      state = info.state;
+      mode = info.mode;
+    }
+    return info || {mode: mode, state: state}
+  }
+
+  function startState(mode, a1, a2) {
+    return mode.startState ? mode.startState(a1, a2) : true
+  }
+
+  // STRING STREAM
+
+  // Fed to the mode parsers, provides helper functions to make
+  // parsers more succinct.
+
+  var StringStream = function(string, tabSize, lineOracle) {
+    this.pos = this.start = 0;
+    this.string = string;
+    this.tabSize = tabSize || 8;
+    this.lastColumnPos = this.lastColumnValue = 0;
+    this.lineStart = 0;
+    this.lineOracle = lineOracle;
+  };
+
+  StringStream.prototype.eol = function () {return this.pos >= this.string.length};
+  StringStream.prototype.sol = function () {return this.pos == this.lineStart};
+  StringStream.prototype.peek = function () {return this.string.charAt(this.pos) || undefined};
+  StringStream.prototype.next = function () {
+    if (this.pos < this.string.length)
+      { return this.string.charAt(this.pos++) }
+  };
+  StringStream.prototype.eat = function (match) {
+    var ch = this.string.charAt(this.pos);
+    var ok;
+    if (typeof match == "string") { ok = ch == match; }
+    else { ok = ch && (match.test ? match.test(ch) : match(ch)); }
+    if (ok) {++this.pos; return ch}
+  };
+  StringStream.prototype.eatWhile = function (match) {
+    var start = this.pos;
+    while (this.eat(match)){}
+    return this.pos > start
+  };
+  StringStream.prototype.eatSpace = function () {
+    var start = this.pos;
+    while (/[\s\u00a0]/.test(this.string.charAt(this.pos))) { ++this.pos; }
+    return this.pos > start
+  };
+  StringStream.prototype.skipToEnd = function () {this.pos = this.string.length;};
+  StringStream.prototype.skipTo = function (ch) {
+    var found = this.string.indexOf(ch, this.pos);
+    if (found > -1) {this.pos = found; return true}
+  };
+  StringStream.prototype.backUp = function (n) {this.pos -= n;};
+  StringStream.prototype.column = function () {
+    if (this.lastColumnPos < this.start) {
+      this.lastColumnValue = countColumn(this.string, this.start, this.tabSize, this.lastColumnPos, this.lastColumnValue);
+      this.lastColumnPos = this.start;
+    }
+    return this.lastColumnValue - (this.lineStart ? countColumn(this.string, this.lineStart, this.tabSize) : 0)
+  };
+  StringStream.prototype.indentation = function () {
+    return countColumn(this.string, null, this.tabSize) -
+      (this.lineStart ? countColumn(this.string, this.lineStart, this.tabSize) : 0)
+  };
+  StringStream.prototype.match = function (pattern, consume, caseInsensitive) {
+    if (typeof pattern == "string") {
+      var cased = function (str) { return caseInsensitive ? str.toLowerCase() : str; };
+      var substr = this.string.substr(this.pos, pattern.length);
+      if (cased(substr) == cased(pattern)) {
+        if (consume !== false) { this.pos += pattern.length; }
+        return true
+      }
+    } else {
+      var match = this.string.slice(this.pos).match(pattern);
+      if (match && match.index > 0) { return null }
+      if (match && consume !== false) { this.pos += match[0].length; }
+      return match
+    }
+  };
+  StringStream.prototype.current = function (){return this.string.slice(this.start, this.pos)};
+  StringStream.prototype.hideFirstChars = function (n, inner) {
+    this.lineStart += n;
+    try { return inner() }
+    finally { this.lineStart -= n; }
+  };
+  StringStream.prototype.lookAhead = function (n) {
+    var oracle = this.lineOracle;
+    return oracle && oracle.lookAhead(n)
+  };
+  StringStream.prototype.baseToken = function () {
+    var oracle = this.lineOracle;
+    return oracle && oracle.baseToken(this.pos)
+  };
+
+  // Find the line object corresponding to the given line number.
+  function getLine(doc, n) {
+    n -= doc.first;
+    if (n < 0 || n >= doc.size) { throw new Error("There is no line " + (n + doc.first) + " in the document.") }
+    var chunk = doc;
+    while (!chunk.lines) {
+      for (var i = 0;; ++i) {
+        var child = chunk.children[i], sz = child.chunkSize();
+        if (n < sz) { chunk = child; break }
+        n -= sz;
+      }
+    }
+    return chunk.lines[n]
+  }
+
+  // Get the part of a document between two positions, as an array of
+  // strings.
+  function getBetween(doc, start, end) {
+    var out = [], n = start.line;
+    doc.iter(start.line, end.line + 1, function (line) {
+      var text = line.text;
+      if (n == end.line) { text = text.slice(0, end.ch); }
+      if (n == start.line) { text = text.slice(start.ch); }
+      out.push(text);
+      ++n;
+    });
+    return out
+  }
+  // Get the lines between from and to, as array of strings.
+  function getLines(doc, from, to) {
+    var out = [];
+    doc.iter(from, to, function (line) { out.push(line.text); }); // iter aborts when callback returns truthy value
+    return out
+  }
+
+  // Update the height of a line, propagating the height change
+  // upwards to parent nodes.
+  function updateLineHeight(line, height) {
+    var diff = height - line.height;
+    if (diff) { for (var n = line; n; n = n.parent) { n.height += diff; } }
+  }
+
+  // Given a line object, find its line number by walking up through
+  // its parent links.
+  function lineNo(line) {
+    if (line.parent == null) { return null }
+    var cur = line.parent, no = indexOf(cur.lines, line);
+    for (var chunk = cur.parent; chunk; cur = chunk, chunk = chunk.parent) {
+      for (var i = 0;; ++i) {
+        if (chunk.children[i] == cur) { break }
+        no += chunk.children[i].chunkSize();
+      }
+    }
+    return no + cur.first
+  }
+
+  // Find the line at the given vertical position, using the height
+  // information in the document tree.
+  function lineAtHeight(chunk, h) {
+    var n = chunk.first;
+    outer: do {
+      for (var i$1 = 0; i$1 < chunk.children.length; ++i$1) {
+        var child = chunk.children[i$1], ch = child.height;
+        if (h < ch) { chunk = child; continue outer }
+        h -= ch;
+        n += child.chunkSize();
+      }
+      return n
+    } while (!chunk.lines)
+    var i = 0;
+    for (; i < chunk.lines.length; ++i) {
+      var line = chunk.lines[i], lh = line.height;
+      if (h < lh) { break }
+      h -= lh;
+    }
+    return n + i
+  }
+
+  function isLine(doc, l) {return l >= doc.first && l < doc.first + doc.size}
+
+  function lineNumberFor(options, i) {
+    return String(options.lineNumberFormatter(i + options.firstLineNumber))
+  }
+
+  // A Pos instance represents a position within the text.
+  function Pos(line, ch, sticky) {
+    if ( sticky === void 0 ) sticky = null;
+
+    if (!(this instanceof Pos)) { return new Pos(line, ch, sticky) }
+    this.line = line;
+    this.ch = ch;
+    this.sticky = sticky;
+  }
+
+  // Compare two positions, return 0 if they are the same, a negative
+  // number when a is less, and a positive number otherwise.
+  function cmp(a, b) { return a.line - b.line || a.ch - b.ch }
+
+  function equalCursorPos(a, b) { return a.sticky == b.sticky && cmp(a, b) == 0 }
+
+  function copyPos(x) {return Pos(x.line, x.ch)}
+  function maxPos(a, b) { return cmp(a, b) < 0 ? b : a }
+  function minPos(a, b) { return cmp(a, b) < 0 ? a : b }
+
+  // Most of the external API clips given positions to make sure they
+  // actually exist within the document.
+  function clipLine(doc, n) {return Math.max(doc.first, Math.min(n, doc.first + doc.size - 1))}
+  function clipPos(doc, pos) {
+    if (pos.line < doc.first) { return Pos(doc.first, 0) }
+    var last = doc.first + doc.size - 1;
+    if (pos.line > last) { return Pos(last, getLine(doc, last).text.length) }
+    return clipToLen(pos, getLine(doc, pos.line).text.length)
+  }
+  function clipToLen(pos, linelen) {
+    var ch = pos.ch;
+    if (ch == null || ch > linelen) { return Pos(pos.line, linelen) }
+    else if (ch < 0) { return Pos(pos.line, 0) }
+    else { return pos }
+  }
+  function clipPosArray(doc, array) {
+    var out = [];
+    for (var i = 0; i < array.length; i++) { out[i] = clipPos(doc, array[i]); }
+    return out
+  }
+
+  var SavedContext = function(state, lookAhead) {
+    this.state = state;
+    this.lookAhead = lookAhead;
+  };
+
+  var Context = function(doc, state, line, lookAhead) {
+    this.state = state;
+    this.doc = doc;
+    this.line = line;
+    this.maxLookAhead = lookAhead || 0;
+    this.baseTokens = null;
+    this.baseTokenPos = 1;
+  };
+
+  Context.prototype.lookAhead = function (n) {
+    var line = this.doc.getLine(this.line + n);
+    if (line != null && n > this.maxLookAhead) { this.maxLookAhead = n; }
+    return line
+  };
+
+  Context.prototype.baseToken = function (n) {
+    if (!this.baseTokens) { return null }
+    while (this.baseTokens[this.baseTokenPos] <= n)
+      { this.baseTokenPos += 2; }
+    var type = this.baseTokens[this.baseTokenPos + 1];
+    return {type: type && type.replace(/( |^)overlay .*/, ""),
+            size: this.baseTokens[this.baseTokenPos] - n}
+  };
+
+  Context.prototype.nextLine = function () {
+    this.line++;
+    if (this.maxLookAhead > 0) { this.maxLookAhead--; }
+  };
+
+  Context.fromSaved = function (doc, saved, line) {
+    if (saved instanceof SavedContext)
+      { return new Context(doc, copyState(doc.mode, saved.state), line, saved.lookAhead) }
+    else
+      { return new Context(doc, copyState(doc.mode, saved), line) }
+  };
+
+  Context.prototype.save = function (copy) {
+    var state = copy !== false ? copyState(this.doc.mode, this.state) : this.state;
+    return this.maxLookAhead > 0 ? new SavedContext(state, this.maxLookAhead) : state
+  };
+
+
+  // Compute a style array (an array starting with a mode generation
+  // -- for invalidation -- followed by pairs of end positions and
+  // style strings), which is used to highlight the tokens on the
+  // line.
+  function highlightLine(cm, line, context, forceToEnd) {
+    // A styles array always starts with a number identifying the
+    // mode/overlays that it is based on (for easy invalidation).
+    var st = [cm.state.modeGen], lineClasses = {};
+    // Compute the base array of styles
+    runMode(cm, line.text, cm.doc.mode, context, function (end, style) { return st.push(end, style); },
+            lineClasses, forceToEnd);
+    var state = context.state;
+
+    // Run overlays, adjust style array.
+    var loop = function ( o ) {
+      context.baseTokens = st;
+      var overlay = cm.state.overlays[o], i = 1, at = 0;
+      context.state = true;
+      runMode(cm, line.text, overlay.mode, context, function (end, style) {
+        var start = i;
+        // Ensure there's a token end at the current position, and that i points at it
+        while (at < end) {
+          var i_end = st[i];
+          if (i_end > end)
+            { st.splice(i, 1, end, st[i+1], i_end); }
+          i += 2;
+          at = Math.min(end, i_end);
+        }
+        if (!style) { return }
+        if (overlay.opaque) {
+          st.splice(start, i - start, end, "overlay " + style);
+          i = start + 2;
+        } else {
+          for (; start < i; start += 2) {
+            var cur = st[start+1];
+            st[start+1] = (cur ? cur + " " : "") + "overlay " + style;
+          }
+        }
+      }, lineClasses);
+      context.state = state;
+      context.baseTokens = null;
+      context.baseTokenPos = 1;
+    };
+
+    for (var o = 0; o < cm.state.overlays.length; ++o) loop( o );
+
+    return {styles: st, classes: lineClasses.bgClass || lineClasses.textClass ? lineClasses : null}
+  }
+
+  function getLineStyles(cm, line, updateFrontier) {
+    if (!line.styles || line.styles[0] != cm.state.modeGen) {
+      var context = getContextBefore(cm, lineNo(line));
+      var resetState = line.text.length > cm.options.maxHighlightLength && copyState(cm.doc.mode, context.state);
+      var result = highlightLine(cm, line, context);
+      if (resetState) { context.state = resetState; }
+      line.stateAfter = context.save(!resetState);
+      line.styles = result.styles;
+      if (result.classes) { line.styleClasses = result.classes; }
+      else if (line.styleClasses) { line.styleClasses = null; }
+      if (updateFrontier === cm.doc.highlightFrontier)
+        { cm.doc.modeFrontier = Math.max(cm.doc.modeFrontier, ++cm.doc.highlightFrontier); }
+    }
+    return line.styles
+  }
+
+  function getContextBefore(cm, n, precise) {
+    var doc = cm.doc, display = cm.display;
+    if (!doc.mode.startState) { return new Context(doc, true, n) }
+    var start = findStartLine(cm, n, precise);
+    var saved = start > doc.first && getLine(doc, start - 1).stateAfter;
+    var context = saved ? Context.fromSaved(doc, saved, start) : new Context(doc, startState(doc.mode), start);
+
+    doc.iter(start, n, function (line) {
+      processLine(cm, line.text, context);
+      var pos = context.line;
+      line.stateAfter = pos == n - 1 || pos % 5 == 0 || pos >= display.viewFrom && pos < display.viewTo ? context.save() : null;
+      context.nextLine();
+    });
+    if (precise) { doc.modeFrontier = context.line; }
+    return context
+  }
+
+  // Lightweight form of highlight -- proceed over this line and
+  // update state, but don't save a style array. Used for lines that
+  // aren't currently visible.
+  function processLine(cm, text, context, startAt) {
+    var mode = cm.doc.mode;
+    var stream = new StringStream(text, cm.options.tabSize, context);
+    stream.start = stream.pos = startAt || 0;
+    if (text == "") { callBlankLine(mode, context.state); }
+    while (!stream.eol()) {
+      readToken(mode, stream, context.state);
+      stream.start = stream.pos;
+    }
+  }
+
+  function callBlankLine(mode, state) {
+    if (mode.blankLine) { return mode.blankLine(state) }
+    if (!mode.innerMode) { return }
+    var inner = innerMode(mode, state);
+    if (inner.mode.blankLine) { return inner.mode.blankLine(inner.state) }
+  }
+
+  function readToken(mode, stream, state, inner) {
+    for (var i = 0; i < 10; i++) {
+      if (inner) { inner[0] = innerMode(mode, state).mode; }
+      var style = mode.token(stream, state);
+      if (stream.pos > stream.start) { return style }
+    }
+    throw new Error("Mode " + mode.name + " failed to advance stream.")
+  }
+
+  var Token = function(stream, type, state) {
+    this.start = stream.start; this.end = stream.pos;
+    this.string = stream.current();
+    this.type = type || null;
+    this.state = state;
+  };
+
+  // Utility for getTokenAt and getLineTokens
+  function takeToken(cm, pos, precise, asArray) {
+    var doc = cm.doc, mode = doc.mode, style;
+    pos = clipPos(doc, pos);
+    var line = getLine(doc, pos.line), context = getContextBefore(cm, pos.line, precise);
+    var stream = new StringStream(line.text, cm.options.tabSize, context), tokens;
+    if (asArray) { tokens = []; }
+    while ((asArray || stream.pos < pos.ch) && !stream.eol()) {
+      stream.start = stream.pos;
+      style = readToken(mode, stream, context.state);
+      if (asArray) { tokens.push(new Token(stream, style, copyState(doc.mode, context.state))); }
+    }
+    return asArray ? tokens : new Token(stream, style, context.state)
+  }
+
+  function extractLineClasses(type, output) {
+    if (type) { for (;;) {
+      var lineClass = type.match(/(?:^|\s+)line-(background-)?(\S+)/);
+      if (!lineClass) { break }
+      type = type.slice(0, lineClass.index) + type.slice(lineClass.index + lineClass[0].length);
+      var prop = lineClass[1] ? "bgClass" : "textClass";
+      if (output[prop] == null)
+        { output[prop] = lineClass[2]; }
+      else if (!(new RegExp("(?:^|\\s)" + lineClass[2] + "(?:$|\\s)")).test(output[prop]))
+        { output[prop] += " " + lineClass[2]; }
+    } }
+    return type
+  }
+
+  // Run the given mode's parser over a line, calling f for each token.
+  function runMode(cm, text, mode, context, f, lineClasses, forceToEnd) {
+    var flattenSpans = mode.flattenSpans;
+    if (flattenSpans == null) { flattenSpans = cm.options.flattenSpans; }
+    var curStart = 0, curStyle = null;
+    var stream = new StringStream(text, cm.options.tabSize, context), style;
+    var inner = cm.options.addModeClass && [null];
+    if (text == "") { extractLineClasses(callBlankLine(mode, context.state), lineClasses); }
+    while (!stream.eol()) {
+      if (stream.pos > cm.options.maxHighlightLength) {
+        flattenSpans = false;
+        if (forceToEnd) { processLine(cm, text, context, stream.pos); }
+        stream.pos = text.length;
+        style = null;
+      } else {
+        style = extractLineClasses(readToken(mode, stream, context.state, inner), lineClasses);
+      }
+      if (inner) {
+        var mName = inner[0].name;
+        if (mName) { style = "m-" + (style ? mName + " " + style : mName); }
+      }
+      if (!flattenSpans || curStyle != style) {
+        while (curStart < stream.start) {
+          curStart = Math.min(stream.start, curStart + 5000);
+          f(curStart, curStyle);
+        }
+        curStyle = style;
+      }
+      stream.start = stream.pos;
+    }
+    while (curStart < stream.pos) {
+      // Webkit seems to refuse to render text nodes longer than 57444
+      // characters, and returns inaccurate measurements in nodes
+      // starting around 5000 chars.
+      var pos = Math.min(stream.pos, curStart + 5000);
+      f(pos, curStyle);
+      curStart = pos;
+    }
+  }
+
+  // Finds the line to start with when starting a parse. Tries to
+  // find a line with a stateAfter, so that it can start with a
+  // valid state. If that fails, it returns the line with the
+  // smallest indentation, which tends to need the least context to
+  // parse correctly.
+  function findStartLine(cm, n, precise) {
+    var minindent, minline, doc = cm.doc;
+    var lim = precise ? -1 : n - (cm.doc.mode.innerMode ? 1000 : 100);
+    for (var search = n; search > lim; --search) {
+      if (search <= doc.first) { return doc.first }
+      var line = getLine(doc, search - 1), after = line.stateAfter;
+      if (after && (!precise || search + (after instanceof SavedContext ? after.lookAhead : 0) <= doc.modeFrontier))
+        { return search }
+      var indented = countColumn(line.text, null, cm.options.tabSize);
+      if (minline == null || minindent > indented) {
+        minline = search - 1;
+        minindent = indented;
+      }
+    }
+    return minline
+  }
+
+  function retreatFrontier(doc, n) {
+    doc.modeFrontier = Math.min(doc.modeFrontier, n);
+    if (doc.highlightFrontier < n - 10) { return }
+    var start = doc.first;
+    for (var line = n - 1; line > start; line--) {
+      var saved = getLine(doc, line).stateAfter;
+      // change is on 3
+      // state on line 1 looked ahead 2 -- so saw 3
+      // test 1 + 2 < 3 should cover this
+      if (saved && (!(saved instanceof SavedContext) || line + saved.lookAhead < n)) {
+        start = line + 1;
+        break
+      }
+    }
+    doc.highlightFrontier = Math.min(doc.highlightFrontier, start);
+  }
+
+  // Optimize some code when these features are not used.
+  var sawReadOnlySpans = false, sawCollapsedSpans = false;
+
+  function seeReadOnlySpans() {
+    sawReadOnlySpans = true;
+  }
+
+  function seeCollapsedSpans() {
+    sawCollapsedSpans = true;
+  }
+
+  // TEXTMARKER SPANS
+
+  function MarkedSpan(marker, from, to) {
+    this.marker = marker;
+    this.from = from; this.to = to;
+  }
+
+  // Search an array of spans for a span matching the given marker.
+  function getMarkedSpanFor(spans, marker) {
+    if (spans) { for (var i = 0; i < spans.length; ++i) {
+      var span = spans[i];
+      if (span.marker == marker) { return span }
+    } }
+  }
+  // Remove a span from an array, returning undefined if no spans are
+  // left (we don't store arrays for lines without spans).
+  function removeMarkedSpan(spans, span) {
+    var r;
+    for (var i = 0; i < spans.length; ++i)
+      { if (spans[i] != span) { (r || (r = [])).push(spans[i]); } }
+    return r
+  }
+  // Add a span to a line.
+  function addMarkedSpan(line, span) {
+    line.markedSpans = line.markedSpans ? line.markedSpans.concat([span]) : [span];
+    span.marker.attachLine(line);
+  }
+
+  // Used for the algorithm that adjusts markers for a change in the
+  // document. These functions cut an array of spans at a given
+  // character position, returning an array of remaining chunks (or
+  // undefined if nothing remains).
+  function markedSpansBefore(old, startCh, isInsert) {
+    var nw;
+    if (old) { for (var i = 0; i < old.length; ++i) {
+      var span = old[i], marker = span.marker;
+      var startsBefore = span.from == null || (marker.inclusiveLeft ? span.from <= startCh : span.from < startCh);
+      if (startsBefore || span.from == startCh && marker.type == "bookmark" && (!isInsert || !span.marker.insertLeft)) {
+        var endsAfter = span.to == null || (marker.inclusiveRight ? span.to >= startCh : span.to > startCh)
+        ;(nw || (nw = [])).push(new MarkedSpan(marker, span.from, endsAfter ? null : span.to));
+      }
+    } }
+    return nw
+  }
+  function markedSpansAfter(old, endCh, isInsert) {
+    var nw;
+    if (old) { for (var i = 0; i < old.length; ++i) {
+      var span = old[i], marker = span.marker;
+      var endsAfter = span.to == null || (marker.inclusiveRight ? span.to >= endCh : span.to > endCh);
+      if (endsAfter || span.from == endCh && marker.type == "bookmark" && (!isInsert || span.marker.insertLeft)) {
+        var startsBefore = span.from == null || (marker.inclusiveLeft ? span.from <= endCh : span.from < endCh)
+        ;(nw || (nw = [])).push(new MarkedSpan(marker, startsBefore ? null : span.from - endCh,
+                                              span.to == null ? null : span.to - endCh));
+      }
+    } }
+    return nw
+  }
+
+  // Given a change object, compute the new set of marker spans that
+  // cover the line in which the change took place. Removes spans
+  // entirely within the change, reconnects spans belonging to the
+  // same marker that appear on both sides of the change, and cuts off
+  // spans partially within the change. Returns an array of span
+  // arrays with one element for each line in (after) the change.
+  function stretchSpansOverChange(doc, change) {
+    if (change.full) { return null }
+    var oldFirst = isLine(doc, change.from.line) && getLine(doc, change.from.line).markedSpans;
+    var oldLast = isLine(doc, change.to.line) && getLine(doc, change.to.line).markedSpans;
+    if (!oldFirst && !oldLast) { return null }
+
+    var startCh = change.from.ch, endCh = change.to.ch, isInsert = cmp(change.from, change.to) == 0;
+    // Get the spans that 'stick out' on both sides
+    var first = markedSpansBefore(oldFirst, startCh, isInsert);
+    var last = markedSpansAfter(oldLast, endCh, isInsert);
+
+    // Next, merge those two ends
+    var sameLine = change.text.length == 1, offset = lst(change.text).length + (sameLine ? startCh : 0);
+    if (first) {
+      // Fix up .to properties of first
+      for (var i = 0; i < first.length; ++i) {
+        var span = first[i];
+        if (span.to == null) {
+          var found = getMarkedSpanFor(last, span.marker);
+          if (!found) { span.to = startCh; }
+          else if (sameLine) { span.to = found.to == null ? null : found.to + offset; }
+        }
+      }
+    }
+    if (last) {
+      // Fix up .from in last (or move them into first in case of sameLine)
+      for (var i$1 = 0; i$1 < last.length; ++i$1) {
+        var span$1 = last[i$1];
+        if (span$1.to != null) { span$1.to += offset; }
+        if (span$1.from == null) {
+          var found$1 = getMarkedSpanFor(first, span$1.marker);
+          if (!found$1) {
+            span$1.from = offset;
+            if (sameLine) { (first || (first = [])).push(span$1); }
+          }
+        } else {
+          span$1.from += offset;
+          if (sameLine) { (first || (first = [])).push(span$1); }
+        }
+      }
+    }
+    // Make sure we didn't create any zero-length spans
+    if (first) { first = clearEmptySpans(first); }
+    if (last && last != first) { last = clearEmptySpans(last); }
+
+    var newMarkers = [first];
+    if (!sameLine) {
+      // Fill gap with whole-line-spans
+      var gap = change.text.length - 2, gapMarkers;
+      if (gap > 0 && first)
+        { for (var i$2 = 0; i$2 < first.length; ++i$2)
+          { if (first[i$2].to == null)
+            { (gapMarkers || (gapMarkers = [])).push(new MarkedSpan(first[i$2].marker, null, null)); } } }
+      for (var i$3 = 0; i$3 < gap; ++i$3)
+        { newMarkers.push(gapMarkers); }
+      newMarkers.push(last);
+    }
+    return newMarkers
+  }
+
+  // Remove spans that are empty and don't have a clearWhenEmpty
+  // option of false.
+  function clearEmptySpans(spans) {
+    for (var i = 0; i < spans.length; ++i) {
+      var span = spans[i];
+      if (span.from != null && span.from == span.to && span.marker.clearWhenEmpty !== false)
+        { spans.splice(i--, 1); }
+    }
+    if (!spans.length) { return null }
+    return spans
+  }
+
+  // Used to 'clip' out readOnly ranges when making a change.
+  function removeReadOnlyRanges(doc, from, to) {
+    var markers = null;
+    doc.iter(from.line, to.line + 1, function (line) {
+      if (line.markedSpans) { for (var i = 0; i < line.markedSpans.length; ++i) {
+        var mark = line.markedSpans[i].marker;
+        if (mark.readOnly && (!markers || indexOf(markers, mark) == -1))
+          { (markers || (markers = [])).push(mark); }
+      } }
+    });
+    if (!markers) { return null }
+    var parts = [{from: from, to: to}];
+    for (var i = 0; i < markers.length; ++i) {
+      var mk = markers[i], m = mk.find(0);
+      for (var j = 0; j < parts.length; ++j) {
+        var p = parts[j];
+        if (cmp(p.to, m.from) < 0 || cmp(p.from, m.to) > 0) { continue }
+        var newParts = [j, 1], dfrom = cmp(p.from, m.from), dto = cmp(p.to, m.to);
+        if (dfrom < 0 || !mk.inclusiveLeft && !dfrom)
+          { newParts.push({from: p.from, to: m.from}); }
+        if (dto > 0 || !mk.inclusiveRight && !dto)
+          { newParts.push({from: m.to, to: p.to}); }
+        parts.splice.apply(parts, newParts);
+        j += newParts.length - 3;
+      }
+    }
+    return parts
+  }
+
+  // Connect or disconnect spans from a line.
+  function detachMarkedSpans(line) {
+    var spans = line.markedSpans;
+    if (!spans) { return }
+    for (var i = 0; i < spans.length; ++i)
+      { spans[i].marker.detachLine(line); }
+    line.markedSpans = null;
+  }
+  function attachMarkedSpans(line, spans) {
+    if (!spans) { return }
+    for (var i = 0; i < spans.length; ++i)
+      { spans[i].marker.attachLine(line); }
+    line.markedSpans = spans;
+  }
+
+  // Helpers used when computing which overlapping collapsed span
+  // counts as the larger one.
+  function extraLeft(marker) { return marker.inclusiveLeft ? -1 : 0 }
+  function extraRight(marker) { return marker.inclusiveRight ? 1 : 0 }
+
+  // Returns a number indicating which of two overlapping collapsed
+  // spans is larger (and thus includes the other). Falls back to
+  // comparing ids when the spans cover exactly the same range.
+  function compareCollapsedMarkers(a, b) {
+    var lenDiff = a.lines.length - b.lines.length;
+    if (lenDiff != 0) { return lenDiff }
+    var aPos = a.find(), bPos = b.find();
+    var fromCmp = cmp(aPos.from, bPos.from) || extraLeft(a) - extraLeft(b);
+    if (fromCmp) { return -fromCmp }
+    var toCmp = cmp(aPos.to, bPos.to) || extraRight(a) - extraRight(b);
+    if (toCmp) { return toCmp }
+    return b.id - a.id
+  }
+
+  // Find out whether a line ends or starts in a collapsed span. If
+  // so, return the marker for that span.
+  function collapsedSpanAtSide(line, start) {
+    var sps = sawCollapsedSpans && line.markedSpans, found;
+    if (sps) { for (var sp = (void 0), i = 0; i < sps.length; ++i) {
+      sp = sps[i];
+      if (sp.marker.collapsed && (start ? sp.from : sp.to) == null &&
+          (!found || compareCollapsedMarkers(found, sp.marker) < 0))
+        { found = sp.marker; }
+    } }
+    return found
+  }
+  function collapsedSpanAtStart(line) { return collapsedSpanAtSide(line, true) }
+  function collapsedSpanAtEnd(line) { return collapsedSpanAtSide(line, false) }
+
+  function collapsedSpanAround(line, ch) {
+    var sps = sawCollapsedSpans && line.markedSpans, found;
+    if (sps) { for (var i = 0; i < sps.length; ++i) {
+      var sp = sps[i];
+      if (sp.marker.collapsed && (sp.from == null || sp.from < ch) && (sp.to == null || sp.to > ch) &&
+          (!found || compareCollapsedMarkers(found, sp.marker) < 0)) { found = sp.marker; }
+    } }
+    return found
+  }
+
+  // Test whether there exists a collapsed span that partially
+  // overlaps (covers the start or end, but not both) of a new span.
+  // Such overlap is not allowed.
+  function conflictingCollapsedRange(doc, lineNo, from, to, marker) {
+    var line = getLine(doc, lineNo);
+    var sps = sawCollapsedSpans && line.markedSpans;
+    if (sps) { for (var i = 0; i < sps.length; ++i) {
+      var sp = sps[i];
+      if (!sp.marker.collapsed) { continue }
+      var found = sp.marker.find(0);
+      var fromCmp = cmp(found.from, from) || extraLeft(sp.marker) - extraLeft(marker);
+      var toCmp = cmp(found.to, to) || extraRight(sp.marker) - extraRight(marker);
+      if (fromCmp >= 0 && toCmp <= 0 || fromCmp <= 0 && toCmp >= 0) { continue }
+      if (fromCmp <= 0 && (sp.marker.inclusiveRight && marker.inclusiveLeft ? cmp(found.to, from) >= 0 : cmp(found.to, from) > 0) ||
+          fromCmp >= 0 && (sp.marker.inclusiveRight && marker.inclusiveLeft ? cmp(found.from, to) <= 0 : cmp(found.from, to) < 0))
+        { return true }
+    } }
+  }
+
+  // A visual line is a line as drawn on the screen. Folding, for
+  // example, can cause multiple logical lines to appear on the same
+  // visual line. This finds the start of the visual line that the
+  // given line is part of (usually that is the line itself).
+  function visualLine(line) {
+    var merged;
+    while (merged = collapsedSpanAtStart(line))
+      { line = merged.find(-1, true).line; }
+    return line
+  }
+
+  function visualLineEnd(line) {
+    var merged;
+    while (merged = collapsedSpanAtEnd(line))
+      { line = merged.find(1, true).line; }
+    return line
+  }
+
+  // Returns an array of logical lines that continue the visual line
+  // started by the argument, or undefined if there are no such lines.
+  function visualLineContinued(line) {
+    var merged, lines;
+    while (merged = collapsedSpanAtEnd(line)) {
+      line = merged.find(1, true).line
+      ;(lines || (lines = [])).push(line);
+    }
+    return lines
+  }
+
+  // Get the line number of the start of the visual line that the
+  // given line number is part of.
+  function visualLineNo(doc, lineN) {
+    var line = getLine(doc, lineN), vis = visualLine(line);
+    if (line == vis) { return lineN }
+    return lineNo(vis)
+  }
+
+  // Get the line number of the start of the next visual line after
+  // the given line.
+  function visualLineEndNo(doc, lineN) {
+    if (lineN > doc.lastLine()) { return lineN }
+    var line = getLine(doc, lineN), merged;
+    if (!lineIsHidden(doc, line)) { return lineN }
+    while (merged = collapsedSpanAtEnd(line))
+      { line = merged.find(1, true).line; }
+    return lineNo(line) + 1
+  }
+
+  // Compute whether a line is hidden. Lines count as hidden when they
+  // are part of a visual line that starts with another line, or when
+  // they are entirely covered by collapsed, non-widget span.
+  function lineIsHidden(doc, line) {
+    var sps = sawCollapsedSpans && line.markedSpans;
+    if (sps) { for (var sp = (void 0), i = 0; i < sps.length; ++i) {
+      sp = sps[i];
+      if (!sp.marker.collapsed) { continue }
+      if (sp.from == null) { return true }
+      if (sp.marker.widgetNode) { continue }
+      if (sp.from == 0 && sp.marker.inclusiveLeft && lineIsHiddenInner(doc, line, sp))
+        { return true }
+    } }
+  }
+  function lineIsHiddenInner(doc, line, span) {
+    if (span.to == null) {
+      var end = span.marker.find(1, true);
+      return lineIsHiddenInner(doc, end.line, getMarkedSpanFor(end.line.markedSpans, span.marker))
+    }
+    if (span.marker.inclusiveRight && span.to == line.text.length)
+      { return true }
+    for (var sp = (void 0), i = 0; i < line.markedSpans.length; ++i) {
+      sp = line.markedSpans[i];
+      if (sp.marker.collapsed && !sp.marker.widgetNode && sp.from == span.to &&
+          (sp.to == null || sp.to != span.from) &&
+          (sp.marker.inclusiveLeft || span.marker.inclusiveRight) &&
+          lineIsHiddenInner(doc, line, sp)) { return true }
+    }
+  }
+
+  // Find the height above the given line.
+  function heightAtLine(lineObj) {
+    lineObj = visualLine(lineObj);
+
+    var h = 0, chunk = lineObj.parent;
+    for (var i = 0; i < chunk.lines.length; ++i) {
+      var line = chunk.lines[i];
+      if (line == lineObj) { break }
+      else { h += line.height; }
+    }
+    for (var p = chunk.parent; p; chunk = p, p = chunk.parent) {
+      for (var i$1 = 0; i$1 < p.children.length; ++i$1) {
+        var cur = p.children[i$1];
+        if (cur == chunk) { break }
+        else { h += cur.height; }
+      }
+    }
+    return h
+  }
+
+  // Compute the character length of a line, taking into account
+  // collapsed ranges (see markText) that might hide parts, and join
+  // other lines onto it.
+  function lineLength(line) {
+    if (line.height == 0) { return 0 }
+    var len = line.text.length, merged, cur = line;
+    while (merged = collapsedSpanAtStart(cur)) {
+      var found = merged.find(0, true);
+      cur = found.from.line;
+      len += found.from.ch - found.to.ch;
+    }
+    cur = line;
+    while (merged = collapsedSpanAtEnd(cur)) {
+      var found$1 = merged.find(0, true);
+      len -= cur.text.length - found$1.from.ch;
+      cur = found$1.to.line;
+      len += cur.text.length - found$1.to.ch;
+    }
+    return len
+  }
+
+  // Find the longest line in the document.
+  function findMaxLine(cm) {
+    var d = cm.display, doc = cm.doc;
+    d.maxLine = getLine(doc, doc.first);
+    d.maxLineLength = lineLength(d.maxLine);
+    d.maxLineChanged = true;
+    doc.iter(function (line) {
+      var len = lineLength(line);
+      if (len > d.maxLineLength) {
+        d.maxLineLength = len;
+        d.maxLine = line;
+      }
+    });
+  }
+
+  // LINE DATA STRUCTURE
+
+  // Line objects. These hold state related to a line, including
+  // highlighting info (the styles array).
+  var Line = function(text, markedSpans, estimateHeight) {
+    this.text = text;
+    attachMarkedSpans(this, markedSpans);
+    this.height = estimateHeight ? estimateHeight(this) : 1;
+  };
+
+  Line.prototype.lineNo = function () { return lineNo(this) };
+  eventMixin(Line);
+
+  // Change the content (text, markers) of a line. Automatically
+  // invalidates cached information and tries to re-estimate the
+  // line's height.
+  function updateLine(line, text, markedSpans, estimateHeight) {
+    line.text = text;
+    if (line.stateAfter) { line.stateAfter = null; }
+    if (line.styles) { line.styles = null; }
+    if (line.order != null) { line.order = null; }
+    detachMarkedSpans(line);
+    attachMarkedSpans(line, markedSpans);
+    var estHeight = estimateHeight ? estimateHeight(line) : 1;
+    if (estHeight != line.height) { updateLineHeight(line, estHeight); }
+  }
+
+  // Detach a line from the document tree and its markers.
+  function cleanUpLine(line) {
+    line.parent = null;
+    detachMarkedSpans(line);
+  }
+
+  // Convert a style as returned by a mode (either null, or a string
+  // containing one or more styles) to a CSS style. This is cached,
+  // and also looks for line-wide styles.
+  var styleToClassCache = {}, styleToClassCacheWithMode = {};
+  function interpretTokenStyle(style, options) {
+    if (!style || /^\s*$/.test(style)) { return null }
+    var cache = options.addModeClass ? styleToClassCacheWithMode : styleToClassCache;
+    return cache[style] ||
+      (cache[style] = style.replace(/\S+/g, "cm-$&"))
+  }
+
+  // Render the DOM representation of the text of a line. Also builds
+  // up a 'line map', which points at the DOM nodes that represent
+  // specific stretches of text, and is used by the measuring code.
+  // The returned object contains the DOM node, this map, and
+  // information about line-wide styles that were set by the mode.
+  function buildLineContent(cm, lineView) {
+    // The padding-right forces the element to have a 'border', which
+    // is needed on Webkit to be able to get line-level bounding
+    // rectangles for it (in measureChar).
+    var content = eltP("span", null, null, webkit ? "padding-right: .1px" : null);
+    var builder = {pre: eltP("pre", [content], "CodeMirror-line"), content: content,
+                   col: 0, pos: 0, cm: cm,
+                   trailingSpace: false,
+                   splitSpaces: cm.getOption("lineWrapping")};
+    lineView.measure = {};
+
+    // Iterate over the logical lines that make up this visual line.
+    for (var i = 0; i <= (lineView.rest ? lineView.rest.length : 0); i++) {
+      var line = i ? lineView.rest[i - 1] : lineView.line, order = (void 0);
+      builder.pos = 0;
+      builder.addToken = buildToken;
+      // Optionally wire in some hacks into the token-rendering
+      // algorithm, to deal with browser quirks.
+      if (hasBadBidiRects(cm.display.measure) && (order = getOrder(line, cm.doc.direction)))
+        { builder.addToken = buildTokenBadBidi(builder.addToken, order); }
+      builder.map = [];
+      var allowFrontierUpdate = lineView != cm.display.externalMeasured && lineNo(line);
+      insertLineContent(line, builder, getLineStyles(cm, line, allowFrontierUpdate));
+      if (line.styleClasses) {
+        if (line.styleClasses.bgClass)
+          { builder.bgClass = joinClasses(line.styleClasses.bgClass, builder.bgClass || ""); }
+        if (line.styleClasses.textClass)
+          { builder.textClass = joinClasses(line.styleClasses.textClass, builder.textClass || ""); }
+      }
+
+      // Ensure at least a single node is present, for measuring.
+      if (builder.map.length == 0)
+        { builder.map.push(0, 0, builder.content.appendChild(zeroWidthElement(cm.display.measure))); }
+
+      // Store the map and a cache object for the current logical line
+      if (i == 0) {
+        lineView.measure.map = builder.map;
+        lineView.measure.cache = {};
+      } else {
+  (lineView.measure.maps || (lineView.measure.maps = [])).push(builder.map)
+        ;(lineView.measure.caches || (lineView.measure.caches = [])).push({});
+      }
+    }
+
+    // See issue #2901
+    if (webkit) {
+      var last = builder.content.lastChild;
+      if (/\bcm-tab\b/.test(last.className) || (last.querySelector && last.querySelector(".cm-tab")))
+        { builder.content.className = "cm-tab-wrap-hack"; }
+    }
+
+    signal(cm, "renderLine", cm, lineView.line, builder.pre);
+    if (builder.pre.className)
+      { builder.textClass = joinClasses(builder.pre.className, builder.textClass || ""); }
+
+    return builder
+  }
+
+  function defaultSpecialCharPlaceholder(ch) {
+    var token = elt("span", "\u2022", "cm-invalidchar");
+    token.title = "\\u" + ch.charCodeAt(0).toString(16);
+    token.setAttribute("aria-label", token.title);
+    return token
+  }
+
+  // Build up the DOM representation for a single token, and add it to
+  // the line map. Takes care to render special characters separately.
+  function buildToken(builder, text, style, startStyle, endStyle, css, attributes) {
+    if (!text) { return }
+    var displayText = builder.splitSpaces ? splitSpaces(text, builder.trailingSpace) : text;
+    var special = builder.cm.state.specialChars, mustWrap = false;
+    var content;
+    if (!special.test(text)) {
+      builder.col += text.length;
+      content = document.createTextNode(displayText);
+      builder.map.push(builder.pos, builder.pos + text.length, content);
+      if (ie && ie_version < 9) { mustWrap = true; }
+      builder.pos += text.length;
+    } else {
+      content = document.createDocumentFragment();
+      var pos = 0;
+      while (true) {
+        special.lastIndex = pos;
+        var m = special.exec(text);
+        var skipped = m ? m.index - pos : text.length - pos;
+        if (skipped) {
+          var txt = document.createTextNode(displayText.slice(pos, pos + skipped));
+          if (ie && ie_version < 9) { content.appendChild(elt("span", [txt])); }
+          else { content.appendChild(txt); }
+          builder.map.push(builder.pos, builder.pos + skipped, txt);
+          builder.col += skipped;
+          builder.pos += skipped;
+        }
+        if (!m) { break }
+        pos += skipped + 1;
+        var txt$1 = (void 0);
+        if (m[0] == "\t") {
+          var tabSize = builder.cm.options.tabSize, tabWidth = tabSize - builder.col % tabSize;
+          txt$1 = content.appendChild(elt("span", spaceStr(tabWidth), "cm-tab"));
+          txt$1.setAttribute("role", "presentation");
+          txt$1.setAttribute("cm-text", "\t");
+          builder.col += tabWidth;
+        } else if (m[0] == "\r" || m[0] == "\n") {
+          txt$1 = content.appendChild(elt("span", m[0] == "\r" ? "\u240d" : "\u2424", "cm-invalidchar"));
+          txt$1.setAttribute("cm-text", m[0]);
+          builder.col += 1;
+        } else {
+          txt$1 = builder.cm.options.specialCharPlaceholder(m[0]);
+          txt$1.setAttribute("cm-text", m[0]);
+          if (ie && ie_version < 9) { content.appendChild(elt("span", [txt$1])); }
+          else { content.appendChild(txt$1); }
+          builder.col += 1;
+        }
+        builder.map.push(builder.pos, builder.pos + 1, txt$1);
+        builder.pos++;
+      }
+    }
+    builder.trailingSpace = displayText.charCodeAt(text.length - 1) == 32;
+    if (style || startStyle || endStyle || mustWrap || css || attributes) {
+      var fullStyle = style || "";
+      if (startStyle) { fullStyle += startStyle; }
+      if (endStyle) { fullStyle += endStyle; }
+      var token = elt("span", [content], fullStyle, css);
+      if (attributes) {
+        for (var attr in attributes) { if (attributes.hasOwnProperty(attr) && attr != "style" && attr != "class")
+          { token.setAttribute(attr, attributes[attr]); } }
+      }
+      return builder.content.appendChild(token)
+    }
+    builder.content.appendChild(content);
+  }
+
+  // Change some spaces to NBSP to prevent the browser from collapsing
+  // trailing spaces at the end of a line when rendering text (issue #1362).
+  function splitSpaces(text, trailingBefore) {
+    if (text.length > 1 && !/  /.test(text)) { return text }
+    var spaceBefore = trailingBefore, result = "";
+    for (var i = 0; i < text.length; i++) {
+      var ch = text.charAt(i);
+      if (ch == " " && spaceBefore && (i == text.length - 1 || text.charCodeAt(i + 1) == 32))
+        { ch = "\u00a0"; }
+      result += ch;
+      spaceBefore = ch == " ";
+    }
+    return result
+  }
+
+  // Work around nonsense dimensions being reported for stretches of
+  // right-to-left text.
+  function buildTokenBadBidi(inner, order) {
+    return function (builder, text, style, startStyle, endStyle, css, attributes) {
+      style = style ? style + " cm-force-border" : "cm-force-border";
+      var start = builder.pos, end = start + text.length;
+      for (;;) {
+        // Find the part that overlaps with the start of this text
+        var part = (void 0);
+        for (var i = 0; i < order.length; i++) {
+          part = order[i];
+          if (part.to > start && part.from <= start) { break }
+        }
+        if (part.to >= end) { return inner(builder, text, style, startStyle, endStyle, css, attributes) }
+        inner(builder, text.slice(0, part.to - start), style, startStyle, null, css, attributes);
+        startStyle = null;
+        text = text.slice(part.to - start);
+        start = part.to;
+      }
+    }
+  }
+
+  function buildCollapsedSpan(builder, size, marker, ignoreWidget) {
+    var widget = !ignoreWidget && marker.widgetNode;
+    if (widget) { builder.map.push(builder.pos, builder.pos + size, widget); }
+    if (!ignoreWidget && builder.cm.display.input.needsContentAttribute) {
+      if (!widget)
+        { widget = builder.content.appendChild(document.createElement("span")); }
+      widget.setAttribute("cm-marker", marker.id);
+    }
+    if (widget) {
+      builder.cm.display.input.setUneditable(widget);
+      builder.content.appendChild(widget);
+    }
+    builder.pos += size;
+    builder.trailingSpace = false;
+  }
+
+  // Outputs a number of spans to make up a line, taking highlighting
+  // and marked text into account.
+  function insertLineContent(line, builder, styles) {
+    var spans = line.markedSpans, allText = line.text, at = 0;
+    if (!spans) {
+      for (var i$1 = 1; i$1 < styles.length; i$1+=2)
+        { builder.addToken(builder, allText.slice(at, at = styles[i$1]), interpretTokenStyle(styles[i$1+1], builder.cm.options)); }
+      return
+    }
+
+    var len = allText.length, pos = 0, i = 1, text = "", style, css;
+    var nextChange = 0, spanStyle, spanEndStyle, spanStartStyle, collapsed, attributes;
+    for (;;) {
+      if (nextChange == pos) { // Update current marker set
+        spanStyle = spanEndStyle = spanStartStyle = css = "";
+        attributes = null;
+        collapsed = null; nextChange = Infinity;
+        var foundBookmarks = [], endStyles = (void 0);
+        for (var j = 0; j < spans.length; ++j) {
+          var sp = spans[j], m = sp.marker;
+          if (m.type == "bookmark" && sp.from == pos && m.widgetNode) {
+            foundBookmarks.push(m);
+          } else if (sp.from <= pos && (sp.to == null || sp.to > pos || m.collapsed && sp.to == pos && sp.from == pos)) {
+            if (sp.to != null && sp.to != pos && nextChange > sp.to) {
+              nextChange = sp.to;
+              spanEndStyle = "";
+            }
+            if (m.className) { spanStyle += " " + m.className; }
+            if (m.css) { css = (css ? css + ";" : "") + m.css; }
+            if (m.startStyle && sp.from == pos) { spanStartStyle += " " + m.startStyle; }
+            if (m.endStyle && sp.to == nextChange) { (endStyles || (endStyles = [])).push(m.endStyle, sp.to); }
+            // support for the old title property
+            // https://github.com/codemirror/CodeMirror/pull/5673
+            if (m.title) { (attributes || (attributes = {})).title = m.title; }
+            if (m.attributes) {
+              for (var attr in m.attributes)
+                { (attributes || (attributes = {}))[attr] = m.attributes[attr]; }
+            }
+            if (m.collapsed && (!collapsed || compareCollapsedMarkers(collapsed.marker, m) < 0))
+              { collapsed = sp; }
+          } else if (sp.from > pos && nextChange > sp.from) {
+            nextChange = sp.from;
+          }
+        }
+        if (endStyles) { for (var j$1 = 0; j$1 < endStyles.length; j$1 += 2)
+          { if (endStyles[j$1 + 1] == nextChange) { spanEndStyle += " " + endStyles[j$1]; } } }
+
+        if (!collapsed || collapsed.from == pos) { for (var j$2 = 0; j$2 < foundBookmarks.length; ++j$2)
+          { buildCollapsedSpan(builder, 0, foundBookmarks[j$2]); } }
+        if (collapsed && (collapsed.from || 0) == pos) {
+          buildCollapsedSpan(builder, (collapsed.to == null ? len + 1 : collapsed.to) - pos,
+                             collapsed.marker, collapsed.from == null);
+          if (collapsed.to == null) { return }
+          if (collapsed.to == pos) { collapsed = false; }
+        }
+      }
+      if (pos >= len) { break }
+
+      var upto = Math.min(len, nextChange);
+      while (true) {
+        if (text) {
+          var end = pos + text.length;
+          if (!collapsed) {
+            var tokenText = end > upto ? text.slice(0, upto - pos) : text;
+            builder.addToken(builder, tokenText, style ? style + spanStyle : spanStyle,
+                             spanStartStyle, pos + tokenText.length == nextChange ? spanEndStyle : "", css, attributes);
+          }
+          if (end >= upto) {text = text.slice(upto - pos); pos = upto; break}
+          pos = end;
+          spanStartStyle = "";
+        }
+        text = allText.slice(at, at = styles[i++]);
+        style = interpretTokenStyle(styles[i++], builder.cm.options);
+      }
+    }
+  }
+
+
+  // These objects are used to represent the visible (currently drawn)
+  // part of the document. A LineView may correspond to multiple
+  // logical lines, if those are connected by collapsed ranges.
+  function LineView(doc, line, lineN) {
+    // The starting line
+    this.line = line;
+    // Continuing lines, if any
+    this.rest = visualLineContinued(line);
+    // Number of logical lines in this visual line
+    this.size = this.rest ? lineNo(lst(this.rest)) - lineN + 1 : 1;
+    this.node = this.text = null;
+    this.hidden = lineIsHidden(doc, line);
+  }
+
+  // Create a range of LineView objects for the given lines.
+  function buildViewArray(cm, from, to) {
+    var array = [], nextPos;
+    for (var pos = from; pos < to; pos = nextPos) {
+      var view = new LineView(cm.doc, getLine(cm.doc, pos), pos);
+      nextPos = pos + view.size;
+      array.push(view);
+    }
+    return array
+  }
+
+  var operationGroup = null;
+
+  function pushOperation(op) {
+    if (operationGroup) {
+      operationGroup.ops.push(op);
+    } else {
+      op.ownsGroup = operationGroup = {
+        ops: [op],
+        delayedCallbacks: []
+      };
+    }
+  }
+
+  function fireCallbacksForOps(group) {
+    // Calls delayed callbacks and cursorActivity handlers until no
+    // new ones appear
+    var callbacks = group.delayedCallbacks, i = 0;
+    do {
+      for (; i < callbacks.length; i++)
+        { callbacks[i].call(null); }
+      for (var j = 0; j < group.ops.length; j++) {
+        var op = group.ops[j];
+        if (op.cursorActivityHandlers)
+          { while (op.cursorActivityCalled < op.cursorActivityHandlers.length)
+            { op.cursorActivityHandlers[op.cursorActivityCalled++].call(null, op.cm); } }
+      }
+    } while (i < callbacks.length)
+  }
+
+  function finishOperation(op, endCb) {
+    var group = op.ownsGroup;
+    if (!group) { return }
+
+    try { fireCallbacksForOps(group); }
+    finally {
+      operationGroup = null;
+      endCb(group);
+    }
+  }
+
+  var orphanDelayedCallbacks = null;
+
+  // Often, we want to signal events at a point where we are in the
+  // middle of some work, but don't want the handler to start calling
+  // other methods on the editor, which might be in an inconsistent
+  // state or simply not expect any other events to happen.
+  // signalLater looks whether there are any handlers, and schedules
+  // them to be executed when the last operation ends, or, if no
+  // operation is active, when a timeout fires.
+  function signalLater(emitter, type /*, values...*/) {
+    var arr = getHandlers(emitter, type);
+    if (!arr.length) { return }
+    var args = Array.prototype.slice.call(arguments, 2), list;
+    if (operationGroup) {
+      list = operationGroup.delayedCallbacks;
+    } else if (orphanDelayedCallbacks) {
+      list = orphanDelayedCallbacks;
+    } else {
+      list = orphanDelayedCallbacks = [];
+      setTimeout(fireOrphanDelayed, 0);
+    }
+    var loop = function ( i ) {
+      list.push(function () { return arr[i].apply(null, args); });
+    };
+
+    for (var i = 0; i < arr.length; ++i)
+      loop( i );
+  }
+
+  function fireOrphanDelayed() {
+    var delayed = orphanDelayedCallbacks;
+    orphanDelayedCallbacks = null;
+    for (var i = 0; i < delayed.length; ++i) { delayed[i](); }
+  }
+
+  // When an aspect of a line changes, a string is added to
+  // lineView.changes. This updates the relevant part of the line's
+  // DOM structure.
+  function updateLineForChanges(cm, lineView, lineN, dims) {
+    for (var j = 0; j < lineView.changes.length; j++) {
+      var type = lineView.changes[j];
+      if (type == "text") { updateLineText(cm, lineView); }
+      else if (type == "gutter") { updateLineGutter(cm, lineView, lineN, dims); }
+      else if (type == "class") { updateLineClasses(cm, lineView); }
+      else if (type == "widget") { updateLineWidgets(cm, lineView, dims); }
+    }
+    lineView.changes = null;
+  }
+
+  // Lines with gutter elements, widgets or a background class need to
+  // be wrapped, and have the extra elements added to the wrapper div
+  function ensureLineWrapped(lineView) {
+    if (lineView.node == lineView.text) {
+      lineView.node = elt("div", null, null, "position: relative");
+      if (lineView.text.parentNode)
+        { lineView.text.parentNode.replaceChild(lineView.node, lineView.text); }
+      lineView.node.appendChild(lineView.text);
+      if (ie && ie_version < 8) { lineView.node.style.zIndex = 2; }
+    }
+    return lineView.node
+  }
+
+  function updateLineBackground(cm, lineView) {
+    var cls = lineView.bgClass ? lineView.bgClass + " " + (lineView.line.bgClass || "") : lineView.line.bgClass;
+    if (cls) { cls += " CodeMirror-linebackground"; }
+    if (lineView.background) {
+      if (cls) { lineView.background.className = cls; }
+      else { lineView.background.parentNode.removeChild(lineView.background); lineView.background = null; }
+    } else if (cls) {
+      var wrap = ensureLineWrapped(lineView);
+      lineView.background = wrap.insertBefore(elt("div", null, cls), wrap.firstChild);
+      cm.display.input.setUneditable(lineView.background);
+    }
+  }
+
+  // Wrapper around buildLineContent which will reuse the structure
+  // in display.externalMeasured when possible.
+  function getLineContent(cm, lineView) {
+    var ext = cm.display.externalMeasured;
+    if (ext && ext.line == lineView.line) {
+      cm.display.externalMeasured = null;
+      lineView.measure = ext.measure;
+      return ext.built
+    }
+    return buildLineContent(cm, lineView)
+  }
+
+  // Redraw the line's text. Interacts with the background and text
+  // classes because the mode may output tokens that influence these
+  // classes.
+  function updateLineText(cm, lineView) {
+    var cls = lineView.text.className;
+    var built = getLineContent(cm, lineView);
+    if (lineView.text == lineView.node) { lineView.node = built.pre; }
+    lineView.text.parentNode.replaceChild(built.pre, lineView.text);
+    lineView.text = built.pre;
+    if (built.bgClass != lineView.bgClass || built.textClass != lineView.textClass) {
+      lineView.bgClass = built.bgClass;
+      lineView.textClass = built.textClass;
+      updateLineClasses(cm, lineView);
+    } else if (cls) {
+      lineView.text.className = cls;
+    }
+  }
+
+  function updateLineClasses(cm, lineView) {
+    updateLineBackground(cm, lineView);
+    if (lineView.line.wrapClass)
+      { ensureLineWrapped(lineView).className = lineView.line.wrapClass; }
+    else if (lineView.node != lineView.text)
+      { lineView.node.className = ""; }
+    var textClass = lineView.textClass ? lineView.textClass + " " + (lineView.line.textClass || "") : lineView.line.textClass;
+    lineView.text.className = textClass || "";
+  }
+
+  function updateLineGutter(cm, lineView, lineN, dims) {
+    if (lineView.gutter) {
+      lineView.node.removeChild(lineView.gutter);
+      lineView.gutter = null;
+    }
+    if (lineView.gutterBackground) {
+      lineView.node.removeChild(lineView.gutterBackground);
+      lineView.gutterBackground = null;
+    }
+    if (lineView.line.gutterClass) {
+      var wrap = ensureLineWrapped(lineView);
+      lineView.gutterBackground = elt("div", null, "CodeMirror-gutter-background " + lineView.line.gutterClass,
+                                      ("left: " + (cm.options.fixedGutter ? dims.fixedPos : -dims.gutterTotalWidth) + "px; width: " + (dims.gutterTotalWidth) + "px"));
+      cm.display.input.setUneditable(lineView.gutterBackground);
+      wrap.insertBefore(lineView.gutterBackground, lineView.text);
+    }
+    var markers = lineView.line.gutterMarkers;
+    if (cm.options.lineNumbers || markers) {
+      var wrap$1 = ensureLineWrapped(lineView);
+      var gutterWrap = lineView.gutter = elt("div", null, "CodeMirror-gutter-wrapper", ("left: " + (cm.options.fixedGutter ? dims.fixedPos : -dims.gutterTotalWidth) + "px"));
+      cm.display.input.setUneditable(gutterWrap);
+      wrap$1.insertBefore(gutterWrap, lineView.text);
+      if (lineView.line.gutterClass)
+        { gutterWrap.className += " " + lineView.line.gutterClass; }
+      if (cm.options.lineNumbers && (!markers || !markers["CodeMirror-linenumbers"]))
+        { lineView.lineNumber = gutterWrap.appendChild(
+          elt("div", lineNumberFor(cm.options, lineN),
+              "CodeMirror-linenumber CodeMirror-gutter-elt",
+              ("left: " + (dims.gutterLeft["CodeMirror-linenumbers"]) + "px; width: " + (cm.display.lineNumInnerWidth) + "px"))); }
+      if (markers) { for (var k = 0; k < cm.display.gutterSpecs.length; ++k) {
+        var id = cm.display.gutterSpecs[k].className, found = markers.hasOwnProperty(id) && markers[id];
+        if (found)
+          { gutterWrap.appendChild(elt("div", [found], "CodeMirror-gutter-elt",
+                                     ("left: " + (dims.gutterLeft[id]) + "px; width: " + (dims.gutterWidth[id]) + "px"))); }
+      } }
+    }
+  }
+
+  function updateLineWidgets(cm, lineView, dims) {
+    if (lineView.alignable) { lineView.alignable = null; }
+    var isWidget = classTest("CodeMirror-linewidget");
+    for (var node = lineView.node.firstChild, next = (void 0); node; node = next) {
+      next = node.nextSibling;
+      if (isWidget.test(node.className)) { lineView.node.removeChild(node); }
+    }
+    insertLineWidgets(cm, lineView, dims);
+  }
+
+  // Build a line's DOM representation from scratch
+  function buildLineElement(cm, lineView, lineN, dims) {
+    var built = getLineContent(cm, lineView);
+    lineView.text = lineView.node = built.pre;
+    if (built.bgClass) { lineView.bgClass = built.bgClass; }
+    if (built.textClass) { lineView.textClass = built.textClass; }
+
+    updateLineClasses(cm, lineView);
+    updateLineGutter(cm, lineView, lineN, dims);
+    insertLineWidgets(cm, lineView, dims);
+    return lineView.node
+  }
+
+  // A lineView may contain multiple logical lines (when merged by
+  // collapsed spans). The widgets for all of them need to be drawn.
+  function insertLineWidgets(cm, lineView, dims) {
+    insertLineWidgetsFor(cm, lineView.line, lineView, dims, true);
+    if (lineView.rest) { for (var i = 0; i < lineView.rest.length; i++)
+      { insertLineWidgetsFor(cm, lineView.rest[i], lineView, dims, false); } }
+  }
+
+  function insertLineWidgetsFor(cm, line, lineView, dims, allowAbove) {
+    if (!line.widgets) { return }
+    var wrap = ensureLineWrapped(lineView);
+    for (var i = 0, ws = line.widgets; i < ws.length; ++i) {
+      var widget = ws[i], node = elt("div", [widget.node], "CodeMirror-linewidget" + (widget.className ? " " + widget.className : ""));
+      if (!widget.handleMouseEvents) { node.setAttribute("cm-ignore-events", "true"); }
+      positionLineWidget(widget, node, lineView, dims);
+      cm.display.input.setUneditable(node);
+      if (allowAbove && widget.above)
+        { wrap.insertBefore(node, lineView.gutter || lineView.text); }
+      else
+        { wrap.appendChild(node); }
+      signalLater(widget, "redraw");
+    }
+  }
+
+  function positionLineWidget(widget, node, lineView, dims) {
+    if (widget.noHScroll) {
+  (lineView.alignable || (lineView.alignable = [])).push(node);
+      var width = dims.wrapperWidth;
+      node.style.left = dims.fixedPos + "px";
+      if (!widget.coverGutter) {
+        width -= dims.gutterTotalWidth;
+        node.style.paddingLeft = dims.gutterTotalWidth + "px";
+      }
+      node.style.width = width + "px";
+    }
+    if (widget.coverGutter) {
+      node.style.zIndex = 5;
+      node.style.position = "relative";
+      if (!widget.noHScroll) { node.style.marginLeft = -dims.gutterTotalWidth + "px"; }
+    }
+  }
+
+  function widgetHeight(widget) {
+    if (widget.height != null) { return widget.height }
+    var cm = widget.doc.cm;
+    if (!cm) { return 0 }
+    if (!contains(document.body, widget.node)) {
+      var parentStyle = "position: relative;";
+      if (widget.coverGutter)
+        { parentStyle += "margin-left: -" + cm.display.gutters.offsetWidth + "px;"; }
+      if (widget.noHScroll)
+        { parentStyle += "width: " + cm.display.wrapper.clientWidth + "px;"; }
+      removeChildrenAndAdd(cm.display.measure, elt("div", [widget.node], null, parentStyle));
+    }
+    return widget.height = widget.node.parentNode.offsetHeight
+  }
+
+  // Return true when the given mouse event happened in a widget
+  function eventInWidget(display, e) {
+    for (var n = e_target(e); n != display.wrapper; n = n.parentNode) {
+      if (!n || (n.nodeType == 1 && n.getAttribute("cm-ignore-events") == "true") ||
+          (n.parentNode == display.sizer && n != display.mover))
+        { return true }
+    }
+  }
+
+  // POSITION MEASUREMENT
+
+  function paddingTop(display) {return display.lineSpace.offsetTop}
+  function paddingVert(display) {return display.mover.offsetHeight - display.lineSpace.offsetHeight}
+  function paddingH(display) {
+    if (display.cachedPaddingH) { return display.cachedPaddingH }
+    var e = removeChildrenAndAdd(display.measure, elt("pre", "x", "CodeMirror-line-like"));
+    var style = window.getComputedStyle ? window.getComputedStyle(e) : e.currentStyle;
+    var data = {left: parseInt(style.paddingLeft), right: parseInt(style.paddingRight)};
+    if (!isNaN(data.left) && !isNaN(data.right)) { display.cachedPaddingH = data; }
+    return data
+  }
+
+  function scrollGap(cm) { return scrollerGap - cm.display.nativeBarWidth }
+  function displayWidth(cm) {
+    return cm.display.scroller.clientWidth - scrollGap(cm) - cm.display.barWidth
+  }
+  function displayHeight(cm) {
+    return cm.display.scroller.clientHeight - scrollGap(cm) - cm.display.barHeight
+  }
+
+  // Ensure the lineView.wrapping.heights array is populated. This is
+  // an array of bottom offsets for the lines that make up a drawn
+  // line. When lineWrapping is on, there might be more than one
+  // height.
+  function ensureLineHeights(cm, lineView, rect) {
+    var wrapping = cm.options.lineWrapping;
+    var curWidth = wrapping && displayWidth(cm);
+    if (!lineView.measure.heights || wrapping && lineView.measure.width != curWidth) {
+      var heights = lineView.measure.heights = [];
+      if (wrapping) {
+        lineView.measure.width = curWidth;
+        var rects = lineView.text.firstChild.getClientRects();
+        for (var i = 0; i < rects.length - 1; i++) {
+          var cur = rects[i], next = rects[i + 1];
+          if (Math.abs(cur.bottom - next.bottom) > 2)
+            { heights.push((cur.bottom + next.top) / 2 - rect.top); }
+        }
+      }
+      heights.push(rect.bottom - rect.top);
+    }
+  }
+
+  // Find a line map (mapping character offsets to text nodes) and a
+  // measurement cache for the given line number. (A line view might
+  // contain multiple lines when collapsed ranges are present.)
+  function mapFromLineView(lineView, line, lineN) {
+    if (lineView.line == line)
+      { return {map: lineView.measure.map, cache: lineView.measure.cache} }
+    for (var i = 0; i < lineView.rest.length; i++)
+      { if (lineView.rest[i] == line)
+        { return {map: lineView.measure.maps[i], cache: lineView.measure.caches[i]} } }
+    for (var i$1 = 0; i$1 < lineView.rest.length; i$1++)
+      { if (lineNo(lineView.rest[i$1]) > lineN)
+        { return {map: lineView.measure.maps[i$1], cache: lineView.measure.caches[i$1], before: true} } }
+  }
+
+  // Render a line into the hidden node display.externalMeasured. Used
+  // when measurement is needed for a line that's not in the viewport.
+  function updateExternalMeasurement(cm, line) {
+    line = visualLine(line);
+    var lineN = lineNo(line);
+    var view = cm.display.externalMeasured = new LineView(cm.doc, line, lineN);
+    view.lineN = lineN;
+    var built = view.built = buildLineContent(cm, view);
+    view.text = built.pre;
+    removeChildrenAndAdd(cm.display.lineMeasure, built.pre);
+    return view
+  }
+
+  // Get a {top, bottom, left, right} box (in line-local coordinates)
+  // for a given character.
+  function measureChar(cm, line, ch, bias) {
+    return measureCharPrepared(cm, prepareMeasureForLine(cm, line), ch, bias)
+  }
+
+  // Find a line view that corresponds to the given line number.
+  function findViewForLine(cm, lineN) {
+    if (lineN >= cm.display.viewFrom && lineN < cm.display.viewTo)
+      { return cm.display.view[findViewIndex(cm, lineN)] }
+    var ext = cm.display.externalMeasured;
+    if (ext && lineN >= ext.lineN && lineN < ext.lineN + ext.size)
+      { return ext }
+  }
+
+  // Measurement can be split in two steps, the set-up work that
+  // applies to the whole line, and the measurement of the actual
+  // character. Functions like coordsChar, that need to do a lot of
+  // measurements in a row, can thus ensure that the set-up work is
+  // only done once.
+  function prepareMeasureForLine(cm, line) {
+    var lineN = lineNo(line);
+    var view = findViewForLine(cm, lineN);
+    if (view && !view.text) {
+      view = null;
+    } else if (view && view.changes) {
+      updateLineForChanges(cm, view, lineN, getDimensions(cm));
+      cm.curOp.forceUpdate = true;
+    }
+    if (!view)
+      { view = updateExternalMeasurement(cm, line); }
+
+    var info = mapFromLineView(view, line, lineN);
+    return {
+      line: line, view: view, rect: null,
+      map: info.map, cache: info.cache, before: info.before,
+      hasHeights: false
+    }
+  }
+
+  // Given a prepared measurement object, measures the position of an
+  // actual character (or fetches it from the cache).
+  function measureCharPrepared(cm, prepared, ch, bias, varHeight) {
+    if (prepared.before) { ch = -1; }
+    var key = ch + (bias || ""), found;
+    if (prepared.cache.hasOwnProperty(key)) {
+      found = prepared.cache[key];
+    } else {
+      if (!prepared.rect)
+        { prepared.rect = prepared.view.text.getBoundingClientRect(); }
+      if (!prepared.hasHeights) {
+        ensureLineHeights(cm, prepared.view, prepared.rect);
+        prepared.hasHeights = true;
+      }
+      found = measureCharInner(cm, prepared, ch, bias);
+      if (!found.bogus) { prepared.cache[key] = found; }
+    }
+    return {left: found.left, right: found.right,
+            top: varHeight ? found.rtop : found.top,
+            bottom: varHeight ? found.rbottom : found.bottom}
+  }
+
+  var nullRect = {left: 0, right: 0, top: 0, bottom: 0};
+
+  function nodeAndOffsetInLineMap(map, ch, bias) {
+    var node, start, end, collapse, mStart, mEnd;
+    // First, search the line map for the text node corresponding to,
+    // or closest to, the target character.
+    for (var i = 0; i < map.length; i += 3) {
+      mStart = map[i];
+      mEnd = map[i + 1];
+      if (ch < mStart) {
+        start = 0; end = 1;
+        collapse = "left";
+      } else if (ch < mEnd) {
+        start = ch - mStart;
+        end = start + 1;
+      } else if (i == map.length - 3 || ch == mEnd && map[i + 3] > ch) {
+        end = mEnd - mStart;
+        start = end - 1;
+        if (ch >= mEnd) { collapse = "right"; }
+      }
+      if (start != null) {
+        node = map[i + 2];
+        if (mStart == mEnd && bias == (node.insertLeft ? "left" : "right"))
+          { collapse = bias; }
+        if (bias == "left" && start == 0)
+          { while (i && map[i - 2] == map[i - 3] && map[i - 1].insertLeft) {
+            node = map[(i -= 3) + 2];
+            collapse = "left";
+          } }
+        if (bias == "right" && start == mEnd - mStart)
+          { while (i < map.length - 3 && map[i + 3] == map[i + 4] && !map[i + 5].insertLeft) {
+            node = map[(i += 3) + 2];
+            collapse = "right";
+          } }
+        break
+      }
+    }
+    return {node: node, start: start, end: end, collapse: collapse, coverStart: mStart, coverEnd: mEnd}
+  }
+
+  function getUsefulRect(rects, bias) {
+    var rect = nullRect;
+    if (bias == "left") { for (var i = 0; i < rects.length; i++) {
+      if ((rect = rects[i]).left != rect.right) { break }
+    } } else { for (var i$1 = rects.length - 1; i$1 >= 0; i$1--) {
+      if ((rect = rects[i$1]).left != rect.right) { break }
+    } }
+    return rect
+  }
+
+  function measureCharInner(cm, prepared, ch, bias) {
+    var place = nodeAndOffsetInLineMap(prepared.map, ch, bias);
+    var node = place.node, start = place.start, end = place.end, collapse = place.collapse;
+
+    var rect;
+    if (node.nodeType == 3) { // If it is a text node, use a range to retrieve the coordinates.
+      for (var i$1 = 0; i$1 < 4; i$1++) { // Retry a maximum of 4 times when nonsense rectangles are returned
+        while (start && isExtendingChar(prepared.line.text.charAt(place.coverStart + start))) { --start; }
+        while (place.coverStart + end < place.coverEnd && isExtendingChar(prepared.line.text.charAt(place.coverStart + end))) { ++end; }
+        if (ie && ie_version < 9 && start == 0 && end == place.coverEnd - place.coverStart)
+          { rect = node.parentNode.getBoundingClientRect(); }
+        else
+          { rect = getUsefulRect(range(node, start, end).getClientRects(), bias); }
+        if (rect.left || rect.right || start == 0) { break }
+        end = start;
+        start = start - 1;
+        collapse = "right";
+      }
+      if (ie && ie_version < 11) { rect = maybeUpdateRectForZooming(cm.display.measure, rect); }
+    } else { // If it is a widget, simply get the box for the whole widget.
+      if (start > 0) { collapse = bias = "right"; }
+      var rects;
+      if (cm.options.lineWrapping && (rects = node.getClientRects()).length > 1)
+        { rect = rects[bias == "right" ? rects.length - 1 : 0]; }
+      else
+        { rect = node.getBoundingClientRect(); }
+    }
+    if (ie && ie_version < 9 && !start && (!rect || !rect.left && !rect.right)) {
+      var rSpan = node.parentNode.getClientRects()[0];
+      if (rSpan)
+        { rect = {left: rSpan.left, right: rSpan.left + charWidth(cm.display), top: rSpan.top, bottom: rSpan.bottom}; }
+      else
+        { rect = nullRect; }
+    }
+
+    var rtop = rect.top - prepared.rect.top, rbot = rect.bottom - prepared.rect.top;
+    var mid = (rtop + rbot) / 2;
+    var heights = prepared.view.measure.heights;
+    var i = 0;
+    for (; i < heights.length - 1; i++)
+      { if (mid < heights[i]) { break } }
+    var top = i ? heights[i - 1] : 0, bot = heights[i];
+    var result = {left: (collapse == "right" ? rect.right : rect.left) - prepared.rect.left,
+                  right: (collapse == "left" ? rect.left : rect.right) - prepared.rect.left,
+                  top: top, bottom: bot};
+    if (!rect.left && !rect.right) { result.bogus = true; }
+    if (!cm.options.singleCursorHeightPerLine) { result.rtop = rtop; result.rbottom = rbot; }
+
+    return result
+  }
+
+  // Work around problem with bounding client rects on ranges being
+  // returned incorrectly when zoomed on IE10 and below.
+  function maybeUpdateRectForZooming(measure, rect) {
+    if (!window.screen || screen.logicalXDPI == null ||
+        screen.logicalXDPI == screen.deviceXDPI || !hasBadZoomedRects(measure))
+      { return rect }
+    var scaleX = screen.logicalXDPI / screen.deviceXDPI;
+    var scaleY = screen.logicalYDPI / screen.deviceYDPI;
+    return {left: rect.left * scaleX, right: rect.right * scaleX,
+            top: rect.top * scaleY, bottom: rect.bottom * scaleY}
+  }
+
+  function clearLineMeasurementCacheFor(lineView) {
+    if (lineView.measure) {
+      lineView.measure.cache = {};
+      lineView.measure.heights = null;
+      if (lineView.rest) { for (var i = 0; i < lineView.rest.length; i++)
+        { lineView.measure.caches[i] = {}; } }
+    }
+  }
+
+  function clearLineMeasurementCache(cm) {
+    cm.display.externalMeasure = null;
+    removeChildren(cm.display.lineMeasure);
+    for (var i = 0; i < cm.display.view.length; i++)
+      { clearLineMeasurementCacheFor(cm.display.view[i]); }
+  }
+
+  function clearCaches(cm) {
+    clearLineMeasurementCache(cm);
+    cm.display.cachedCharWidth = cm.display.cachedTextHeight = cm.display.cachedPaddingH = null;
+    if (!cm.options.lineWrapping) { cm.display.maxLineChanged = true; }
+    cm.display.lineNumChars = null;
+  }
+
+  function pageScrollX() {
+    // Work around https://bugs.chromium.org/p/chromium/issues/detail?id=489206
+    // which causes page_Offset and bounding client rects to use
+    // different reference viewports and invalidate our calculations.
+    if (chrome && android) { return -(document.body.getBoundingClientRect().left - parseInt(getComputedStyle(document.body).marginLeft)) }
+    return window.pageXOffset || (document.documentElement || document.body).scrollLeft
+  }
+  function pageScrollY() {
+    if (chrome && android) { return -(document.body.getBoundingClientRect().top - parseInt(getComputedStyle(document.body).marginTop)) }
+    return window.pageYOffset || (document.documentElement || document.body).scrollTop
+  }
+
+  function widgetTopHeight(lineObj) {
+    var height = 0;
+    if (lineObj.widgets) { for (var i = 0; i < lineObj.widgets.length; ++i) { if (lineObj.widgets[i].above)
+      { height += widgetHeight(lineObj.widgets[i]); } } }
+    return height
+  }
+
+  // Converts a {top, bottom, left, right} box from line-local
+  // coordinates into another coordinate system. Context may be one of
+  // "line", "div" (display.lineDiv), "local"./null (editor), "window",
+  // or "page".
+  function intoCoordSystem(cm, lineObj, rect, context, includeWidgets) {
+    if (!includeWidgets) {
+      var height = widgetTopHeight(lineObj);
+      rect.top += height; rect.bottom += height;
+    }
+    if (context == "line") { return rect }
+    if (!context) { context = "local"; }
+    var yOff = heightAtLine(lineObj);
+    if (context == "local") { yOff += paddingTop(cm.display); }
+    else { yOff -= cm.display.viewOffset; }
+    if (context == "page" || context == "window") {
+      var lOff = cm.display.lineSpace.getBoundingClientRect();
+      yOff += lOff.top + (context == "window" ? 0 : pageScrollY());
+      var xOff = lOff.left + (context == "window" ? 0 : pageScrollX());
+      rect.left += xOff; rect.right += xOff;
+    }
+    rect.top += yOff; rect.bottom += yOff;
+    return rect
+  }
+
+  // Coverts a box from "div" coords to another coordinate system.
+  // Context may be "window", "page", "div", or "local"./null.
+  function fromCoordSystem(cm, coords, context) {
+    if (context == "div") { return coords }
+    var left = coords.left, top = coords.top;
+    // First move into "page" coordinate system
+    if (context == "page") {
+      left -= pageScrollX();
+      top -= pageScrollY();
+    } else if (context == "local" || !context) {
+      var localBox = cm.display.sizer.getBoundingClientRect();
+      left += localBox.left;
+      top += localBox.top;
+    }
+
+    var lineSpaceBox = cm.display.lineSpace.getBoundingClientRect();
+    return {left: left - lineSpaceBox.left, top: top - lineSpaceBox.top}
+  }
+
+  function charCoords(cm, pos, context, lineObj, bias) {
+    if (!lineObj) { lineObj = getLine(cm.doc, pos.line); }
+    return intoCoordSystem(cm, lineObj, measureChar(cm, lineObj, pos.ch, bias), context)
+  }
+
+  // Returns a box for a given cursor position, which may have an
+  // 'other' property containing the position of the secondary cursor
+  // on a bidi boundary.
+  // A cursor Pos(line, char, "before") is on the same visual line as `char - 1`
+  // and after `char - 1` in writing order of `char - 1`
+  // A cursor Pos(line, char, "after") is on the same visual line as `char`
+  // and before `char` in writing order of `char`
+  // Examples (upper-case letters are RTL, lower-case are LTR):
+  //     Pos(0, 1, ...)
+  //     before   after
+  // ab     a|b     a|b
+  // aB     a|B     aB|
+  // Ab     |Ab     A|b
+  // AB     B|A     B|A
+  // Every position after the last character on a line is considered to stick
+  // to the last character on the line.
+  function cursorCoords(cm, pos, context, lineObj, preparedMeasure, varHeight) {
+    lineObj = lineObj || getLine(cm.doc, pos.line);
+    if (!preparedMeasure) { preparedMeasure = prepareMeasureForLine(cm, lineObj); }
+    function get(ch, right) {
+      var m = measureCharPrepared(cm, preparedMeasure, ch, right ? "right" : "left", varHeight);
+      if (right) { m.left = m.right; } else { m.right = m.left; }
+      return intoCoordSystem(cm, lineObj, m, context)
+    }
+    var order = getOrder(lineObj, cm.doc.direction), ch = pos.ch, sticky = pos.sticky;
+    if (ch >= lineObj.text.length) {
+      ch = lineObj.text.length;
+      sticky = "before";
+    } else if (ch <= 0) {
+      ch = 0;
+      sticky = "after";
+    }
+    if (!order) { return get(sticky == "before" ? ch - 1 : ch, sticky == "before") }
+
+    function getBidi(ch, partPos, invert) {
+      var part = order[partPos], right = part.level == 1;
+      return get(invert ? ch - 1 : ch, right != invert)
+    }
+    var partPos = getBidiPartAt(order, ch, sticky);
+    var other = bidiOther;
+    var val = getBidi(ch, partPos, sticky == "before");
+    if (other != null) { val.other = getBidi(ch, other, sticky != "before"); }
+    return val
+  }
+
+  // Used to cheaply estimate the coordinates for a position. Used for
+  // intermediate scroll updates.
+  function estimateCoords(cm, pos) {
+    var left = 0;
+    pos = clipPos(cm.doc, pos);
+    if (!cm.options.lineWrapping) { left = charWidth(cm.display) * pos.ch; }
+    var lineObj = getLine(cm.doc, pos.line);
+    var top = heightAtLine(lineObj) + paddingTop(cm.display);
+    return {left: left, right: left, top: top, bottom: top + lineObj.height}
+  }
+
+  // Positions returned by coordsChar contain some extra information.
+  // xRel is the relative x position of the input coordinates compared
+  // to the found position (so xRel > 0 means the coordinates are to
+  // the right of the character position, for example). When outside
+  // is true, that means the coordinates lie outside the line's
+  // vertical range.
+  function PosWithInfo(line, ch, sticky, outside, xRel) {
+    var pos = Pos(line, ch, sticky);
+    pos.xRel = xRel;
+    if (outside) { pos.outside = outside; }
+    return pos
+  }
+
+  // Compute the character position closest to the given coordinates.
+  // Input must be lineSpace-local ("div" coordinate system).
+  function coordsChar(cm, x, y) {
+    var doc = cm.doc;
+    y += cm.display.viewOffset;
+    if (y < 0) { return PosWithInfo(doc.first, 0, null, -1, -1) }
+    var lineN = lineAtHeight(doc, y), last = doc.first + doc.size - 1;
+    if (lineN > last)
+      { return PosWithInfo(doc.first + doc.size - 1, getLine(doc, last).text.length, null, 1, 1) }
+    if (x < 0) { x = 0; }
+
+    var lineObj = getLine(doc, lineN);
+    for (;;) {
+      var found = coordsCharInner(cm, lineObj, lineN, x, y);
+      var collapsed = collapsedSpanAround(lineObj, found.ch + (found.xRel > 0 || found.outside > 0 ? 1 : 0));
+      if (!collapsed) { return found }
+      var rangeEnd = collapsed.find(1);
+      if (rangeEnd.line == lineN) { return rangeEnd }
+      lineObj = getLine(doc, lineN = rangeEnd.line);
+    }
+  }
+
+  function wrappedLineExtent(cm, lineObj, preparedMeasure, y) {
+    y -= widgetTopHeight(lineObj);
+    var end = lineObj.text.length;
+    var begin = findFirst(function (ch) { return measureCharPrepared(cm, preparedMeasure, ch - 1).bottom <= y; }, end, 0);
+    end = findFirst(function (ch) { return measureCharPrepared(cm, preparedMeasure, ch).top > y; }, begin, end);
+    return {begin: begin, end: end}
+  }
+
+  function wrappedLineExtentChar(cm, lineObj, preparedMeasure, target) {
+    if (!preparedMeasure) { preparedMeasure = prepareMeasureForLine(cm, lineObj); }
+    var targetTop = intoCoordSystem(cm, lineObj, measureCharPrepared(cm, preparedMeasure, target), "line").top;
+    return wrappedLineExtent(cm, lineObj, preparedMeasure, targetTop)
+  }
+
+  // Returns true if the given side of a box is after the given
+  // coordinates, in top-to-bottom, left-to-right order.
+  function boxIsAfter(box, x, y, left) {
+    return box.bottom <= y ? false : box.top > y ? true : (left ? box.left : box.right) > x
+  }
+
+  function coordsCharInner(cm, lineObj, lineNo, x, y) {
+    // Move y into line-local coordinate space
+    y -= heightAtLine(lineObj);
+    var preparedMeasure = prepareMeasureForLine(cm, lineObj);
+    // When directly calling `measureCharPrepared`, we have to adjust
+    // for the widgets at this line.
+    var widgetHeight = widgetTopHeight(lineObj);
+    var begin = 0, end = lineObj.text.length, ltr = true;
+
+    var order = getOrder(lineObj, cm.doc.direction);
+    // If the line isn't plain left-to-right text, first figure out
+    // which bidi section the coordinates fall into.
+    if (order) {
+      var part = (cm.options.lineWrapping ? coordsBidiPartWrapped : coordsBidiPart)
+                   (cm, lineObj, lineNo, preparedMeasure, order, x, y);
+      ltr = part.level != 1;
+      // The awkward -1 offsets are needed because findFirst (called
+      // on these below) will treat its first bound as inclusive,
+      // second as exclusive, but we want to actually address the
+      // characters in the part's range
+      begin = ltr ? part.from : part.to - 1;
+      end = ltr ? part.to : part.from - 1;
+    }
+
+    // A binary search to find the first character whose bounding box
+    // starts after the coordinates. If we run across any whose box wrap
+    // the coordinates, store that.
+    var chAround = null, boxAround = null;
+    var ch = findFirst(function (ch) {
+      var box = measureCharPrepared(cm, preparedMeasure, ch);
+      box.top += widgetHeight; box.bottom += widgetHeight;
+      if (!boxIsAfter(box, x, y, false)) { return false }
+      if (box.top <= y && box.left <= x) {
+        chAround = ch;
+        boxAround = box;
+      }
+      return true
+    }, begin, end);
+
+    var baseX, sticky, outside = false;
+    // If a box around the coordinates was found, use that
+    if (boxAround) {
+      // Distinguish coordinates nearer to the left or right side of the box
+      var atLeft = x - boxAround.left < boxAround.right - x, atStart = atLeft == ltr;
+      ch = chAround + (atStart ? 0 : 1);
+      sticky = atStart ? "after" : "before";
+      baseX = atLeft ? boxAround.left : boxAround.right;
+    } else {
+      // (Adjust for extended bound, if necessary.)
+      if (!ltr && (ch == end || ch == begin)) { ch++; }
+      // To determine which side to associate with, get the box to the
+      // left of the character and compare it's vertical position to the
+      // coordinates
+      sticky = ch == 0 ? "after" : ch == lineObj.text.length ? "before" :
+        (measureCharPrepared(cm, preparedMeasure, ch - (ltr ? 1 : 0)).bottom + widgetHeight <= y) == ltr ?
+        "after" : "before";
+      // Now get accurate coordinates for this place, in order to get a
+      // base X position
+      var coords = cursorCoords(cm, Pos(lineNo, ch, sticky), "line", lineObj, preparedMeasure);
+      baseX = coords.left;
+      outside = y < coords.top ? -1 : y >= coords.bottom ? 1 : 0;
+    }
+
+    ch = skipExtendingChars(lineObj.text, ch, 1);
+    return PosWithInfo(lineNo, ch, sticky, outside, x - baseX)
+  }
+
+  function coordsBidiPart(cm, lineObj, lineNo, preparedMeasure, order, x, y) {
+    // Bidi parts are sorted left-to-right, and in a non-line-wrapping
+    // situation, we can take this ordering to correspond to the visual
+    // ordering. This finds the first part whose end is after the given
+    // coordinates.
+    var index = findFirst(function (i) {
+      var part = order[i], ltr = part.level != 1;
+      return boxIsAfter(cursorCoords(cm, Pos(lineNo, ltr ? part.to : part.from, ltr ? "before" : "after"),
+                                     "line", lineObj, preparedMeasure), x, y, true)
+    }, 0, order.length - 1);
+    var part = order[index];
+    // If this isn't the first part, the part's start is also after
+    // the coordinates, and the coordinates aren't on the same line as
+    // that start, move one part back.
+    if (index > 0) {
+      var ltr = part.level != 1;
+      var start = cursorCoords(cm, Pos(lineNo, ltr ? part.from : part.to, ltr ? "after" : "before"),
+                               "line", lineObj, preparedMeasure);
+      if (boxIsAfter(start, x, y, true) && start.top > y)
+        { part = order[index - 1]; }
+    }
+    return part
+  }
+
+  function coordsBidiPartWrapped(cm, lineObj, _lineNo, preparedMeasure, order, x, y) {
+    // In a wrapped line, rtl text on wrapping boundaries can do things
+    // that don't correspond to the ordering in our `order` array at
+    // all, so a binary search doesn't work, and we want to return a
+    // part that only spans one line so that the binary search in
+    // coordsCharInner is safe. As such, we first find the extent of the
+    // wrapped line, and then do a flat search in which we discard any
+    // spans that aren't on the line.
+    var ref = wrappedLineExtent(cm, lineObj, preparedMeasure, y);
+    var begin = ref.begin;
+    var end = ref.end;
+    if (/\s/.test(lineObj.text.charAt(end - 1))) { end--; }
+    var part = null, closestDist = null;
+    for (var i = 0; i < order.length; i++) {
+      var p = order[i];
+      if (p.from >= end || p.to <= begin) { continue }
+      var ltr = p.level != 1;
+      var endX = measureCharPrepared(cm, preparedMeasure, ltr ? Math.min(end, p.to) - 1 : Math.max(begin, p.from)).right;
+      // Weigh against spans ending before this, so that they are only
+      // picked if nothing ends after
+      var dist = endX < x ? x - endX + 1e9 : endX - x;
+      if (!part || closestDist > dist) {
+        part = p;
+        closestDist = dist;
+      }
+    }
+    if (!part) { part = order[order.length - 1]; }
+    // Clip the part to the wrapped line.
+    if (part.from < begin) { part = {from: begin, to: part.to, level: part.level}; }
+    if (part.to > end) { part = {from: part.from, to: end, level: part.level}; }
+    return part
+  }
+
+  var measureText;
+  // Compute the default text height.
+  function textHeight(display) {
+    if (display.cachedTextHeight != null) { return display.cachedTextHeight }
+    if (measureText == null) {
+      measureText = elt("pre", null, "CodeMirror-line-like");
+      // Measure a bunch of lines, for browsers that compute
+      // fractional heights.
+      for (var i = 0; i < 49; ++i) {
+        measureText.appendChild(document.createTextNode("x"));
+        measureText.appendChild(elt("br"));
+      }
+      measureText.appendChild(document.createTextNode("x"));
+    }
+    removeChildrenAndAdd(display.measure, measureText);
+    var height = measureText.offsetHeight / 50;
+    if (height > 3) { display.cachedTextHeight = height; }
+    removeChildren(display.measure);
+    return height || 1
+  }
+
+  // Compute the default character width.
+  function charWidth(display) {
+    if (display.cachedCharWidth != null) { return display.cachedCharWidth }
+    var anchor = elt("span", "xxxxxxxxxx");
+    var pre = elt("pre", [anchor], "CodeMirror-line-like");
+    removeChildrenAndAdd(display.measure, pre);
+    var rect = anchor.getBoundingClientRect(), width = (rect.right - rect.left) / 10;
+    if (width > 2) { display.cachedCharWidth = width; }
+    return width || 10
+  }
+
+  // Do a bulk-read of the DOM positions and sizes needed to draw the
+  // view, so that we don't interleave reading and writing to the DOM.
+  function getDimensions(cm) {
+    var d = cm.display, left = {}, width = {};
+    var gutterLeft = d.gutters.clientLeft;
+    for (var n = d.gutters.firstChild, i = 0; n; n = n.nextSibling, ++i) {
+      var id = cm.display.gutterSpecs[i].className;
+      left[id] = n.offsetLeft + n.clientLeft + gutterLeft;
+      width[id] = n.clientWidth;
+    }
+    return {fixedPos: compensateForHScroll(d),
+            gutterTotalWidth: d.gutters.offsetWidth,
+            gutterLeft: left,
+            gutterWidth: width,
+            wrapperWidth: d.wrapper.clientWidth}
+  }
+
+  // Computes display.scroller.scrollLeft + display.gutters.offsetWidth,
+  // but using getBoundingClientRect to get a sub-pixel-accurate
+  // result.
+  function compensateForHScroll(display) {
+    return display.scroller.getBoundingClientRect().left - display.sizer.getBoundingClientRect().left
+  }
+
+  // Returns a function that estimates the height of a line, to use as
+  // first approximation until the line becomes visible (and is thus
+  // properly measurable).
+  function estimateHeight(cm) {
+    var th = textHeight(cm.display), wrapping = cm.options.lineWrapping;
+    var perLine = wrapping && Math.max(5, cm.display.scroller.clientWidth / charWidth(cm.display) - 3);
+    return function (line) {
+      if (lineIsHidden(cm.doc, line)) { return 0 }
+
+      var widgetsHeight = 0;
+      if (line.widgets) { for (var i = 0; i < line.widgets.length; i++) {
+        if (line.widgets[i].height) { widgetsHeight += line.widgets[i].height; }
+      } }
+
+      if (wrapping)
+        { return widgetsHeight + (Math.ceil(line.text.length / perLine) || 1) * th }
+      else
+        { return widgetsHeight + th }
+    }
+  }
+
+  function estimateLineHeights(cm) {
+    var doc = cm.doc, est = estimateHeight(cm);
+    doc.iter(function (line) {
+      var estHeight = est(line);
+      if (estHeight != line.height) { updateLineHeight(line, estHeight); }
+    });
+  }
+
+  // Given a mouse event, find the corresponding position. If liberal
+  // is false, it checks whether a gutter or scrollbar was clicked,
+  // and returns null if it was. forRect is used by rectangular
+  // selections, and tries to estimate a character position even for
+  // coordinates beyond the right of the text.
+  function posFromMouse(cm, e, liberal, forRect) {
+    var display = cm.display;
+    if (!liberal && e_target(e).getAttribute("cm-not-content") == "true") { return null }
+
+    var x, y, space = display.lineSpace.getBoundingClientRect();
+    // Fails unpredictably on IE[67] when mouse is dragged around quickly.
+    try { x = e.clientX - space.left; y = e.clientY - space.top; }
+    catch (e$1) { return null }
+    var coords = coordsChar(cm, x, y), line;
+    if (forRect && coords.xRel > 0 && (line = getLine(cm.doc, coords.line).text).length == coords.ch) {
+      var colDiff = countColumn(line, line.length, cm.options.tabSize) - line.length;
+      coords = Pos(coords.line, Math.max(0, Math.round((x - paddingH(cm.display).left) / charWidth(cm.display)) - colDiff));
+    }
+    return coords
+  }
+
+  // Find the view element corresponding to a given line. Return null
+  // when the line isn't visible.
+  function findViewIndex(cm, n) {
+    if (n >= cm.display.viewTo) { return null }
+    n -= cm.display.viewFrom;
+    if (n < 0) { return null }
+    var view = cm.display.view;
+    for (var i = 0; i < view.length; i++) {
+      n -= view[i].size;
+      if (n < 0) { return i }
+    }
+  }
+
+  // Updates the display.view data structure for a given change to the
+  // document. From and to are in pre-change coordinates. Lendiff is
+  // the amount of lines added or subtracted by the change. This is
+  // used for changes that span multiple lines, or change the way
+  // lines are divided into visual lines. regLineChange (below)
+  // registers single-line changes.
+  function regChange(cm, from, to, lendiff) {
+    if (from == null) { from = cm.doc.first; }
+    if (to == null) { to = cm.doc.first + cm.doc.size; }
+    if (!lendiff) { lendiff = 0; }
+
+    var display = cm.display;
+    if (lendiff && to < display.viewTo &&
+        (display.updateLineNumbers == null || display.updateLineNumbers > from))
+      { display.updateLineNumbers = from; }
+
+    cm.curOp.viewChanged = true;
+
+    if (from >= display.viewTo) { // Change after
+      if (sawCollapsedSpans && visualLineNo(cm.doc, from) < display.viewTo)
+        { resetView(cm); }
+    } else if (to <= display.viewFrom) { // Change before
+      if (sawCollapsedSpans && visualLineEndNo(cm.doc, to + lendiff) > display.viewFrom) {
+        resetView(cm);
+      } else {
+        display.viewFrom += lendiff;
+        display.viewTo += lendiff;
+      }
+    } else if (from <= display.viewFrom && to >= display.viewTo) { // Full overlap
+      resetView(cm);
+    } else if (from <= display.viewFrom) { // Top overlap
+      var cut = viewCuttingPoint(cm, to, to + lendiff, 1);
+      if (cut) {
+        display.view = display.view.slice(cut.index);
+        display.viewFrom = cut.lineN;
+        display.viewTo += lendiff;
+      } else {
+        resetView(cm);
+      }
+    } else if (to >= display.viewTo) { // Bottom overlap
+      var cut$1 = viewCuttingPoint(cm, from, from, -1);
+      if (cut$1) {
+        display.view = display.view.slice(0, cut$1.index);
+        display.viewTo = cut$1.lineN;
+      } else {
+        resetView(cm);
+      }
+    } else { // Gap in the middle
+      var cutTop = viewCuttingPoint(cm, from, from, -1);
+      var cutBot = viewCuttingPoint(cm, to, to + lendiff, 1);
+      if (cutTop && cutBot) {
+        display.view = display.view.slice(0, cutTop.index)
+          .concat(buildViewArray(cm, cutTop.lineN, cutBot.lineN))
+          .concat(display.view.slice(cutBot.index));
+        display.viewTo += lendiff;
+      } else {
+        resetView(cm);
+      }
+    }
+
+    var ext = display.externalMeasured;
+    if (ext) {
+      if (to < ext.lineN)
+        { ext.lineN += lendiff; }
+      else if (from < ext.lineN + ext.size)
+        { display.externalMeasured = null; }
+    }
+  }
+
+  // Register a change to a single line. Type must be one of "text",
+  // "gutter", "class", "widget"
+  function regLineChange(cm, line, type) {
+    cm.curOp.viewChanged = true;
+    var display = cm.display, ext = cm.display.externalMeasured;
+    if (ext && line >= ext.lineN && line < ext.lineN + ext.size)
+      { display.externalMeasured = null; }
+
+    if (line < display.viewFrom || line >= display.viewTo) { return }
+    var lineView = display.view[findViewIndex(cm, line)];
+    if (lineView.node == null) { return }
+    var arr = lineView.changes || (lineView.changes = []);
+    if (indexOf(arr, type) == -1) { arr.push(type); }
+  }
+
+  // Clear the view.
+  function resetView(cm) {
+    cm.display.viewFrom = cm.display.viewTo = cm.doc.first;
+    cm.display.view = [];
+    cm.display.viewOffset = 0;
+  }
+
+  function viewCuttingPoint(cm, oldN, newN, dir) {
+    var index = findViewIndex(cm, oldN), diff, view = cm.display.view;
+    if (!sawCollapsedSpans || newN == cm.doc.first + cm.doc.size)
+      { return {index: index, lineN: newN} }
+    var n = cm.display.viewFrom;
+    for (var i = 0; i < index; i++)
+      { n += view[i].size; }
+    if (n != oldN) {
+      if (dir > 0) {
+        if (index == view.length - 1) { return null }
+        diff = (n + view[index].size) - oldN;
+        index++;
+      } else {
+        diff = n - oldN;
+      }
+      oldN += diff; newN += diff;
+    }
+    while (visualLineNo(cm.doc, newN) != newN) {
+      if (index == (dir < 0 ? 0 : view.length - 1)) { return null }
+      newN += dir * view[index - (dir < 0 ? 1 : 0)].size;
+      index += dir;
+    }
+    return {index: index, lineN: newN}
+  }
+
+  // Force the view to cover a given range, adding empty view element
+  // or clipping off existing ones as needed.
+  function adjustView(cm, from, to) {
+    var display = cm.display, view = display.view;
+    if (view.length == 0 || from >= display.viewTo || to <= display.viewFrom) {
+      display.view = buildViewArray(cm, from, to);
+      display.viewFrom = from;
+    } else {
+      if (display.viewFrom > from)
+        { display.view = buildViewArray(cm, from, display.viewFrom).concat(display.view); }
+      else if (display.viewFrom < from)
+        { display.view = display.view.slice(findViewIndex(cm, from)); }
+      display.viewFrom = from;
+      if (display.viewTo < to)
+        { display.view = display.view.concat(buildViewArray(cm, display.viewTo, to)); }
+      else if (display.viewTo > to)
+        { display.view = display.view.slice(0, findViewIndex(cm, to)); }
+    }
+    display.viewTo = to;
+  }
+
+  // Count the number of lines in the view whose DOM representation is
+  // out of date (or nonexistent).
+  function countDirtyView(cm) {
+    var view = cm.display.view, dirty = 0;
+    for (var i = 0; i < view.length; i++) {
+      var lineView = view[i];
+      if (!lineView.hidden && (!lineView.node || lineView.changes)) { ++dirty; }
+    }
+    return dirty
+  }
+
+  function updateSelection(cm) {
+    cm.display.input.showSelection(cm.display.input.prepareSelection());
+  }
+
+  function prepareSelection(cm, primary) {
+    if ( primary === void 0 ) primary = true;
+
+    var doc = cm.doc, result = {};
+    var curFragment = result.cursors = document.createDocumentFragment();
+    var selFragment = result.selection = document.createDocumentFragment();
+
+    for (var i = 0; i < doc.sel.ranges.length; i++) {
+      if (!primary && i == doc.sel.primIndex) { continue }
+      var range = doc.sel.ranges[i];
+      if (range.from().line >= cm.display.viewTo || range.to().line < cm.display.viewFrom) { continue }
+      var collapsed = range.empty();
+      if (collapsed || cm.options.showCursorWhenSelecting)
+        { drawSelectionCursor(cm, range.head, curFragment); }
+      if (!collapsed)
+        { drawSelectionRange(cm, range, selFragment); }
+    }
+    return result
+  }
+
+  // Draws a cursor for the given range
+  function drawSelectionCursor(cm, head, output) {
+    var pos = cursorCoords(cm, head, "div", null, null, !cm.options.singleCursorHeightPerLine);
+
+    var cursor = output.appendChild(elt("div", "\u00a0", "CodeMirror-cursor"));
+    cursor.style.left = pos.left + "px";
+    cursor.style.top = pos.top + "px";
+    cursor.style.height = Math.max(0, pos.bottom - pos.top) * cm.options.cursorHeight + "px";
+
+    if (pos.other) {
+      // Secondary cursor, shown when on a 'jump' in bi-directional text
+      var otherCursor = output.appendChild(elt("div", "\u00a0", "CodeMirror-cursor CodeMirror-secondarycursor"));
+      otherCursor.style.display = "";
+      otherCursor.style.left = pos.other.left + "px";
+      otherCursor.style.top = pos.other.top + "px";
+      otherCursor.style.height = (pos.other.bottom - pos.other.top) * .85 + "px";
+    }
+  }
+
+  function cmpCoords(a, b) { return a.top - b.top || a.left - b.left }
+
+  // Draws the given range as a highlighted selection
+  function drawSelectionRange(cm, range, output) {
+    var display = cm.display, doc = cm.doc;
+    var fragment = document.createDocumentFragment();
+    var padding = paddingH(cm.display), leftSide = padding.left;
+    var rightSide = Math.max(display.sizerWidth, displayWidth(cm) - display.sizer.offsetLeft) - padding.right;
+    var docLTR = doc.direction == "ltr";
+
+    function add(left, top, width, bottom) {
+      if (top < 0) { top = 0; }
+      top = Math.round(top);
+      bottom = Math.round(bottom);
+      fragment.appendChild(elt("div", null, "CodeMirror-selected", ("position: absolute; left: " + left + "px;\n                             top: " + top + "px; width: " + (width == null ? rightSide - left : width) + "px;\n                             height: " + (bottom - top) + "px")));
+    }
+
+    function drawForLine(line, fromArg, toArg) {
+      var lineObj = getLine(doc, line);
+      var lineLen = lineObj.text.length;
+      var start, end;
+      function coords(ch, bias) {
+        return charCoords(cm, Pos(line, ch), "div", lineObj, bias)
+      }
+
+      function wrapX(pos, dir, side) {
+        var extent = wrappedLineExtentChar(cm, lineObj, null, pos);
+        var prop = (dir == "ltr") == (side == "after") ? "left" : "right";
+        var ch = side == "after" ? extent.begin : extent.end - (/\s/.test(lineObj.text.charAt(extent.end - 1)) ? 2 : 1);
+        return coords(ch, prop)[prop]
+      }
+
+      var order = getOrder(lineObj, doc.direction);
+      iterateBidiSections(order, fromArg || 0, toArg == null ? lineLen : toArg, function (from, to, dir, i) {
+        var ltr = dir == "ltr";
+        var fromPos = coords(from, ltr ? "left" : "right");
+        var toPos = coords(to - 1, ltr ? "right" : "left");
+
+        var openStart = fromArg == null && from == 0, openEnd = toArg == null && to == lineLen;
+        var first = i == 0, last = !order || i == order.length - 1;
+        if (toPos.top - fromPos.top <= 3) { // Single line
+          var openLeft = (docLTR ? openStart : openEnd) && first;
+          var openRight = (docLTR ? openEnd : openStart) && last;
+          var left = openLeft ? leftSide : (ltr ? fromPos : toPos).left;
+          var right = openRight ? rightSide : (ltr ? toPos : fromPos).right;
+          add(left, fromPos.top, right - left, fromPos.bottom);
+        } else { // Multiple lines
+          var topLeft, topRight, botLeft, botRight;
+          if (ltr) {
+            topLeft = docLTR && openStart && first ? leftSide : fromPos.left;
+            topRight = docLTR ? rightSide : wrapX(from, dir, "before");
+            botLeft = docLTR ? leftSide : wrapX(to, dir, "after");
+            botRight = docLTR && openEnd && last ? rightSide : toPos.right;
+          } else {
+            topLeft = !docLTR ? leftSide : wrapX(from, dir, "before");
+            topRight = !docLTR && openStart && first ? rightSide : fromPos.right;
+            botLeft = !docLTR && openEnd && last ? leftSide : toPos.left;
+            botRight = !docLTR ? rightSide : wrapX(to, dir, "after");
+          }
+          add(topLeft, fromPos.top, topRight - topLeft, fromPos.bottom);
+          if (fromPos.bottom < toPos.top) { add(leftSide, fromPos.bottom, null, toPos.top); }
+          add(botLeft, toPos.top, botRight - botLeft, toPos.bottom);
+        }
+
+        if (!start || cmpCoords(fromPos, start) < 0) { start = fromPos; }
+        if (cmpCoords(toPos, start) < 0) { start = toPos; }
+        if (!end || cmpCoords(fromPos, end) < 0) { end = fromPos; }
+        if (cmpCoords(toPos, end) < 0) { end = toPos; }
+      });
+      return {start: start, end: end}
+    }
+
+    var sFrom = range.from(), sTo = range.to();
+    if (sFrom.line == sTo.line) {
+      drawForLine(sFrom.line, sFrom.ch, sTo.ch);
+    } else {
+      var fromLine = getLine(doc, sFrom.line), toLine = getLine(doc, sTo.line);
+      var singleVLine = visualLine(fromLine) == visualLine(toLine);
+      var leftEnd = drawForLine(sFrom.line, sFrom.ch, singleVLine ? fromLine.text.length + 1 : null).end;
+      var rightStart = drawForLine(sTo.line, singleVLine ? 0 : null, sTo.ch).start;
+      if (singleVLine) {
+        if (leftEnd.top < rightStart.top - 2) {
+          add(leftEnd.right, leftEnd.top, null, leftEnd.bottom);
+          add(leftSide, rightStart.top, rightStart.left, rightStart.bottom);
+        } else {
+          add(leftEnd.right, leftEnd.top, rightStart.left - leftEnd.right, leftEnd.bottom);
+        }
+      }
+      if (leftEnd.bottom < rightStart.top)
+        { add(leftSide, leftEnd.bottom, null, rightStart.top); }
+    }
+
+    output.appendChild(fragment);
+  }
+
+  // Cursor-blinking
+  function restartBlink(cm) {
+    if (!cm.state.focused) { return }
+    var display = cm.display;
+    clearInterval(display.blinker);
+    var on = true;
+    display.cursorDiv.style.visibility = "";
+    if (cm.options.cursorBlinkRate > 0)
+      { display.blinker = setInterval(function () {
+        if (!cm.hasFocus()) { onBlur(cm); }
+        display.cursorDiv.style.visibility = (on = !on) ? "" : "hidden";
+      }, cm.options.cursorBlinkRate); }
+    else if (cm.options.cursorBlinkRate < 0)
+      { display.cursorDiv.style.visibility = "hidden"; }
+  }
+
+  function ensureFocus(cm) {
+    if (!cm.state.focused) { cm.display.input.focus(); onFocus(cm); }
+  }
+
+  function delayBlurEvent(cm) {
+    cm.state.delayingBlurEvent = true;
+    setTimeout(function () { if (cm.state.delayingBlurEvent) {
+      cm.state.delayingBlurEvent = false;
+      onBlur(cm);
+    } }, 100);
+  }
+
+  function onFocus(cm, e) {
+    if (cm.state.delayingBlurEvent) { cm.state.delayingBlurEvent = false; }
+
+    if (cm.options.readOnly == "nocursor") { return }
+    if (!cm.state.focused) {
+      signal(cm, "focus", cm, e);
+      cm.state.focused = true;
+      addClass(cm.display.wrapper, "CodeMirror-focused");
+      // This test prevents this from firing when a context
+      // menu is closed (since the input reset would kill the
+      // select-all detection hack)
+      if (!cm.curOp && cm.display.selForContextMenu != cm.doc.sel) {
+        cm.display.input.reset();
+        if (webkit) { setTimeout(function () { return cm.display.input.reset(true); }, 20); } // Issue #1730
+      }
+      cm.display.input.receivedFocus();
+    }
+    restartBlink(cm);
+  }
+  function onBlur(cm, e) {
+    if (cm.state.delayingBlurEvent) { return }
+
+    if (cm.state.focused) {
+      signal(cm, "blur", cm, e);
+      cm.state.focused = false;
+      rmClass(cm.display.wrapper, "CodeMirror-focused");
+    }
+    clearInterval(cm.display.blinker);
+    setTimeout(function () { if (!cm.state.focused) { cm.display.shift = false; } }, 150);
+  }
+
+  // Read the actual heights of the rendered lines, and update their
+  // stored heights to match.
+  function updateHeightsInViewport(cm) {
+    var display = cm.display;
+    var prevBottom = display.lineDiv.offsetTop;
+    for (var i = 0; i < display.view.length; i++) {
+      var cur = display.view[i], wrapping = cm.options.lineWrapping;
+      var height = (void 0), width = 0;
+      if (cur.hidden) { continue }
+      if (ie && ie_version < 8) {
+        var bot = cur.node.offsetTop + cur.node.offsetHeight;
+        height = bot - prevBottom;
+        prevBottom = bot;
+      } else {
+        var box = cur.node.getBoundingClientRect();
+        height = box.bottom - box.top;
+        // Check that lines don't extend past the right of the current
+        // editor width
+        if (!wrapping && cur.text.firstChild)
+          { width = cur.text.firstChild.getBoundingClientRect().right - box.left - 1; }
+      }
+      var diff = cur.line.height - height;
+      if (diff > .005 || diff < -.005) {
+        updateLineHeight(cur.line, height);
+        updateWidgetHeight(cur.line);
+        if (cur.rest) { for (var j = 0; j < cur.rest.length; j++)
+          { updateWidgetHeight(cur.rest[j]); } }
+      }
+      if (width > cm.display.sizerWidth) {
+        var chWidth = Math.ceil(width / charWidth(cm.display));
+        if (chWidth > cm.display.maxLineLength) {
+          cm.display.maxLineLength = chWidth;
+          cm.display.maxLine = cur.line;
+          cm.display.maxLineChanged = true;
+        }
+      }
+    }
+  }
+
+  // Read and store the height of line widgets associated with the
+  // given line.
+  function updateWidgetHeight(line) {
+    if (line.widgets) { for (var i = 0; i < line.widgets.length; ++i) {
+      var w = line.widgets[i], parent = w.node.parentNode;
+      if (parent) { w.height = parent.offsetHeight; }
+    } }
+  }
+
+  // Compute the lines that are visible in a given viewport (defaults
+  // the the current scroll position). viewport may contain top,
+  // height, and ensure (see op.scrollToPos) properties.
+  function visibleLines(display, doc, viewport) {
+    var top = viewport && viewport.top != null ? Math.max(0, viewport.top) : display.scroller.scrollTop;
+    top = Math.floor(top - paddingTop(display));
+    var bottom = viewport && viewport.bottom != null ? viewport.bottom : top + display.wrapper.clientHeight;
+
+    var from = lineAtHeight(doc, top), to = lineAtHeight(doc, bottom);
+    // Ensure is a {from: {line, ch}, to: {line, ch}} object, and
+    // forces those lines into the viewport (if possible).
+    if (viewport && viewport.ensure) {
+      var ensureFrom = viewport.ensure.from.line, ensureTo = viewport.ensure.to.line;
+      if (ensureFrom < from) {
+        from = ensureFrom;
+        to = lineAtHeight(doc, heightAtLine(getLine(doc, ensureFrom)) + display.wrapper.clientHeight);
+      } else if (Math.min(ensureTo, doc.lastLine()) >= to) {
+        from = lineAtHeight(doc, heightAtLine(getLine(doc, ensureTo)) - display.wrapper.clientHeight);
+        to = ensureTo;
+      }
+    }
+    return {from: from, to: Math.max(to, from + 1)}
+  }
+
+  // SCROLLING THINGS INTO VIEW
+
+  // If an editor sits on the top or bottom of the window, partially
+  // scrolled out of view, this ensures that the cursor is visible.
+  function maybeScrollWindow(cm, rect) {
+    if (signalDOMEvent(cm, "scrollCursorIntoView")) { return }
+
+    var display = cm.display, box = display.sizer.getBoundingClientRect(), doScroll = null;
+    if (rect.top + box.top < 0) { doScroll = true; }
+    else if (rect.bottom + box.top > (window.innerHeight || document.documentElement.clientHeight)) { doScroll = false; }
+    if (doScroll != null && !phantom) {
+      var scrollNode = elt("div", "\u200b", null, ("position: absolute;\n                         top: " + (rect.top - display.viewOffset - paddingTop(cm.display)) + "px;\n                         height: " + (rect.bottom - rect.top + scrollGap(cm) + display.barHeight) + "px;\n                         left: " + (rect.left) + "px; width: " + (Math.max(2, rect.right - rect.left)) + "px;"));
+      cm.display.lineSpace.appendChild(scrollNode);
+      scrollNode.scrollIntoView(doScroll);
+      cm.display.lineSpace.removeChild(scrollNode);
+    }
+  }
+
+  // Scroll a given position into view (immediately), verifying that
+  // it actually became visible (as line heights are accurately
+  // measured, the position of something may 'drift' during drawing).
+  function scrollPosIntoView(cm, pos, end, margin) {
+    if (margin == null) { margin = 0; }
+    var rect;
+    if (!cm.options.lineWrapping && pos == end) {
+      // Set pos and end to the cursor positions around the character pos sticks to
+      // If pos.sticky == "before", that is around pos.ch - 1, otherwise around pos.ch
+      // If pos == Pos(_, 0, "before"), pos and end are unchanged
+      pos = pos.ch ? Pos(pos.line, pos.sticky == "before" ? pos.ch - 1 : pos.ch, "after") : pos;
+      end = pos.sticky == "before" ? Pos(pos.line, pos.ch + 1, "before") : pos;
+    }
+    for (var limit = 0; limit < 5; limit++) {
+      var changed = false;
+      var coords = cursorCoords(cm, pos);
+      var endCoords = !end || end == pos ? coords : cursorCoords(cm, end);
+      rect = {left: Math.min(coords.left, endCoords.left),
+              top: Math.min(coords.top, endCoords.top) - margin,
+              right: Math.max(coords.left, endCoords.left),
+              bottom: Math.max(coords.bottom, endCoords.bottom) + margin};
+      var scrollPos = calculateScrollPos(cm, rect);
+      var startTop = cm.doc.scrollTop, startLeft = cm.doc.scrollLeft;
+      if (scrollPos.scrollTop != null) {
+        updateScrollTop(cm, scrollPos.scrollTop);
+        if (Math.abs(cm.doc.scrollTop - startTop) > 1) { changed = true; }
+      }
+      if (scrollPos.scrollLeft != null) {
+        setScrollLeft(cm, scrollPos.scrollLeft);
+        if (Math.abs(cm.doc.scrollLeft - startLeft) > 1) { changed = true; }
+      }
+      if (!changed) { break }
+    }
+    return rect
+  }
+
+  // Scroll a given set of coordinates into view (immediately).
+  function scrollIntoView(cm, rect) {
+    var scrollPos = calculateScrollPos(cm, rect);
+    if (scrollPos.scrollTop != null) { updateScrollTop(cm, scrollPos.scrollTop); }
+    if (scrollPos.scrollLeft != null) { setScrollLeft(cm, scrollPos.scrollLeft); }
+  }
+
+  // Calculate a new scroll position needed to scroll the given
+  // rectangle into view. Returns an object with scrollTop and
+  // scrollLeft properties. When these are undefined, the
+  // vertical/horizontal position does not need to be adjusted.
+  function calculateScrollPos(cm, rect) {
+    var display = cm.display, snapMargin = textHeight(cm.display);
+    if (rect.top < 0) { rect.top = 0; }
+    var screentop = cm.curOp && cm.curOp.scrollTop != null ? cm.curOp.scrollTop : display.scroller.scrollTop;
+    var screen = displayHeight(cm), result = {};
+    if (rect.bottom - rect.top > screen) { rect.bottom = rect.top + screen; }
+    var docBottom = cm.doc.height + paddingVert(display);
+    var atTop = rect.top < snapMargin, atBottom = rect.bottom > docBottom - snapMargin;
+    if (rect.top < screentop) {
+      result.scrollTop = atTop ? 0 : rect.top;
+    } else if (rect.bottom > screentop + screen) {
+      var newTop = Math.min(rect.top, (atBottom ? docBottom : rect.bottom) - screen);
+      if (newTop != screentop) { result.scrollTop = newTop; }
+    }
+
+    var screenleft = cm.curOp && cm.curOp.scrollLeft != null ? cm.curOp.scrollLeft : display.scroller.scrollLeft;
+    var screenw = displayWidth(cm) - (cm.options.fixedGutter ? display.gutters.offsetWidth : 0);
+    var tooWide = rect.right - rect.left > screenw;
+    if (tooWide) { rect.right = rect.left + screenw; }
+    if (rect.left < 10)
+      { result.scrollLeft = 0; }
+    else if (rect.left < screenleft)
+      { result.scrollLeft = Math.max(0, rect.left - (tooWide ? 0 : 10)); }
+    else if (rect.right > screenw + screenleft - 3)
+      { result.scrollLeft = rect.right + (tooWide ? 0 : 10) - screenw; }
+    return result
+  }
+
+  // Store a relative adjustment to the scroll position in the current
+  // operation (to be applied when the operation finishes).
+  function addToScrollTop(cm, top) {
+    if (top == null) { return }
+    resolveScrollToPos(cm);
+    cm.curOp.scrollTop = (cm.curOp.scrollTop == null ? cm.doc.scrollTop : cm.curOp.scrollTop) + top;
+  }
+
+  // Make sure that at the end of the operation the current cursor is
+  // shown.
+  function ensureCursorVisible(cm) {
+    resolveScrollToPos(cm);
+    var cur = cm.getCursor();
+    cm.curOp.scrollToPos = {from: cur, to: cur, margin: cm.options.cursorScrollMargin};
+  }
+
+  function scrollToCoords(cm, x, y) {
+    if (x != null || y != null) { resolveScrollToPos(cm); }
+    if (x != null) { cm.curOp.scrollLeft = x; }
+    if (y != null) { cm.curOp.scrollTop = y; }
+  }
+
+  function scrollToRange(cm, range) {
+    resolveScrollToPos(cm);
+    cm.curOp.scrollToPos = range;
+  }
+
+  // When an operation has its scrollToPos property set, and another
+  // scroll action is applied before the end of the operation, this
+  // 'simulates' scrolling that position into view in a cheap way, so
+  // that the effect of intermediate scroll commands is not ignored.
+  function resolveScrollToPos(cm) {
+    var range = cm.curOp.scrollToPos;
+    if (range) {
+      cm.curOp.scrollToPos = null;
+      var from = estimateCoords(cm, range.from), to = estimateCoords(cm, range.to);
+      scrollToCoordsRange(cm, from, to, range.margin);
+    }
+  }
+
+  function scrollToCoordsRange(cm, from, to, margin) {
+    var sPos = calculateScrollPos(cm, {
+      left: Math.min(from.left, to.left),
+      top: Math.min(from.top, to.top) - margin,
+      right: Math.max(from.right, to.right),
+      bottom: Math.max(from.bottom, to.bottom) + margin
+    });
+    scrollToCoords(cm, sPos.scrollLeft, sPos.scrollTop);
+  }
+
+  // Sync the scrollable area and scrollbars, ensure the viewport
+  // covers the visible area.
+  function updateScrollTop(cm, val) {
+    if (Math.abs(cm.doc.scrollTop - val) < 2) { return }
+    if (!gecko) { updateDisplaySimple(cm, {top: val}); }
+    setScrollTop(cm, val, true);
+    if (gecko) { updateDisplaySimple(cm); }
+    startWorker(cm, 100);
+  }
+
+  function setScrollTop(cm, val, forceScroll) {
+    val = Math.max(0, Math.min(cm.display.scroller.scrollHeight - cm.display.scroller.clientHeight, val));
+    if (cm.display.scroller.scrollTop == val && !forceScroll) { return }
+    cm.doc.scrollTop = val;
+    cm.display.scrollbars.setScrollTop(val);
+    if (cm.display.scroller.scrollTop != val) { cm.display.scroller.scrollTop = val; }
+  }
+
+  // Sync scroller and scrollbar, ensure the gutter elements are
+  // aligned.
+  function setScrollLeft(cm, val, isScroller, forceScroll) {
+    val = Math.max(0, Math.min(val, cm.display.scroller.scrollWidth - cm.display.scroller.clientWidth));
+    if ((isScroller ? val == cm.doc.scrollLeft : Math.abs(cm.doc.scrollLeft - val) < 2) && !forceScroll) { return }
+    cm.doc.scrollLeft = val;
+    alignHorizontally(cm);
+    if (cm.display.scroller.scrollLeft != val) { cm.display.scroller.scrollLeft = val; }
+    cm.display.scrollbars.setScrollLeft(val);
+  }
+
+  // SCROLLBARS
+
+  // Prepare DOM reads needed to update the scrollbars. Done in one
+  // shot to minimize update/measure roundtrips.
+  function measureForScrollbars(cm) {
+    var d = cm.display, gutterW = d.gutters.offsetWidth;
+    var docH = Math.round(cm.doc.height + paddingVert(cm.display));
+    return {
+      clientHeight: d.scroller.clientHeight,
+      viewHeight: d.wrapper.clientHeight,
+      scrollWidth: d.scroller.scrollWidth, clientWidth: d.scroller.clientWidth,
+      viewWidth: d.wrapper.clientWidth,
+      barLeft: cm.options.fixedGutter ? gutterW : 0,
+      docHeight: docH,
+      scrollHeight: docH + scrollGap(cm) + d.barHeight,
+      nativeBarWidth: d.nativeBarWidth,
+      gutterWidth: gutterW
+    }
+  }
+
+  var NativeScrollbars = function(place, scroll, cm) {
+    this.cm = cm;
+    var vert = this.vert = elt("div", [elt("div", null, null, "min-width: 1px")], "CodeMirror-vscrollbar");
+    var horiz = this.horiz = elt("div", [elt("div", null, null, "height: 100%; min-height: 1px")], "CodeMirror-hscrollbar");
+    vert.tabIndex = horiz.tabIndex = -1;
+    place(vert); place(horiz);
+
+    on(vert, "scroll", function () {
+      if (vert.clientHeight) { scroll(vert.scrollTop, "vertical"); }
+    });
+    on(horiz, "scroll", function () {
+      if (horiz.clientWidth) { scroll(horiz.scrollLeft, "horizontal"); }
+    });
+
+    this.checkedZeroWidth = false;
+    // Need to set a minimum width to see the scrollbar on IE7 (but must not set it on IE8).
+    if (ie && ie_version < 8) { this.horiz.style.minHeight = this.vert.style.minWidth = "18px"; }
+  };
+
+  NativeScrollbars.prototype.update = function (measure) {
+    var needsH = measure.scrollWidth > measure.clientWidth + 1;
+    var needsV = measure.scrollHeight > measure.clientHeight + 1;
+    var sWidth = measure.nativeBarWidth;
+
+    if (needsV) {
+      this.vert.style.display = "block";
+      this.vert.style.bottom = needsH ? sWidth + "px" : "0";
+      var totalHeight = measure.viewHeight - (needsH ? sWidth : 0);
+      // A bug in IE8 can cause this value to be negative, so guard it.
+      this.vert.firstChild.style.height =
+        Math.max(0, measure.scrollHeight - measure.clientHeight + totalHeight) + "px";
+    } else {
+      this.vert.style.display = "";
+      this.vert.firstChild.style.height = "0";
+    }
+
+    if (needsH) {
+      this.horiz.style.display = "block";
+      this.horiz.style.right = needsV ? sWidth + "px" : "0";
+      this.horiz.style.left = measure.barLeft + "px";
+      var totalWidth = measure.viewWidth - measure.barLeft - (needsV ? sWidth : 0);
+      this.horiz.firstChild.style.width =
+        Math.max(0, measure.scrollWidth - measure.clientWidth + totalWidth) + "px";
+    } else {
+      this.horiz.style.display = "";
+      this.horiz.firstChild.style.width = "0";
+    }
+
+    if (!this.checkedZeroWidth && measure.clientHeight > 0) {
+      if (sWidth == 0) { this.zeroWidthHack(); }
+      this.checkedZeroWidth = true;
+    }
+
+    return {right: needsV ? sWidth : 0, bottom: needsH ? sWidth : 0}
+  };
+
+  NativeScrollbars.prototype.setScrollLeft = function (pos) {
+    if (this.horiz.scrollLeft != pos) { this.horiz.scrollLeft = pos; }
+    if (this.disableHoriz) { this.enableZeroWidthBar(this.horiz, this.disableHoriz, "horiz"); }
+  };
+
+  NativeScrollbars.prototype.setScrollTop = function (pos) {
+    if (this.vert.scrollTop != pos) { this.vert.scrollTop = pos; }
+    if (this.disableVert) { this.enableZeroWidthBar(this.vert, this.disableVert, "vert"); }
+  };
+
+  NativeScrollbars.prototype.zeroWidthHack = function () {
+    var w = mac && !mac_geMountainLion ? "12px" : "18px";
+    this.horiz.style.height = this.vert.style.width = w;
+    this.horiz.style.pointerEvents = this.vert.style.pointerEvents = "none";
+    this.disableHoriz = new Delayed;
+    this.disableVert = new Delayed;
+  };
+
+  NativeScrollbars.prototype.enableZeroWidthBar = function (bar, delay, type) {
+    bar.style.pointerEvents = "auto";
+    function maybeDisable() {
+      // To find out whether the scrollbar is still visible, we
+      // check whether the element under the pixel in the bottom
+      // right corner of the scrollbar box is the scrollbar box
+      // itself (when the bar is still visible) or its filler child
+      // (when the bar is hidden). If it is still visible, we keep
+      // it enabled, if it's hidden, we disable pointer events.
+      var box = bar.getBoundingClientRect();
+      var elt = type == "vert" ? document.elementFromPoint(box.right - 1, (box.top + box.bottom) / 2)
+          : document.elementFromPoint((box.right + box.left) / 2, box.bottom - 1);
+      if (elt != bar) { bar.style.pointerEvents = "none"; }
+      else { delay.set(1000, maybeDisable); }
+    }
+    delay.set(1000, maybeDisable);
+  };
+
+  NativeScrollbars.prototype.clear = function () {
+    var parent = this.horiz.parentNode;
+    parent.removeChild(this.horiz);
+    parent.removeChild(this.vert);
+  };
+
+  var NullScrollbars = function () {};
+
+  NullScrollbars.prototype.update = function () { return {bottom: 0, right: 0} };
+  NullScrollbars.prototype.setScrollLeft = function () {};
+  NullScrollbars.prototype.setScrollTop = function () {};
+  NullScrollbars.prototype.clear = function () {};
+
+  function updateScrollbars(cm, measure) {
+    if (!measure) { measure = measureForScrollbars(cm); }
+    var startWidth = cm.display.barWidth, startHeight = cm.display.barHeight;
+    updateScrollbarsInner(cm, measure);
+    for (var i = 0; i < 4 && startWidth != cm.display.barWidth || startHeight != cm.display.barHeight; i++) {
+      if (startWidth != cm.display.barWidth && cm.options.lineWrapping)
+        { updateHeightsInViewport(cm); }
+      updateScrollbarsInner(cm, measureForScrollbars(cm));
+      startWidth = cm.display.barWidth; startHeight = cm.display.barHeight;
+    }
+  }
+
+  // Re-synchronize the fake scrollbars with the actual size of the
+  // content.
+  function updateScrollbarsInner(cm, measure) {
+    var d = cm.display;
+    var sizes = d.scrollbars.update(measure);
+
+    d.sizer.style.paddingRight = (d.barWidth = sizes.right) + "px";
+    d.sizer.style.paddingBottom = (d.barHeight = sizes.bottom) + "px";
+    d.heightForcer.style.borderBottom = sizes.bottom + "px solid transparent";
+
+    if (sizes.right && sizes.bottom) {
+      d.scrollbarFiller.style.display = "block";
+      d.scrollbarFiller.style.height = sizes.bottom + "px";
+      d.scrollbarFiller.style.width = sizes.right + "px";
+    } else { d.scrollbarFiller.style.display = ""; }
+    if (sizes.bottom && cm.options.coverGutterNextToScrollbar && cm.options.fixedGutter) {
+      d.gutterFiller.style.display = "block";
+      d.gutterFiller.style.height = sizes.bottom + "px";
+      d.gutterFiller.style.width = measure.gutterWidth + "px";
+    } else { d.gutterFiller.style.display = ""; }
+  }
+
+  var scrollbarModel = {"native": NativeScrollbars, "null": NullScrollbars};
+
+  function initScrollbars(cm) {
+    if (cm.display.scrollbars) {
+      cm.display.scrollbars.clear();
+      if (cm.display.scrollbars.addClass)
+        { rmClass(cm.display.wrapper, cm.display.scrollbars.addClass); }
+    }
+
+    cm.display.scrollbars = new scrollbarModel[cm.options.scrollbarStyle](function (node) {
+      cm.display.wrapper.insertBefore(node, cm.display.scrollbarFiller);
+      // Prevent clicks in the scrollbars from killing focus
+      on(node, "mousedown", function () {
+        if (cm.state.focused) { setTimeout(function () { return cm.display.input.focus(); }, 0); }
+      });
+      node.setAttribute("cm-not-content", "true");
+    }, function (pos, axis) {
+      if (axis == "horizontal") { setScrollLeft(cm, pos); }
+      else { updateScrollTop(cm, pos); }
+    }, cm);
+    if (cm.display.scrollbars.addClass)
+      { addClass(cm.display.wrapper, cm.display.scrollbars.addClass); }
+  }
+
+  // Operations are used to wrap a series of changes to the editor
+  // state in such a way that each change won't have to update the
+  // cursor and display (which would be awkward, slow, and
+  // error-prone). Instead, display updates are batched and then all
+  // combined and executed at once.
+
+  var nextOpId = 0;
+  // Start a new operation.
+  function startOperation(cm) {
+    cm.curOp = {
+      cm: cm,
+      viewChanged: false,      // Flag that indicates that lines might need to be redrawn
+      startHeight: cm.doc.height, // Used to detect need to update scrollbar
+      forceUpdate: false,      // Used to force a redraw
+      updateInput: 0,       // Whether to reset the input textarea
+      typing: false,           // Whether this reset should be careful to leave existing text (for compositing)
+      changeObjs: null,        // Accumulated changes, for firing change events
+      cursorActivityHandlers: null, // Set of handlers to fire cursorActivity on
+      cursorActivityCalled: 0, // Tracks which cursorActivity handlers have been called already
+      selectionChanged: false, // Whether the selection needs to be redrawn
+      updateMaxLine: false,    // Set when the widest line needs to be determined anew
+      scrollLeft: null, scrollTop: null, // Intermediate scroll position, not pushed to DOM yet
+      scrollToPos: null,       // Used to scroll to a specific position
+      focus: false,
+      id: ++nextOpId           // Unique ID
+    };
+    pushOperation(cm.curOp);
+  }
+
+  // Finish an operation, updating the display and signalling delayed events
+  function endOperation(cm) {
+    var op = cm.curOp;
+    if (op) { finishOperation(op, function (group) {
+      for (var i = 0; i < group.ops.length; i++)
+        { group.ops[i].cm.curOp = null; }
+      endOperations(group);
+    }); }
+  }
+
+  // The DOM updates done when an operation finishes are batched so
+  // that the minimum number of relayouts are required.
+  function endOperations(group) {
+    var ops = group.ops;
+    for (var i = 0; i < ops.length; i++) // Read DOM
+      { endOperation_R1(ops[i]); }
+    for (var i$1 = 0; i$1 < ops.length; i$1++) // Write DOM (maybe)
+      { endOperation_W1(ops[i$1]); }
+    for (var i$2 = 0; i$2 < ops.length; i$2++) // Read DOM
+      { endOperation_R2(ops[i$2]); }
+    for (var i$3 = 0; i$3 < ops.length; i$3++) // Write DOM (maybe)
+      { endOperation_W2(ops[i$3]); }
+    for (var i$4 = 0; i$4 < ops.length; i$4++) // Read DOM
+      { endOperation_finish(ops[i$4]); }
+  }
+
+  function endOperation_R1(op) {
+    var cm = op.cm, display = cm.display;
+    maybeClipScrollbars(cm);
+    if (op.updateMaxLine) { findMaxLine(cm); }
+
+    op.mustUpdate = op.viewChanged || op.forceUpdate || op.scrollTop != null ||
+      op.scrollToPos && (op.scrollToPos.from.line < display.viewFrom ||
+                         op.scrollToPos.to.line >= display.viewTo) ||
+      display.maxLineChanged && cm.options.lineWrapping;
+    op.update = op.mustUpdate &&
+      new DisplayUpdate(cm, op.mustUpdate && {top: op.scrollTop, ensure: op.scrollToPos}, op.forceUpdate);
+  }
+
+  function endOperation_W1(op) {
+    op.updatedDisplay = op.mustUpdate && updateDisplayIfNeeded(op.cm, op.update);
+  }
+
+  function endOperation_R2(op) {
+    var cm = op.cm, display = cm.display;
+    if (op.updatedDisplay) { updateHeightsInViewport(cm); }
+
+    op.barMeasure = measureForScrollbars(cm);
+
+    // If the max line changed since it was last measured, measure it,
+    // and ensure the document's width matches it.
+    // updateDisplay_W2 will use these properties to do the actual resizing
+    if (display.maxLineChanged && !cm.options.lineWrapping) {
+      op.adjustWidthTo = measureChar(cm, display.maxLine, display.maxLine.text.length).left + 3;
+      cm.display.sizerWidth = op.adjustWidthTo;
+      op.barMeasure.scrollWidth =
+        Math.max(display.scroller.clientWidth, display.sizer.offsetLeft + op.adjustWidthTo + scrollGap(cm) + cm.display.barWidth);
+      op.maxScrollLeft = Math.max(0, display.sizer.offsetLeft + op.adjustWidthTo - displayWidth(cm));
+    }
+
+    if (op.updatedDisplay || op.selectionChanged)
+      { op.preparedSelection = display.input.prepareSelection(); }
+  }
+
+  function endOperation_W2(op) {
+    var cm = op.cm;
+
+    if (op.adjustWidthTo != null) {
+      cm.display.sizer.style.minWidth = op.adjustWidthTo + "px";
+      if (op.maxScrollLeft < cm.doc.scrollLeft)
+        { setScrollLeft(cm, Math.min(cm.display.scroller.scrollLeft, op.maxScrollLeft), true); }
+      cm.display.maxLineChanged = false;
+    }
+
+    var takeFocus = op.focus && op.focus == activeElt();
+    if (op.preparedSelection)
+      { cm.display.input.showSelection(op.preparedSelection, takeFocus); }
+    if (op.updatedDisplay || op.startHeight != cm.doc.height)
+      { updateScrollbars(cm, op.barMeasure); }
+    if (op.updatedDisplay)
+      { setDocumentHeight(cm, op.barMeasure); }
+
+    if (op.selectionChanged) { restartBlink(cm); }
+
+    if (cm.state.focused && op.updateInput)
+      { cm.display.input.reset(op.typing); }
+    if (takeFocus) { ensureFocus(op.cm); }
+  }
+
+  function endOperation_finish(op) {
+    var cm = op.cm, display = cm.display, doc = cm.doc;
+
+    if (op.updatedDisplay) { postUpdateDisplay(cm, op.update); }
+
+    // Abort mouse wheel delta measurement, when scrolling explicitly
+    if (display.wheelStartX != null && (op.scrollTop != null || op.scrollLeft != null || op.scrollToPos))
+      { display.wheelStartX = display.wheelStartY = null; }
+
+    // Propagate the scroll position to the actual DOM scroller
+    if (op.scrollTop != null) { setScrollTop(cm, op.scrollTop, op.forceScroll); }
+
+    if (op.scrollLeft != null) { setScrollLeft(cm, op.scrollLeft, true, true); }
+    // If we need to scroll a specific position into view, do so.
+    if (op.scrollToPos) {
+      var rect = scrollPosIntoView(cm, clipPos(doc, op.scrollToPos.from),
+                                   clipPos(doc, op.scrollToPos.to), op.scrollToPos.margin);
+      maybeScrollWindow(cm, rect);
+    }
+
+    // Fire events for markers that are hidden/unidden by editing or
+    // undoing
+    var hidden = op.maybeHiddenMarkers, unhidden = op.maybeUnhiddenMarkers;
+    if (hidden) { for (var i = 0; i < hidden.length; ++i)
+      { if (!hidden[i].lines.length) { signal(hidden[i], "hide"); } } }
+    if (unhidden) { for (var i$1 = 0; i$1 < unhidden.length; ++i$1)
+      { if (unhidden[i$1].lines.length) { signal(unhidden[i$1], "unhide"); } } }
+
+    if (display.wrapper.offsetHeight)
+      { doc.scrollTop = cm.display.scroller.scrollTop; }
+
+    // Fire change events, and delayed event handlers
+    if (op.changeObjs)
+      { signal(cm, "changes", cm, op.changeObjs); }
+    if (op.update)
+      { op.update.finish(); }
+  }
+
+  // Run the given function in an operation
+  function runInOp(cm, f) {
+    if (cm.curOp) { return f() }
+    startOperation(cm);
+    try { return f() }
+    finally { endOperation(cm); }
+  }
+  // Wraps a function in an operation. Returns the wrapped function.
+  function operation(cm, f) {
+    return function() {
+      if (cm.curOp) { return f.apply(cm, arguments) }
+      startOperation(cm);
+      try { return f.apply(cm, arguments) }
+      finally { endOperation(cm); }
+    }
+  }
+  // Used to add methods to editor and doc instances, wrapping them in
+  // operations.
+  function methodOp(f) {
+    return function() {
+      if (this.curOp) { return f.apply(this, arguments) }
+      startOperation(this);
+      try { return f.apply(this, arguments) }
+      finally { endOperation(this); }
+    }
+  }
+  function docMethodOp(f) {
+    return function() {
+      var cm = this.cm;
+      if (!cm || cm.curOp) { return f.apply(this, arguments) }
+      startOperation(cm);
+      try { return f.apply(this, arguments) }
+      finally { endOperation(cm); }
+    }
+  }
+
+  // HIGHLIGHT WORKER
+
+  function startWorker(cm, time) {
+    if (cm.doc.highlightFrontier < cm.display.viewTo)
+      { cm.state.highlight.set(time, bind(highlightWorker, cm)); }
+  }
+
+  function highlightWorker(cm) {
+    var doc = cm.doc;
+    if (doc.highlightFrontier >= cm.display.viewTo) { return }
+    var end = +new Date + cm.options.workTime;
+    var context = getContextBefore(cm, doc.highlightFrontier);
+    var changedLines = [];
+
+    doc.iter(context.line, Math.min(doc.first + doc.size, cm.display.viewTo + 500), function (line) {
+      if (context.line >= cm.display.viewFrom) { // Visible
+        var oldStyles = line.styles;
+        var resetState = line.text.length > cm.options.maxHighlightLength ? copyState(doc.mode, context.state) : null;
+        var highlighted = highlightLine(cm, line, context, true);
+        if (resetState) { context.state = resetState; }
+        line.styles = highlighted.styles;
+        var oldCls = line.styleClasses, newCls = highlighted.classes;
+        if (newCls) { line.styleClasses = newCls; }
+        else if (oldCls) { line.styleClasses = null; }
+        var ischange = !oldStyles || oldStyles.length != line.styles.length ||
+          oldCls != newCls && (!oldCls || !newCls || oldCls.bgClass != newCls.bgClass || oldCls.textClass != newCls.textClass);
+        for (var i = 0; !ischange && i < oldStyles.length; ++i) { ischange = oldStyles[i] != line.styles[i]; }
+        if (ischange) { changedLines.push(context.line); }
+        line.stateAfter = context.save();
+        context.nextLine();
+      } else {
+        if (line.text.length <= cm.options.maxHighlightLength)
+          { processLine(cm, line.text, context); }
+        line.stateAfter = context.line % 5 == 0 ? context.save() : null;
+        context.nextLine();
+      }
+      if (+new Date > end) {
+        startWorker(cm, cm.options.workDelay);
+        return true
+      }
+    });
+    doc.highlightFrontier = context.line;
+    doc.modeFrontier = Math.max(doc.modeFrontier, context.line);
+    if (changedLines.length) { runInOp(cm, function () {
+      for (var i = 0; i < changedLines.length; i++)
+        { regLineChange(cm, changedLines[i], "text"); }
+    }); }
+  }
+
+  // DISPLAY DRAWING
+
+  var DisplayUpdate = function(cm, viewport, force) {
+    var display = cm.display;
+
+    this.viewport = viewport;
+    // Store some values that we'll need later (but don't want to force a relayout for)
+    this.visible = visibleLines(display, cm.doc, viewport);
+    this.editorIsHidden = !display.wrapper.offsetWidth;
+    this.wrapperHeight = display.wrapper.clientHeight;
+    this.wrapperWidth = display.wrapper.clientWidth;
+    this.oldDisplayWidth = displayWidth(cm);
+    this.force = force;
+    this.dims = getDimensions(cm);
+    this.events = [];
+  };
+
+  DisplayUpdate.prototype.signal = function (emitter, type) {
+    if (hasHandler(emitter, type))
+      { this.events.push(arguments); }
+  };
+  DisplayUpdate.prototype.finish = function () {
+    for (var i = 0; i < this.events.length; i++)
+      { signal.apply(null, this.events[i]); }
+  };
+
+  function maybeClipScrollbars(cm) {
+    var display = cm.display;
+    if (!display.scrollbarsClipped && display.scroller.offsetWidth) {
+      display.nativeBarWidth = display.scroller.offsetWidth - display.scroller.clientWidth;
+      display.heightForcer.style.height = scrollGap(cm) + "px";
+      display.sizer.style.marginBottom = -display.nativeBarWidth + "px";
+      display.sizer.style.borderRightWidth = scrollGap(cm) + "px";
+      display.scrollbarsClipped = true;
+    }
+  }
+
+  function selectionSnapshot(cm) {
+    if (cm.hasFocus()) { return null }
+    var active = activeElt();
+    if (!active || !contains(cm.display.lineDiv, active)) { return null }
+    var result = {activeElt: active};
+    if (window.getSelection) {
+      var sel = window.getSelection();
+      if (sel.anchorNode && sel.extend && contains(cm.display.lineDiv, sel.anchorNode)) {
+        result.anchorNode = sel.anchorNode;
+        result.anchorOffset = sel.anchorOffset;
+        result.focusNode = sel.focusNode;
+        result.focusOffset = sel.focusOffset;
+      }
+    }
+    return result
+  }
+
+  function restoreSelection(snapshot) {
+    if (!snapshot || !snapshot.activeElt || snapshot.activeElt == activeElt()) { return }
+    snapshot.activeElt.focus();
+    if (!/^(INPUT|TEXTAREA)$/.test(snapshot.activeElt.nodeName) &&
+        snapshot.anchorNode && contains(document.body, snapshot.anchorNode) && contains(document.body, snapshot.focusNode)) {
+      var sel = window.getSelection(), range = document.createRange();
+      range.setEnd(snapshot.anchorNode, snapshot.anchorOffset);
+      range.collapse(false);
+      sel.removeAllRanges();
+      sel.addRange(range);
+      sel.extend(snapshot.focusNode, snapshot.focusOffset);
+    }
+  }
+
+  // Does the actual updating of the line display. Bails out
+  // (returning false) when there is nothing to be done and forced is
+  // false.
+  function updateDisplayIfNeeded(cm, update) {
+    var display = cm.display, doc = cm.doc;
+
+    if (update.editorIsHidden) {
+      resetView(cm);
+      return false
+    }
+
+    // Bail out if the visible area is already rendered and nothing changed.
+    if (!update.force &&
+        update.visible.from >= display.viewFrom && update.visible.to <= display.viewTo &&
+        (display.updateLineNumbers == null || display.updateLineNumbers >= display.viewTo) &&
+        display.renderedView == display.view && countDirtyView(cm) == 0)
+      { return false }
+
+    if (maybeUpdateLineNumberWidth(cm)) {
+      resetView(cm);
+      update.dims = getDimensions(cm);
+    }
+
+    // Compute a suitable new viewport (from & to)
+    var end = doc.first + doc.size;
+    var from = Math.max(update.visible.from - cm.options.viewportMargin, doc.first);
+    var to = Math.min(end, update.visible.to + cm.options.viewportMargin);
+    if (display.viewFrom < from && from - display.viewFrom < 20) { from = Math.max(doc.first, display.viewFrom); }
+    if (display.viewTo > to && display.viewTo - to < 20) { to = Math.min(end, display.viewTo); }
+    if (sawCollapsedSpans) {
+      from = visualLineNo(cm.doc, from);
+      to = visualLineEndNo(cm.doc, to);
+    }
+
+    var different = from != display.viewFrom || to != display.viewTo ||
+      display.lastWrapHeight != update.wrapperHeight || display.lastWrapWidth != update.wrapperWidth;
+    adjustView(cm, from, to);
+
+    display.viewOffset = heightAtLine(getLine(cm.doc, display.viewFrom));
+    // Position the mover div to align with the current scroll position
+    cm.display.mover.style.top = display.viewOffset + "px";
+
+    var toUpdate = countDirtyView(cm);
+    if (!different && toUpdate == 0 && !update.force && display.renderedView == display.view &&
+        (display.updateLineNumbers == null || display.updateLineNumbers >= display.viewTo))
+      { return false }
+
+    // For big changes, we hide the enclosing element during the
+    // update, since that speeds up the operations on most browsers.
+    var selSnapshot = selectionSnapshot(cm);
+    if (toUpdate > 4) { display.lineDiv.style.display = "none"; }
+    patchDisplay(cm, display.updateLineNumbers, update.dims);
+    if (toUpdate > 4) { display.lineDiv.style.display = ""; }
+    display.renderedView = display.view;
+    // There might have been a widget with a focused element that got
+    // hidden or updated, if so re-focus it.
+    restoreSelection(selSnapshot);
+
+    // Prevent selection and cursors from interfering with the scroll
+    // width and height.
+    removeChildren(display.cursorDiv);
+    removeChildren(display.selectionDiv);
+    display.gutters.style.height = display.sizer.style.minHeight = 0;
+
+    if (different) {
+      display.lastWrapHeight = update.wrapperHeight;
+      display.lastWrapWidth = update.wrapperWidth;
+      startWorker(cm, 400);
+    }
+
+    display.updateLineNumbers = null;
+
+    return true
+  }
+
+  function postUpdateDisplay(cm, update) {
+    var viewport = update.viewport;
+
+    for (var first = true;; first = false) {
+      if (!first || !cm.options.lineWrapping || update.oldDisplayWidth == displayWidth(cm)) {
+        // Clip forced viewport to actual scrollable area.
+        if (viewport && viewport.top != null)
+          { viewport = {top: Math.min(cm.doc.height + paddingVert(cm.display) - displayHeight(cm), viewport.top)}; }
+        // Updated line heights might result in the drawn area not
+        // actually covering the viewport. Keep looping until it does.
+        update.visible = visibleLines(cm.display, cm.doc, viewport);
+        if (update.visible.from >= cm.display.viewFrom && update.visible.to <= cm.display.viewTo)
+          { break }
+      } else if (first) {
+        update.visible = visibleLines(cm.display, cm.doc, viewport);
+      }
+      if (!updateDisplayIfNeeded(cm, update)) { break }
+      updateHeightsInViewport(cm);
+      var barMeasure = measureForScrollbars(cm);
+      updateSelection(cm);
+      updateScrollbars(cm, barMeasure);
+      setDocumentHeight(cm, barMeasure);
+      update.force = false;
+    }
+
+    update.signal(cm, "update", cm);
+    if (cm.display.viewFrom != cm.display.reportedViewFrom || cm.display.viewTo != cm.display.reportedViewTo) {
+      update.signal(cm, "viewportChange", cm, cm.display.viewFrom, cm.display.viewTo);
+      cm.display.reportedViewFrom = cm.display.viewFrom; cm.display.reportedViewTo = cm.display.viewTo;
+    }
+  }
+
+  function updateDisplaySimple(cm, viewport) {
+    var update = new DisplayUpdate(cm, viewport);
+    if (updateDisplayIfNeeded(cm, update)) {
+      updateHeightsInViewport(cm);
+      postUpdateDisplay(cm, update);
+      var barMeasure = measureForScrollbars(cm);
+      updateSelection(cm);
+      updateScrollbars(cm, barMeasure);
+      setDocumentHeight(cm, barMeasure);
+      update.finish();
+    }
+  }
+
+  // Sync the actual display DOM structure with display.view, removing
+  // nodes for lines that are no longer in view, and creating the ones
+  // that are not there yet, and updating the ones that are out of
+  // date.
+  function patchDisplay(cm, updateNumbersFrom, dims) {
+    var display = cm.display, lineNumbers = cm.options.lineNumbers;
+    var container = display.lineDiv, cur = container.firstChild;
+
+    function rm(node) {
+      var next = node.nextSibling;
+      // Works around a throw-scroll bug in OS X Webkit
+      if (webkit && mac && cm.display.currentWheelTarget == node)
+        { node.style.display = "none"; }
+      else
+        { node.parentNode.removeChild(node); }
+      return next
+    }
+
+    var view = display.view, lineN = display.viewFrom;
+    // Loop over the elements in the view, syncing cur (the DOM nodes
+    // in display.lineDiv) with the view as we go.
+    for (var i = 0; i < view.length; i++) {
+      var lineView = view[i];
+      if (lineView.hidden) ; else if (!lineView.node || lineView.node.parentNode != container) { // Not drawn yet
+        var node = buildLineElement(cm, lineView, lineN, dims);
+        container.insertBefore(node, cur);
+      } else { // Already drawn
+        while (cur != lineView.node) { cur = rm(cur); }
+        var updateNumber = lineNumbers && updateNumbersFrom != null &&
+          updateNumbersFrom <= lineN && lineView.lineNumber;
+        if (lineView.changes) {
+          if (indexOf(lineView.changes, "gutter") > -1) { updateNumber = false; }
+          updateLineForChanges(cm, lineView, lineN, dims);
+        }
+        if (updateNumber) {
+          removeChildren(lineView.lineNumber);
+          lineView.lineNumber.appendChild(document.createTextNode(lineNumberFor(cm.options, lineN)));
+        }
+        cur = lineView.node.nextSibling;
+      }
+      lineN += lineView.size;
+    }
+    while (cur) { cur = rm(cur); }
+  }
+
+  function updateGutterSpace(display) {
+    var width = display.gutters.offsetWidth;
+    display.sizer.style.marginLeft = width + "px";
+  }
+
+  function setDocumentHeight(cm, measure) {
+    cm.display.sizer.style.minHeight = measure.docHeight + "px";
+    cm.display.heightForcer.style.top = measure.docHeight + "px";
+    cm.display.gutters.style.height = (measure.docHeight + cm.display.barHeight + scrollGap(cm)) + "px";
+  }
+
+  // Re-align line numbers and gutter marks to compensate for
+  // horizontal scrolling.
+  function alignHorizontally(cm) {
+    var display = cm.display, view = display.view;
+    if (!display.alignWidgets && (!display.gutters.firstChild || !cm.options.fixedGutter)) { return }
+    var comp = compensateForHScroll(display) - display.scroller.scrollLeft + cm.doc.scrollLeft;
+    var gutterW = display.gutters.offsetWidth, left = comp + "px";
+    for (var i = 0; i < view.length; i++) { if (!view[i].hidden) {
+      if (cm.options.fixedGutter) {
+        if (view[i].gutter)
+          { view[i].gutter.style.left = left; }
+        if (view[i].gutterBackground)
+          { view[i].gutterBackground.style.left = left; }
+      }
+      var align = view[i].alignable;
+      if (align) { for (var j = 0; j < align.length; j++)
+        { align[j].style.left = left; } }
+    } }
+    if (cm.options.fixedGutter)
+      { display.gutters.style.left = (comp + gutterW) + "px"; }
+  }
+
+  // Used to ensure that the line number gutter is still the right
+  // size for the current document size. Returns true when an update
+  // is needed.
+  function maybeUpdateLineNumberWidth(cm) {
+    if (!cm.options.lineNumbers) { return false }
+    var doc = cm.doc, last = lineNumberFor(cm.options, doc.first + doc.size - 1), display = cm.display;
+    if (last.length != display.lineNumChars) {
+      var test = display.measure.appendChild(elt("div", [elt("div", last)],
+                                                 "CodeMirror-linenumber CodeMirror-gutter-elt"));
+      var innerW = test.firstChild.offsetWidth, padding = test.offsetWidth - innerW;
+      display.lineGutter.style.width = "";
+      display.lineNumInnerWidth = Math.max(innerW, display.lineGutter.offsetWidth - padding) + 1;
+      display.lineNumWidth = display.lineNumInnerWidth + padding;
+      display.lineNumChars = display.lineNumInnerWidth ? last.length : -1;
+      display.lineGutter.style.width = display.lineNumWidth + "px";
+      updateGutterSpace(cm.display);
+      return true
+    }
+    return false
+  }
+
+  function getGutters(gutters, lineNumbers) {
+    var result = [], sawLineNumbers = false;
+    for (var i = 0; i < gutters.length; i++) {
+      var name = gutters[i], style = null;
+      if (typeof name != "string") { style = name.style; name = name.className; }
+      if (name == "CodeMirror-linenumbers") {
+        if (!lineNumbers) { continue }
+        else { sawLineNumbers = true; }
+      }
+      result.push({className: name, style: style});
+    }
+    if (lineNumbers && !sawLineNumbers) { result.push({className: "CodeMirror-linenumbers", style: null}); }
+    return result
+  }
+
+  // Rebuild the gutter elements, ensure the margin to the left of the
+  // code matches their width.
+  function renderGutters(display) {
+    var gutters = display.gutters, specs = display.gutterSpecs;
+    removeChildren(gutters);
+    display.lineGutter = null;
+    for (var i = 0; i < specs.length; ++i) {
+      var ref = specs[i];
+      var className = ref.className;
+      var style = ref.style;
+      var gElt = gutters.appendChild(elt("div", null, "CodeMirror-gutter " + className));
+      if (style) { gElt.style.cssText = style; }
+      if (className == "CodeMirror-linenumbers") {
+        display.lineGutter = gElt;
+        gElt.style.width = (display.lineNumWidth || 1) + "px";
+      }
+    }
+    gutters.style.display = specs.length ? "" : "none";
+    updateGutterSpace(display);
+  }
+
+  function updateGutters(cm) {
+    renderGutters(cm.display);
+    regChange(cm);
+    alignHorizontally(cm);
+  }
+
+  // The display handles the DOM integration, both for input reading
+  // and content drawing. It holds references to DOM nodes and
+  // display-related state.
+
+  function Display(place, doc, input, options) {
+    var d = this;
+    this.input = input;
+
+    // Covers bottom-right square when both scrollbars are present.
+    d.scrollbarFiller = elt("div", null, "CodeMirror-scrollbar-filler");
+    d.scrollbarFiller.setAttribute("cm-not-content", "true");
+    // Covers bottom of gutter when coverGutterNextToScrollbar is on
+    // and h scrollbar is present.
+    d.gutterFiller = elt("div", null, "CodeMirror-gutter-filler");
+    d.gutterFiller.setAttribute("cm-not-content", "true");
+    // Will contain the actual code, positioned to cover the viewport.
+    d.lineDiv = eltP("div", null, "CodeMirror-code");
+    // Elements are added to these to represent selection and cursors.
+    d.selectionDiv = elt("div", null, null, "position: relative; z-index: 1");
+    d.cursorDiv = elt("div", null, "CodeMirror-cursors");
+    // A visibility: hidden element used to find the size of things.
+    d.measure = elt("div", null, "CodeMirror-measure");
+    // When lines outside of the viewport are measured, they are drawn in this.
+    d.lineMeasure = elt("div", null, "CodeMirror-measure");
+    // Wraps everything that needs to exist inside the vertically-padded coordinate system
+    d.lineSpace = eltP("div", [d.measure, d.lineMeasure, d.selectionDiv, d.cursorDiv, d.lineDiv],
+                      null, "position: relative; outline: none");
+    var lines = eltP("div", [d.lineSpace], "CodeMirror-lines");
+    // Moved around its parent to cover visible view.
+    d.mover = elt("div", [lines], null, "position: relative");
+    // Set to the height of the document, allowing scrolling.
+    d.sizer = elt("div", [d.mover], "CodeMirror-sizer");
+    d.sizerWidth = null;
+    // Behavior of elts with overflow: auto and padding is
+    // inconsistent across browsers. This is used to ensure the
+    // scrollable area is big enough.
+    d.heightForcer = elt("div", null, null, "position: absolute; height: " + scrollerGap + "px; width: 1px;");
+    // Will contain the gutters, if any.
+    d.gutters = elt("div", null, "CodeMirror-gutters");
+    d.lineGutter = null;
+    // Actual scrollable element.
+    d.scroller = elt("div", [d.sizer, d.heightForcer, d.gutters], "CodeMirror-scroll");
+    d.scroller.setAttribute("tabIndex", "-1");
+    // The element in which the editor lives.
+    d.wrapper = elt("div", [d.scrollbarFiller, d.gutterFiller, d.scroller], "CodeMirror");
+
+    // Work around IE7 z-index bug (not perfect, hence IE7 not really being supported)
+    if (ie && ie_version < 8) { d.gutters.style.zIndex = -1; d.scroller.style.paddingRight = 0; }
+    if (!webkit && !(gecko && mobile)) { d.scroller.draggable = true; }
+
+    if (place) {
+      if (place.appendChild) { place.appendChild(d.wrapper); }
+      else { place(d.wrapper); }
+    }
+
+    // Current rendered range (may be bigger than the view window).
+    d.viewFrom = d.viewTo = doc.first;
+    d.reportedViewFrom = d.reportedViewTo = doc.first;
+    // Information about the rendered lines.
+    d.view = [];
+    d.renderedView = null;
+    // Holds info about a single rendered line when it was rendered
+    // for measurement, while not in view.
+    d.externalMeasured = null;
+    // Empty space (in pixels) above the view
+    d.viewOffset = 0;
+    d.lastWrapHeight = d.lastWrapWidth = 0;
+    d.updateLineNumbers = null;
+
+    d.nativeBarWidth = d.barHeight = d.barWidth = 0;
+    d.scrollbarsClipped = false;
+
+    // Used to only resize the line number gutter when necessary (when
+    // the amount of lines crosses a boundary that makes its width change)
+    d.lineNumWidth = d.lineNumInnerWidth = d.lineNumChars = null;
+    // Set to true when a non-horizontal-scrolling line widget is
+    // added. As an optimization, line widget aligning is skipped when
+    // this is false.
+    d.alignWidgets = false;
+
+    d.cachedCharWidth = d.cachedTextHeight = d.cachedPaddingH = null;
+
+    // Tracks the maximum line length so that the horizontal scrollbar
+    // can be kept static when scrolling.
+    d.maxLine = null;
+    d.maxLineLength = 0;
+    d.maxLineChanged = false;
+
+    // Used for measuring wheel scrolling granularity
+    d.wheelDX = d.wheelDY = d.wheelStartX = d.wheelStartY = null;
+
+    // True when shift is held down.
+    d.shift = false;
+
+    // Used to track whether anything happened since the context menu
+    // was opened.
+    d.selForContextMenu = null;
+
+    d.activeTouch = null;
+
+    d.gutterSpecs = getGutters(options.gutters, options.lineNumbers);
+    renderGutters(d);
+
+    input.init(d);
+  }
+
+  // Since the delta values reported on mouse wheel events are
+  // unstandardized between browsers and even browser versions, and
+  // generally horribly unpredictable, this code starts by measuring
+  // the scroll effect that the first few mouse wheel events have,
+  // and, from that, detects the way it can convert deltas to pixel
+  // offsets afterwards.
+  //
+  // The reason we want to know the amount a wheel event will scroll
+  // is that it gives us a chance to update the display before the
+  // actual scrolling happens, reducing flickering.
+
+  var wheelSamples = 0, wheelPixelsPerUnit = null;
+  // Fill in a browser-detected starting value on browsers where we
+  // know one. These don't have to be accurate -- the result of them
+  // being wrong would just be a slight flicker on the first wheel
+  // scroll (if it is large enough).
+  if (ie) { wheelPixelsPerUnit = -.53; }
+  else if (gecko) { wheelPixelsPerUnit = 15; }
+  else if (chrome) { wheelPixelsPerUnit = -.7; }
+  else if (safari) { wheelPixelsPerUnit = -1/3; }
+
+  function wheelEventDelta(e) {
+    var dx = e.wheelDeltaX, dy = e.wheelDeltaY;
+    if (dx == null && e.detail && e.axis == e.HORIZONTAL_AXIS) { dx = e.detail; }
+    if (dy == null && e.detail && e.axis == e.VERTICAL_AXIS) { dy = e.detail; }
+    else if (dy == null) { dy = e.wheelDelta; }
+    return {x: dx, y: dy}
+  }
+  function wheelEventPixels(e) {
+    var delta = wheelEventDelta(e);
+    delta.x *= wheelPixelsPerUnit;
+    delta.y *= wheelPixelsPerUnit;
+    return delta
+  }
+
+  function onScrollWheel(cm, e) {
+    var delta = wheelEventDelta(e), dx = delta.x, dy = delta.y;
+
+    var display = cm.display, scroll = display.scroller;
+    // Quit if there's nothing to scroll here
+    var canScrollX = scroll.scrollWidth > scroll.clientWidth;
+    var canScrollY = scroll.scrollHeight > scroll.clientHeight;
+    if (!(dx && canScrollX || dy && canScrollY)) { return }
+
+    // Webkit browsers on OS X abort momentum scrolls when the target
+    // of the scroll event is removed from the scrollable element.
+    // This hack (see related code in patchDisplay) makes sure the
+    // element is kept around.
+    if (dy && mac && webkit) {
+      outer: for (var cur = e.target, view = display.view; cur != scroll; cur = cur.parentNode) {
+        for (var i = 0; i < view.length; i++) {
+          if (view[i].node == cur) {
+            cm.display.currentWheelTarget = cur;
+            break outer
+          }
+        }
+      }
+    }
+
+    // On some browsers, horizontal scrolling will cause redraws to
+    // happen before the gutter has been realigned, causing it to
+    // wriggle around in a most unseemly way. When we have an
+    // estimated pixels/delta value, we just handle horizontal
+    // scrolling entirely here. It'll be slightly off from native, but
+    // better than glitching out.
+    if (dx && !gecko && !presto && wheelPixelsPerUnit != null) {
+      if (dy && canScrollY)
+        { updateScrollTop(cm, Math.max(0, scroll.scrollTop + dy * wheelPixelsPerUnit)); }
+      setScrollLeft(cm, Math.max(0, scroll.scrollLeft + dx * wheelPixelsPerUnit));
+      // Only prevent default scrolling if vertical scrolling is
+      // actually possible. Otherwise, it causes vertical scroll
+      // jitter on OSX trackpads when deltaX is small and deltaY
+      // is large (issue #3579)
+      if (!dy || (dy && canScrollY))
+        { e_preventDefault(e); }
+      display.wheelStartX = null; // Abort measurement, if in progress
+      return
+    }
+
+    // 'Project' the visible viewport to cover the area that is being
+    // scrolled into view (if we know enough to estimate it).
+    if (dy && wheelPixelsPerUnit != null) {
+      var pixels = dy * wheelPixelsPerUnit;
+      var top = cm.doc.scrollTop, bot = top + display.wrapper.clientHeight;
+      if (pixels < 0) { top = Math.max(0, top + pixels - 50); }
+      else { bot = Math.min(cm.doc.height, bot + pixels + 50); }
+      updateDisplaySimple(cm, {top: top, bottom: bot});
+    }
+
+    if (wheelSamples < 20) {
+      if (display.wheelStartX == null) {
+        display.wheelStartX = scroll.scrollLeft; display.wheelStartY = scroll.scrollTop;
+        display.wheelDX = dx; display.wheelDY = dy;
+        setTimeout(function () {
+          if (display.wheelStartX == null) { return }
+          var movedX = scroll.scrollLeft - display.wheelStartX;
+          var movedY = scroll.scrollTop - display.wheelStartY;
+          var sample = (movedY && display.wheelDY && movedY / display.wheelDY) ||
+            (movedX && display.wheelDX && movedX / display.wheelDX);
+          display.wheelStartX = display.wheelStartY = null;
+          if (!sample) { return }
+          wheelPixelsPerUnit = (wheelPixelsPerUnit * wheelSamples + sample) / (wheelSamples + 1);
+          ++wheelSamples;
+        }, 200);
+      } else {
+        display.wheelDX += dx; display.wheelDY += dy;
+      }
+    }
+  }
+
+  // Selection objects are immutable. A new one is created every time
+  // the selection changes. A selection is one or more non-overlapping
+  // (and non-touching) ranges, sorted, and an integer that indicates
+  // which one is the primary selection (the one that's scrolled into
+  // view, that getCursor returns, etc).
+  var Selection = function(ranges, primIndex) {
+    this.ranges = ranges;
+    this.primIndex = primIndex;
+  };
+
+  Selection.prototype.primary = function () { return this.ranges[this.primIndex] };
+
+  Selection.prototype.equals = function (other) {
+    if (other == this) { return true }
+    if (other.primIndex != this.primIndex || other.ranges.length != this.ranges.length) { return false }
+    for (var i = 0; i < this.ranges.length; i++) {
+      var here = this.ranges[i], there = other.ranges[i];
+      if (!equalCursorPos(here.anchor, there.anchor) || !equalCursorPos(here.head, there.head)) { return false }
+    }
+    return true
+  };
+
+  Selection.prototype.deepCopy = function () {
+    var out = [];
+    for (var i = 0; i < this.ranges.length; i++)
+      { out[i] = new Range(copyPos(this.ranges[i].anchor), copyPos(this.ranges[i].head)); }
+    return new Selection(out, this.primIndex)
+  };
+
+  Selection.prototype.somethingSelected = function () {
+    for (var i = 0; i < this.ranges.length; i++)
+      { if (!this.ranges[i].empty()) { return true } }
+    return false
+  };
+
+  Selection.prototype.contains = function (pos, end) {
+    if (!end) { end = pos; }
+    for (var i = 0; i < this.ranges.length; i++) {
+      var range = this.ranges[i];
+      if (cmp(end, range.from()) >= 0 && cmp(pos, range.to()) <= 0)
+        { return i }
+    }
+    return -1
+  };
+
+  var Range = function(anchor, head) {
+    this.anchor = anchor; this.head = head;
+  };
+
+  Range.prototype.from = function () { return minPos(this.anchor, this.head) };
+  Range.prototype.to = function () { return maxPos(this.anchor, this.head) };
+  Range.prototype.empty = function () { return this.head.line == this.anchor.line && this.head.ch == this.anchor.ch };
+
+  // Take an unsorted, potentially overlapping set of ranges, and
+  // build a selection out of it. 'Consumes' ranges array (modifying
+  // it).
+  function normalizeSelection(cm, ranges, primIndex) {
+    var mayTouch = cm && cm.options.selectionsMayTouch;
+    var prim = ranges[primIndex];
+    ranges.sort(function (a, b) { return cmp(a.from(), b.from()); });
+    primIndex = indexOf(ranges, prim);
+    for (var i = 1; i < ranges.length; i++) {
+      var cur = ranges[i], prev = ranges[i - 1];
+      var diff = cmp(prev.to(), cur.from());
+      if (mayTouch && !cur.empty() ? diff > 0 : diff >= 0) {
+        var from = minPos(prev.from(), cur.from()), to = maxPos(prev.to(), cur.to());
+        var inv = prev.empty() ? cur.from() == cur.head : prev.from() == prev.head;
+        if (i <= primIndex) { --primIndex; }
+        ranges.splice(--i, 2, new Range(inv ? to : from, inv ? from : to));
+      }
+    }
+    return new Selection(ranges, primIndex)
+  }
+
+  function simpleSelection(anchor, head) {
+    return new Selection([new Range(anchor, head || anchor)], 0)
+  }
+
+  // Compute the position of the end of a change (its 'to' property
+  // refers to the pre-change end).
+  function changeEnd(change) {
+    if (!change.text) { return change.to }
+    return Pos(change.from.line + change.text.length - 1,
+               lst(change.text).length + (change.text.length == 1 ? change.from.ch : 0))
+  }
+
+  // Adjust a position to refer to the post-change position of the
+  // same text, or the end of the change if the change covers it.
+  function adjustForChange(pos, change) {
+    if (cmp(pos, change.from) < 0) { return pos }
+    if (cmp(pos, change.to) <= 0) { return changeEnd(change) }
+
+    var line = pos.line + change.text.length - (change.to.line - change.from.line) - 1, ch = pos.ch;
+    if (pos.line == change.to.line) { ch += changeEnd(change).ch - change.to.ch; }
+    return Pos(line, ch)
+  }
+
+  function computeSelAfterChange(doc, change) {
+    var out = [];
+    for (var i = 0; i < doc.sel.ranges.length; i++) {
+      var range = doc.sel.ranges[i];
+      out.push(new Range(adjustForChange(range.anchor, change),
+                         adjustForChange(range.head, change)));
+    }
+    return normalizeSelection(doc.cm, out, doc.sel.primIndex)
+  }
+
+  function offsetPos(pos, old, nw) {
+    if (pos.line == old.line)
+      { return Pos(nw.line, pos.ch - old.ch + nw.ch) }
+    else
+      { return Pos(nw.line + (pos.line - old.line), pos.ch) }
+  }
+
+  // Used by replaceSelections to allow moving the selection to the
+  // start or around the replaced test. Hint may be "start" or "around".
+  function computeReplacedSel(doc, changes, hint) {
+    var out = [];
+    var oldPrev = Pos(doc.first, 0), newPrev = oldPrev;
+    for (var i = 0; i < changes.length; i++) {
+      var change = changes[i];
+      var from = offsetPos(change.from, oldPrev, newPrev);
+      var to = offsetPos(changeEnd(change), oldPrev, newPrev);
+      oldPrev = change.to;
+      newPrev = to;
+      if (hint == "around") {
+        var range = doc.sel.ranges[i], inv = cmp(range.head, range.anchor) < 0;
+        out[i] = new Range(inv ? to : from, inv ? from : to);
+      } else {
+        out[i] = new Range(from, from);
+      }
+    }
+    return new Selection(out, doc.sel.primIndex)
+  }
+
+  // Used to get the editor into a consistent state again when options change.
+
+  function loadMode(cm) {
+    cm.doc.mode = getMode(cm.options, cm.doc.modeOption);
+    resetModeState(cm);
+  }
+
+  function resetModeState(cm) {
+    cm.doc.iter(function (line) {
+      if (line.stateAfter) { line.stateAfter = null; }
+      if (line.styles) { line.styles = null; }
+    });
+    cm.doc.modeFrontier = cm.doc.highlightFrontier = cm.doc.first;
+    startWorker(cm, 100);
+    cm.state.modeGen++;
+    if (cm.curOp) { regChange(cm); }
+  }
+
+  // DOCUMENT DATA STRUCTURE
+
+  // By default, updates that start and end at the beginning of a line
+  // are treated specially, in order to make the association of line
+  // widgets and marker elements with the text behave more intuitive.
+  function isWholeLineUpdate(doc, change) {
+    return change.from.ch == 0 && change.to.ch == 0 && lst(change.text) == "" &&
+      (!doc.cm || doc.cm.options.wholeLineUpdateBefore)
+  }
+
+  // Perform a change on the document data structure.
+  function updateDoc(doc, change, markedSpans, estimateHeight) {
+    function spansFor(n) {return markedSpans ? markedSpans[n] : null}
+    function update(line, text, spans) {
+      updateLine(line, text, spans, estimateHeight);
+      signalLater(line, "change", line, change);
+    }
+    function linesFor(start, end) {
+      var result = [];
+      for (var i = start; i < end; ++i)
+        { result.push(new Line(text[i], spansFor(i), estimateHeight)); }
+      return result
+    }
+
+    var from = change.from, to = change.to, text = change.text;
+    var firstLine = getLine(doc, from.line), lastLine = getLine(doc, to.line);
+    var lastText = lst(text), lastSpans = spansFor(text.length - 1), nlines = to.line - from.line;
+
+    // Adjust the line structure
+    if (change.full) {
+      doc.insert(0, linesFor(0, text.length));
+      doc.remove(text.length, doc.size - text.length);
+    } else if (isWholeLineUpdate(doc, change)) {
+      // This is a whole-line replace. Treated specially to make
+      // sure line objects move the way they are supposed to.
+      var added = linesFor(0, text.length - 1);
+      update(lastLine, lastLine.text, lastSpans);
+      if (nlines) { doc.remove(from.line, nlines); }
+      if (added.length) { doc.insert(from.line, added); }
+    } else if (firstLine == lastLine) {
+      if (text.length == 1) {
+        update(firstLine, firstLine.text.slice(0, from.ch) + lastText + firstLine.text.slice(to.ch), lastSpans);
+      } else {
+        var added$1 = linesFor(1, text.length - 1);
+        added$1.push(new Line(lastText + firstLine.text.slice(to.ch), lastSpans, estimateHeight));
+        update(firstLine, firstLine.text.slice(0, from.ch) + text[0], spansFor(0));
+        doc.insert(from.line + 1, added$1);
+      }
+    } else if (text.length == 1) {
+      update(firstLine, firstLine.text.slice(0, from.ch) + text[0] + lastLine.text.slice(to.ch), spansFor(0));
+      doc.remove(from.line + 1, nlines);
+    } else {
+      update(firstLine, firstLine.text.slice(0, from.ch) + text[0], spansFor(0));
+      update(lastLine, lastText + lastLine.text.slice(to.ch), lastSpans);
+      var added$2 = linesFor(1, text.length - 1);
+      if (nlines > 1) { doc.remove(from.line + 1, nlines - 1); }
+      doc.insert(from.line + 1, added$2);
+    }
+
+    signalLater(doc, "change", doc, change);
+  }
+
+  // Call f for all linked documents.
+  function linkedDocs(doc, f, sharedHistOnly) {
+    function propagate(doc, skip, sharedHist) {
+      if (doc.linked) { for (var i = 0; i < doc.linked.length; ++i) {
+        var rel = doc.linked[i];
+        if (rel.doc == skip) { continue }
+        var shared = sharedHist && rel.sharedHist;
+        if (sharedHistOnly && !shared) { continue }
+        f(rel.doc, shared);
+        propagate(rel.doc, doc, shared);
+      } }
+    }
+    propagate(doc, null, true);
+  }
+
+  // Attach a document to an editor.
+  function attachDoc(cm, doc) {
+    if (doc.cm) { throw new Error("This document is already in use.") }
+    cm.doc = doc;
+    doc.cm = cm;
+    estimateLineHeights(cm);
+    loadMode(cm);
+    setDirectionClass(cm);
+    if (!cm.options.lineWrapping) { findMaxLine(cm); }
+    cm.options.mode = doc.modeOption;
+    regChange(cm);
+  }
+
+  function setDirectionClass(cm) {
+  (cm.doc.direction == "rtl" ? addClass : rmClass)(cm.display.lineDiv, "CodeMirror-rtl");
+  }
+
+  function directionChanged(cm) {
+    runInOp(cm, function () {
+      setDirectionClass(cm);
+      regChange(cm);
+    });
+  }
+
+  function History(startGen) {
+    // Arrays of change events and selections. Doing something adds an
+    // event to done and clears undo. Undoing moves events from done
+    // to undone, redoing moves them in the other direction.
+    this.done = []; this.undone = [];
+    this.undoDepth = Infinity;
+    // Used to track when changes can be merged into a single undo
+    // event
+    this.lastModTime = this.lastSelTime = 0;
+    this.lastOp = this.lastSelOp = null;
+    this.lastOrigin = this.lastSelOrigin = null;
+    // Used by the isClean() method
+    this.generation = this.maxGeneration = startGen || 1;
+  }
+
+  // Create a history change event from an updateDoc-style change
+  // object.
+  function historyChangeFromChange(doc, change) {
+    var histChange = {from: copyPos(change.from), to: changeEnd(change), text: getBetween(doc, change.from, change.to)};
+    attachLocalSpans(doc, histChange, change.from.line, change.to.line + 1);
+    linkedDocs(doc, function (doc) { return attachLocalSpans(doc, histChange, change.from.line, change.to.line + 1); }, true);
+    return histChange
+  }
+
+  // Pop all selection events off the end of a history array. Stop at
+  // a change event.
+  function clearSelectionEvents(array) {
+    while (array.length) {
+      var last = lst(array);
+      if (last.ranges) { array.pop(); }
+      else { break }
+    }
+  }
+
+  // Find the top change event in the history. Pop off selection
+  // events that are in the way.
+  function lastChangeEvent(hist, force) {
+    if (force) {
+      clearSelectionEvents(hist.done);
+      return lst(hist.done)
+    } else if (hist.done.length && !lst(hist.done).ranges) {
+      return lst(hist.done)
+    } else if (hist.done.length > 1 && !hist.done[hist.done.length - 2].ranges) {
+      hist.done.pop();
+      return lst(hist.done)
+    }
+  }
+
+  // Register a change in the history. Merges changes that are within
+  // a single operation, or are close together with an origin that
+  // allows merging (starting with "+") into a single event.
+  function addChangeToHistory(doc, change, selAfter, opId) {
+    var hist = doc.history;
+    hist.undone.length = 0;
+    var time = +new Date, cur;
+    var last;
+
+    if ((hist.lastOp == opId ||
+         hist.lastOrigin == change.origin && change.origin &&
+         ((change.origin.charAt(0) == "+" && hist.lastModTime > time - (doc.cm ? doc.cm.options.historyEventDelay : 500)) ||
+          change.origin.charAt(0) == "*")) &&
+        (cur = lastChangeEvent(hist, hist.lastOp == opId))) {
+      // Merge this change into the last event
+      last = lst(cur.changes);
+      if (cmp(change.from, change.to) == 0 && cmp(change.from, last.to) == 0) {
+        // Optimized case for simple insertion -- don't want to add
+        // new changesets for every character typed
+        last.to = changeEnd(change);
+      } else {
+        // Add new sub-event
+        cur.changes.push(historyChangeFromChange(doc, change));
+      }
+    } else {
+      // Can not be merged, start a new event.
+      var before = lst(hist.done);
+      if (!before || !before.ranges)
+        { pushSelectionToHistory(doc.sel, hist.done); }
+      cur = {changes: [historyChangeFromChange(doc, change)],
+             generation: hist.generation};
+      hist.done.push(cur);
+      while (hist.done.length > hist.undoDepth) {
+        hist.done.shift();
+        if (!hist.done[0].ranges) { hist.done.shift(); }
+      }
+    }
+    hist.done.push(selAfter);
+    hist.generation = ++hist.maxGeneration;
+    hist.lastModTime = hist.lastSelTime = time;
+    hist.lastOp = hist.lastSelOp = opId;
+    hist.lastOrigin = hist.lastSelOrigin = change.origin;
+
+    if (!last) { signal(doc, "historyAdded"); }
+  }
+
+  function selectionEventCanBeMerged(doc, origin, prev, sel) {
+    var ch = origin.charAt(0);
+    return ch == "*" ||
+      ch == "+" &&
+      prev.ranges.length == sel.ranges.length &&
+      prev.somethingSelected() == sel.somethingSelected() &&
+      new Date - doc.history.lastSelTime <= (doc.cm ? doc.cm.options.historyEventDelay : 500)
+  }
+
+  // Called whenever the selection changes, sets the new selection as
+  // the pending selection in the history, and pushes the old pending
+  // selection into the 'done' array when it was significantly
+  // different (in number of selected ranges, emptiness, or time).
+  function addSelectionToHistory(doc, sel, opId, options) {
+    var hist = doc.history, origin = options && options.origin;
+
+    // A new event is started when the previous origin does not match
+    // the current, or the origins don't allow matching. Origins
+    // starting with * are always merged, those starting with + are
+    // merged when similar and close together in time.
+    if (opId == hist.lastSelOp ||
+        (origin && hist.lastSelOrigin == origin &&
+         (hist.lastModTime == hist.lastSelTime && hist.lastOrigin == origin ||
+          selectionEventCanBeMerged(doc, origin, lst(hist.done), sel))))
+      { hist.done[hist.done.length - 1] = sel; }
+    else
+      { pushSelectionToHistory(sel, hist.done); }
+
+    hist.lastSelTime = +new Date;
+    hist.lastSelOrigin = origin;
+    hist.lastSelOp = opId;
+    if (options && options.clearRedo !== false)
+      { clearSelectionEvents(hist.undone); }
+  }
+
+  function pushSelectionToHistory(sel, dest) {
+    var top = lst(dest);
+    if (!(top && top.ranges && top.equals(sel)))
+      { dest.push(sel); }
+  }
+
+  // Used to store marked span information in the history.
+  function attachLocalSpans(doc, change, from, to) {
+    var existing = change["spans_" + doc.id], n = 0;
+    doc.iter(Math.max(doc.first, from), Math.min(doc.first + doc.size, to), function (line) {
+      if (line.markedSpans)
+        { (existing || (existing = change["spans_" + doc.id] = {}))[n] = line.markedSpans; }
+      ++n;
+    });
+  }
+
+  // When un/re-doing restores text containing marked spans, those
+  // that have been explicitly cleared should not be restored.
+  function removeClearedSpans(spans) {
+    if (!spans) { return null }
+    var out;
+    for (var i = 0; i < spans.length; ++i) {
+      if (spans[i].marker.explicitlyCleared) { if (!out) { out = spans.slice(0, i); } }
+      else if (out) { out.push(spans[i]); }
+    }
+    return !out ? spans : out.length ? out : null
+  }
+
+  // Retrieve and filter the old marked spans stored in a change event.
+  function getOldSpans(doc, change) {
+    var found = change["spans_" + doc.id];
+    if (!found) { return null }
+    var nw = [];
+    for (var i = 0; i < change.text.length; ++i)
+      { nw.push(removeClearedSpans(found[i])); }
+    return nw
+  }
+
+  // Used for un/re-doing changes from the history. Combines the
+  // result of computing the existing spans with the set of spans that
+  // existed in the history (so that deleting around a span and then
+  // undoing brings back the span).
+  function mergeOldSpans(doc, change) {
+    var old = getOldSpans(doc, change);
+    var stretched = stretchSpansOverChange(doc, change);
+    if (!old) { return stretched }
+    if (!stretched) { return old }
+
+    for (var i = 0; i < old.length; ++i) {
+      var oldCur = old[i], stretchCur = stretched[i];
+      if (oldCur && stretchCur) {
+        spans: for (var j = 0; j < stretchCur.length; ++j) {
+          var span = stretchCur[j];
+          for (var k = 0; k < oldCur.length; ++k)
+            { if (oldCur[k].marker == span.marker) { continue spans } }
+          oldCur.push(span);
+        }
+      } else if (stretchCur) {
+        old[i] = stretchCur;
+      }
+    }
+    return old
+  }
+
+  // Used both to provide a JSON-safe object in .getHistory, and, when
+  // detaching a document, to split the history in two
+  function copyHistoryArray(events, newGroup, instantiateSel) {
+    var copy = [];
+    for (var i = 0; i < events.length; ++i) {
+      var event = events[i];
+      if (event.ranges) {
+        copy.push(instantiateSel ? Selection.prototype.deepCopy.call(event) : event);
+        continue
+      }
+      var changes = event.changes, newChanges = [];
+      copy.push({changes: newChanges});
+      for (var j = 0; j < changes.length; ++j) {
+        var change = changes[j], m = (void 0);
+        newChanges.push({from: change.from, to: change.to, text: change.text});
+        if (newGroup) { for (var prop in change) { if (m = prop.match(/^spans_(\d+)$/)) {
+          if (indexOf(newGroup, Number(m[1])) > -1) {
+            lst(newChanges)[prop] = change[prop];
+            delete change[prop];
+          }
+        } } }
+      }
+    }
+    return copy
+  }
+
+  // The 'scroll' parameter given to many of these indicated whether
+  // the new cursor position should be scrolled into view after
+  // modifying the selection.
+
+  // If shift is held or the extend flag is set, extends a range to
+  // include a given position (and optionally a second position).
+  // Otherwise, simply returns the range between the given positions.
+  // Used for cursor motion and such.
+  function extendRange(range, head, other, extend) {
+    if (extend) {
+      var anchor = range.anchor;
+      if (other) {
+        var posBefore = cmp(head, anchor) < 0;
+        if (posBefore != (cmp(other, anchor) < 0)) {
+          anchor = head;
+          head = other;
+        } else if (posBefore != (cmp(head, other) < 0)) {
+          head = other;
+        }
+      }
+      return new Range(anchor, head)
+    } else {
+      return new Range(other || head, head)
+    }
+  }
+
+  // Extend the primary selection range, discard the rest.
+  function extendSelection(doc, head, other, options, extend) {
+    if (extend == null) { extend = doc.cm && (doc.cm.display.shift || doc.extend); }
+    setSelection(doc, new Selection([extendRange(doc.sel.primary(), head, other, extend)], 0), options);
+  }
+
+  // Extend all selections (pos is an array of selections with length
+  // equal the number of selections)
+  function extendSelections(doc, heads, options) {
+    var out = [];
+    var extend = doc.cm && (doc.cm.display.shift || doc.extend);
+    for (var i = 0; i < doc.sel.ranges.length; i++)
+      { out[i] = extendRange(doc.sel.ranges[i], heads[i], null, extend); }
+    var newSel = normalizeSelection(doc.cm, out, doc.sel.primIndex);
+    setSelection(doc, newSel, options);
+  }
+
+  // Updates a single range in the selection.
+  function replaceOneSelection(doc, i, range, options) {
+    var ranges = doc.sel.ranges.slice(0);
+    ranges[i] = range;
+    setSelection(doc, normalizeSelection(doc.cm, ranges, doc.sel.primIndex), options);
+  }
+
+  // Reset the selection to a single range.
+  function setSimpleSelection(doc, anchor, head, options) {
+    setSelection(doc, simpleSelection(anchor, head), options);
+  }
+
+  // Give beforeSelectionChange handlers a change to influence a
+  // selection update.
+  function filterSelectionChange(doc, sel, options) {
+    var obj = {
+      ranges: sel.ranges,
+      update: function(ranges) {
+        this.ranges = [];
+        for (var i = 0; i < ranges.length; i++)
+          { this.ranges[i] = new Range(clipPos(doc, ranges[i].anchor),
+                                     clipPos(doc, ranges[i].head)); }
+      },
+      origin: options && options.origin
+    };
+    signal(doc, "beforeSelectionChange", doc, obj);
+    if (doc.cm) { signal(doc.cm, "beforeSelectionChange", doc.cm, obj); }
+    if (obj.ranges != sel.ranges) { return normalizeSelection(doc.cm, obj.ranges, obj.ranges.length - 1) }
+    else { return sel }
+  }
+
+  function setSelectionReplaceHistory(doc, sel, options) {
+    var done = doc.history.done, last = lst(done);
+    if (last && last.ranges) {
+      done[done.length - 1] = sel;
+      setSelectionNoUndo(doc, sel, options);
+    } else {
+      setSelection(doc, sel, options);
+    }
+  }
+
+  // Set a new selection.
+  function setSelection(doc, sel, options) {
+    setSelectionNoUndo(doc, sel, options);
+    addSelectionToHistory(doc, doc.sel, doc.cm ? doc.cm.curOp.id : NaN, options);
+  }
+
+  function setSelectionNoUndo(doc, sel, options) {
+    if (hasHandler(doc, "beforeSelectionChange") || doc.cm && hasHandler(doc.cm, "beforeSelectionChange"))
+      { sel = filterSelectionChange(doc, sel, options); }
+
+    var bias = options && options.bias ||
+      (cmp(sel.primary().head, doc.sel.primary().head) < 0 ? -1 : 1);
+    setSelectionInner(doc, skipAtomicInSelection(doc, sel, bias, true));
+
+    if (!(options && options.scroll === false) && doc.cm)
+      { ensureCursorVisible(doc.cm); }
+  }
+
+  function setSelectionInner(doc, sel) {
+    if (sel.equals(doc.sel)) { return }
+
+    doc.sel = sel;
+
+    if (doc.cm) {
+      doc.cm.curOp.updateInput = 1;
+      doc.cm.curOp.selectionChanged = true;
+      signalCursorActivity(doc.cm);
+    }
+    signalLater(doc, "cursorActivity", doc);
+  }
+
+  // Verify that the selection does not partially select any atomic
+  // marked ranges.
+  function reCheckSelection(doc) {
+    setSelectionInner(doc, skipAtomicInSelection(doc, doc.sel, null, false));
+  }
+
+  // Return a selection that does not partially select any atomic
+  // ranges.
+  function skipAtomicInSelection(doc, sel, bias, mayClear) {
+    var out;
+    for (var i = 0; i < sel.ranges.length; i++) {
+      var range = sel.ranges[i];
+      var old = sel.ranges.length == doc.sel.ranges.length && doc.sel.ranges[i];
+      var newAnchor = skipAtomic(doc, range.anchor, old && old.anchor, bias, mayClear);
+      var newHead = skipAtomic(doc, range.head, old && old.head, bias, mayClear);
+      if (out || newAnchor != range.anchor || newHead != range.head) {
+        if (!out) { out = sel.ranges.slice(0, i); }
+        out[i] = new Range(newAnchor, newHead);
+      }
+    }
+    return out ? normalizeSelection(doc.cm, out, sel.primIndex) : sel
+  }
+
+  function skipAtomicInner(doc, pos, oldPos, dir, mayClear) {
+    var line = getLine(doc, pos.line);
+    if (line.markedSpans) { for (var i = 0; i < line.markedSpans.length; ++i) {
+      var sp = line.markedSpans[i], m = sp.marker;
+
+      // Determine if we should prevent the cursor being placed to the left/right of an atomic marker
+      // Historically this was determined using the inclusiveLeft/Right option, but the new way to control it
+      // is with selectLeft/Right
+      var preventCursorLeft = ("selectLeft" in m) ? !m.selectLeft : m.inclusiveLeft;
+      var preventCursorRight = ("selectRight" in m) ? !m.selectRight : m.inclusiveRight;
+
+      if ((sp.from == null || (preventCursorLeft ? sp.from <= pos.ch : sp.from < pos.ch)) &&
+          (sp.to == null || (preventCursorRight ? sp.to >= pos.ch : sp.to > pos.ch))) {
+        if (mayClear) {
+          signal(m, "beforeCursorEnter");
+          if (m.explicitlyCleared) {
+            if (!line.markedSpans) { break }
+            else {--i; continue}
+          }
+        }
+        if (!m.atomic) { continue }
+
+        if (oldPos) {
+          var near = m.find(dir < 0 ? 1 : -1), diff = (void 0);
+          if (dir < 0 ? preventCursorRight : preventCursorLeft)
+            { near = movePos(doc, near, -dir, near && near.line == pos.line ? line : null); }
+          if (near && near.line == pos.line && (diff = cmp(near, oldPos)) && (dir < 0 ? diff < 0 : diff > 0))
+            { return skipAtomicInner(doc, near, pos, dir, mayClear) }
+        }
+
+        var far = m.find(dir < 0 ? -1 : 1);
+        if (dir < 0 ? preventCursorLeft : preventCursorRight)
+          { far = movePos(doc, far, dir, far.line == pos.line ? line : null); }
+        return far ? skipAtomicInner(doc, far, pos, dir, mayClear) : null
+      }
+    } }
+    return pos
+  }
+
+  // Ensure a given position is not inside an atomic range.
+  function skipAtomic(doc, pos, oldPos, bias, mayClear) {
+    var dir = bias || 1;
+    var found = skipAtomicInner(doc, pos, oldPos, dir, mayClear) ||
+        (!mayClear && skipAtomicInner(doc, pos, oldPos, dir, true)) ||
+        skipAtomicInner(doc, pos, oldPos, -dir, mayClear) ||
+        (!mayClear && skipAtomicInner(doc, pos, oldPos, -dir, true));
+    if (!found) {
+      doc.cantEdit = true;
+      return Pos(doc.first, 0)
+    }
+    return found
+  }
+
+  function movePos(doc, pos, dir, line) {
+    if (dir < 0 && pos.ch == 0) {
+      if (pos.line > doc.first) { return clipPos(doc, Pos(pos.line - 1)) }
+      else { return null }
+    } else if (dir > 0 && pos.ch == (line || getLine(doc, pos.line)).text.length) {
+      if (pos.line < doc.first + doc.size - 1) { return Pos(pos.line + 1, 0) }
+      else { return null }
+    } else {
+      return new Pos(pos.line, pos.ch + dir)
+    }
+  }
+
+  function selectAll(cm) {
+    cm.setSelection(Pos(cm.firstLine(), 0), Pos(cm.lastLine()), sel_dontScroll);
+  }
+
+  // UPDATING
+
+  // Allow "beforeChange" event handlers to influence a change
+  function filterChange(doc, change, update) {
+    var obj = {
+      canceled: false,
+      from: change.from,
+      to: change.to,
+      text: change.text,
+      origin: change.origin,
+      cancel: function () { return obj.canceled = true; }
+    };
+    if (update) { obj.update = function (from, to, text, origin) {
+      if (from) { obj.from = clipPos(doc, from); }
+      if (to) { obj.to = clipPos(doc, to); }
+      if (text) { obj.text = text; }
+      if (origin !== undefined) { obj.origin = origin; }
+    }; }
+    signal(doc, "beforeChange", doc, obj);
+    if (doc.cm) { signal(doc.cm, "beforeChange", doc.cm, obj); }
+
+    if (obj.canceled) {
+      if (doc.cm) { doc.cm.curOp.updateInput = 2; }
+      return null
+    }
+    return {from: obj.from, to: obj.to, text: obj.text, origin: obj.origin}
+  }
+
+  // Apply a change to a document, and add it to the document's
+  // history, and propagating it to all linked documents.
+  function makeChange(doc, change, ignoreReadOnly) {
+    if (doc.cm) {
+      if (!doc.cm.curOp) { return operation(doc.cm, makeChange)(doc, change, ignoreReadOnly) }
+      if (doc.cm.state.suppressEdits) { return }
+    }
+
+    if (hasHandler(doc, "beforeChange") || doc.cm && hasHandler(doc.cm, "beforeChange")) {
+      change = filterChange(doc, change, true);
+      if (!change) { return }
+    }
+
+    // Possibly split or suppress the update based on the presence
+    // of read-only spans in its range.
+    var split = sawReadOnlySpans && !ignoreReadOnly && removeReadOnlyRanges(doc, change.from, change.to);
+    if (split) {
+      for (var i = split.length - 1; i >= 0; --i)
+        { makeChangeInner(doc, {from: split[i].from, to: split[i].to, text: i ? [""] : change.text, origin: change.origin}); }
+    } else {
+      makeChangeInner(doc, change);
+    }
+  }
+
+  function makeChangeInner(doc, change) {
+    if (change.text.length == 1 && change.text[0] == "" && cmp(change.from, change.to) == 0) { return }
+    var selAfter = computeSelAfterChange(doc, change);
+    addChangeToHistory(doc, change, selAfter, doc.cm ? doc.cm.curOp.id : NaN);
+
+    makeChangeSingleDoc(doc, change, selAfter, stretchSpansOverChange(doc, change));
+    var rebased = [];
+
+    linkedDocs(doc, function (doc, sharedHist) {
+      if (!sharedHist && indexOf(rebased, doc.history) == -1) {
+        rebaseHist(doc.history, change);
+        rebased.push(doc.history);
+      }
+      makeChangeSingleDoc(doc, change, null, stretchSpansOverChange(doc, change));
+    });
+  }
+
+  // Revert a change stored in a document's history.
+  function makeChangeFromHistory(doc, type, allowSelectionOnly) {
+    var suppress = doc.cm && doc.cm.state.suppressEdits;
+    if (suppress && !allowSelectionOnly) { return }
+
+    var hist = doc.history, event, selAfter = doc.sel;
+    var source = type == "undo" ? hist.done : hist.undone, dest = type == "undo" ? hist.undone : hist.done;
+
+    // Verify that there is a useable event (so that ctrl-z won't
+    // needlessly clear selection events)
+    var i = 0;
+    for (; i < source.length; i++) {
+      event = source[i];
+      if (allowSelectionOnly ? event.ranges && !event.equals(doc.sel) : !event.ranges)
+        { break }
+    }
+    if (i == source.length) { return }
+    hist.lastOrigin = hist.lastSelOrigin = null;
+
+    for (;;) {
+      event = source.pop();
+      if (event.ranges) {
+        pushSelectionToHistory(event, dest);
+        if (allowSelectionOnly && !event.equals(doc.sel)) {
+          setSelection(doc, event, {clearRedo: false});
+          return
+        }
+        selAfter = event;
+      } else if (suppress) {
+        source.push(event);
+        return
+      } else { break }
+    }
+
+    // Build up a reverse change object to add to the opposite history
+    // stack (redo when undoing, and vice versa).
+    var antiChanges = [];
+    pushSelectionToHistory(selAfter, dest);
+    dest.push({changes: antiChanges, generation: hist.generation});
+    hist.generation = event.generation || ++hist.maxGeneration;
+
+    var filter = hasHandler(doc, "beforeChange") || doc.cm && hasHandler(doc.cm, "beforeChange");
+
+    var loop = function ( i ) {
+      var change = event.changes[i];
+      change.origin = type;
+      if (filter && !filterChange(doc, change, false)) {
+        source.length = 0;
+        return {}
+      }
+
+      antiChanges.push(historyChangeFromChange(doc, change));
+
+      var after = i ? computeSelAfterChange(doc, change) : lst(source);
+      makeChangeSingleDoc(doc, change, after, mergeOldSpans(doc, change));
+      if (!i && doc.cm) { doc.cm.scrollIntoView({from: change.from, to: changeEnd(change)}); }
+      var rebased = [];
+
+      // Propagate to the linked documents
+      linkedDocs(doc, function (doc, sharedHist) {
+        if (!sharedHist && indexOf(rebased, doc.history) == -1) {
+          rebaseHist(doc.history, change);
+          rebased.push(doc.history);
+        }
+        makeChangeSingleDoc(doc, change, null, mergeOldSpans(doc, change));
+      });
+    };
+
+    for (var i$1 = event.changes.length - 1; i$1 >= 0; --i$1) {
+      var returned = loop( i$1 );
+
+      if ( returned ) return returned.v;
+    }
+  }
+
+  // Sub-views need their line numbers shifted when text is added
+  // above or below them in the parent document.
+  function shiftDoc(doc, distance) {
+    if (distance == 0) { return }
+    doc.first += distance;
+    doc.sel = new Selection(map(doc.sel.ranges, function (range) { return new Range(
+      Pos(range.anchor.line + distance, range.anchor.ch),
+      Pos(range.head.line + distance, range.head.ch)
+    ); }), doc.sel.primIndex);
+    if (doc.cm) {
+      regChange(doc.cm, doc.first, doc.first - distance, distance);
+      for (var d = doc.cm.display, l = d.viewFrom; l < d.viewTo; l++)
+        { regLineChange(doc.cm, l, "gutter"); }
+    }
+  }
+
+  // More lower-level change function, handling only a single document
+  // (not linked ones).
+  function makeChangeSingleDoc(doc, change, selAfter, spans) {
+    if (doc.cm && !doc.cm.curOp)
+      { return operation(doc.cm, makeChangeSingleDoc)(doc, change, selAfter, spans) }
+
+    if (change.to.line < doc.first) {
+      shiftDoc(doc, change.text.length - 1 - (change.to.line - change.from.line));
+      return
+    }
+    if (change.from.line > doc.lastLine()) { return }
+
+    // Clip the change to the size of this doc
+    if (change.from.line < doc.first) {
+      var shift = change.text.length - 1 - (doc.first - change.from.line);
+      shiftDoc(doc, shift);
+      change = {from: Pos(doc.first, 0), to: Pos(change.to.line + shift, change.to.ch),
+                text: [lst(change.text)], origin: change.origin};
+    }
+    var last = doc.lastLine();
+    if (change.to.line > last) {
+      change = {from: change.from, to: Pos(last, getLine(doc, last).text.length),
+                text: [change.text[0]], origin: change.origin};
+    }
+
+    change.removed = getBetween(doc, change.from, change.to);
+
+    if (!selAfter) { selAfter = computeSelAfterChange(doc, change); }
+    if (doc.cm) { makeChangeSingleDocInEditor(doc.cm, change, spans); }
+    else { updateDoc(doc, change, spans); }
+    setSelectionNoUndo(doc, selAfter, sel_dontScroll);
+
+    if (doc.cantEdit && skipAtomic(doc, Pos(doc.firstLine(), 0)))
+      { doc.cantEdit = false; }
+  }
+
+  // Handle the interaction of a change to a document with the editor
+  // that this document is part of.
+  function makeChangeSingleDocInEditor(cm, change, spans) {
+    var doc = cm.doc, display = cm.display, from = change.from, to = change.to;
+
+    var recomputeMaxLength = false, checkWidthStart = from.line;
+    if (!cm.options.lineWrapping) {
+      checkWidthStart = lineNo(visualLine(getLine(doc, from.line)));
+      doc.iter(checkWidthStart, to.line + 1, function (line) {
+        if (line == display.maxLine) {
+          recomputeMaxLength = true;
+          return true
+        }
+      });
+    }
+
+    if (doc.sel.contains(change.from, change.to) > -1)
+      { signalCursorActivity(cm); }
+
+    updateDoc(doc, change, spans, estimateHeight(cm));
+
+    if (!cm.options.lineWrapping) {
+      doc.iter(checkWidthStart, from.line + change.text.length, function (line) {
+        var len = lineLength(line);
+        if (len > display.maxLineLength) {
+          display.maxLine = line;
+          display.maxLineLength = len;
+          display.maxLineChanged = true;
+          recomputeMaxLength = false;
+        }
+      });
+      if (recomputeMaxLength) { cm.curOp.updateMaxLine = true; }
+    }
+
+    retreatFrontier(doc, from.line);
+    startWorker(cm, 400);
+
+    var lendiff = change.text.length - (to.line - from.line) - 1;
+    // Remember that these lines changed, for updating the display
+    if (change.full)
+      { regChange(cm); }
+    else if (from.line == to.line && change.text.length == 1 && !isWholeLineUpdate(cm.doc, change))
+      { regLineChange(cm, from.line, "text"); }
+    else
+      { regChange(cm, from.line, to.line + 1, lendiff); }
+
+    var changesHandler = hasHandler(cm, "changes"), changeHandler = hasHandler(cm, "change");
+    if (changeHandler || changesHandler) {
+      var obj = {
+        from: from, to: to,
+        text: change.text,
+        removed: change.removed,
+        origin: change.origin
+      };
+      if (changeHandler) { signalLater(cm, "change", cm, obj); }
+      if (changesHandler) { (cm.curOp.changeObjs || (cm.curOp.changeObjs = [])).push(obj); }
+    }
+    cm.display.selForContextMenu = null;
+  }
+
+  function replaceRange(doc, code, from, to, origin) {
+    var assign;
+
+    if (!to) { to = from; }
+    if (cmp(to, from) < 0) { (assign = [to, from], from = assign[0], to = assign[1]); }
+    if (typeof code == "string") { code = doc.splitLines(code); }
+    makeChange(doc, {from: from, to: to, text: code, origin: origin});
+  }
+
+  // Rebasing/resetting history to deal with externally-sourced changes
+
+  function rebaseHistSelSingle(pos, from, to, diff) {
+    if (to < pos.line) {
+      pos.line += diff;
+    } else if (from < pos.line) {
+      pos.line = from;
+      pos.ch = 0;
+    }
+  }
+
+  // Tries to rebase an array of history events given a change in the
+  // document. If the change touches the same lines as the event, the
+  // event, and everything 'behind' it, is discarded. If the change is
+  // before the event, the event's positions are updated. Uses a
+  // copy-on-write scheme for the positions, to avoid having to
+  // reallocate them all on every rebase, but also avoid problems with
+  // shared position objects being unsafely updated.
+  function rebaseHistArray(array, from, to, diff) {
+    for (var i = 0; i < array.length; ++i) {
+      var sub = array[i], ok = true;
+      if (sub.ranges) {
+        if (!sub.copied) { sub = array[i] = sub.deepCopy(); sub.copied = true; }
+        for (var j = 0; j < sub.ranges.length; j++) {
+          rebaseHistSelSingle(sub.ranges[j].anchor, from, to, diff);
+          rebaseHistSelSingle(sub.ranges[j].head, from, to, diff);
+        }
+        continue
+      }
+      for (var j$1 = 0; j$1 < sub.changes.length; ++j$1) {
+        var cur = sub.changes[j$1];
+        if (to < cur.from.line) {
+          cur.from = Pos(cur.from.line + diff, cur.from.ch);
+          cur.to = Pos(cur.to.line + diff, cur.to.ch);
+        } else if (from <= cur.to.line) {
+          ok = false;
+          break
+        }
+      }
+      if (!ok) {
+        array.splice(0, i + 1);
+        i = 0;
+      }
+    }
+  }
+
+  function rebaseHist(hist, change) {
+    var from = change.from.line, to = change.to.line, diff = change.text.length - (to - from) - 1;
+    rebaseHistArray(hist.done, from, to, diff);
+    rebaseHistArray(hist.undone, from, to, diff);
+  }
+
+  // Utility for applying a change to a line by handle or number,
+  // returning the number and optionally registering the line as
+  // changed.
+  function changeLine(doc, handle, changeType, op) {
+    var no = handle, line = handle;
+    if (typeof handle == "number") { line = getLine(doc, clipLine(doc, handle)); }
+    else { no = lineNo(handle); }
+    if (no == null) { return null }
+    if (op(line, no) && doc.cm) { regLineChange(doc.cm, no, changeType); }
+    return line
+  }
+
+  // The document is represented as a BTree consisting of leaves, with
+  // chunk of lines in them, and branches, with up to ten leaves or
+  // other branch nodes below them. The top node is always a branch
+  // node, and is the document object itself (meaning it has
+  // additional methods and properties).
+  //
+  // All nodes have parent links. The tree is used both to go from
+  // line numbers to line objects, and to go from objects to numbers.
+  // It also indexes by height, and is used to convert between height
+  // and line object, and to find the total height of the document.
+  //
+  // See also http://marijnhaverbeke.nl/blog/codemirror-line-tree.html
+
+  function LeafChunk(lines) {
+    this.lines = lines;
+    this.parent = null;
+    var height = 0;
+    for (var i = 0; i < lines.length; ++i) {
+      lines[i].parent = this;
+      height += lines[i].height;
+    }
+    this.height = height;
+  }
+
+  LeafChunk.prototype = {
+    chunkSize: function() { return this.lines.length },
+
+    // Remove the n lines at offset 'at'.
+    removeInner: function(at, n) {
+      for (var i = at, e = at + n; i < e; ++i) {
+        var line = this.lines[i];
+        this.height -= line.height;
+        cleanUpLine(line);
+        signalLater(line, "delete");
+      }
+      this.lines.splice(at, n);
+    },
+
+    // Helper used to collapse a small branch into a single leaf.
+    collapse: function(lines) {
+      lines.push.apply(lines, this.lines);
+    },
+
+    // Insert the given array of lines at offset 'at', count them as
+    // having the given height.
+    insertInner: function(at, lines, height) {
+      this.height += height;
+      this.lines = this.lines.slice(0, at).concat(lines).concat(this.lines.slice(at));
+      for (var i = 0; i < lines.length; ++i) { lines[i].parent = this; }
+    },
+
+    // Used to iterate over a part of the tree.
+    iterN: function(at, n, op) {
+      for (var e = at + n; at < e; ++at)
+        { if (op(this.lines[at])) { return true } }
+    }
+  };
+
+  function BranchChunk(children) {
+    this.children = children;
+    var size = 0, height = 0;
+    for (var i = 0; i < children.length; ++i) {
+      var ch = children[i];
+      size += ch.chunkSize(); height += ch.height;
+      ch.parent = this;
+    }
+    this.size = size;
+    this.height = height;
+    this.parent = null;
+  }
+
+  BranchChunk.prototype = {
+    chunkSize: function() { return this.size },
+
+    removeInner: function(at, n) {
+      this.size -= n;
+      for (var i = 0; i < this.children.length; ++i) {
+        var child = this.children[i], sz = child.chunkSize();
+        if (at < sz) {
+          var rm = Math.min(n, sz - at), oldHeight = child.height;
+          child.removeInner(at, rm);
+          this.height -= oldHeight - child.height;
+          if (sz == rm) { this.children.splice(i--, 1); child.parent = null; }
+          if ((n -= rm) == 0) { break }
+          at = 0;
+        } else { at -= sz; }
+      }
+      // If the result is smaller than 25 lines, ensure that it is a
+      // single leaf node.
+      if (this.size - n < 25 &&
+          (this.children.length > 1 || !(this.children[0] instanceof LeafChunk))) {
+        var lines = [];
+        this.collapse(lines);
+        this.children = [new LeafChunk(lines)];
+        this.children[0].parent = this;
+      }
+    },
+
+    collapse: function(lines) {
+      for (var i = 0; i < this.children.length; ++i) { this.children[i].collapse(lines); }
+    },
+
+    insertInner: function(at, lines, height) {
+      this.size += lines.length;
+      this.height += height;
+      for (var i = 0; i < this.children.length; ++i) {
+        var child = this.children[i], sz = child.chunkSize();
+        if (at <= sz) {
+          child.insertInner(at, lines, height);
+          if (child.lines && child.lines.length > 50) {
+            // To avoid memory thrashing when child.lines is huge (e.g. first view of a large file), it's never spliced.
+            // Instead, small slices are taken. They're taken in order because sequential memory accesses are fastest.
+            var remaining = child.lines.length % 25 + 25;
+            for (var pos = remaining; pos < child.lines.length;) {
+              var leaf = new LeafChunk(child.lines.slice(pos, pos += 25));
+              child.height -= leaf.height;
+              this.children.splice(++i, 0, leaf);
+              leaf.parent = this;
+            }
+            child.lines = child.lines.slice(0, remaining);
+            this.maybeSpill();
+          }
+          break
+        }
+        at -= sz;
+      }
+    },
+
+    // When a node has grown, check whether it should be split.
+    maybeSpill: function() {
+      if (this.children.length <= 10) { return }
+      var me = this;
+      do {
+        var spilled = me.children.splice(me.children.length - 5, 5);
+        var sibling = new BranchChunk(spilled);
+        if (!me.parent) { // Become the parent node
+          var copy = new BranchChunk(me.children);
+          copy.parent = me;
+          me.children = [copy, sibling];
+          me = copy;
+       } else {
+          me.size -= sibling.size;
+          me.height -= sibling.height;
+          var myIndex = indexOf(me.parent.children, me);
+          me.parent.children.splice(myIndex + 1, 0, sibling);
+        }
+        sibling.parent = me.parent;
+      } while (me.children.length > 10)
+      me.parent.maybeSpill();
+    },
+
+    iterN: function(at, n, op) {
+      for (var i = 0; i < this.children.length; ++i) {
+        var child = this.children[i], sz = child.chunkSize();
+        if (at < sz) {
+          var used = Math.min(n, sz - at);
+          if (child.iterN(at, used, op)) { return true }
+          if ((n -= used) == 0) { break }
+          at = 0;
+        } else { at -= sz; }
+      }
+    }
+  };
+
+  // Line widgets are block elements displayed above or below a line.
+
+  var LineWidget = function(doc, node, options) {
+    if (options) { for (var opt in options) { if (options.hasOwnProperty(opt))
+      { this[opt] = options[opt]; } } }
+    this.doc = doc;
+    this.node = node;
+  };
+
+  LineWidget.prototype.clear = function () {
+    var cm = this.doc.cm, ws = this.line.widgets, line = this.line, no = lineNo(line);
+    if (no == null || !ws) { return }
+    for (var i = 0; i < ws.length; ++i) { if (ws[i] == this) { ws.splice(i--, 1); } }
+    if (!ws.length) { line.widgets = null; }
+    var height = widgetHeight(this);
+    updateLineHeight(line, Math.max(0, line.height - height));
+    if (cm) {
+      runInOp(cm, function () {
+        adjustScrollWhenAboveVisible(cm, line, -height);
+        regLineChange(cm, no, "widget");
+      });
+      signalLater(cm, "lineWidgetCleared", cm, this, no);
+    }
+  };
+
+  LineWidget.prototype.changed = function () {
+      var this$1 = this;
+
+    var oldH = this.height, cm = this.doc.cm, line = this.line;
+    this.height = null;
+    var diff = widgetHeight(this) - oldH;
+    if (!diff) { return }
+    if (!lineIsHidden(this.doc, line)) { updateLineHeight(line, line.height + diff); }
+    if (cm) {
+      runInOp(cm, function () {
+        cm.curOp.forceUpdate = true;
+        adjustScrollWhenAboveVisible(cm, line, diff);
+        signalLater(cm, "lineWidgetChanged", cm, this$1, lineNo(line));
+      });
+    }
+  };
+  eventMixin(LineWidget);
+
+  function adjustScrollWhenAboveVisible(cm, line, diff) {
+    if (heightAtLine(line) < ((cm.curOp && cm.curOp.scrollTop) || cm.doc.scrollTop))
+      { addToScrollTop(cm, diff); }
+  }
+
+  function addLineWidget(doc, handle, node, options) {
+    var widget = new LineWidget(doc, node, options);
+    var cm = doc.cm;
+    if (cm && widget.noHScroll) { cm.display.alignWidgets = true; }
+    changeLine(doc, handle, "widget", function (line) {
+      var widgets = line.widgets || (line.widgets = []);
+      if (widget.insertAt == null) { widgets.push(widget); }
+      else { widgets.splice(Math.min(widgets.length - 1, Math.max(0, widget.insertAt)), 0, widget); }
+      widget.line = line;
+      if (cm && !lineIsHidden(doc, line)) {
+        var aboveVisible = heightAtLine(line) < doc.scrollTop;
+        updateLineHeight(line, line.height + widgetHeight(widget));
+        if (aboveVisible) { addToScrollTop(cm, widget.height); }
+        cm.curOp.forceUpdate = true;
+      }
+      return true
+    });
+    if (cm) { signalLater(cm, "lineWidgetAdded", cm, widget, typeof handle == "number" ? handle : lineNo(handle)); }
+    return widget
+  }
+
+  // TEXTMARKERS
+
+  // Created with markText and setBookmark methods. A TextMarker is a
+  // handle that can be used to clear or find a marked position in the
+  // document. Line objects hold arrays (markedSpans) containing
+  // {from, to, marker} object pointing to such marker objects, and
+  // indicating that such a marker is present on that line. Multiple
+  // lines may point to the same marker when it spans across lines.
+  // The spans will have null for their from/to properties when the
+  // marker continues beyond the start/end of the line. Markers have
+  // links back to the lines they currently touch.
+
+  // Collapsed markers have unique ids, in order to be able to order
+  // them, which is needed for uniquely determining an outer marker
+  // when they overlap (they may nest, but not partially overlap).
+  var nextMarkerId = 0;
+
+  var TextMarker = function(doc, type) {
+    this.lines = [];
+    this.type = type;
+    this.doc = doc;
+    this.id = ++nextMarkerId;
+  };
+
+  // Clear the marker.
+  TextMarker.prototype.clear = function () {
+    if (this.explicitlyCleared) { return }
+    var cm = this.doc.cm, withOp = cm && !cm.curOp;
+    if (withOp) { startOperation(cm); }
+    if (hasHandler(this, "clear")) {
+      var found = this.find();
+      if (found) { signalLater(this, "clear", found.from, found.to); }
+    }
+    var min = null, max = null;
+    for (var i = 0; i < this.lines.length; ++i) {
+      var line = this.lines[i];
+      var span = getMarkedSpanFor(line.markedSpans, this);
+      if (cm && !this.collapsed) { regLineChange(cm, lineNo(line), "text"); }
+      else if (cm) {
+        if (span.to != null) { max = lineNo(line); }
+        if (span.from != null) { min = lineNo(line); }
+      }
+      line.markedSpans = removeMarkedSpan(line.markedSpans, span);
+      if (span.from == null && this.collapsed && !lineIsHidden(this.doc, line) && cm)
+        { updateLineHeight(line, textHeight(cm.display)); }
+    }
+    if (cm && this.collapsed && !cm.options.lineWrapping) { for (var i$1 = 0; i$1 < this.lines.length; ++i$1) {
+      var visual = visualLine(this.lines[i$1]), len = lineLength(visual);
+      if (len > cm.display.maxLineLength) {
+        cm.display.maxLine = visual;
+        cm.display.maxLineLength = len;
+        cm.display.maxLineChanged = true;
+      }
+    } }
+
+    if (min != null && cm && this.collapsed) { regChange(cm, min, max + 1); }
+    this.lines.length = 0;
+    this.explicitlyCleared = true;
+    if (this.atomic && this.doc.cantEdit) {
+      this.doc.cantEdit = false;
+      if (cm) { reCheckSelection(cm.doc); }
+    }
+    if (cm) { signalLater(cm, "markerCleared", cm, this, min, max); }
+    if (withOp) { endOperation(cm); }
+    if (this.parent) { this.parent.clear(); }
+  };
+
+  // Find the position of the marker in the document. Returns a {from,
+  // to} object by default. Side can be passed to get a specific side
+  // -- 0 (both), -1 (left), or 1 (right). When lineObj is true, the
+  // Pos objects returned contain a line object, rather than a line
+  // number (used to prevent looking up the same line twice).
+  TextMarker.prototype.find = function (side, lineObj) {
+    if (side == null && this.type == "bookmark") { side = 1; }
+    var from, to;
+    for (var i = 0; i < this.lines.length; ++i) {
+      var line = this.lines[i];
+      var span = getMarkedSpanFor(line.markedSpans, this);
+      if (span.from != null) {
+        from = Pos(lineObj ? line : lineNo(line), span.from);
+        if (side == -1) { return from }
+      }
+      if (span.to != null) {
+        to = Pos(lineObj ? line : lineNo(line), span.to);
+        if (side == 1) { return to }
+      }
+    }
+    return from && {from: from, to: to}
+  };
+
+  // Signals that the marker's widget changed, and surrounding layout
+  // should be recomputed.
+  TextMarker.prototype.changed = function () {
+      var this$1 = this;
+
+    var pos = this.find(-1, true), widget = this, cm = this.doc.cm;
+    if (!pos || !cm) { return }
+    runInOp(cm, function () {
+      var line = pos.line, lineN = lineNo(pos.line);
+      var view = findViewForLine(cm, lineN);
+      if (view) {
+        clearLineMeasurementCacheFor(view);
+        cm.curOp.selectionChanged = cm.curOp.forceUpdate = true;
+      }
+      cm.curOp.updateMaxLine = true;
+      if (!lineIsHidden(widget.doc, line) && widget.height != null) {
+        var oldHeight = widget.height;
+        widget.height = null;
+        var dHeight = widgetHeight(widget) - oldHeight;
+        if (dHeight)
+          { updateLineHeight(line, line.height + dHeight); }
+      }
+      signalLater(cm, "markerChanged", cm, this$1);
+    });
+  };
+
+  TextMarker.prototype.attachLine = function (line) {
+    if (!this.lines.length && this.doc.cm) {
+      var op = this.doc.cm.curOp;
+      if (!op.maybeHiddenMarkers || indexOf(op.maybeHiddenMarkers, this) == -1)
+        { (op.maybeUnhiddenMarkers || (op.maybeUnhiddenMarkers = [])).push(this); }
+    }
+    this.lines.push(line);
+  };
+
+  TextMarker.prototype.detachLine = function (line) {
+    this.lines.splice(indexOf(this.lines, line), 1);
+    if (!this.lines.length && this.doc.cm) {
+      var op = this.doc.cm.curOp
+      ;(op.maybeHiddenMarkers || (op.maybeHiddenMarkers = [])).push(this);
+    }
+  };
+  eventMixin(TextMarker);
+
+  // Create a marker, wire it up to the right lines, and
+  function markText(doc, from, to, options, type) {
+    // Shared markers (across linked documents) are handled separately
+    // (markTextShared will call out to this again, once per
+    // document).
+    if (options && options.shared) { return markTextShared(doc, from, to, options, type) }
+    // Ensure we are in an operation.
+    if (doc.cm && !doc.cm.curOp) { return operation(doc.cm, markText)(doc, from, to, options, type) }
+
+    var marker = new TextMarker(doc, type), diff = cmp(from, to);
+    if (options) { copyObj(options, marker, false); }
+    // Don't connect empty markers unless clearWhenEmpty is false
+    if (diff > 0 || diff == 0 && marker.clearWhenEmpty !== false)
+      { return marker }
+    if (marker.replacedWith) {
+      // Showing up as a widget implies collapsed (widget replaces text)
+      marker.collapsed = true;
+      marker.widgetNode = eltP("span", [marker.replacedWith], "CodeMirror-widget");
+      if (!options.handleMouseEvents) { marker.widgetNode.setAttribute("cm-ignore-events", "true"); }
+      if (options.insertLeft) { marker.widgetNode.insertLeft = true; }
+    }
+    if (marker.collapsed) {
+      if (conflictingCollapsedRange(doc, from.line, from, to, marker) ||
+          from.line != to.line && conflictingCollapsedRange(doc, to.line, from, to, marker))
+        { throw new Error("Inserting collapsed marker partially overlapping an existing one") }
+      seeCollapsedSpans();
+    }
+
+    if (marker.addToHistory)
+      { addChangeToHistory(doc, {from: from, to: to, origin: "markText"}, doc.sel, NaN); }
+
+    var curLine = from.line, cm = doc.cm, updateMaxLine;
+    doc.iter(curLine, to.line + 1, function (line) {
+      if (cm && marker.collapsed && !cm.options.lineWrapping && visualLine(line) == cm.display.maxLine)
+        { updateMaxLine = true; }
+      if (marker.collapsed && curLine != from.line) { updateLineHeight(line, 0); }
+      addMarkedSpan(line, new MarkedSpan(marker,
+                                         curLine == from.line ? from.ch : null,
+                                         curLine == to.line ? to.ch : null));
+      ++curLine;
+    });
+    // lineIsHidden depends on the presence of the spans, so needs a second pass
+    if (marker.collapsed) { doc.iter(from.line, to.line + 1, function (line) {
+      if (lineIsHidden(doc, line)) { updateLineHeight(line, 0); }
+    }); }
+
+    if (marker.clearOnEnter) { on(marker, "beforeCursorEnter", function () { return marker.clear(); }); }
+
+    if (marker.readOnly) {
+      seeReadOnlySpans();
+      if (doc.history.done.length || doc.history.undone.length)
+        { doc.clearHistory(); }
+    }
+    if (marker.collapsed) {
+      marker.id = ++nextMarkerId;
+      marker.atomic = true;
+    }
+    if (cm) {
+      // Sync editor state
+      if (updateMaxLine) { cm.curOp.updateMaxLine = true; }
+      if (marker.collapsed)
+        { regChange(cm, from.line, to.line + 1); }
+      else if (marker.className || marker.startStyle || marker.endStyle || marker.css ||
+               marker.attributes || marker.title)
+        { for (var i = from.line; i <= to.line; i++) { regLineChange(cm, i, "text"); } }
+      if (marker.atomic) { reCheckSelection(cm.doc); }
+      signalLater(cm, "markerAdded", cm, marker);
+    }
+    return marker
+  }
+
+  // SHARED TEXTMARKERS
+
+  // A shared marker spans multiple linked documents. It is
+  // implemented as a meta-marker-object controlling multiple normal
+  // markers.
+  var SharedTextMarker = function(markers, primary) {
+    this.markers = markers;
+    this.primary = primary;
+    for (var i = 0; i < markers.length; ++i)
+      { markers[i].parent = this; }
+  };
+
+  SharedTextMarker.prototype.clear = function () {
+    if (this.explicitlyCleared) { return }
+    this.explicitlyCleared = true;
+    for (var i = 0; i < this.markers.length; ++i)
+      { this.markers[i].clear(); }
+    signalLater(this, "clear");
+  };
+
+  SharedTextMarker.prototype.find = function (side, lineObj) {
+    return this.primary.find(side, lineObj)
+  };
+  eventMixin(SharedTextMarker);
+
+  function markTextShared(doc, from, to, options, type) {
+    options = copyObj(options);
+    options.shared = false;
+    var markers = [markText(doc, from, to, options, type)], primary = markers[0];
+    var widget = options.widgetNode;
+    linkedDocs(doc, function (doc) {
+      if (widget) { options.widgetNode = widget.cloneNode(true); }
+      markers.push(markText(doc, clipPos(doc, from), clipPos(doc, to), options, type));
+      for (var i = 0; i < doc.linked.length; ++i)
+        { if (doc.linked[i].isParent) { return } }
+      primary = lst(markers);
+    });
+    return new SharedTextMarker(markers, primary)
+  }
+
+  function findSharedMarkers(doc) {
+    return doc.findMarks(Pos(doc.first, 0), doc.clipPos(Pos(doc.lastLine())), function (m) { return m.parent; })
+  }
+
+  function copySharedMarkers(doc, markers) {
+    for (var i = 0; i < markers.length; i++) {
+      var marker = markers[i], pos = marker.find();
+      var mFrom = doc.clipPos(pos.from), mTo = doc.clipPos(pos.to);
+      if (cmp(mFrom, mTo)) {
+        var subMark = markText(doc, mFrom, mTo, marker.primary, marker.primary.type);
+        marker.markers.push(subMark);
+        subMark.parent = marker;
+      }
+    }
+  }
+
+  function detachSharedMarkers(markers) {
+    var loop = function ( i ) {
+      var marker = markers[i], linked = [marker.primary.doc];
+      linkedDocs(marker.primary.doc, function (d) { return linked.push(d); });
+      for (var j = 0; j < marker.markers.length; j++) {
+        var subMarker = marker.markers[j];
+        if (indexOf(linked, subMarker.doc) == -1) {
+          subMarker.parent = null;
+          marker.markers.splice(j--, 1);
+        }
+      }
+    };
+
+    for (var i = 0; i < markers.length; i++) loop( i );
+  }
+
+  var nextDocId = 0;
+  var Doc = function(text, mode, firstLine, lineSep, direction) {
+    if (!(this instanceof Doc)) { return new Doc(text, mode, firstLine, lineSep, direction) }
+    if (firstLine == null) { firstLine = 0; }
+
+    BranchChunk.call(this, [new LeafChunk([new Line("", null)])]);
+    this.first = firstLine;
+    this.scrollTop = this.scrollLeft = 0;
+    this.cantEdit = false;
+    this.cleanGeneration = 1;
+    this.modeFrontier = this.highlightFrontier = firstLine;
+    var start = Pos(firstLine, 0);
+    this.sel = simpleSelection(start);
+    this.history = new History(null);
+    this.id = ++nextDocId;
+    this.modeOption = mode;
+    this.lineSep = lineSep;
+    this.direction = (direction == "rtl") ? "rtl" : "ltr";
+    this.extend = false;
+
+    if (typeof text == "string") { text = this.splitLines(text); }
+    updateDoc(this, {from: start, to: start, text: text});
+    setSelection(this, simpleSelection(start), sel_dontScroll);
+  };
+
+  Doc.prototype = createObj(BranchChunk.prototype, {
+    constructor: Doc,
+    // Iterate over the document. Supports two forms -- with only one
+    // argument, it calls that for each line in the document. With
+    // three, it iterates over the range given by the first two (with
+    // the second being non-inclusive).
+    iter: function(from, to, op) {
+      if (op) { this.iterN(from - this.first, to - from, op); }
+      else { this.iterN(this.first, this.first + this.size, from); }
+    },
+
+    // Non-public interface for adding and removing lines.
+    insert: function(at, lines) {
+      var height = 0;
+      for (var i = 0; i < lines.length; ++i) { height += lines[i].height; }
+      this.insertInner(at - this.first, lines, height);
+    },
+    remove: function(at, n) { this.removeInner(at - this.first, n); },
+
+    // From here, the methods are part of the public interface. Most
+    // are also available from CodeMirror (editor) instances.
+
+    getValue: function(lineSep) {
+      var lines = getLines(this, this.first, this.first + this.size);
+      if (lineSep === false) { return lines }
+      return lines.join(lineSep || this.lineSeparator())
+    },
+    setValue: docMethodOp(function(code) {
+      var top = Pos(this.first, 0), last = this.first + this.size - 1;
+      makeChange(this, {from: top, to: Pos(last, getLine(this, last).text.length),
+                        text: this.splitLines(code), origin: "setValue", full: true}, true);
+      if (this.cm) { scrollToCoords(this.cm, 0, 0); }
+      setSelection(this, simpleSelection(top), sel_dontScroll);
+    }),
+    replaceRange: function(code, from, to, origin) {
+      from = clipPos(this, from);
+      to = to ? clipPos(this, to) : from;
+      replaceRange(this, code, from, to, origin);
+    },
+    getRange: function(from, to, lineSep) {
+      var lines = getBetween(this, clipPos(this, from), clipPos(this, to));
+      if (lineSep === false) { return lines }
+      return lines.join(lineSep || this.lineSeparator())
+    },
+
+    getLine: function(line) {var l = this.getLineHandle(line); return l && l.text},
+
+    getLineHandle: function(line) {if (isLine(this, line)) { return getLine(this, line) }},
+    getLineNumber: function(line) {return lineNo(line)},
+
+    getLineHandleVisualStart: function(line) {
+      if (typeof line == "number") { line = getLine(this, line); }
+      return visualLine(line)
+    },
+
+    lineCount: function() {return this.size},
+    firstLine: function() {return this.first},
+    lastLine: function() {return this.first + this.size - 1},
+
+    clipPos: function(pos) {return clipPos(this, pos)},
+
+    getCursor: function(start) {
+      var range = this.sel.primary(), pos;
+      if (start == null || start == "head") { pos = range.head; }
+      else if (start == "anchor") { pos = range.anchor; }
+      else if (start == "end" || start == "to" || start === false) { pos = range.to(); }
+      else { pos = range.from(); }
+      return pos
+    },
+    listSelections: function() { return this.sel.ranges },
+    somethingSelected: function() {return this.sel.somethingSelected()},
+
+    setCursor: docMethodOp(function(line, ch, options) {
+      setSimpleSelection(this, clipPos(this, typeof line == "number" ? Pos(line, ch || 0) : line), null, options);
+    }),
+    setSelection: docMethodOp(function(anchor, head, options) {
+      setSimpleSelection(this, clipPos(this, anchor), clipPos(this, head || anchor), options);
+    }),
+    extendSelection: docMethodOp(function(head, other, options) {
+      extendSelection(this, clipPos(this, head), other && clipPos(this, other), options);
+    }),
+    extendSelections: docMethodOp(function(heads, options) {
+      extendSelections(this, clipPosArray(this, heads), options);
+    }),
+    extendSelectionsBy: docMethodOp(function(f, options) {
+      var heads = map(this.sel.ranges, f);
+      extendSelections(this, clipPosArray(this, heads), options);
+    }),
+    setSelections: docMethodOp(function(ranges, primary, options) {
+      if (!ranges.length) { return }
+      var out = [];
+      for (var i = 0; i < ranges.length; i++)
+        { out[i] = new Range(clipPos(this, ranges[i].anchor),
+                           clipPos(this, ranges[i].head)); }
+      if (primary == null) { primary = Math.min(ranges.length - 1, this.sel.primIndex); }
+      setSelection(this, normalizeSelection(this.cm, out, primary), options);
+    }),
+    addSelection: docMethodOp(function(anchor, head, options) {
+      var ranges = this.sel.ranges.slice(0);
+      ranges.push(new Range(clipPos(this, anchor), clipPos(this, head || anchor)));
+      setSelection(this, normalizeSelection(this.cm, ranges, ranges.length - 1), options);
+    }),
+
+    getSelection: function(lineSep) {
+      var ranges = this.sel.ranges, lines;
+      for (var i = 0; i < ranges.length; i++) {
+        var sel = getBetween(this, ranges[i].from(), ranges[i].to());
+        lines = lines ? lines.concat(sel) : sel;
+      }
+      if (lineSep === false) { return lines }
+      else { return lines.join(lineSep || this.lineSeparator()) }
+    },
+    getSelections: function(lineSep) {
+      var parts = [], ranges = this.sel.ranges;
+      for (var i = 0; i < ranges.length; i++) {
+        var sel = getBetween(this, ranges[i].from(), ranges[i].to());
+        if (lineSep !== false) { sel = sel.join(lineSep || this.lineSeparator()); }
+        parts[i] = sel;
+      }
+      return parts
+    },
+    replaceSelection: function(code, collapse, origin) {
+      var dup = [];
+      for (var i = 0; i < this.sel.ranges.length; i++)
+        { dup[i] = code; }
+      this.replaceSelections(dup, collapse, origin || "+input");
+    },
+    replaceSelections: docMethodOp(function(code, collapse, origin) {
+      var changes = [], sel = this.sel;
+      for (var i = 0; i < sel.ranges.length; i++) {
+        var range = sel.ranges[i];
+        changes[i] = {from: range.from(), to: range.to(), text: this.splitLines(code[i]), origin: origin};
+      }
+      var newSel = collapse && collapse != "end" && computeReplacedSel(this, changes, collapse);
+      for (var i$1 = changes.length - 1; i$1 >= 0; i$1--)
+        { makeChange(this, changes[i$1]); }
+      if (newSel) { setSelectionReplaceHistory(this, newSel); }
+      else if (this.cm) { ensureCursorVisible(this.cm); }
+    }),
+    undo: docMethodOp(function() {makeChangeFromHistory(this, "undo");}),
+    redo: docMethodOp(function() {makeChangeFromHistory(this, "redo");}),
+    undoSelection: docMethodOp(function() {makeChangeFromHistory(this, "undo", true);}),
+    redoSelection: docMethodOp(function() {makeChangeFromHistory(this, "redo", true);}),
+
+    setExtending: function(val) {this.extend = val;},
+    getExtending: function() {return this.extend},
+
+    historySize: function() {
+      var hist = this.history, done = 0, undone = 0;
+      for (var i = 0; i < hist.done.length; i++) { if (!hist.done[i].ranges) { ++done; } }
+      for (var i$1 = 0; i$1 < hist.undone.length; i$1++) { if (!hist.undone[i$1].ranges) { ++undone; } }
+      return {undo: done, redo: undone}
+    },
+    clearHistory: function() {
+      var this$1 = this;
+
+      this.history = new History(this.history.maxGeneration);
+      linkedDocs(this, function (doc) { return doc.history = this$1.history; }, true);
+    },
+
+    markClean: function() {
+      this.cleanGeneration = this.changeGeneration(true);
+    },
+    changeGeneration: function(forceSplit) {
+      if (forceSplit)
+        { this.history.lastOp = this.history.lastSelOp = this.history.lastOrigin = null; }
+      return this.history.generation
+    },
+    isClean: function (gen) {
+      return this.history.generation == (gen || this.cleanGeneration)
+    },
+
+    getHistory: function() {
+      return {done: copyHistoryArray(this.history.done),
+              undone: copyHistoryArray(this.history.undone)}
+    },
+    setHistory: function(histData) {
+      var hist = this.history = new History(this.history.maxGeneration);
+      hist.done = copyHistoryArray(histData.done.slice(0), null, true);
+      hist.undone = copyHistoryArray(histData.undone.slice(0), null, true);
+    },
+
+    setGutterMarker: docMethodOp(function(line, gutterID, value) {
+      return changeLine(this, line, "gutter", function (line) {
+        var markers = line.gutterMarkers || (line.gutterMarkers = {});
+        markers[gutterID] = value;
+        if (!value && isEmpty(markers)) { line.gutterMarkers = null; }
+        return true
+      })
+    }),
+
+    clearGutter: docMethodOp(function(gutterID) {
+      var this$1 = this;
+
+      this.iter(function (line) {
+        if (line.gutterMarkers && line.gutterMarkers[gutterID]) {
+          changeLine(this$1, line, "gutter", function () {
+            line.gutterMarkers[gutterID] = null;
+            if (isEmpty(line.gutterMarkers)) { line.gutterMarkers = null; }
+            return true
+          });
+        }
+      });
+    }),
+
+    lineInfo: function(line) {
+      var n;
+      if (typeof line == "number") {
+        if (!isLine(this, line)) { return null }
+        n = line;
+        line = getLine(this, line);
+        if (!line) { return null }
+      } else {
+        n = lineNo(line);
+        if (n == null) { return null }
+      }
+      return {line: n, handle: line, text: line.text, gutterMarkers: line.gutterMarkers,
+              textClass: line.textClass, bgClass: line.bgClass, wrapClass: line.wrapClass,
+              widgets: line.widgets}
+    },
+
+    addLineClass: docMethodOp(function(handle, where, cls) {
+      return changeLine(this, handle, where == "gutter" ? "gutter" : "class", function (line) {
+        var prop = where == "text" ? "textClass"
+                 : where == "background" ? "bgClass"
+                 : where == "gutter" ? "gutterClass" : "wrapClass";
+        if (!line[prop]) { line[prop] = cls; }
+        else if (classTest(cls).test(line[prop])) { return false }
+        else { line[prop] += " " + cls; }
+        return true
+      })
+    }),
+    removeLineClass: docMethodOp(function(handle, where, cls) {
+      return changeLine(this, handle, where == "gutter" ? "gutter" : "class", function (line) {
+        var prop = where == "text" ? "textClass"
+                 : where == "background" ? "bgClass"
+                 : where == "gutter" ? "gutterClass" : "wrapClass";
+        var cur = line[prop];
+        if (!cur) { return false }
+        else if (cls == null) { line[prop] = null; }
+        else {
+          var found = cur.match(classTest(cls));
+          if (!found) { return false }
+          var end = found.index + found[0].length;
+          line[prop] = cur.slice(0, found.index) + (!found.index || end == cur.length ? "" : " ") + cur.slice(end) || null;
+        }
+        return true
+      })
+    }),
+
+    addLineWidget: docMethodOp(function(handle, node, options) {
+      return addLineWidget(this, handle, node, options)
+    }),
+    removeLineWidget: function(widget) { widget.clear(); },
+
+    markText: function(from, to, options) {
+      return markText(this, clipPos(this, from), clipPos(this, to), options, options && options.type || "range")
+    },
+    setBookmark: function(pos, options) {
+      var realOpts = {replacedWith: options && (options.nodeType == null ? options.widget : options),
+                      insertLeft: options && options.insertLeft,
+                      clearWhenEmpty: false, shared: options && options.shared,
+                      handleMouseEvents: options && options.handleMouseEvents};
+      pos = clipPos(this, pos);
+      return markText(this, pos, pos, realOpts, "bookmark")
+    },
+    findMarksAt: function(pos) {
+      pos = clipPos(this, pos);
+      var markers = [], spans = getLine(this, pos.line).markedSpans;
+      if (spans) { for (var i = 0; i < spans.length; ++i) {
+        var span = spans[i];
+        if ((span.from == null || span.from <= pos.ch) &&
+            (span.to == null || span.to >= pos.ch))
+          { markers.push(span.marker.parent || span.marker); }
+      } }
+      return markers
+    },
+    findMarks: function(from, to, filter) {
+      from = clipPos(this, from); to = clipPos(this, to);
+      var found = [], lineNo = from.line;
+      this.iter(from.line, to.line + 1, function (line) {
+        var spans = line.markedSpans;
+        if (spans) { for (var i = 0; i < spans.length; i++) {
+          var span = spans[i];
+          if (!(span.to != null && lineNo == from.line && from.ch >= span.to ||
+                span.from == null && lineNo != from.line ||
+                span.from != null && lineNo == to.line && span.from >= to.ch) &&
+              (!filter || filter(span.marker)))
+            { found.push(span.marker.parent || span.marker); }
+        } }
+        ++lineNo;
+      });
+      return found
+    },
+    getAllMarks: function() {
+      var markers = [];
+      this.iter(function (line) {
+        var sps = line.markedSpans;
+        if (sps) { for (var i = 0; i < sps.length; ++i)
+          { if (sps[i].from != null) { markers.push(sps[i].marker); } } }
+      });
+      return markers
+    },
+
+    posFromIndex: function(off) {
+      var ch, lineNo = this.first, sepSize = this.lineSeparator().length;
+      this.iter(function (line) {
+        var sz = line.text.length + sepSize;
+        if (sz > off) { ch = off; return true }
+        off -= sz;
+        ++lineNo;
+      });
+      return clipPos(this, Pos(lineNo, ch))
+    },
+    indexFromPos: function (coords) {
+      coords = clipPos(this, coords);
+      var index = coords.ch;
+      if (coords.line < this.first || coords.ch < 0) { return 0 }
+      var sepSize = this.lineSeparator().length;
+      this.iter(this.first, coords.line, function (line) { // iter aborts when callback returns a truthy value
+        index += line.text.length + sepSize;
+      });
+      return index
+    },
+
+    copy: function(copyHistory) {
+      var doc = new Doc(getLines(this, this.first, this.first + this.size),
+                        this.modeOption, this.first, this.lineSep, this.direction);
+      doc.scrollTop = this.scrollTop; doc.scrollLeft = this.scrollLeft;
+      doc.sel = this.sel;
+      doc.extend = false;
+      if (copyHistory) {
+        doc.history.undoDepth = this.history.undoDepth;
+        doc.setHistory(this.getHistory());
+      }
+      return doc
+    },
+
+    linkedDoc: function(options) {
+      if (!options) { options = {}; }
+      var from = this.first, to = this.first + this.size;
+      if (options.from != null && options.from > from) { from = options.from; }
+      if (options.to != null && options.to < to) { to = options.to; }
+      var copy = new Doc(getLines(this, from, to), options.mode || this.modeOption, from, this.lineSep, this.direction);
+      if (options.sharedHist) { copy.history = this.history
+      ; }(this.linked || (this.linked = [])).push({doc: copy, sharedHist: options.sharedHist});
+      copy.linked = [{doc: this, isParent: true, sharedHist: options.sharedHist}];
+      copySharedMarkers(copy, findSharedMarkers(this));
+      return copy
+    },
+    unlinkDoc: function(other) {
+      if (other instanceof CodeMirror) { other = other.doc; }
+      if (this.linked) { for (var i = 0; i < this.linked.length; ++i) {
+        var link = this.linked[i];
+        if (link.doc != other) { continue }
+        this.linked.splice(i, 1);
+        other.unlinkDoc(this);
+        detachSharedMarkers(findSharedMarkers(this));
+        break
+      } }
+      // If the histories were shared, split them again
+      if (other.history == this.history) {
+        var splitIds = [other.id];
+        linkedDocs(other, function (doc) { return splitIds.push(doc.id); }, true);
+        other.history = new History(null);
+        other.history.done = copyHistoryArray(this.history.done, splitIds);
+        other.history.undone = copyHistoryArray(this.history.undone, splitIds);
+      }
+    },
+    iterLinkedDocs: function(f) {linkedDocs(this, f);},
+
+    getMode: function() {return this.mode},
+    getEditor: function() {return this.cm},
+
+    splitLines: function(str) {
+      if (this.lineSep) { return str.split(this.lineSep) }
+      return splitLinesAuto(str)
+    },
+    lineSeparator: function() { return this.lineSep || "\n" },
+
+    setDirection: docMethodOp(function (dir) {
+      if (dir != "rtl") { dir = "ltr"; }
+      if (dir == this.direction) { return }
+      this.direction = dir;
+      this.iter(function (line) { return line.order = null; });
+      if (this.cm) { directionChanged(this.cm); }
+    })
+  });
+
+  // Public alias.
+  Doc.prototype.eachLine = Doc.prototype.iter;
+
+  // Kludge to work around strange IE behavior where it'll sometimes
+  // re-fire a series of drag-related events right after the drop (#1551)
+  var lastDrop = 0;
+
+  function onDrop(e) {
+    var cm = this;
+    clearDragCursor(cm);
+    if (signalDOMEvent(cm, e) || eventInWidget(cm.display, e))
+      { return }
+    e_preventDefault(e);
+    if (ie) { lastDrop = +new Date; }
+    var pos = posFromMouse(cm, e, true), files = e.dataTransfer.files;
+    if (!pos || cm.isReadOnly()) { return }
+    // Might be a file drop, in which case we simply extract the text
+    // and insert it.
+    if (files && files.length && window.FileReader && window.File) {
+      var n = files.length, text = Array(n), read = 0;
+      var markAsReadAndPasteIfAllFilesAreRead = function () {
+        if (++read == n) {
+          operation(cm, function () {
+            pos = clipPos(cm.doc, pos);
+            var change = {from: pos, to: pos,
+                          text: cm.doc.splitLines(
+                              text.filter(function (t) { return t != null; }).join(cm.doc.lineSeparator())),
+                          origin: "paste"};
+            makeChange(cm.doc, change);
+            setSelectionReplaceHistory(cm.doc, simpleSelection(clipPos(cm.doc, pos), clipPos(cm.doc, changeEnd(change))));
+          })();
+        }
+      };
+      var readTextFromFile = function (file, i) {
+        if (cm.options.allowDropFileTypes &&
+            indexOf(cm.options.allowDropFileTypes, file.type) == -1) {
+          markAsReadAndPasteIfAllFilesAreRead();
+          return
+        }
+        var reader = new FileReader;
+        reader.onerror = function () { return markAsReadAndPasteIfAllFilesAreRead(); };
+        reader.onload = function () {
+          var content = reader.result;
+          if (/[\x00-\x08\x0e-\x1f]{2}/.test(content)) {
+            markAsReadAndPasteIfAllFilesAreRead();
+            return
+          }
+          text[i] = content;
+          markAsReadAndPasteIfAllFilesAreRead();
+        };
+        reader.readAsText(file);
+      };
+      for (var i = 0; i < files.length; i++) { readTextFromFile(files[i], i); }
+    } else { // Normal drop
+      // Don't do a replace if the drop happened inside of the selected text.
+      if (cm.state.draggingText && cm.doc.sel.contains(pos) > -1) {
+        cm.state.draggingText(e);
+        // Ensure the editor is re-focused
+        setTimeout(function () { return cm.display.input.focus(); }, 20);
+        return
+      }
+      try {
+        var text$1 = e.dataTransfer.getData("Text");
+        if (text$1) {
+          var selected;
+          if (cm.state.draggingText && !cm.state.draggingText.copy)
+            { selected = cm.listSelections(); }
+          setSelectionNoUndo(cm.doc, simpleSelection(pos, pos));
+          if (selected) { for (var i$1 = 0; i$1 < selected.length; ++i$1)
+            { replaceRange(cm.doc, "", selected[i$1].anchor, selected[i$1].head, "drag"); } }
+          cm.replaceSelection(text$1, "around", "paste");
+          cm.display.input.focus();
+        }
+      }
+      catch(e$1){}
+    }
+  }
+
+  function onDragStart(cm, e) {
+    if (ie && (!cm.state.draggingText || +new Date - lastDrop < 100)) { e_stop(e); return }
+    if (signalDOMEvent(cm, e) || eventInWidget(cm.display, e)) { return }
+
+    e.dataTransfer.setData("Text", cm.getSelection());
+    e.dataTransfer.effectAllowed = "copyMove";
+
+    // Use dummy image instead of default browsers image.
+    // Recent Safari (~6.0.2) have a tendency to segfault when this happens, so we don't do it there.
+    if (e.dataTransfer.setDragImage && !safari) {
+      var img = elt("img", null, null, "position: fixed; left: 0; top: 0;");
+      img.src = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
+      if (presto) {
+        img.width = img.height = 1;
+        cm.display.wrapper.appendChild(img);
+        // Force a relayout, or Opera won't use our image for some obscure reason
+        img._top = img.offsetTop;
+      }
+      e.dataTransfer.setDragImage(img, 0, 0);
+      if (presto) { img.parentNode.removeChild(img); }
+    }
+  }
+
+  function onDragOver(cm, e) {
+    var pos = posFromMouse(cm, e);
+    if (!pos) { return }
+    var frag = document.createDocumentFragment();
+    drawSelectionCursor(cm, pos, frag);
+    if (!cm.display.dragCursor) {
+      cm.display.dragCursor = elt("div", null, "CodeMirror-cursors CodeMirror-dragcursors");
+      cm.display.lineSpace.insertBefore(cm.display.dragCursor, cm.display.cursorDiv);
+    }
+    removeChildrenAndAdd(cm.display.dragCursor, frag);
+  }
+
+  function clearDragCursor(cm) {
+    if (cm.display.dragCursor) {
+      cm.display.lineSpace.removeChild(cm.display.dragCursor);
+      cm.display.dragCursor = null;
+    }
+  }
+
+  // These must be handled carefully, because naively registering a
+  // handler for each editor will cause the editors to never be
+  // garbage collected.
+
+  function forEachCodeMirror(f) {
+    if (!document.getElementsByClassName) { return }
+    var byClass = document.getElementsByClassName("CodeMirror"), editors = [];
+    for (var i = 0; i < byClass.length; i++) {
+      var cm = byClass[i].CodeMirror;
+      if (cm) { editors.push(cm); }
+    }
+    if (editors.length) { editors[0].operation(function () {
+      for (var i = 0; i < editors.length; i++) { f(editors[i]); }
+    }); }
+  }
+
+  var globalsRegistered = false;
+  function ensureGlobalHandlers() {
+    if (globalsRegistered) { return }
+    registerGlobalHandlers();
+    globalsRegistered = true;
+  }
+  function registerGlobalHandlers() {
+    // When the window resizes, we need to refresh active editors.
+    var resizeTimer;
+    on(window, "resize", function () {
+      if (resizeTimer == null) { resizeTimer = setTimeout(function () {
+        resizeTimer = null;
+        forEachCodeMirror(onResize);
+      }, 100); }
+    });
+    // When the window loses focus, we want to show the editor as blurred
+    on(window, "blur", function () { return forEachCodeMirror(onBlur); });
+  }
+  // Called when the window resizes
+  function onResize(cm) {
+    var d = cm.display;
+    // Might be a text scaling operation, clear size caches.
+    d.cachedCharWidth = d.cachedTextHeight = d.cachedPaddingH = null;
+    d.scrollbarsClipped = false;
+    cm.setSize();
+  }
+
+  var keyNames = {
+    3: "Pause", 8: "Backspace", 9: "Tab", 13: "Enter", 16: "Shift", 17: "Ctrl", 18: "Alt",
+    19: "Pause", 20: "CapsLock", 27: "Esc", 32: "Space", 33: "PageUp", 34: "PageDown", 35: "End",
+    36: "Home", 37: "Left", 38: "Up", 39: "Right", 40: "Down", 44: "PrintScrn", 45: "Insert",
+    46: "Delete", 59: ";", 61: "=", 91: "Mod", 92: "Mod", 93: "Mod",
+    106: "*", 107: "=", 109: "-", 110: ".", 111: "/", 145: "ScrollLock",
+    173: "-", 186: ";", 187: "=", 188: ",", 189: "-", 190: ".", 191: "/", 192: "`", 219: "[", 220: "\\",
+    221: "]", 222: "'", 224: "Mod", 63232: "Up", 63233: "Down", 63234: "Left", 63235: "Right", 63272: "Delete",
+    63273: "Home", 63275: "End", 63276: "PageUp", 63277: "PageDown", 63302: "Insert"
+  };
+
+  // Number keys
+  for (var i = 0; i < 10; i++) { keyNames[i + 48] = keyNames[i + 96] = String(i); }
+  // Alphabetic keys
+  for (var i$1 = 65; i$1 <= 90; i$1++) { keyNames[i$1] = String.fromCharCode(i$1); }
+  // Function keys
+  for (var i$2 = 1; i$2 <= 12; i$2++) { keyNames[i$2 + 111] = keyNames[i$2 + 63235] = "F" + i$2; }
+
+  var keyMap = {};
+
+  keyMap.basic = {
+    "Left": "goCharLeft", "Right": "goCharRight", "Up": "goLineUp", "Down": "goLineDown",
+    "End": "goLineEnd", "Home": "goLineStartSmart", "PageUp": "goPageUp", "PageDown": "goPageDown",
+    "Delete": "delCharAfter", "Backspace": "delCharBefore", "Shift-Backspace": "delCharBefore",
+    "Tab": "defaultTab", "Shift-Tab": "indentAuto",
+    "Enter": "newlineAndIndent", "Insert": "toggleOverwrite",
+    "Esc": "singleSelection"
+  };
+  // Note that the save and find-related commands aren't defined by
+  // default. User code or addons can define them. Unknown commands
+  // are simply ignored.
+  keyMap.pcDefault = {
+    "Ctrl-A": "selectAll", "Ctrl-D": "deleteLine", "Ctrl-Z": "undo", "Shift-Ctrl-Z": "redo", "Ctrl-Y": "redo",
+    "Ctrl-Home": "goDocStart", "Ctrl-End": "goDocEnd", "Ctrl-Up": "goLineUp", "Ctrl-Down": "goLineDown",
+    "Ctrl-Left": "goGroupLeft", "Ctrl-Right": "goGroupRight", "Alt-Left": "goLineStart", "Alt-Right": "goLineEnd",
+    "Ctrl-Backspace": "delGroupBefore", "Ctrl-Delete": "delGroupAfter", "Ctrl-S": "save", "Ctrl-F": "find",
+    "Ctrl-G": "findNext", "Shift-Ctrl-G": "findPrev", "Shift-Ctrl-F": "replace", "Shift-Ctrl-R": "replaceAll",
+    "Ctrl-[": "indentLess", "Ctrl-]": "indentMore",
+    "Ctrl-U": "undoSelection", "Shift-Ctrl-U": "redoSelection", "Alt-U": "redoSelection",
+    "fallthrough": "basic"
+  };
+  // Very basic readline/emacs-style bindings, which are standard on Mac.
+  keyMap.emacsy = {
+    "Ctrl-F": "goCharRight", "Ctrl-B": "goCharLeft", "Ctrl-P": "goLineUp", "Ctrl-N": "goLineDown",
+    "Alt-F": "goWordRight", "Alt-B": "goWordLeft", "Ctrl-A": "goLineStart", "Ctrl-E": "goLineEnd",
+    "Ctrl-V": "goPageDown", "Shift-Ctrl-V": "goPageUp", "Ctrl-D": "delCharAfter", "Ctrl-H": "delCharBefore",
+    "Alt-D": "delWordAfter", "Alt-Backspace": "delWordBefore", "Ctrl-K": "killLine", "Ctrl-T": "transposeChars",
+    "Ctrl-O": "openLine"
+  };
+  keyMap.macDefault = {
+    "Cmd-A": "selectAll", "Cmd-D": "deleteLine", "Cmd-Z": "undo", "Shift-Cmd-Z": "redo", "Cmd-Y": "redo",
+    "Cmd-Home": "goDocStart", "Cmd-Up": "goDocStart", "Cmd-End": "goDocEnd", "Cmd-Down": "goDocEnd", "Alt-Left": "goGroupLeft",
+    "Alt-Right": "goGroupRight", "Cmd-Left": "goLineLeft", "Cmd-Right": "goLineRight", "Alt-Backspace": "delGroupBefore",
+    "Ctrl-Alt-Backspace": "delGroupAfter", "Alt-Delete": "delGroupAfter", "Cmd-S": "save", "Cmd-F": "find",
+    "Cmd-G": "findNext", "Shift-Cmd-G": "findPrev", "Cmd-Alt-F": "replace", "Shift-Cmd-Alt-F": "replaceAll",
+    "Cmd-[": "indentLess", "Cmd-]": "indentMore", "Cmd-Backspace": "delWrappedLineLeft", "Cmd-Delete": "delWrappedLineRight",
+    "Cmd-U": "undoSelection", "Shift-Cmd-U": "redoSelection", "Ctrl-Up": "goDocStart", "Ctrl-Down": "goDocEnd",
+    "fallthrough": ["basic", "emacsy"]
+  };
+  keyMap["default"] = mac ? keyMap.macDefault : keyMap.pcDefault;
+
+  // KEYMAP DISPATCH
+
+  function normalizeKeyName(name) {
+    var parts = name.split(/-(?!$)/);
+    name = parts[parts.length - 1];
+    var alt, ctrl, shift, cmd;
+    for (var i = 0; i < parts.length - 1; i++) {
+      var mod = parts[i];
+      if (/^(cmd|meta|m)$/i.test(mod)) { cmd = true; }
+      else if (/^a(lt)?$/i.test(mod)) { alt = true; }
+      else if (/^(c|ctrl|control)$/i.test(mod)) { ctrl = true; }
+      else if (/^s(hift)?$/i.test(mod)) { shift = true; }
+      else { throw new Error("Unrecognized modifier name: " + mod) }
+    }
+    if (alt) { name = "Alt-" + name; }
+    if (ctrl) { name = "Ctrl-" + name; }
+    if (cmd) { name = "Cmd-" + name; }
+    if (shift) { name = "Shift-" + name; }
+    return name
+  }
+
+  // This is a kludge to keep keymaps mostly working as raw objects
+  // (backwards compatibility) while at the same time support features
+  // like normalization and multi-stroke key bindings. It compiles a
+  // new normalized keymap, and then updates the old object to reflect
+  // this.
+  function normalizeKeyMap(keymap) {
+    var copy = {};
+    for (var keyname in keymap) { if (keymap.hasOwnProperty(keyname)) {
+      var value = keymap[keyname];
+      if (/^(name|fallthrough|(de|at)tach)$/.test(keyname)) { continue }
+      if (value == "...") { delete keymap[keyname]; continue }
+
+      var keys = map(keyname.split(" "), normalizeKeyName);
+      for (var i = 0; i < keys.length; i++) {
+        var val = (void 0), name = (void 0);
+        if (i == keys.length - 1) {
+          name = keys.join(" ");
+          val = value;
+        } else {
+          name = keys.slice(0, i + 1).join(" ");
+          val = "...";
+        }
+        var prev = copy[name];
+        if (!prev) { copy[name] = val; }
+        else if (prev != val) { throw new Error("Inconsistent bindings for " + name) }
+      }
+      delete keymap[keyname];
+    } }
+    for (var prop in copy) { keymap[prop] = copy[prop]; }
+    return keymap
+  }
+
+  function lookupKey(key, map, handle, context) {
+    map = getKeyMap(map);
+    var found = map.call ? map.call(key, context) : map[key];
+    if (found === false) { return "nothing" }
+    if (found === "...") { return "multi" }
+    if (found != null && handle(found)) { return "handled" }
+
+    if (map.fallthrough) {
+      if (Object.prototype.toString.call(map.fallthrough) != "[object Array]")
+        { return lookupKey(key, map.fallthrough, handle, context) }
+      for (var i = 0; i < map.fallthrough.length; i++) {
+        var result = lookupKey(key, map.fallthrough[i], handle, context);
+        if (result) { return result }
+      }
+    }
+  }
+
+  // Modifier key presses don't count as 'real' key presses for the
+  // purpose of keymap fallthrough.
+  function isModifierKey(value) {
+    var name = typeof value == "string" ? value : keyNames[value.keyCode];
+    return name == "Ctrl" || name == "Alt" || name == "Shift" || name == "Mod"
+  }
+
+  function addModifierNames(name, event, noShift) {
+    var base = name;
+    if (event.altKey && base != "Alt") { name = "Alt-" + name; }
+    if ((flipCtrlCmd ? event.metaKey : event.ctrlKey) && base != "Ctrl") { name = "Ctrl-" + name; }
+    if ((flipCtrlCmd ? event.ctrlKey : event.metaKey) && base != "Mod") { name = "Cmd-" + name; }
+    if (!noShift && event.shiftKey && base != "Shift") { name = "Shift-" + name; }
+    return name
+  }
+
+  // Look up the name of a key as indicated by an event object.
+  function keyName(event, noShift) {
+    if (presto && event.keyCode == 34 && event["char"]) { return false }
+    var name = keyNames[event.keyCode];
+    if (name == null || event.altGraphKey) { return false }
+    // Ctrl-ScrollLock has keyCode 3, same as Ctrl-Pause,
+    // so we'll use event.code when available (Chrome 48+, FF 38+, Safari 10.1+)
+    if (event.keyCode == 3 && event.code) { name = event.code; }
+    return addModifierNames(name, event, noShift)
+  }
+
+  function getKeyMap(val) {
+    return typeof val == "string" ? keyMap[val] : val
+  }
+
+  // Helper for deleting text near the selection(s), used to implement
+  // backspace, delete, and similar functionality.
+  function deleteNearSelection(cm, compute) {
+    var ranges = cm.doc.sel.ranges, kill = [];
+    // Build up a set of ranges to kill first, merging overlapping
+    // ranges.
+    for (var i = 0; i < ranges.length; i++) {
+      var toKill = compute(ranges[i]);
+      while (kill.length && cmp(toKill.from, lst(kill).to) <= 0) {
+        var replaced = kill.pop();
+        if (cmp(replaced.from, toKill.from) < 0) {
+          toKill.from = replaced.from;
+          break
+        }
+      }
+      kill.push(toKill);
+    }
+    // Next, remove those actual ranges.
+    runInOp(cm, function () {
+      for (var i = kill.length - 1; i >= 0; i--)
+        { replaceRange(cm.doc, "", kill[i].from, kill[i].to, "+delete"); }
+      ensureCursorVisible(cm);
+    });
+  }
+
+  function moveCharLogically(line, ch, dir) {
+    var target = skipExtendingChars(line.text, ch + dir, dir);
+    return target < 0 || target > line.text.length ? null : target
+  }
+
+  function moveLogically(line, start, dir) {
+    var ch = moveCharLogically(line, start.ch, dir);
+    return ch == null ? null : new Pos(start.line, ch, dir < 0 ? "after" : "before")
+  }
+
+  function endOfLine(visually, cm, lineObj, lineNo, dir) {
+    if (visually) {
+      if (cm.doc.direction == "rtl") { dir = -dir; }
+      var order = getOrder(lineObj, cm.doc.direction);
+      if (order) {
+        var part = dir < 0 ? lst(order) : order[0];
+        var moveInStorageOrder = (dir < 0) == (part.level == 1);
+        var sticky = moveInStorageOrder ? "after" : "before";
+        var ch;
+        // With a wrapped rtl chunk (possibly spanning multiple bidi parts),
+        // it could be that the last bidi part is not on the last visual line,
+        // since visual lines contain content order-consecutive chunks.
+        // Thus, in rtl, we are looking for the first (content-order) character
+        // in the rtl chunk that is on the last line (that is, the same line
+        // as the last (content-order) character).
+        if (part.level > 0 || cm.doc.direction == "rtl") {
+          var prep = prepareMeasureForLine(cm, lineObj);
+          ch = dir < 0 ? lineObj.text.length - 1 : 0;
+          var targetTop = measureCharPrepared(cm, prep, ch).top;
+          ch = findFirst(function (ch) { return measureCharPrepared(cm, prep, ch).top == targetTop; }, (dir < 0) == (part.level == 1) ? part.from : part.to - 1, ch);
+          if (sticky == "before") { ch = moveCharLogically(lineObj, ch, 1); }
+        } else { ch = dir < 0 ? part.to : part.from; }
+        return new Pos(lineNo, ch, sticky)
+      }
+    }
+    return new Pos(lineNo, dir < 0 ? lineObj.text.length : 0, dir < 0 ? "before" : "after")
+  }
+
+  function moveVisually(cm, line, start, dir) {
+    var bidi = getOrder(line, cm.doc.direction);
+    if (!bidi) { return moveLogically(line, start, dir) }
+    if (start.ch >= line.text.length) {
+      start.ch = line.text.length;
+      start.sticky = "before";
+    } else if (start.ch <= 0) {
+      start.ch = 0;
+      start.sticky = "after";
+    }
+    var partPos = getBidiPartAt(bidi, start.ch, start.sticky), part = bidi[partPos];
+    if (cm.doc.direction == "ltr" && part.level % 2 == 0 && (dir > 0 ? part.to > start.ch : part.from < start.ch)) {
+      // Case 1: We move within an ltr part in an ltr editor. Even with wrapped lines,
+      // nothing interesting happens.
+      return moveLogically(line, start, dir)
+    }
+
+    var mv = function (pos, dir) { return moveCharLogically(line, pos instanceof Pos ? pos.ch : pos, dir); };
+    var prep;
+    var getWrappedLineExtent = function (ch) {
+      if (!cm.options.lineWrapping) { return {begin: 0, end: line.text.length} }
+      prep = prep || prepareMeasureForLine(cm, line);
+      return wrappedLineExtentChar(cm, line, prep, ch)
+    };
+    var wrappedLineExtent = getWrappedLineExtent(start.sticky == "before" ? mv(start, -1) : start.ch);
+
+    if (cm.doc.direction == "rtl" || part.level == 1) {
+      var moveInStorageOrder = (part.level == 1) == (dir < 0);
+      var ch = mv(start, moveInStorageOrder ? 1 : -1);
+      if (ch != null && (!moveInStorageOrder ? ch >= part.from && ch >= wrappedLineExtent.begin : ch <= part.to && ch <= wrappedLineExtent.end)) {
+        // Case 2: We move within an rtl part or in an rtl editor on the same visual line
+        var sticky = moveInStorageOrder ? "before" : "after";
+        return new Pos(start.line, ch, sticky)
+      }
+    }
+
+    // Case 3: Could not move within this bidi part in this visual line, so leave
+    // the current bidi part
+
+    var searchInVisualLine = function (partPos, dir, wrappedLineExtent) {
+      var getRes = function (ch, moveInStorageOrder) { return moveInStorageOrder
+        ? new Pos(start.line, mv(ch, 1), "before")
+        : new Pos(start.line, ch, "after"); };
+
+      for (; partPos >= 0 && partPos < bidi.length; partPos += dir) {
+        var part = bidi[partPos];
+        var moveInStorageOrder = (dir > 0) == (part.level != 1);
+        var ch = moveInStorageOrder ? wrappedLineExtent.begin : mv(wrappedLineExtent.end, -1);
+        if (part.from <= ch && ch < part.to) { return getRes(ch, moveInStorageOrder) }
+        ch = moveInStorageOrder ? part.from : mv(part.to, -1);
+        if (wrappedLineExtent.begin <= ch && ch < wrappedLineExtent.end) { return getRes(ch, moveInStorageOrder) }
+      }
+    };
+
+    // Case 3a: Look for other bidi parts on the same visual line
+    var res = searchInVisualLine(partPos + dir, dir, wrappedLineExtent);
+    if (res) { return res }
+
+    // Case 3b: Look for other bidi parts on the next visual line
+    var nextCh = dir > 0 ? wrappedLineExtent.end : mv(wrappedLineExtent.begin, -1);
+    if (nextCh != null && !(dir > 0 && nextCh == line.text.length)) {
+      res = searchInVisualLine(dir > 0 ? 0 : bidi.length - 1, dir, getWrappedLineExtent(nextCh));
+      if (res) { return res }
+    }
+
+    // Case 4: Nowhere to move
+    return null
+  }
+
+  // Commands are parameter-less actions that can be performed on an
+  // editor, mostly used for keybindings.
+  var commands = {
+    selectAll: selectAll,
+    singleSelection: function (cm) { return cm.setSelection(cm.getCursor("anchor"), cm.getCursor("head"), sel_dontScroll); },
+    killLine: function (cm) { return deleteNearSelection(cm, function (range) {
+      if (range.empty()) {
+        var len = getLine(cm.doc, range.head.line).text.length;
+        if (range.head.ch == len && range.head.line < cm.lastLine())
+          { return {from: range.head, to: Pos(range.head.line + 1, 0)} }
+        else
+          { return {from: range.head, to: Pos(range.head.line, len)} }
+      } else {
+        return {from: range.from(), to: range.to()}
+      }
+    }); },
+    deleteLine: function (cm) { return deleteNearSelection(cm, function (range) { return ({
+      from: Pos(range.from().line, 0),
+      to: clipPos(cm.doc, Pos(range.to().line + 1, 0))
+    }); }); },
+    delLineLeft: function (cm) { return deleteNearSelection(cm, function (range) { return ({
+      from: Pos(range.from().line, 0), to: range.from()
+    }); }); },
+    delWrappedLineLeft: function (cm) { return deleteNearSelection(cm, function (range) {
+      var top = cm.charCoords(range.head, "div").top + 5;
+      var leftPos = cm.coordsChar({left: 0, top: top}, "div");
+      return {from: leftPos, to: range.from()}
+    }); },
+    delWrappedLineRight: function (cm) { return deleteNearSelection(cm, function (range) {
+      var top = cm.charCoords(range.head, "div").top + 5;
+      var rightPos = cm.coordsChar({left: cm.display.lineDiv.offsetWidth + 100, top: top}, "div");
+      return {from: range.from(), to: rightPos }
+    }); },
+    undo: function (cm) { return cm.undo(); },
+    redo: function (cm) { return cm.redo(); },
+    undoSelection: function (cm) { return cm.undoSelection(); },
+    redoSelection: function (cm) { return cm.redoSelection(); },
+    goDocStart: function (cm) { return cm.extendSelection(Pos(cm.firstLine(), 0)); },
+    goDocEnd: function (cm) { return cm.extendSelection(Pos(cm.lastLine())); },
+    goLineStart: function (cm) { return cm.extendSelectionsBy(function (range) { return lineStart(cm, range.head.line); },
+      {origin: "+move", bias: 1}
+    ); },
+    goLineStartSmart: function (cm) { return cm.extendSelectionsBy(function (range) { return lineStartSmart(cm, range.head); },
+      {origin: "+move", bias: 1}
+    ); },
+    goLineEnd: function (cm) { return cm.extendSelectionsBy(function (range) { return lineEnd(cm, range.head.line); },
+      {origin: "+move", bias: -1}
+    ); },
+    goLineRight: function (cm) { return cm.extendSelectionsBy(function (range) {
+      var top = cm.cursorCoords(range.head, "div").top + 5;
+      return cm.coordsChar({left: cm.display.lineDiv.offsetWidth + 100, top: top}, "div")
+    }, sel_move); },
+    goLineLeft: function (cm) { return cm.extendSelectionsBy(function (range) {
+      var top = cm.cursorCoords(range.head, "div").top + 5;
+      return cm.coordsChar({left: 0, top: top}, "div")
+    }, sel_move); },
+    goLineLeftSmart: function (cm) { return cm.extendSelectionsBy(function (range) {
+      var top = cm.cursorCoords(range.head, "div").top + 5;
+      var pos = cm.coordsChar({left: 0, top: top}, "div");
+      if (pos.ch < cm.getLine(pos.line).search(/\S/)) { return lineStartSmart(cm, range.head) }
+      return pos
+    }, sel_move); },
+    goLineUp: function (cm) { return cm.moveV(-1, "line"); },
+    goLineDown: function (cm) { return cm.moveV(1, "line"); },
+    goPageUp: function (cm) { return cm.moveV(-1, "page"); },
+    goPageDown: function (cm) { return cm.moveV(1, "page"); },
+    goCharLeft: function (cm) { return cm.moveH(-1, "char"); },
+    goCharRight: function (cm) { return cm.moveH(1, "char"); },
+    goColumnLeft: function (cm) { return cm.moveH(-1, "column"); },
+    goColumnRight: function (cm) { return cm.moveH(1, "column"); },
+    goWordLeft: function (cm) { return cm.moveH(-1, "word"); },
+    goGroupRight: function (cm) { return cm.moveH(1, "group"); },
+    goGroupLeft: function (cm) { return cm.moveH(-1, "group"); },
+    goWordRight: function (cm) { return cm.moveH(1, "word"); },
+    delCharBefore: function (cm) { return cm.deleteH(-1, "codepoint"); },
+    delCharAfter: function (cm) { return cm.deleteH(1, "char"); },
+    delWordBefore: function (cm) { return cm.deleteH(-1, "word"); },
+    delWordAfter: function (cm) { return cm.deleteH(1, "word"); },
+    delGroupBefore: function (cm) { return cm.deleteH(-1, "group"); },
+    delGroupAfter: function (cm) { return cm.deleteH(1, "group"); },
+    indentAuto: function (cm) { return cm.indentSelection("smart"); },
+    indentMore: function (cm) { return cm.indentSelection("add"); },
+    indentLess: function (cm) { return cm.indentSelection("subtract"); },
+    insertTab: function (cm) { return cm.replaceSelection("\t"); },
+    insertSoftTab: function (cm) {
+      var spaces = [], ranges = cm.listSelections(), tabSize = cm.options.tabSize;
+      for (var i = 0; i < ranges.length; i++) {
+        var pos = ranges[i].from();
+        var col = countColumn(cm.getLine(pos.line), pos.ch, tabSize);
+        spaces.push(spaceStr(tabSize - col % tabSize));
+      }
+      cm.replaceSelections(spaces);
+    },
+    defaultTab: function (cm) {
+      if (cm.somethingSelected()) { cm.indentSelection("add"); }
+      else { cm.execCommand("insertTab"); }
+    },
+    // Swap the two chars left and right of each selection's head.
+    // Move cursor behind the two swapped characters afterwards.
+    //
+    // Doesn't consider line feeds a character.
+    // Doesn't scan more than one line above to find a character.
+    // Doesn't do anything on an empty line.
+    // Doesn't do anything with non-empty selections.
+    transposeChars: function (cm) { return runInOp(cm, function () {
+      var ranges = cm.listSelections(), newSel = [];
+      for (var i = 0; i < ranges.length; i++) {
+        if (!ranges[i].empty()) { continue }
+        var cur = ranges[i].head, line = getLine(cm.doc, cur.line).text;
+        if (line) {
+          if (cur.ch == line.length) { cur = new Pos(cur.line, cur.ch - 1); }
+          if (cur.ch > 0) {
+            cur = new Pos(cur.line, cur.ch + 1);
+            cm.replaceRange(line.charAt(cur.ch - 1) + line.charAt(cur.ch - 2),
+                            Pos(cur.line, cur.ch - 2), cur, "+transpose");
+          } else if (cur.line > cm.doc.first) {
+            var prev = getLine(cm.doc, cur.line - 1).text;
+            if (prev) {
+              cur = new Pos(cur.line, 1);
+              cm.replaceRange(line.charAt(0) + cm.doc.lineSeparator() +
+                              prev.charAt(prev.length - 1),
+                              Pos(cur.line - 1, prev.length - 1), cur, "+transpose");
+            }
+          }
+        }
+        newSel.push(new Range(cur, cur));
+      }
+      cm.setSelections(newSel);
+    }); },
+    newlineAndIndent: function (cm) { return runInOp(cm, function () {
+      var sels = cm.listSelections();
+      for (var i = sels.length - 1; i >= 0; i--)
+        { cm.replaceRange(cm.doc.lineSeparator(), sels[i].anchor, sels[i].head, "+input"); }
+      sels = cm.listSelections();
+      for (var i$1 = 0; i$1 < sels.length; i$1++)
+        { cm.indentLine(sels[i$1].from().line, null, true); }
+      ensureCursorVisible(cm);
+    }); },
+    openLine: function (cm) { return cm.replaceSelection("\n", "start"); },
+    toggleOverwrite: function (cm) { return cm.toggleOverwrite(); }
+  };
+
+
+  function lineStart(cm, lineN) {
+    var line = getLine(cm.doc, lineN);
+    var visual = visualLine(line);
+    if (visual != line) { lineN = lineNo(visual); }
+    return endOfLine(true, cm, visual, lineN, 1)
+  }
+  function lineEnd(cm, lineN) {
+    var line = getLine(cm.doc, lineN);
+    var visual = visualLineEnd(line);
+    if (visual != line) { lineN = lineNo(visual); }
+    return endOfLine(true, cm, line, lineN, -1)
+  }
+  function lineStartSmart(cm, pos) {
+    var start = lineStart(cm, pos.line);
+    var line = getLine(cm.doc, start.line);
+    var order = getOrder(line, cm.doc.direction);
+    if (!order || order[0].level == 0) {
+      var firstNonWS = Math.max(start.ch, line.text.search(/\S/));
+      var inWS = pos.line == start.line && pos.ch <= firstNonWS && pos.ch;
+      return Pos(start.line, inWS ? 0 : firstNonWS, start.sticky)
+    }
+    return start
+  }
+
+  // Run a handler that was bound to a key.
+  function doHandleBinding(cm, bound, dropShift) {
+    if (typeof bound == "string") {
+      bound = commands[bound];
+      if (!bound) { return false }
+    }
+    // Ensure previous input has been read, so that the handler sees a
+    // consistent view of the document
+    cm.display.input.ensurePolled();
+    var prevShift = cm.display.shift, done = false;
+    try {
+      if (cm.isReadOnly()) { cm.state.suppressEdits = true; }
+      if (dropShift) { cm.display.shift = false; }
+      done = bound(cm) != Pass;
+    } finally {
+      cm.display.shift = prevShift;
+      cm.state.suppressEdits = false;
+    }
+    return done
+  }
+
+  function lookupKeyForEditor(cm, name, handle) {
+    for (var i = 0; i < cm.state.keyMaps.length; i++) {
+      var result = lookupKey(name, cm.state.keyMaps[i], handle, cm);
+      if (result) { return result }
+    }
+    return (cm.options.extraKeys && lookupKey(name, cm.options.extraKeys, handle, cm))
+      || lookupKey(name, cm.options.keyMap, handle, cm)
+  }
+
+  // Note that, despite the name, this function is also used to check
+  // for bound mouse clicks.
+
+  var stopSeq = new Delayed;
+
+  function dispatchKey(cm, name, e, handle) {
+    var seq = cm.state.keySeq;
+    if (seq) {
+      if (isModifierKey(name)) { return "handled" }
+      if (/\'$/.test(name))
+        { cm.state.keySeq = null; }
+      else
+        { stopSeq.set(50, function () {
+          if (cm.state.keySeq == seq) {
+            cm.state.keySeq = null;
+            cm.display.input.reset();
+          }
+        }); }
+      if (dispatchKeyInner(cm, seq + " " + name, e, handle)) { return true }
+    }
+    return dispatchKeyInner(cm, name, e, handle)
+  }
+
+  function dispatchKeyInner(cm, name, e, handle) {
+    var result = lookupKeyForEditor(cm, name, handle);
+
+    if (result == "multi")
+      { cm.state.keySeq = name; }
+    if (result == "handled")
+      { signalLater(cm, "keyHandled", cm, name, e); }
+
+    if (result == "handled" || result == "multi") {
+      e_preventDefault(e);
+      restartBlink(cm);
+    }
+
+    return !!result
+  }
+
+  // Handle a key from the keydown event.
+  function handleKeyBinding(cm, e) {
+    var name = keyName(e, true);
+    if (!name) { return false }
+
+    if (e.shiftKey && !cm.state.keySeq) {
+      // First try to resolve full name (including 'Shift-'). Failing
+      // that, see if there is a cursor-motion command (starting with
+      // 'go') bound to the keyname without 'Shift-'.
+      return dispatchKey(cm, "Shift-" + name, e, function (b) { return doHandleBinding(cm, b, true); })
+          || dispatchKey(cm, name, e, function (b) {
+               if (typeof b == "string" ? /^go[A-Z]/.test(b) : b.motion)
+                 { return doHandleBinding(cm, b) }
+             })
+    } else {
+      return dispatchKey(cm, name, e, function (b) { return doHandleBinding(cm, b); })
+    }
+  }
+
+  // Handle a key from the keypress event
+  function handleCharBinding(cm, e, ch) {
+    return dispatchKey(cm, "'" + ch + "'", e, function (b) { return doHandleBinding(cm, b, true); })
+  }
+
+  var lastStoppedKey = null;
+  function onKeyDown(e) {
+    var cm = this;
+    if (e.target && e.target != cm.display.input.getField()) { return }
+    cm.curOp.focus = activeElt();
+    if (signalDOMEvent(cm, e)) { return }
+    // IE does strange things with escape.
+    if (ie && ie_version < 11 && e.keyCode == 27) { e.returnValue = false; }
+    var code = e.keyCode;
+    cm.display.shift = code == 16 || e.shiftKey;
+    var handled = handleKeyBinding(cm, e);
+    if (presto) {
+      lastStoppedKey = handled ? code : null;
+      // Opera has no cut event... we try to at least catch the key combo
+      if (!handled && code == 88 && !hasCopyEvent && (mac ? e.metaKey : e.ctrlKey))
+        { cm.replaceSelection("", null, "cut"); }
+    }
+    if (gecko && !mac && !handled && code == 46 && e.shiftKey && !e.ctrlKey && document.execCommand)
+      { document.execCommand("cut"); }
+
+    // Turn mouse into crosshair when Alt is held on Mac.
+    if (code == 18 && !/\bCodeMirror-crosshair\b/.test(cm.display.lineDiv.className))
+      { showCrossHair(cm); }
+  }
+
+  function showCrossHair(cm) {
+    var lineDiv = cm.display.lineDiv;
+    addClass(lineDiv, "CodeMirror-crosshair");
+
+    function up(e) {
+      if (e.keyCode == 18 || !e.altKey) {
+        rmClass(lineDiv, "CodeMirror-crosshair");
+        off(document, "keyup", up);
+        off(document, "mouseover", up);
+      }
+    }
+    on(document, "keyup", up);
+    on(document, "mouseover", up);
+  }
+
+  function onKeyUp(e) {
+    if (e.keyCode == 16) { this.doc.sel.shift = false; }
+    signalDOMEvent(this, e);
+  }
+
+  function onKeyPress(e) {
+    var cm = this;
+    if (e.target && e.target != cm.display.input.getField()) { return }
+    if (eventInWidget(cm.display, e) || signalDOMEvent(cm, e) || e.ctrlKey && !e.altKey || mac && e.metaKey) { return }
+    var keyCode = e.keyCode, charCode = e.charCode;
+    if (presto && keyCode == lastStoppedKey) {lastStoppedKey = null; e_preventDefault(e); return}
+    if ((presto && (!e.which || e.which < 10)) && handleKeyBinding(cm, e)) { return }
+    var ch = String.fromCharCode(charCode == null ? keyCode : charCode);
+    // Some browsers fire keypress events for backspace
+    if (ch == "\x08") { return }
+    if (handleCharBinding(cm, e, ch)) { return }
+    cm.display.input.onKeyPress(e);
+  }
+
+  var DOUBLECLICK_DELAY = 400;
+
+  var PastClick = function(time, pos, button) {
+    this.time = time;
+    this.pos = pos;
+    this.button = button;
+  };
+
+  PastClick.prototype.compare = function (time, pos, button) {
+    return this.time + DOUBLECLICK_DELAY > time &&
+      cmp(pos, this.pos) == 0 && button == this.button
+  };
+
+  var lastClick, lastDoubleClick;
+  function clickRepeat(pos, button) {
+    var now = +new Date;
+    if (lastDoubleClick && lastDoubleClick.compare(now, pos, button)) {
+      lastClick = lastDoubleClick = null;
+      return "triple"
+    } else if (lastClick && lastClick.compare(now, pos, button)) {
+      lastDoubleClick = new PastClick(now, pos, button);
+      lastClick = null;
+      return "double"
+    } else {
+      lastClick = new PastClick(now, pos, button);
+      lastDoubleClick = null;
+      return "single"
+    }
+  }
+
+  // A mouse down can be a single click, double click, triple click,
+  // start of selection drag, start of text drag, new cursor
+  // (ctrl-click), rectangle drag (alt-drag), or xwin
+  // middle-click-paste. Or it might be a click on something we should
+  // not interfere with, such as a scrollbar or widget.
+  function onMouseDown(e) {
+    var cm = this, display = cm.display;
+    if (signalDOMEvent(cm, e) || display.activeTouch && display.input.supportsTouch()) { return }
+    display.input.ensurePolled();
+    display.shift = e.shiftKey;
+
+    if (eventInWidget(display, e)) {
+      if (!webkit) {
+        // Briefly turn off draggability, to allow widgets to do
+        // normal dragging things.
+        display.scroller.draggable = false;
+        setTimeout(function () { return display.scroller.draggable = true; }, 100);
+      }
+      return
+    }
+    if (clickInGutter(cm, e)) { return }
+    var pos = posFromMouse(cm, e), button = e_button(e), repeat = pos ? clickRepeat(pos, button) : "single";
+    window.focus();
+
+    // #3261: make sure, that we're not starting a second selection
+    if (button == 1 && cm.state.selectingText)
+      { cm.state.selectingText(e); }
+
+    if (pos && handleMappedButton(cm, button, pos, repeat, e)) { return }
+
+    if (button == 1) {
+      if (pos) { leftButtonDown(cm, pos, repeat, e); }
+      else if (e_target(e) == display.scroller) { e_preventDefault(e); }
+    } else if (button == 2) {
+      if (pos) { extendSelection(cm.doc, pos); }
+      setTimeout(function () { return display.input.focus(); }, 20);
+    } else if (button == 3) {
+      if (captureRightClick) { cm.display.input.onContextMenu(e); }
+      else { delayBlurEvent(cm); }
+    }
+  }
+
+  function handleMappedButton(cm, button, pos, repeat, event) {
+    var name = "Click";
+    if (repeat == "double") { name = "Double" + name; }
+    else if (repeat == "triple") { name = "Triple" + name; }
+    name = (button == 1 ? "Left" : button == 2 ? "Middle" : "Right") + name;
+
+    return dispatchKey(cm,  addModifierNames(name, event), event, function (bound) {
+      if (typeof bound == "string") { bound = commands[bound]; }
+      if (!bound) { return false }
+      var done = false;
+      try {
+        if (cm.isReadOnly()) { cm.state.suppressEdits = true; }
+        done = bound(cm, pos) != Pass;
+      } finally {
+        cm.state.suppressEdits = false;
+      }
+      return done
+    })
+  }
+
+  function configureMouse(cm, repeat, event) {
+    var option = cm.getOption("configureMouse");
+    var value = option ? option(cm, repeat, event) : {};
+    if (value.unit == null) {
+      var rect = chromeOS ? event.shiftKey && event.metaKey : event.altKey;
+      value.unit = rect ? "rectangle" : repeat == "single" ? "char" : repeat == "double" ? "word" : "line";
+    }
+    if (value.extend == null || cm.doc.extend) { value.extend = cm.doc.extend || event.shiftKey; }
+    if (value.addNew == null) { value.addNew = mac ? event.metaKey : event.ctrlKey; }
+    if (value.moveOnDrag == null) { value.moveOnDrag = !(mac ? event.altKey : event.ctrlKey); }
+    return value
+  }
+
+  function leftButtonDown(cm, pos, repeat, event) {
+    if (ie) { setTimeout(bind(ensureFocus, cm), 0); }
+    else { cm.curOp.focus = activeElt(); }
+
+    var behavior = configureMouse(cm, repeat, event);
+
+    var sel = cm.doc.sel, contained;
+    if (cm.options.dragDrop && dragAndDrop && !cm.isReadOnly() &&
+        repeat == "single" && (contained = sel.contains(pos)) > -1 &&
+        (cmp((contained = sel.ranges[contained]).from(), pos) < 0 || pos.xRel > 0) &&
+        (cmp(contained.to(), pos) > 0 || pos.xRel < 0))
+      { leftButtonStartDrag(cm, event, pos, behavior); }
+    else
+      { leftButtonSelect(cm, event, pos, behavior); }
+  }
+
+  // Start a text drag. When it ends, see if any dragging actually
+  // happen, and treat as a click if it didn't.
+  function leftButtonStartDrag(cm, event, pos, behavior) {
+    var display = cm.display, moved = false;
+    var dragEnd = operation(cm, function (e) {
+      if (webkit) { display.scroller.draggable = false; }
+      cm.state.draggingText = false;
+      off(display.wrapper.ownerDocument, "mouseup", dragEnd);
+      off(display.wrapper.ownerDocument, "mousemove", mouseMove);
+      off(display.scroller, "dragstart", dragStart);
+      off(display.scroller, "drop", dragEnd);
+      if (!moved) {
+        e_preventDefault(e);
+        if (!behavior.addNew)
+          { extendSelection(cm.doc, pos, null, null, behavior.extend); }
+        // Work around unexplainable focus problem in IE9 (#2127) and Chrome (#3081)
+        if ((webkit && !safari) || ie && ie_version == 9)
+          { setTimeout(function () {display.wrapper.ownerDocument.body.focus({preventScroll: true}); display.input.focus();}, 20); }
+        else
+          { display.input.focus(); }
+      }
+    });
+    var mouseMove = function(e2) {
+      moved = moved || Math.abs(event.clientX - e2.clientX) + Math.abs(event.clientY - e2.clientY) >= 10;
+    };
+    var dragStart = function () { return moved = true; };
+    // Let the drag handler handle this.
+    if (webkit) { display.scroller.draggable = true; }
+    cm.state.draggingText = dragEnd;
+    dragEnd.copy = !behavior.moveOnDrag;
+    // IE's approach to draggable
+    if (display.scroller.dragDrop) { display.scroller.dragDrop(); }
+    on(display.wrapper.ownerDocument, "mouseup", dragEnd);
+    on(display.wrapper.ownerDocument, "mousemove", mouseMove);
+    on(display.scroller, "dragstart", dragStart);
+    on(display.scroller, "drop", dragEnd);
+
+    delayBlurEvent(cm);
+    setTimeout(function () { return display.input.focus(); }, 20);
+  }
+
+  function rangeForUnit(cm, pos, unit) {
+    if (unit == "char") { return new Range(pos, pos) }
+    if (unit == "word") { return cm.findWordAt(pos) }
+    if (unit == "line") { return new Range(Pos(pos.line, 0), clipPos(cm.doc, Pos(pos.line + 1, 0))) }
+    var result = unit(cm, pos);
+    return new Range(result.from, result.to)
+  }
+
+  // Normal selection, as opposed to text dragging.
+  function leftButtonSelect(cm, event, start, behavior) {
+    var display = cm.display, doc = cm.doc;
+    e_preventDefault(event);
+
+    var ourRange, ourIndex, startSel = doc.sel, ranges = startSel.ranges;
+    if (behavior.addNew && !behavior.extend) {
+      ourIndex = doc.sel.contains(start);
+      if (ourIndex > -1)
+        { ourRange = ranges[ourIndex]; }
+      else
+        { ourRange = new Range(start, start); }
+    } else {
+      ourRange = doc.sel.primary();
+      ourIndex = doc.sel.primIndex;
+    }
+
+    if (behavior.unit == "rectangle") {
+      if (!behavior.addNew) { ourRange = new Range(start, start); }
+      start = posFromMouse(cm, event, true, true);
+      ourIndex = -1;
+    } else {
+      var range = rangeForUnit(cm, start, behavior.unit);
+      if (behavior.extend)
+        { ourRange = extendRange(ourRange, range.anchor, range.head, behavior.extend); }
+      else
+        { ourRange = range; }
+    }
+
+    if (!behavior.addNew) {
+      ourIndex = 0;
+      setSelection(doc, new Selection([ourRange], 0), sel_mouse);
+      startSel = doc.sel;
+    } else if (ourIndex == -1) {
+      ourIndex = ranges.length;
+      setSelection(doc, normalizeSelection(cm, ranges.concat([ourRange]), ourIndex),
+                   {scroll: false, origin: "*mouse"});
+    } else if (ranges.length > 1 && ranges[ourIndex].empty() && behavior.unit == "char" && !behavior.extend) {
+      setSelection(doc, normalizeSelection(cm, ranges.slice(0, ourIndex).concat(ranges.slice(ourIndex + 1)), 0),
+                   {scroll: false, origin: "*mouse"});
+      startSel = doc.sel;
+    } else {
+      replaceOneSelection(doc, ourIndex, ourRange, sel_mouse);
+    }
+
+    var lastPos = start;
+    function extendTo(pos) {
+      if (cmp(lastPos, pos) == 0) { return }
+      lastPos = pos;
+
+      if (behavior.unit == "rectangle") {
+        var ranges = [], tabSize = cm.options.tabSize;
+        var startCol = countColumn(getLine(doc, start.line).text, start.ch, tabSize);
+        var posCol = countColumn(getLine(doc, pos.line).text, pos.ch, tabSize);
+        var left = Math.min(startCol, posCol), right = Math.max(startCol, posCol);
+        for (var line = Math.min(start.line, pos.line), end = Math.min(cm.lastLine(), Math.max(start.line, pos.line));
+             line <= end; line++) {
+          var text = getLine(doc, line).text, leftPos = findColumn(text, left, tabSize);
+          if (left == right)
+            { ranges.push(new Range(Pos(line, leftPos), Pos(line, leftPos))); }
+          else if (text.length > leftPos)
+            { ranges.push(new Range(Pos(line, leftPos), Pos(line, findColumn(text, right, tabSize)))); }
+        }
+        if (!ranges.length) { ranges.push(new Range(start, start)); }
+        setSelection(doc, normalizeSelection(cm, startSel.ranges.slice(0, ourIndex).concat(ranges), ourIndex),
+                     {origin: "*mouse", scroll: false});
+        cm.scrollIntoView(pos);
+      } else {
+        var oldRange = ourRange;
+        var range = rangeForUnit(cm, pos, behavior.unit);
+        var anchor = oldRange.anchor, head;
+        if (cmp(range.anchor, anchor) > 0) {
+          head = range.head;
+          anchor = minPos(oldRange.from(), range.anchor);
+        } else {
+          head = range.anchor;
+          anchor = maxPos(oldRange.to(), range.head);
+        }
+        var ranges$1 = startSel.ranges.slice(0);
+        ranges$1[ourIndex] = bidiSimplify(cm, new Range(clipPos(doc, anchor), head));
+        setSelection(doc, normalizeSelection(cm, ranges$1, ourIndex), sel_mouse);
+      }
+    }
+
+    var editorSize = display.wrapper.getBoundingClientRect();
+    // Used to ensure timeout re-tries don't fire when another extend
+    // happened in the meantime (clearTimeout isn't reliable -- at
+    // least on Chrome, the timeouts still happen even when cleared,
+    // if the clear happens after their scheduled firing time).
+    var counter = 0;
+
+    function extend(e) {
+      var curCount = ++counter;
+      var cur = posFromMouse(cm, e, true, behavior.unit == "rectangle");
+      if (!cur) { return }
+      if (cmp(cur, lastPos) != 0) {
+        cm.curOp.focus = activeElt();
+        extendTo(cur);
+        var visible = visibleLines(display, doc);
+        if (cur.line >= visible.to || cur.line < visible.from)
+          { setTimeout(operation(cm, function () {if (counter == curCount) { extend(e); }}), 150); }
+      } else {
+        var outside = e.clientY < editorSize.top ? -20 : e.clientY > editorSize.bottom ? 20 : 0;
+        if (outside) { setTimeout(operation(cm, function () {
+          if (counter != curCount) { return }
+          display.scroller.scrollTop += outside;
+          extend(e);
+        }), 50); }
+      }
+    }
+
+    function done(e) {
+      cm.state.selectingText = false;
+      counter = Infinity;
+      // If e is null or undefined we interpret this as someone trying
+      // to explicitly cancel the selection rather than the user
+      // letting go of the mouse button.
+      if (e) {
+        e_preventDefault(e);
+        display.input.focus();
+      }
+      off(display.wrapper.ownerDocument, "mousemove", move);
+      off(display.wrapper.ownerDocument, "mouseup", up);
+      doc.history.lastSelOrigin = null;
+    }
+
+    var move = operation(cm, function (e) {
+      if (e.buttons === 0 || !e_button(e)) { done(e); }
+      else { extend(e); }
+    });
+    var up = operation(cm, done);
+    cm.state.selectingText = up;
+    on(display.wrapper.ownerDocument, "mousemove", move);
+    on(display.wrapper.ownerDocument, "mouseup", up);
+  }
+
+  // Used when mouse-selecting to adjust the anchor to the proper side
+  // of a bidi jump depending on the visual position of the head.
+  function bidiSimplify(cm, range) {
+    var anchor = range.anchor;
+    var head = range.head;
+    var anchorLine = getLine(cm.doc, anchor.line);
+    if (cmp(anchor, head) == 0 && anchor.sticky == head.sticky) { return range }
+    var order = getOrder(anchorLine);
+    if (!order) { return range }
+    var index = getBidiPartAt(order, anchor.ch, anchor.sticky), part = order[index];
+    if (part.from != anchor.ch && part.to != anchor.ch) { return range }
+    var boundary = index + ((part.from == anchor.ch) == (part.level != 1) ? 0 : 1);
+    if (boundary == 0 || boundary == order.length) { return range }
+
+    // Compute the relative visual position of the head compared to the
+    // anchor (<0 is to the left, >0 to the right)
+    var leftSide;
+    if (head.line != anchor.line) {
+      leftSide = (head.line - anchor.line) * (cm.doc.direction == "ltr" ? 1 : -1) > 0;
+    } else {
+      var headIndex = getBidiPartAt(order, head.ch, head.sticky);
+      var dir = headIndex - index || (head.ch - anchor.ch) * (part.level == 1 ? -1 : 1);
+      if (headIndex == boundary - 1 || headIndex == boundary)
+        { leftSide = dir < 0; }
+      else
+        { leftSide = dir > 0; }
+    }
+
+    var usePart = order[boundary + (leftSide ? -1 : 0)];
+    var from = leftSide == (usePart.level == 1);
+    var ch = from ? usePart.from : usePart.to, sticky = from ? "after" : "before";
+    return anchor.ch == ch && anchor.sticky == sticky ? range : new Range(new Pos(anchor.line, ch, sticky), head)
+  }
+
+
+  // Determines whether an event happened in the gutter, and fires the
+  // handlers for the corresponding event.
+  function gutterEvent(cm, e, type, prevent) {
+    var mX, mY;
+    if (e.touches) {
+      mX = e.touches[0].clientX;
+      mY = e.touches[0].clientY;
+    } else {
+      try { mX = e.clientX; mY = e.clientY; }
+      catch(e$1) { return false }
+    }
+    if (mX >= Math.floor(cm.display.gutters.getBoundingClientRect().right)) { return false }
+    if (prevent) { e_preventDefault(e); }
+
+    var display = cm.display;
+    var lineBox = display.lineDiv.getBoundingClientRect();
+
+    if (mY > lineBox.bottom || !hasHandler(cm, type)) { return e_defaultPrevented(e) }
+    mY -= lineBox.top - display.viewOffset;
+
+    for (var i = 0; i < cm.display.gutterSpecs.length; ++i) {
+      var g = display.gutters.childNodes[i];
+      if (g && g.getBoundingClientRect().right >= mX) {
+        var line = lineAtHeight(cm.doc, mY);
+        var gutter = cm.display.gutterSpecs[i];
+        signal(cm, type, cm, line, gutter.className, e);
+        return e_defaultPrevented(e)
+      }
+    }
+  }
+
+  function clickInGutter(cm, e) {
+    return gutterEvent(cm, e, "gutterClick", true)
+  }
+
+  // CONTEXT MENU HANDLING
+
+  // To make the context menu work, we need to briefly unhide the
+  // textarea (making it as unobtrusive as possible) to let the
+  // right-click take effect on it.
+  function onContextMenu(cm, e) {
+    if (eventInWidget(cm.display, e) || contextMenuInGutter(cm, e)) { return }
+    if (signalDOMEvent(cm, e, "contextmenu")) { return }
+    if (!captureRightClick) { cm.display.input.onContextMenu(e); }
+  }
+
+  function contextMenuInGutter(cm, e) {
+    if (!hasHandler(cm, "gutterContextMenu")) { return false }
+    return gutterEvent(cm, e, "gutterContextMenu", false)
+  }
+
+  function themeChanged(cm) {
+    cm.display.wrapper.className = cm.display.wrapper.className.replace(/\s*cm-s-\S+/g, "") +
+      cm.options.theme.replace(/(^|\s)\s*/g, " cm-s-");
+    clearCaches(cm);
+  }
+
+  var Init = {toString: function(){return "CodeMirror.Init"}};
+
+  var defaults = {};
+  var optionHandlers = {};
+
+  function defineOptions(CodeMirror) {
+    var optionHandlers = CodeMirror.optionHandlers;
+
+    function option(name, deflt, handle, notOnInit) {
+      CodeMirror.defaults[name] = deflt;
+      if (handle) { optionHandlers[name] =
+        notOnInit ? function (cm, val, old) {if (old != Init) { handle(cm, val, old); }} : handle; }
+    }
+
+    CodeMirror.defineOption = option;
+
+    // Passed to option handlers when there is no old value.
+    CodeMirror.Init = Init;
+
+    // These two are, on init, called from the constructor because they
+    // have to be initialized before the editor can start at all.
+    option("value", "", function (cm, val) { return cm.setValue(val); }, true);
+    option("mode", null, function (cm, val) {
+      cm.doc.modeOption = val;
+      loadMode(cm);
+    }, true);
+
+    option("indentUnit", 2, loadMode, true);
+    option("indentWithTabs", false);
+    option("smartIndent", true);
+    option("tabSize", 4, function (cm) {
+      resetModeState(cm);
+      clearCaches(cm);
+      regChange(cm);
+    }, true);
+
+    option("lineSeparator", null, function (cm, val) {
+      cm.doc.lineSep = val;
+      if (!val) { return }
+      var newBreaks = [], lineNo = cm.doc.first;
+      cm.doc.iter(function (line) {
+        for (var pos = 0;;) {
+          var found = line.text.indexOf(val, pos);
+          if (found == -1) { break }
+          pos = found + val.length;
+          newBreaks.push(Pos(lineNo, found));
+        }
+        lineNo++;
+      });
+      for (var i = newBreaks.length - 1; i >= 0; i--)
+        { replaceRange(cm.doc, val, newBreaks[i], Pos(newBreaks[i].line, newBreaks[i].ch + val.length)); }
+    });
+    option("specialChars", /[\u0000-\u001f\u007f-\u009f\u00ad\u061c\u200b-\u200c\u200e\u200f\u2028\u2029\ufeff\ufff9-\ufffc]/g, function (cm, val, old) {
+      cm.state.specialChars = new RegExp(val.source + (val.test("\t") ? "" : "|\t"), "g");
+      if (old != Init) { cm.refresh(); }
+    });
+    option("specialCharPlaceholder", defaultSpecialCharPlaceholder, function (cm) { return cm.refresh(); }, true);
+    option("electricChars", true);
+    option("inputStyle", mobile ? "contenteditable" : "textarea", function () {
+      throw new Error("inputStyle can not (yet) be changed in a running editor") // FIXME
+    }, true);
+    option("spellcheck", false, function (cm, val) { return cm.getInputField().spellcheck = val; }, true);
+    option("autocorrect", false, function (cm, val) { return cm.getInputField().autocorrect = val; }, true);
+    option("autocapitalize", false, function (cm, val) { return cm.getInputField().autocapitalize = val; }, true);
+    option("rtlMoveVisually", !windows);
+    option("wholeLineUpdateBefore", true);
+
+    option("theme", "default", function (cm) {
+      themeChanged(cm);
+      updateGutters(cm);
+    }, true);
+    option("keyMap", "default", function (cm, val, old) {
+      var next = getKeyMap(val);
+      var prev = old != Init && getKeyMap(old);
+      if (prev && prev.detach) { prev.detach(cm, next); }
+      if (next.attach) { next.attach(cm, prev || null); }
+    });
+    option("extraKeys", null);
+    option("configureMouse", null);
+
+    option("lineWrapping", false, wrappingChanged, true);
+    option("gutters", [], function (cm, val) {
+      cm.display.gutterSpecs = getGutters(val, cm.options.lineNumbers);
+      updateGutters(cm);
+    }, true);
+    option("fixedGutter", true, function (cm, val) {
+      cm.display.gutters.style.left = val ? compensateForHScroll(cm.display) + "px" : "0";
+      cm.refresh();
+    }, true);
+    option("coverGutterNextToScrollbar", false, function (cm) { return updateScrollbars(cm); }, true);
+    option("scrollbarStyle", "native", function (cm) {
+      initScrollbars(cm);
+      updateScrollbars(cm);
+      cm.display.scrollbars.setScrollTop(cm.doc.scrollTop);
+      cm.display.scrollbars.setScrollLeft(cm.doc.scrollLeft);
+    }, true);
+    option("lineNumbers", false, function (cm, val) {
+      cm.display.gutterSpecs = getGutters(cm.options.gutters, val);
+      updateGutters(cm);
+    }, true);
+    option("firstLineNumber", 1, updateGutters, true);
+    option("lineNumberFormatter", function (integer) { return integer; }, updateGutters, true);
+    option("showCursorWhenSelecting", false, updateSelection, true);
+
+    option("resetSelectionOnContextMenu", true);
+    option("lineWiseCopyCut", true);
+    option("pasteLinesPerSelection", true);
+    option("selectionsMayTouch", false);
+
+    option("readOnly", false, function (cm, val) {
+      if (val == "nocursor") {
+        onBlur(cm);
+        cm.display.input.blur();
+      }
+      cm.display.input.readOnlyChanged(val);
+    });
+
+    option("screenReaderLabel", null, function (cm, val) {
+      val = (val === '') ? null : val;
+      cm.display.input.screenReaderLabelChanged(val);
+    });
+
+    option("disableInput", false, function (cm, val) {if (!val) { cm.display.input.reset(); }}, true);
+    option("dragDrop", true, dragDropChanged);
+    option("allowDropFileTypes", null);
+
+    option("cursorBlinkRate", 530);
+    option("cursorScrollMargin", 0);
+    option("cursorHeight", 1, updateSelection, true);
+    option("singleCursorHeightPerLine", true, updateSelection, true);
+    option("workTime", 100);
+    option("workDelay", 100);
+    option("flattenSpans", true, resetModeState, true);
+    option("addModeClass", false, resetModeState, true);
+    option("pollInterval", 100);
+    option("undoDepth", 200, function (cm, val) { return cm.doc.history.undoDepth = val; });
+    option("historyEventDelay", 1250);
+    option("viewportMargin", 10, function (cm) { return cm.refresh(); }, true);
+    option("maxHighlightLength", 10000, resetModeState, true);
+    option("moveInputWithCursor", true, function (cm, val) {
+      if (!val) { cm.display.input.resetPosition(); }
+    });
+
+    option("tabindex", null, function (cm, val) { return cm.display.input.getField().tabIndex = val || ""; });
+    option("autofocus", null);
+    option("direction", "ltr", function (cm, val) { return cm.doc.setDirection(val); }, true);
+    option("phrases", null);
+  }
+
+  function dragDropChanged(cm, value, old) {
+    var wasOn = old && old != Init;
+    if (!value != !wasOn) {
+      var funcs = cm.display.dragFunctions;
+      var toggle = value ? on : off;
+      toggle(cm.display.scroller, "dragstart", funcs.start);
+      toggle(cm.display.scroller, "dragenter", funcs.enter);
+      toggle(cm.display.scroller, "dragover", funcs.over);
+      toggle(cm.display.scroller, "dragleave", funcs.leave);
+      toggle(cm.display.scroller, "drop", funcs.drop);
+    }
+  }
+
+  function wrappingChanged(cm) {
+    if (cm.options.lineWrapping) {
+      addClass(cm.display.wrapper, "CodeMirror-wrap");
+      cm.display.sizer.style.minWidth = "";
+      cm.display.sizerWidth = null;
+    } else {
+      rmClass(cm.display.wrapper, "CodeMirror-wrap");
+      findMaxLine(cm);
+    }
+    estimateLineHeights(cm);
+    regChange(cm);
+    clearCaches(cm);
+    setTimeout(function () { return updateScrollbars(cm); }, 100);
+  }
+
+  // A CodeMirror instance represents an editor. This is the object
+  // that user code is usually dealing with.
+
+  function CodeMirror(place, options) {
+    var this$1 = this;
+
+    if (!(this instanceof CodeMirror)) { return new CodeMirror(place, options) }
+
+    this.options = options = options ? copyObj(options) : {};
+    // Determine effective options based on given values and defaults.
+    copyObj(defaults, options, false);
+
+    var doc = options.value;
+    if (typeof doc == "string") { doc = new Doc(doc, options.mode, null, options.lineSeparator, options.direction); }
+    else if (options.mode) { doc.modeOption = options.mode; }
+    this.doc = doc;
+
+    var input = new CodeMirror.inputStyles[options.inputStyle](this);
+    var display = this.display = new Display(place, doc, input, options);
+    display.wrapper.CodeMirror = this;
+    themeChanged(this);
+    if (options.lineWrapping)
+      { this.display.wrapper.className += " CodeMirror-wrap"; }
+    initScrollbars(this);
+
+    this.state = {
+      keyMaps: [],  // stores maps added by addKeyMap
+      overlays: [], // highlighting overlays, as added by addOverlay
+      modeGen: 0,   // bumped when mode/overlay changes, used to invalidate highlighting info
+      overwrite: false,
+      delayingBlurEvent: false,
+      focused: false,
+      suppressEdits: false, // used to disable editing during key handlers when in readOnly mode
+      pasteIncoming: -1, cutIncoming: -1, // help recognize paste/cut edits in input.poll
+      selectingText: false,
+      draggingText: false,
+      highlight: new Delayed(), // stores highlight worker timeout
+      keySeq: null,  // Unfinished key sequence
+      specialChars: null
+    };
+
+    if (options.autofocus && !mobile) { display.input.focus(); }
+
+    // Override magic textarea content restore that IE sometimes does
+    // on our hidden textarea on reload
+    if (ie && ie_version < 11) { setTimeout(function () { return this$1.display.input.reset(true); }, 20); }
+
+    registerEventHandlers(this);
+    ensureGlobalHandlers();
+
+    startOperation(this);
+    this.curOp.forceUpdate = true;
+    attachDoc(this, doc);
+
+    if ((options.autofocus && !mobile) || this.hasFocus())
+      { setTimeout(function () {
+        if (this$1.hasFocus() && !this$1.state.focused) { onFocus(this$1); }
+      }, 20); }
+    else
+      { onBlur(this); }
+
+    for (var opt in optionHandlers) { if (optionHandlers.hasOwnProperty(opt))
+      { optionHandlers[opt](this, options[opt], Init); } }
+    maybeUpdateLineNumberWidth(this);
+    if (options.finishInit) { options.finishInit(this); }
+    for (var i = 0; i < initHooks.length; ++i) { initHooks[i](this); }
+    endOperation(this);
+    // Suppress optimizelegibility in Webkit, since it breaks text
+    // measuring on line wrapping boundaries.
+    if (webkit && options.lineWrapping &&
+        getComputedStyle(display.lineDiv).textRendering == "optimizelegibility")
+      { display.lineDiv.style.textRendering = "auto"; }
+  }
+
+  // The default configuration options.
+  CodeMirror.defaults = defaults;
+  // Functions to run when options are changed.
+  CodeMirror.optionHandlers = optionHandlers;
+
+  // Attach the necessary event handlers when initializing the editor
+  function registerEventHandlers(cm) {
+    var d = cm.display;
+    on(d.scroller, "mousedown", operation(cm, onMouseDown));
+    // Older IE's will not fire a second mousedown for a double click
+    if (ie && ie_version < 11)
+      { on(d.scroller, "dblclick", operation(cm, function (e) {
+        if (signalDOMEvent(cm, e)) { return }
+        var pos = posFromMouse(cm, e);
+        if (!pos || clickInGutter(cm, e) || eventInWidget(cm.display, e)) { return }
+        e_preventDefault(e);
+        var word = cm.findWordAt(pos);
+        extendSelection(cm.doc, word.anchor, word.head);
+      })); }
+    else
+      { on(d.scroller, "dblclick", function (e) { return signalDOMEvent(cm, e) || e_preventDefault(e); }); }
+    // Some browsers fire contextmenu *after* opening the menu, at
+    // which point we can't mess with it anymore. Context menu is
+    // handled in onMouseDown for these browsers.
+    on(d.scroller, "contextmenu", function (e) { return onContextMenu(cm, e); });
+    on(d.input.getField(), "contextmenu", function (e) {
+      if (!d.scroller.contains(e.target)) { onContextMenu(cm, e); }
+    });
+
+    // Used to suppress mouse event handling when a touch happens
+    var touchFinished, prevTouch = {end: 0};
+    function finishTouch() {
+      if (d.activeTouch) {
+        touchFinished = setTimeout(function () { return d.activeTouch = null; }, 1000);
+        prevTouch = d.activeTouch;
+        prevTouch.end = +new Date;
+      }
+    }
+    function isMouseLikeTouchEvent(e) {
+      if (e.touches.length != 1) { return false }
+      var touch = e.touches[0];
+      return touch.radiusX <= 1 && touch.radiusY <= 1
+    }
+    function farAway(touch, other) {
+      if (other.left == null) { return true }
+      var dx = other.left - touch.left, dy = other.top - touch.top;
+      return dx * dx + dy * dy > 20 * 20
+    }
+    on(d.scroller, "touchstart", function (e) {
+      if (!signalDOMEvent(cm, e) && !isMouseLikeTouchEvent(e) && !clickInGutter(cm, e)) {
+        d.input.ensurePolled();
+        clearTimeout(touchFinished);
+        var now = +new Date;
+        d.activeTouch = {start: now, moved: false,
+                         prev: now - prevTouch.end <= 300 ? prevTouch : null};
+        if (e.touches.length == 1) {
+          d.activeTouch.left = e.touches[0].pageX;
+          d.activeTouch.top = e.touches[0].pageY;
+        }
+      }
+    });
+    on(d.scroller, "touchmove", function () {
+      if (d.activeTouch) { d.activeTouch.moved = true; }
+    });
+    on(d.scroller, "touchend", function (e) {
+      var touch = d.activeTouch;
+      if (touch && !eventInWidget(d, e) && touch.left != null &&
+          !touch.moved && new Date - touch.start < 300) {
+        var pos = cm.coordsChar(d.activeTouch, "page"), range;
+        if (!touch.prev || farAway(touch, touch.prev)) // Single tap
+          { range = new Range(pos, pos); }
+        else if (!touch.prev.prev || farAway(touch, touch.prev.prev)) // Double tap
+          { range = cm.findWordAt(pos); }
+        else // Triple tap
+          { range = new Range(Pos(pos.line, 0), clipPos(cm.doc, Pos(pos.line + 1, 0))); }
+        cm.setSelection(range.anchor, range.head);
+        cm.focus();
+        e_preventDefault(e);
+      }
+      finishTouch();
+    });
+    on(d.scroller, "touchcancel", finishTouch);
+
+    // Sync scrolling between fake scrollbars and real scrollable
+    // area, ensure viewport is updated when scrolling.
+    on(d.scroller, "scroll", function () {
+      if (d.scroller.clientHeight) {
+        updateScrollTop(cm, d.scroller.scrollTop);
+        setScrollLeft(cm, d.scroller.scrollLeft, true);
+        signal(cm, "scroll", cm);
+      }
+    });
+
+    // Listen to wheel events in order to try and update the viewport on time.
+    on(d.scroller, "mousewheel", function (e) { return onScrollWheel(cm, e); });
+    on(d.scroller, "DOMMouseScroll", function (e) { return onScrollWheel(cm, e); });
+
+    // Prevent wrapper from ever scrolling
+    on(d.wrapper, "scroll", function () { return d.wrapper.scrollTop = d.wrapper.scrollLeft = 0; });
+
+    d.dragFunctions = {
+      enter: function (e) {if (!signalDOMEvent(cm, e)) { e_stop(e); }},
+      over: function (e) {if (!signalDOMEvent(cm, e)) { onDragOver(cm, e); e_stop(e); }},
+      start: function (e) { return onDragStart(cm, e); },
+      drop: operation(cm, onDrop),
+      leave: function (e) {if (!signalDOMEvent(cm, e)) { clearDragCursor(cm); }}
+    };
+
+    var inp = d.input.getField();
+    on(inp, "keyup", function (e) { return onKeyUp.call(cm, e); });
+    on(inp, "keydown", operation(cm, onKeyDown));
+    on(inp, "keypress", operation(cm, onKeyPress));
+    on(inp, "focus", function (e) { return onFocus(cm, e); });
+    on(inp, "blur", function (e) { return onBlur(cm, e); });
+  }
+
+  var initHooks = [];
+  CodeMirror.defineInitHook = function (f) { return initHooks.push(f); };
+
+  // Indent the given line. The how parameter can be "smart",
+  // "add"/null, "subtract", or "prev". When aggressive is false
+  // (typically set to true for forced single-line indents), empty
+  // lines are not indented, and places where the mode returns Pass
+  // are left alone.
+  function indentLine(cm, n, how, aggressive) {
+    var doc = cm.doc, state;
+    if (how == null) { how = "add"; }
+    if (how == "smart") {
+      // Fall back to "prev" when the mode doesn't have an indentation
+      // method.
+      if (!doc.mode.indent) { how = "prev"; }
+      else { state = getContextBefore(cm, n).state; }
+    }
+
+    var tabSize = cm.options.tabSize;
+    var line = getLine(doc, n), curSpace = countColumn(line.text, null, tabSize);
+    if (line.stateAfter) { line.stateAfter = null; }
+    var curSpaceString = line.text.match(/^\s*/)[0], indentation;
+    if (!aggressive && !/\S/.test(line.text)) {
+      indentation = 0;
+      how = "not";
+    } else if (how == "smart") {
+      indentation = doc.mode.indent(state, line.text.slice(curSpaceString.length), line.text);
+      if (indentation == Pass || indentation > 150) {
+        if (!aggressive) { return }
+        how = "prev";
+      }
+    }
+    if (how == "prev") {
+      if (n > doc.first) { indentation = countColumn(getLine(doc, n-1).text, null, tabSize); }
+      else { indentation = 0; }
+    } else if (how == "add") {
+      indentation = curSpace + cm.options.indentUnit;
+    } else if (how == "subtract") {
+      indentation = curSpace - cm.options.indentUnit;
+    } else if (typeof how == "number") {
+      indentation = curSpace + how;
+    }
+    indentation = Math.max(0, indentation);
+
+    var indentString = "", pos = 0;
+    if (cm.options.indentWithTabs)
+      { for (var i = Math.floor(indentation / tabSize); i; --i) {pos += tabSize; indentString += "\t";} }
+    if (pos < indentation) { indentString += spaceStr(indentation - pos); }
+
+    if (indentString != curSpaceString) {
+      replaceRange(doc, indentString, Pos(n, 0), Pos(n, curSpaceString.length), "+input");
+      line.stateAfter = null;
+      return true
+    } else {
+      // Ensure that, if the cursor was in the whitespace at the start
+      // of the line, it is moved to the end of that space.
+      for (var i$1 = 0; i$1 < doc.sel.ranges.length; i$1++) {
+        var range = doc.sel.ranges[i$1];
+        if (range.head.line == n && range.head.ch < curSpaceString.length) {
+          var pos$1 = Pos(n, curSpaceString.length);
+          replaceOneSelection(doc, i$1, new Range(pos$1, pos$1));
+          break
+        }
+      }
+    }
+  }
+
+  // This will be set to a {lineWise: bool, text: [string]} object, so
+  // that, when pasting, we know what kind of selections the copied
+  // text was made out of.
+  var lastCopied = null;
+
+  function setLastCopied(newLastCopied) {
+    lastCopied = newLastCopied;
+  }
+
+  function applyTextInput(cm, inserted, deleted, sel, origin) {
+    var doc = cm.doc;
+    cm.display.shift = false;
+    if (!sel) { sel = doc.sel; }
+
+    var recent = +new Date - 200;
+    var paste = origin == "paste" || cm.state.pasteIncoming > recent;
+    var textLines = splitLinesAuto(inserted), multiPaste = null;
+    // When pasting N lines into N selections, insert one line per selection
+    if (paste && sel.ranges.length > 1) {
+      if (lastCopied && lastCopied.text.join("\n") == inserted) {
+        if (sel.ranges.length % lastCopied.text.length == 0) {
+          multiPaste = [];
+          for (var i = 0; i < lastCopied.text.length; i++)
+            { multiPaste.push(doc.splitLines(lastCopied.text[i])); }
+        }
+      } else if (textLines.length == sel.ranges.length && cm.options.pasteLinesPerSelection) {
+        multiPaste = map(textLines, function (l) { return [l]; });
+      }
+    }
+
+    var updateInput = cm.curOp.updateInput;
+    // Normal behavior is to insert the new text into every selection
+    for (var i$1 = sel.ranges.length - 1; i$1 >= 0; i$1--) {
+      var range = sel.ranges[i$1];
+      var from = range.from(), to = range.to();
+      if (range.empty()) {
+        if (deleted && deleted > 0) // Handle deletion
+          { from = Pos(from.line, from.ch - deleted); }
+        else if (cm.state.overwrite && !paste) // Handle overwrite
+          { to = Pos(to.line, Math.min(getLine(doc, to.line).text.length, to.ch + lst(textLines).length)); }
+        else if (paste && lastCopied && lastCopied.lineWise && lastCopied.text.join("\n") == textLines.join("\n"))
+          { from = to = Pos(from.line, 0); }
+      }
+      var changeEvent = {from: from, to: to, text: multiPaste ? multiPaste[i$1 % multiPaste.length] : textLines,
+                         origin: origin || (paste ? "paste" : cm.state.cutIncoming > recent ? "cut" : "+input")};
+      makeChange(cm.doc, changeEvent);
+      signalLater(cm, "inputRead", cm, changeEvent);
+    }
+    if (inserted && !paste)
+      { triggerElectric(cm, inserted); }
+
+    ensureCursorVisible(cm);
+    if (cm.curOp.updateInput < 2) { cm.curOp.updateInput = updateInput; }
+    cm.curOp.typing = true;
+    cm.state.pasteIncoming = cm.state.cutIncoming = -1;
+  }
+
+  function handlePaste(e, cm) {
+    var pasted = e.clipboardData && e.clipboardData.getData("Text");
+    if (pasted) {
+      e.preventDefault();
+      if (!cm.isReadOnly() && !cm.options.disableInput)
+        { runInOp(cm, function () { return applyTextInput(cm, pasted, 0, null, "paste"); }); }
+      return true
+    }
+  }
+
+  function triggerElectric(cm, inserted) {
+    // When an 'electric' character is inserted, immediately trigger a reindent
+    if (!cm.options.electricChars || !cm.options.smartIndent) { return }
+    var sel = cm.doc.sel;
+
+    for (var i = sel.ranges.length - 1; i >= 0; i--) {
+      var range = sel.ranges[i];
+      if (range.head.ch > 100 || (i && sel.ranges[i - 1].head.line == range.head.line)) { continue }
+      var mode = cm.getModeAt(range.head);
+      var indented = false;
+      if (mode.electricChars) {
+        for (var j = 0; j < mode.electricChars.length; j++)
+          { if (inserted.indexOf(mode.electricChars.charAt(j)) > -1) {
+            indented = indentLine(cm, range.head.line, "smart");
+            break
+          } }
+      } else if (mode.electricInput) {
+        if (mode.electricInput.test(getLine(cm.doc, range.head.line).text.slice(0, range.head.ch)))
+          { indented = indentLine(cm, range.head.line, "smart"); }
+      }
+      if (indented) { signalLater(cm, "electricInput", cm, range.head.line); }
+    }
+  }
+
+  function copyableRanges(cm) {
+    var text = [], ranges = [];
+    for (var i = 0; i < cm.doc.sel.ranges.length; i++) {
+      var line = cm.doc.sel.ranges[i].head.line;
+      var lineRange = {anchor: Pos(line, 0), head: Pos(line + 1, 0)};
+      ranges.push(lineRange);
+      text.push(cm.getRange(lineRange.anchor, lineRange.head));
+    }
+    return {text: text, ranges: ranges}
+  }
+
+  function disableBrowserMagic(field, spellcheck, autocorrect, autocapitalize) {
+    field.setAttribute("autocorrect", autocorrect ? "" : "off");
+    field.setAttribute("autocapitalize", autocapitalize ? "" : "off");
+    field.setAttribute("spellcheck", !!spellcheck);
+  }
+
+  function hiddenTextarea() {
+    var te = elt("textarea", null, null, "position: absolute; bottom: -1em; padding: 0; width: 1px; height: 1em; outline: none");
+    var div = elt("div", [te], null, "overflow: hidden; position: relative; width: 3px; height: 0px;");
+    // The textarea is kept positioned near the cursor to prevent the
+    // fact that it'll be scrolled into view on input from scrolling
+    // our fake cursor out of view. On webkit, when wrap=off, paste is
+    // very slow. So make the area wide instead.
+    if (webkit) { te.style.width = "1000px"; }
+    else { te.setAttribute("wrap", "off"); }
+    // If border: 0; -- iOS fails to open keyboard (issue #1287)
+    if (ios) { te.style.border = "1px solid black"; }
+    disableBrowserMagic(te);
+    return div
+  }
+
+  // The publicly visible API. Note that methodOp(f) means
+  // 'wrap f in an operation, performed on its `this` parameter'.
+
+  // This is not the complete set of editor methods. Most of the
+  // methods defined on the Doc type are also injected into
+  // CodeMirror.prototype, for backwards compatibility and
+  // convenience.
+
+  function addEditorMethods(CodeMirror) {
+    var optionHandlers = CodeMirror.optionHandlers;
+
+    var helpers = CodeMirror.helpers = {};
+
+    CodeMirror.prototype = {
+      constructor: CodeMirror,
+      focus: function(){window.focus(); this.display.input.focus();},
+
+      setOption: function(option, value) {
+        var options = this.options, old = options[option];
+        if (options[option] == value && option != "mode") { return }
+        options[option] = value;
+        if (optionHandlers.hasOwnProperty(option))
+          { operation(this, optionHandlers[option])(this, value, old); }
+        signal(this, "optionChange", this, option);
+      },
+
+      getOption: function(option) {return this.options[option]},
+      getDoc: function() {return this.doc},
+
+      addKeyMap: function(map, bottom) {
+        this.state.keyMaps[bottom ? "push" : "unshift"](getKeyMap(map));
+      },
+      removeKeyMap: function(map) {
+        var maps = this.state.keyMaps;
+        for (var i = 0; i < maps.length; ++i)
+          { if (maps[i] == map || maps[i].name == map) {
+            maps.splice(i, 1);
+            return true
+          } }
+      },
+
+      addOverlay: methodOp(function(spec, options) {
+        var mode = spec.token ? spec : CodeMirror.getMode(this.options, spec);
+        if (mode.startState) { throw new Error("Overlays may not be stateful.") }
+        insertSorted(this.state.overlays,
+                     {mode: mode, modeSpec: spec, opaque: options && options.opaque,
+                      priority: (options && options.priority) || 0},
+                     function (overlay) { return overlay.priority; });
+        this.state.modeGen++;
+        regChange(this);
+      }),
+      removeOverlay: methodOp(function(spec) {
+        var overlays = this.state.overlays;
+        for (var i = 0; i < overlays.length; ++i) {
+          var cur = overlays[i].modeSpec;
+          if (cur == spec || typeof spec == "string" && cur.name == spec) {
+            overlays.splice(i, 1);
+            this.state.modeGen++;
+            regChange(this);
+            return
+          }
+        }
+      }),
+
+      indentLine: methodOp(function(n, dir, aggressive) {
+        if (typeof dir != "string" && typeof dir != "number") {
+          if (dir == null) { dir = this.options.smartIndent ? "smart" : "prev"; }
+          else { dir = dir ? "add" : "subtract"; }
+        }
+        if (isLine(this.doc, n)) { indentLine(this, n, dir, aggressive); }
+      }),
+      indentSelection: methodOp(function(how) {
+        var ranges = this.doc.sel.ranges, end = -1;
+        for (var i = 0; i < ranges.length; i++) {
+          var range = ranges[i];
+          if (!range.empty()) {
+            var from = range.from(), to = range.to();
+            var start = Math.max(end, from.line);
+            end = Math.min(this.lastLine(), to.line - (to.ch ? 0 : 1)) + 1;
+            for (var j = start; j < end; ++j)
+              { indentLine(this, j, how); }
+            var newRanges = this.doc.sel.ranges;
+            if (from.ch == 0 && ranges.length == newRanges.length && newRanges[i].from().ch > 0)
+              { replaceOneSelection(this.doc, i, new Range(from, newRanges[i].to()), sel_dontScroll); }
+          } else if (range.head.line > end) {
+            indentLine(this, range.head.line, how, true);
+            end = range.head.line;
+            if (i == this.doc.sel.primIndex) { ensureCursorVisible(this); }
+          }
+        }
+      }),
+
+      // Fetch the parser token for a given character. Useful for hacks
+      // that want to inspect the mode state (say, for completion).
+      getTokenAt: function(pos, precise) {
+        return takeToken(this, pos, precise)
+      },
+
+      getLineTokens: function(line, precise) {
+        return takeToken(this, Pos(line), precise, true)
+      },
+
+      getTokenTypeAt: function(pos) {
+        pos = clipPos(this.doc, pos);
+        var styles = getLineStyles(this, getLine(this.doc, pos.line));
+        var before = 0, after = (styles.length - 1) / 2, ch = pos.ch;
+        var type;
+        if (ch == 0) { type = styles[2]; }
+        else { for (;;) {
+          var mid = (before + after) >> 1;
+          if ((mid ? styles[mid * 2 - 1] : 0) >= ch) { after = mid; }
+          else if (styles[mid * 2 + 1] < ch) { before = mid + 1; }
+          else { type = styles[mid * 2 + 2]; break }
+        } }
+        var cut = type ? type.indexOf("overlay ") : -1;
+        return cut < 0 ? type : cut == 0 ? null : type.slice(0, cut - 1)
+      },
+
+      getModeAt: function(pos) {
+        var mode = this.doc.mode;
+        if (!mode.innerMode) { return mode }
+        return CodeMirror.innerMode(mode, this.getTokenAt(pos).state).mode
+      },
+
+      getHelper: function(pos, type) {
+        return this.getHelpers(pos, type)[0]
+      },
+
+      getHelpers: function(pos, type) {
+        var found = [];
+        if (!helpers.hasOwnProperty(type)) { return found }
+        var help = helpers[type], mode = this.getModeAt(pos);
+        if (typeof mode[type] == "string") {
+          if (help[mode[type]]) { found.push(help[mode[type]]); }
+        } else if (mode[type]) {
+          for (var i = 0; i < mode[type].length; i++) {
+            var val = help[mode[type][i]];
+            if (val) { found.push(val); }
+          }
+        } else if (mode.helperType && help[mode.helperType]) {
+          found.push(help[mode.helperType]);
+        } else if (help[mode.name]) {
+          found.push(help[mode.name]);
+        }
+        for (var i$1 = 0; i$1 < help._global.length; i$1++) {
+          var cur = help._global[i$1];
+          if (cur.pred(mode, this) && indexOf(found, cur.val) == -1)
+            { found.push(cur.val); }
+        }
+        return found
+      },
+
+      getStateAfter: function(line, precise) {
+        var doc = this.doc;
+        line = clipLine(doc, line == null ? doc.first + doc.size - 1: line);
+        return getContextBefore(this, line + 1, precise).state
+      },
+
+      cursorCoords: function(start, mode) {
+        var pos, range = this.doc.sel.primary();
+        if (start == null) { pos = range.head; }
+        else if (typeof start == "object") { pos = clipPos(this.doc, start); }
+        else { pos = start ? range.from() : range.to(); }
+        return cursorCoords(this, pos, mode || "page")
+      },
+
+      charCoords: function(pos, mode) {
+        return charCoords(this, clipPos(this.doc, pos), mode || "page")
+      },
+
+      coordsChar: function(coords, mode) {
+        coords = fromCoordSystem(this, coords, mode || "page");
+        return coordsChar(this, coords.left, coords.top)
+      },
+
+      lineAtHeight: function(height, mode) {
+        height = fromCoordSystem(this, {top: height, left: 0}, mode || "page").top;
+        return lineAtHeight(this.doc, height + this.display.viewOffset)
+      },
+      heightAtLine: function(line, mode, includeWidgets) {
+        var end = false, lineObj;
+        if (typeof line == "number") {
+          var last = this.doc.first + this.doc.size - 1;
+          if (line < this.doc.first) { line = this.doc.first; }
+          else if (line > last) { line = last; end = true; }
+          lineObj = getLine(this.doc, line);
+        } else {
+          lineObj = line;
+        }
+        return intoCoordSystem(this, lineObj, {top: 0, left: 0}, mode || "page", includeWidgets || end).top +
+          (end ? this.doc.height - heightAtLine(lineObj) : 0)
+      },
+
+      defaultTextHeight: function() { return textHeight(this.display) },
+      defaultCharWidth: function() { return charWidth(this.display) },
+
+      getViewport: function() { return {from: this.display.viewFrom, to: this.display.viewTo}},
+
+      addWidget: function(pos, node, scroll, vert, horiz) {
+        var display = this.display;
+        pos = cursorCoords(this, clipPos(this.doc, pos));
+        var top = pos.bottom, left = pos.left;
+        node.style.position = "absolute";
+        node.setAttribute("cm-ignore-events", "true");
+        this.display.input.setUneditable(node);
+        display.sizer.appendChild(node);
+        if (vert == "over") {
+          top = pos.top;
+        } else if (vert == "above" || vert == "near") {
+          var vspace = Math.max(display.wrapper.clientHeight, this.doc.height),
+          hspace = Math.max(display.sizer.clientWidth, display.lineSpace.clientWidth);
+          // Default to positioning above (if specified and possible); otherwise default to positioning below
+          if ((vert == 'above' || pos.bottom + node.offsetHeight > vspace) && pos.top > node.offsetHeight)
+            { top = pos.top - node.offsetHeight; }
+          else if (pos.bottom + node.offsetHeight <= vspace)
+            { top = pos.bottom; }
+          if (left + node.offsetWidth > hspace)
+            { left = hspace - node.offsetWidth; }
+        }
+        node.style.top = top + "px";
+        node.style.left = node.style.right = "";
+        if (horiz == "right") {
+          left = display.sizer.clientWidth - node.offsetWidth;
+          node.style.right = "0px";
+        } else {
+          if (horiz == "left") { left = 0; }
+          else if (horiz == "middle") { left = (display.sizer.clientWidth - node.offsetWidth) / 2; }
+          node.style.left = left + "px";
+        }
+        if (scroll)
+          { scrollIntoView(this, {left: left, top: top, right: left + node.offsetWidth, bottom: top + node.offsetHeight}); }
+      },
+
+      triggerOnKeyDown: methodOp(onKeyDown),
+      triggerOnKeyPress: methodOp(onKeyPress),
+      triggerOnKeyUp: onKeyUp,
+      triggerOnMouseDown: methodOp(onMouseDown),
+
+      execCommand: function(cmd) {
+        if (commands.hasOwnProperty(cmd))
+          { return commands[cmd].call(null, this) }
+      },
+
+      triggerElectric: methodOp(function(text) { triggerElectric(this, text); }),
+
+      findPosH: function(from, amount, unit, visually) {
+        var dir = 1;
+        if (amount < 0) { dir = -1; amount = -amount; }
+        var cur = clipPos(this.doc, from);
+        for (var i = 0; i < amount; ++i) {
+          cur = findPosH(this.doc, cur, dir, unit, visually);
+          if (cur.hitSide) { break }
+        }
+        return cur
+      },
+
+      moveH: methodOp(function(dir, unit) {
+        var this$1 = this;
+
+        this.extendSelectionsBy(function (range) {
+          if (this$1.display.shift || this$1.doc.extend || range.empty())
+            { return findPosH(this$1.doc, range.head, dir, unit, this$1.options.rtlMoveVisually) }
+          else
+            { return dir < 0 ? range.from() : range.to() }
+        }, sel_move);
+      }),
+
+      deleteH: methodOp(function(dir, unit) {
+        var sel = this.doc.sel, doc = this.doc;
+        if (sel.somethingSelected())
+          { doc.replaceSelection("", null, "+delete"); }
+        else
+          { deleteNearSelection(this, function (range) {
+            var other = findPosH(doc, range.head, dir, unit, false);
+            return dir < 0 ? {from: other, to: range.head} : {from: range.head, to: other}
+          }); }
+      }),
+
+      findPosV: function(from, amount, unit, goalColumn) {
+        var dir = 1, x = goalColumn;
+        if (amount < 0) { dir = -1; amount = -amount; }
+        var cur = clipPos(this.doc, from);
+        for (var i = 0; i < amount; ++i) {
+          var coords = cursorCoords(this, cur, "div");
+          if (x == null) { x = coords.left; }
+          else { coords.left = x; }
+          cur = findPosV(this, coords, dir, unit);
+          if (cur.hitSide) { break }
+        }
+        return cur
+      },
+
+      moveV: methodOp(function(dir, unit) {
+        var this$1 = this;
+
+        var doc = this.doc, goals = [];
+        var collapse = !this.display.shift && !doc.extend && doc.sel.somethingSelected();
+        doc.extendSelectionsBy(function (range) {
+          if (collapse)
+            { return dir < 0 ? range.from() : range.to() }
+          var headPos = cursorCoords(this$1, range.head, "div");
+          if (range.goalColumn != null) { headPos.left = range.goalColumn; }
+          goals.push(headPos.left);
+          var pos = findPosV(this$1, headPos, dir, unit);
+          if (unit == "page" && range == doc.sel.primary())
+            { addToScrollTop(this$1, charCoords(this$1, pos, "div").top - headPos.top); }
+          return pos
+        }, sel_move);
+        if (goals.length) { for (var i = 0; i < doc.sel.ranges.length; i++)
+          { doc.sel.ranges[i].goalColumn = goals[i]; } }
+      }),
+
+      // Find the word at the given position (as returned by coordsChar).
+      findWordAt: function(pos) {
+        var doc = this.doc, line = getLine(doc, pos.line).text;
+        var start = pos.ch, end = pos.ch;
+        if (line) {
+          var helper = this.getHelper(pos, "wordChars");
+          if ((pos.sticky == "before" || end == line.length) && start) { --start; } else { ++end; }
+          var startChar = line.charAt(start);
+          var check = isWordChar(startChar, helper)
+            ? function (ch) { return isWordChar(ch, helper); }
+            : /\s/.test(startChar) ? function (ch) { return /\s/.test(ch); }
+            : function (ch) { return (!/\s/.test(ch) && !isWordChar(ch)); };
+          while (start > 0 && check(line.charAt(start - 1))) { --start; }
+          while (end < line.length && check(line.charAt(end))) { ++end; }
+        }
+        return new Range(Pos(pos.line, start), Pos(pos.line, end))
+      },
+
+      toggleOverwrite: function(value) {
+        if (value != null && value == this.state.overwrite) { return }
+        if (this.state.overwrite = !this.state.overwrite)
+          { addClass(this.display.cursorDiv, "CodeMirror-overwrite"); }
+        else
+          { rmClass(this.display.cursorDiv, "CodeMirror-overwrite"); }
+
+        signal(this, "overwriteToggle", this, this.state.overwrite);
+      },
+      hasFocus: function() { return this.display.input.getField() == activeElt() },
+      isReadOnly: function() { return !!(this.options.readOnly || this.doc.cantEdit) },
+
+      scrollTo: methodOp(function (x, y) { scrollToCoords(this, x, y); }),
+      getScrollInfo: function() {
+        var scroller = this.display.scroller;
+        return {left: scroller.scrollLeft, top: scroller.scrollTop,
+                height: scroller.scrollHeight - scrollGap(this) - this.display.barHeight,
+                width: scroller.scrollWidth - scrollGap(this) - this.display.barWidth,
+                clientHeight: displayHeight(this), clientWidth: displayWidth(this)}
+      },
+
+      scrollIntoView: methodOp(function(range, margin) {
+        if (range == null) {
+          range = {from: this.doc.sel.primary().head, to: null};
+          if (margin == null) { margin = this.options.cursorScrollMargin; }
+        } else if (typeof range == "number") {
+          range = {from: Pos(range, 0), to: null};
+        } else if (range.from == null) {
+          range = {from: range, to: null};
+        }
+        if (!range.to) { range.to = range.from; }
+        range.margin = margin || 0;
+
+        if (range.from.line != null) {
+          scrollToRange(this, range);
+        } else {
+          scrollToCoordsRange(this, range.from, range.to, range.margin);
+        }
+      }),
+
+      setSize: methodOp(function(width, height) {
+        var this$1 = this;
+
+        var interpret = function (val) { return typeof val == "number" || /^\d+$/.test(String(val)) ? val + "px" : val; };
+        if (width != null) { this.display.wrapper.style.width = interpret(width); }
+        if (height != null) { this.display.wrapper.style.height = interpret(height); }
+        if (this.options.lineWrapping) { clearLineMeasurementCache(this); }
+        var lineNo = this.display.viewFrom;
+        this.doc.iter(lineNo, this.display.viewTo, function (line) {
+          if (line.widgets) { for (var i = 0; i < line.widgets.length; i++)
+            { if (line.widgets[i].noHScroll) { regLineChange(this$1, lineNo, "widget"); break } } }
+          ++lineNo;
+        });
+        this.curOp.forceUpdate = true;
+        signal(this, "refresh", this);
+      }),
+
+      operation: function(f){return runInOp(this, f)},
+      startOperation: function(){return startOperation(this)},
+      endOperation: function(){return endOperation(this)},
+
+      refresh: methodOp(function() {
+        var oldHeight = this.display.cachedTextHeight;
+        regChange(this);
+        this.curOp.forceUpdate = true;
+        clearCaches(this);
+        scrollToCoords(this, this.doc.scrollLeft, this.doc.scrollTop);
+        updateGutterSpace(this.display);
+        if (oldHeight == null || Math.abs(oldHeight - textHeight(this.display)) > .5 || this.options.lineWrapping)
+          { estimateLineHeights(this); }
+        signal(this, "refresh", this);
+      }),
+
+      swapDoc: methodOp(function(doc) {
+        var old = this.doc;
+        old.cm = null;
+        // Cancel the current text selection if any (#5821)
+        if (this.state.selectingText) { this.state.selectingText(); }
+        attachDoc(this, doc);
+        clearCaches(this);
+        this.display.input.reset();
+        scrollToCoords(this, doc.scrollLeft, doc.scrollTop);
+        this.curOp.forceScroll = true;
+        signalLater(this, "swapDoc", this, old);
+        return old
+      }),
+
+      phrase: function(phraseText) {
+        var phrases = this.options.phrases;
+        return phrases && Object.prototype.hasOwnProperty.call(phrases, phraseText) ? phrases[phraseText] : phraseText
+      },
+
+      getInputField: function(){return this.display.input.getField()},
+      getWrapperElement: function(){return this.display.wrapper},
+      getScrollerElement: function(){return this.display.scroller},
+      getGutterElement: function(){return this.display.gutters}
+    };
+    eventMixin(CodeMirror);
+
+    CodeMirror.registerHelper = function(type, name, value) {
+      if (!helpers.hasOwnProperty(type)) { helpers[type] = CodeMirror[type] = {_global: []}; }
+      helpers[type][name] = value;
+    };
+    CodeMirror.registerGlobalHelper = function(type, name, predicate, value) {
+      CodeMirror.registerHelper(type, name, value);
+      helpers[type]._global.push({pred: predicate, val: value});
+    };
+  }
+
+  // Used for horizontal relative motion. Dir is -1 or 1 (left or
+  // right), unit can be "codepoint", "char", "column" (like char, but
+  // doesn't cross line boundaries), "word" (across next word), or
+  // "group" (to the start of next group of word or
+  // non-word-non-whitespace chars). The visually param controls
+  // whether, in right-to-left text, direction 1 means to move towards
+  // the next index in the string, or towards the character to the right
+  // of the current position. The resulting position will have a
+  // hitSide=true property if it reached the end of the document.
+  function findPosH(doc, pos, dir, unit, visually) {
+    var oldPos = pos;
+    var origDir = dir;
+    var lineObj = getLine(doc, pos.line);
+    var lineDir = visually && doc.direction == "rtl" ? -dir : dir;
+    function findNextLine() {
+      var l = pos.line + lineDir;
+      if (l < doc.first || l >= doc.first + doc.size) { return false }
+      pos = new Pos(l, pos.ch, pos.sticky);
+      return lineObj = getLine(doc, l)
+    }
+    function moveOnce(boundToLine) {
+      var next;
+      if (unit == "codepoint") {
+        var ch = lineObj.text.charCodeAt(pos.ch + (unit > 0 ? 0 : -1));
+        if (isNaN(ch)) { next = null; }
+        else { next = new Pos(pos.line, Math.max(0, Math.min(lineObj.text.length, pos.ch + dir * (ch >= 0xD800 && ch < 0xDC00 ? 2 : 1))),
+                            -dir); }
+      } else if (visually) {
+        next = moveVisually(doc.cm, lineObj, pos, dir);
+      } else {
+        next = moveLogically(lineObj, pos, dir);
+      }
+      if (next == null) {
+        if (!boundToLine && findNextLine())
+          { pos = endOfLine(visually, doc.cm, lineObj, pos.line, lineDir); }
+        else
+          { return false }
+      } else {
+        pos = next;
+      }
+      return true
+    }
+
+    if (unit == "char" || unit == "codepoint") {
+      moveOnce();
+    } else if (unit == "column") {
+      moveOnce(true);
+    } else if (unit == "word" || unit == "group") {
+      var sawType = null, group = unit == "group";
+      var helper = doc.cm && doc.cm.getHelper(pos, "wordChars");
+      for (var first = true;; first = false) {
+        if (dir < 0 && !moveOnce(!first)) { break }
+        var cur = lineObj.text.charAt(pos.ch) || "\n";
+        var type = isWordChar(cur, helper) ? "w"
+          : group && cur == "\n" ? "n"
+          : !group || /\s/.test(cur) ? null
+          : "p";
+        if (group && !first && !type) { type = "s"; }
+        if (sawType && sawType != type) {
+          if (dir < 0) {dir = 1; moveOnce(); pos.sticky = "after";}
+          break
+        }
+
+        if (type) { sawType = type; }
+        if (dir > 0 && !moveOnce(!first)) { break }
+      }
+    }
+    var result = skipAtomic(doc, pos, oldPos, origDir, true);
+    if (equalCursorPos(oldPos, result)) { result.hitSide = true; }
+    return result
+  }
+
+  // For relative vertical movement. Dir may be -1 or 1. Unit can be
+  // "page" or "line". The resulting position will have a hitSide=true
+  // property if it reached the end of the document.
+  function findPosV(cm, pos, dir, unit) {
+    var doc = cm.doc, x = pos.left, y;
+    if (unit == "page") {
+      var pageSize = Math.min(cm.display.wrapper.clientHeight, window.innerHeight || document.documentElement.clientHeight);
+      var moveAmount = Math.max(pageSize - .5 * textHeight(cm.display), 3);
+      y = (dir > 0 ? pos.bottom : pos.top) + dir * moveAmount;
+
+    } else if (unit == "line") {
+      y = dir > 0 ? pos.bottom + 3 : pos.top - 3;
+    }
+    var target;
+    for (;;) {
+      target = coordsChar(cm, x, y);
+      if (!target.outside) { break }
+      if (dir < 0 ? y <= 0 : y >= doc.height) { target.hitSide = true; break }
+      y += dir * 5;
+    }
+    return target
+  }
+
+  // CONTENTEDITABLE INPUT STYLE
+
+  var ContentEditableInput = function(cm) {
+    this.cm = cm;
+    this.lastAnchorNode = this.lastAnchorOffset = this.lastFocusNode = this.lastFocusOffset = null;
+    this.polling = new Delayed();
+    this.composing = null;
+    this.gracePeriod = false;
+    this.readDOMTimeout = null;
+  };
+
+  ContentEditableInput.prototype.init = function (display) {
+      var this$1 = this;
+
+    var input = this, cm = input.cm;
+    var div = input.div = display.lineDiv;
+    disableBrowserMagic(div, cm.options.spellcheck, cm.options.autocorrect, cm.options.autocapitalize);
+
+    function belongsToInput(e) {
+      for (var t = e.target; t; t = t.parentNode) {
+        if (t == div) { return true }
+        if (/\bCodeMirror-(?:line)?widget\b/.test(t.className)) { break }
+      }
+      return false
+    }
+
+    on(div, "paste", function (e) {
+      if (!belongsToInput(e) || signalDOMEvent(cm, e) || handlePaste(e, cm)) { return }
+      // IE doesn't fire input events, so we schedule a read for the pasted content in this way
+      if (ie_version <= 11) { setTimeout(operation(cm, function () { return this$1.updateFromDOM(); }), 20); }
+    });
+
+    on(div, "compositionstart", function (e) {
+      this$1.composing = {data: e.data, done: false};
+    });
+    on(div, "compositionupdate", function (e) {
+      if (!this$1.composing) { this$1.composing = {data: e.data, done: false}; }
+    });
+    on(div, "compositionend", function (e) {
+      if (this$1.composing) {
+        if (e.data != this$1.composing.data) { this$1.readFromDOMSoon(); }
+        this$1.composing.done = true;
+      }
+    });
+
+    on(div, "touchstart", function () { return input.forceCompositionEnd(); });
+
+    on(div, "input", function () {
+      if (!this$1.composing) { this$1.readFromDOMSoon(); }
+    });
+
+    function onCopyCut(e) {
+      if (!belongsToInput(e) || signalDOMEvent(cm, e)) { return }
+      if (cm.somethingSelected()) {
+        setLastCopied({lineWise: false, text: cm.getSelections()});
+        if (e.type == "cut") { cm.replaceSelection("", null, "cut"); }
+      } else if (!cm.options.lineWiseCopyCut) {
+        return
+      } else {
+        var ranges = copyableRanges(cm);
+        setLastCopied({lineWise: true, text: ranges.text});
+        if (e.type == "cut") {
+          cm.operation(function () {
+            cm.setSelections(ranges.ranges, 0, sel_dontScroll);
+            cm.replaceSelection("", null, "cut");
+          });
+        }
+      }
+      if (e.clipboardData) {
+        e.clipboardData.clearData();
+        var content = lastCopied.text.join("\n");
+        // iOS exposes the clipboard API, but seems to discard content inserted into it
+        e.clipboardData.setData("Text", content);
+        if (e.clipboardData.getData("Text") == content) {
+          e.preventDefault();
+          return
+        }
+      }
+      // Old-fashioned briefly-focus-a-textarea hack
+      var kludge = hiddenTextarea(), te = kludge.firstChild;
+      cm.display.lineSpace.insertBefore(kludge, cm.display.lineSpace.firstChild);
+      te.value = lastCopied.text.join("\n");
+      var hadFocus = document.activeElement;
+      selectInput(te);
+      setTimeout(function () {
+        cm.display.lineSpace.removeChild(kludge);
+        hadFocus.focus();
+        if (hadFocus == div) { input.showPrimarySelection(); }
+      }, 50);
+    }
+    on(div, "copy", onCopyCut);
+    on(div, "cut", onCopyCut);
+  };
+
+  ContentEditableInput.prototype.screenReaderLabelChanged = function (label) {
+    // Label for screenreaders, accessibility
+    if(label) {
+      this.div.setAttribute('aria-label', label);
+    } else {
+      this.div.removeAttribute('aria-label');
+    }
+  };
+
+  ContentEditableInput.prototype.prepareSelection = function () {
+    var result = prepareSelection(this.cm, false);
+    result.focus = document.activeElement == this.div;
+    return result
+  };
+
+  ContentEditableInput.prototype.showSelection = function (info, takeFocus) {
+    if (!info || !this.cm.display.view.length) { return }
+    if (info.focus || takeFocus) { this.showPrimarySelection(); }
+    this.showMultipleSelections(info);
+  };
+
+  ContentEditableInput.prototype.getSelection = function () {
+    return this.cm.display.wrapper.ownerDocument.getSelection()
+  };
+
+  ContentEditableInput.prototype.showPrimarySelection = function () {
+    var sel = this.getSelection(), cm = this.cm, prim = cm.doc.sel.primary();
+    var from = prim.from(), to = prim.to();
+
+    if (cm.display.viewTo == cm.display.viewFrom || from.line >= cm.display.viewTo || to.line < cm.display.viewFrom) {
+      sel.removeAllRanges();
+      return
+    }
+
+    var curAnchor = domToPos(cm, sel.anchorNode, sel.anchorOffset);
+    var curFocus = domToPos(cm, sel.focusNode, sel.focusOffset);
+    if (curAnchor && !curAnchor.bad && curFocus && !curFocus.bad &&
+        cmp(minPos(curAnchor, curFocus), from) == 0 &&
+        cmp(maxPos(curAnchor, curFocus), to) == 0)
+      { return }
+
+    var view = cm.display.view;
+    var start = (from.line >= cm.display.viewFrom && posToDOM(cm, from)) ||
+        {node: view[0].measure.map[2], offset: 0};
+    var end = to.line < cm.display.viewTo && posToDOM(cm, to);
+    if (!end) {
+      var measure = view[view.length - 1].measure;
+      var map = measure.maps ? measure.maps[measure.maps.length - 1] : measure.map;
+      end = {node: map[map.length - 1], offset: map[map.length - 2] - map[map.length - 3]};
+    }
+
+    if (!start || !end) {
+      sel.removeAllRanges();
+      return
+    }
+
+    var old = sel.rangeCount && sel.getRangeAt(0), rng;
+    try { rng = range(start.node, start.offset, end.offset, end.node); }
+    catch(e) {} // Our model of the DOM might be outdated, in which case the range we try to set can be impossible
+    if (rng) {
+      if (!gecko && cm.state.focused) {
+        sel.collapse(start.node, start.offset);
+        if (!rng.collapsed) {
+          sel.removeAllRanges();
+          sel.addRange(rng);
+        }
+      } else {
+        sel.removeAllRanges();
+        sel.addRange(rng);
+      }
+      if (old && sel.anchorNode == null) { sel.addRange(old); }
+      else if (gecko) { this.startGracePeriod(); }
+    }
+    this.rememberSelection();
+  };
+
+  ContentEditableInput.prototype.startGracePeriod = function () {
+      var this$1 = this;
+
+    clearTimeout(this.gracePeriod);
+    this.gracePeriod = setTimeout(function () {
+      this$1.gracePeriod = false;
+      if (this$1.selectionChanged())
+        { this$1.cm.operation(function () { return this$1.cm.curOp.selectionChanged = true; }); }
+    }, 20);
+  };
+
+  ContentEditableInput.prototype.showMultipleSelections = function (info) {
+    removeChildrenAndAdd(this.cm.display.cursorDiv, info.cursors);
+    removeChildrenAndAdd(this.cm.display.selectionDiv, info.selection);
+  };
+
+  ContentEditableInput.prototype.rememberSelection = function () {
+    var sel = this.getSelection();
+    this.lastAnchorNode = sel.anchorNode; this.lastAnchorOffset = sel.anchorOffset;
+    this.lastFocusNode = sel.focusNode; this.lastFocusOffset = sel.focusOffset;
+  };
+
+  ContentEditableInput.prototype.selectionInEditor = function () {
+    var sel = this.getSelection();
+    if (!sel.rangeCount) { return false }
+    var node = sel.getRangeAt(0).commonAncestorContainer;
+    return contains(this.div, node)
+  };
+
+  ContentEditableInput.prototype.focus = function () {
+    if (this.cm.options.readOnly != "nocursor") {
+      if (!this.selectionInEditor() || document.activeElement != this.div)
+        { this.showSelection(this.prepareSelection(), true); }
+      this.div.focus();
+    }
+  };
+  ContentEditableInput.prototype.blur = function () { this.div.blur(); };
+  ContentEditableInput.prototype.getField = function () { return this.div };
+
+  ContentEditableInput.prototype.supportsTouch = function () { return true };
+
+  ContentEditableInput.prototype.receivedFocus = function () {
+    var input = this;
+    if (this.selectionInEditor())
+      { this.pollSelection(); }
+    else
+      { runInOp(this.cm, function () { return input.cm.curOp.selectionChanged = true; }); }
+
+    function poll() {
+      if (input.cm.state.focused) {
+        input.pollSelection();
+        input.polling.set(input.cm.options.pollInterval, poll);
+      }
+    }
+    this.polling.set(this.cm.options.pollInterval, poll);
+  };
+
+  ContentEditableInput.prototype.selectionChanged = function () {
+    var sel = this.getSelection();
+    return sel.anchorNode != this.lastAnchorNode || sel.anchorOffset != this.lastAnchorOffset ||
+      sel.focusNode != this.lastFocusNode || sel.focusOffset != this.lastFocusOffset
+  };
+
+  ContentEditableInput.prototype.pollSelection = function () {
+    if (this.readDOMTimeout != null || this.gracePeriod || !this.selectionChanged()) { return }
+    var sel = this.getSelection(), cm = this.cm;
+    // On Android Chrome (version 56, at least), backspacing into an
+    // uneditable block element will put the cursor in that element,
+    // and then, because it's not editable, hide the virtual keyboard.
+    // Because Android doesn't allow us to actually detect backspace
+    // presses in a sane way, this code checks for when that happens
+    // and simulates a backspace press in this case.
+    if (android && chrome && this.cm.display.gutterSpecs.length && isInGutter(sel.anchorNode)) {
+      this.cm.triggerOnKeyDown({type: "keydown", keyCode: 8, preventDefault: Math.abs});
+      this.blur();
+      this.focus();
+      return
+    }
+    if (this.composing) { return }
+    this.rememberSelection();
+    var anchor = domToPos(cm, sel.anchorNode, sel.anchorOffset);
+    var head = domToPos(cm, sel.focusNode, sel.focusOffset);
+    if (anchor && head) { runInOp(cm, function () {
+      setSelection(cm.doc, simpleSelection(anchor, head), sel_dontScroll);
+      if (anchor.bad || head.bad) { cm.curOp.selectionChanged = true; }
+    }); }
+  };
+
+  ContentEditableInput.prototype.pollContent = function () {
+    if (this.readDOMTimeout != null) {
+      clearTimeout(this.readDOMTimeout);
+      this.readDOMTimeout = null;
+    }
+
+    var cm = this.cm, display = cm.display, sel = cm.doc.sel.primary();
+    var from = sel.from(), to = sel.to();
+    if (from.ch == 0 && from.line > cm.firstLine())
+      { from = Pos(from.line - 1, getLine(cm.doc, from.line - 1).length); }
+    if (to.ch == getLine(cm.doc, to.line).text.length && to.line < cm.lastLine())
+      { to = Pos(to.line + 1, 0); }
+    if (from.line < display.viewFrom || to.line > display.viewTo - 1) { return false }
+
+    var fromIndex, fromLine, fromNode;
+    if (from.line == display.viewFrom || (fromIndex = findViewIndex(cm, from.line)) == 0) {
+      fromLine = lineNo(display.view[0].line);
+      fromNode = display.view[0].node;
+    } else {
+      fromLine = lineNo(display.view[fromIndex].line);
+      fromNode = display.view[fromIndex - 1].node.nextSibling;
+    }
+    var toIndex = findViewIndex(cm, to.line);
+    var toLine, toNode;
+    if (toIndex == display.view.length - 1) {
+      toLine = display.viewTo - 1;
+      toNode = display.lineDiv.lastChild;
+    } else {
+      toLine = lineNo(display.view[toIndex + 1].line) - 1;
+      toNode = display.view[toIndex + 1].node.previousSibling;
+    }
+
+    if (!fromNode) { return false }
+    var newText = cm.doc.splitLines(domTextBetween(cm, fromNode, toNode, fromLine, toLine));
+    var oldText = getBetween(cm.doc, Pos(fromLine, 0), Pos(toLine, getLine(cm.doc, toLine).text.length));
+    while (newText.length > 1 && oldText.length > 1) {
+      if (lst(newText) == lst(oldText)) { newText.pop(); oldText.pop(); toLine--; }
+      else if (newText[0] == oldText[0]) { newText.shift(); oldText.shift(); fromLine++; }
+      else { break }
+    }
+
+    var cutFront = 0, cutEnd = 0;
+    var newTop = newText[0], oldTop = oldText[0], maxCutFront = Math.min(newTop.length, oldTop.length);
+    while (cutFront < maxCutFront && newTop.charCodeAt(cutFront) == oldTop.charCodeAt(cutFront))
+      { ++cutFront; }
+    var newBot = lst(newText), oldBot = lst(oldText);
+    var maxCutEnd = Math.min(newBot.length - (newText.length == 1 ? cutFront : 0),
+                             oldBot.length - (oldText.length == 1 ? cutFront : 0));
+    while (cutEnd < maxCutEnd &&
+           newBot.charCodeAt(newBot.length - cutEnd - 1) == oldBot.charCodeAt(oldBot.length - cutEnd - 1))
+      { ++cutEnd; }
+    // Try to move start of change to start of selection if ambiguous
+    if (newText.length == 1 && oldText.length == 1 && fromLine == from.line) {
+      while (cutFront && cutFront > from.ch &&
+             newBot.charCodeAt(newBot.length - cutEnd - 1) == oldBot.charCodeAt(oldBot.length - cutEnd - 1)) {
+        cutFront--;
+        cutEnd++;
+      }
+    }
+
+    newText[newText.length - 1] = newBot.slice(0, newBot.length - cutEnd).replace(/^\u200b+/, "");
+    newText[0] = newText[0].slice(cutFront).replace(/\u200b+$/, "");
+
+    var chFrom = Pos(fromLine, cutFront);
+    var chTo = Pos(toLine, oldText.length ? lst(oldText).length - cutEnd : 0);
+    if (newText.length > 1 || newText[0] || cmp(chFrom, chTo)) {
+      replaceRange(cm.doc, newText, chFrom, chTo, "+input");
+      return true
+    }
+  };
+
+  ContentEditableInput.prototype.ensurePolled = function () {
+    this.forceCompositionEnd();
+  };
+  ContentEditableInput.prototype.reset = function () {
+    this.forceCompositionEnd();
+  };
+  ContentEditableInput.prototype.forceCompositionEnd = function () {
+    if (!this.composing) { return }
+    clearTimeout(this.readDOMTimeout);
+    this.composing = null;
+    this.updateFromDOM();
+    this.div.blur();
+    this.div.focus();
+  };
+  ContentEditableInput.prototype.readFromDOMSoon = function () {
+      var this$1 = this;
+
+    if (this.readDOMTimeout != null) { return }
+    this.readDOMTimeout = setTimeout(function () {
+      this$1.readDOMTimeout = null;
+      if (this$1.composing) {
+        if (this$1.composing.done) { this$1.composing = null; }
+        else { return }
+      }
+      this$1.updateFromDOM();
+    }, 80);
+  };
+
+  ContentEditableInput.prototype.updateFromDOM = function () {
+      var this$1 = this;
+
+    if (this.cm.isReadOnly() || !this.pollContent())
+      { runInOp(this.cm, function () { return regChange(this$1.cm); }); }
+  };
+
+  ContentEditableInput.prototype.setUneditable = function (node) {
+    node.contentEditable = "false";
+  };
+
+  ContentEditableInput.prototype.onKeyPress = function (e) {
+    if (e.charCode == 0 || this.composing) { return }
+    e.preventDefault();
+    if (!this.cm.isReadOnly())
+      { operation(this.cm, applyTextInput)(this.cm, String.fromCharCode(e.charCode == null ? e.keyCode : e.charCode), 0); }
+  };
+
+  ContentEditableInput.prototype.readOnlyChanged = function (val) {
+    this.div.contentEditable = String(val != "nocursor");
+  };
+
+  ContentEditableInput.prototype.onContextMenu = function () {};
+  ContentEditableInput.prototype.resetPosition = function () {};
+
+  ContentEditableInput.prototype.needsContentAttribute = true;
+
+  function posToDOM(cm, pos) {
+    var view = findViewForLine(cm, pos.line);
+    if (!view || view.hidden) { return null }
+    var line = getLine(cm.doc, pos.line);
+    var info = mapFromLineView(view, line, pos.line);
+
+    var order = getOrder(line, cm.doc.direction), side = "left";
+    if (order) {
+      var partPos = getBidiPartAt(order, pos.ch);
+      side = partPos % 2 ? "right" : "left";
+    }
+    var result = nodeAndOffsetInLineMap(info.map, pos.ch, side);
+    result.offset = result.collapse == "right" ? result.end : result.start;
+    return result
+  }
+
+  function isInGutter(node) {
+    for (var scan = node; scan; scan = scan.parentNode)
+      { if (/CodeMirror-gutter-wrapper/.test(scan.className)) { return true } }
+    return false
+  }
+
+  function badPos(pos, bad) { if (bad) { pos.bad = true; } return pos }
+
+  function domTextBetween(cm, from, to, fromLine, toLine) {
+    var text = "", closing = false, lineSep = cm.doc.lineSeparator(), extraLinebreak = false;
+    function recognizeMarker(id) { return function (marker) { return marker.id == id; } }
+    function close() {
+      if (closing) {
+        text += lineSep;
+        if (extraLinebreak) { text += lineSep; }
+        closing = extraLinebreak = false;
+      }
+    }
+    function addText(str) {
+      if (str) {
+        close();
+        text += str;
+      }
+    }
+    function walk(node) {
+      if (node.nodeType == 1) {
+        var cmText = node.getAttribute("cm-text");
+        if (cmText) {
+          addText(cmText);
+          return
+        }
+        var markerID = node.getAttribute("cm-marker"), range;
+        if (markerID) {
+          var found = cm.findMarks(Pos(fromLine, 0), Pos(toLine + 1, 0), recognizeMarker(+markerID));
+          if (found.length && (range = found[0].find(0)))
+            { addText(getBetween(cm.doc, range.from, range.to).join(lineSep)); }
+          return
+        }
+        if (node.getAttribute("contenteditable") == "false") { return }
+        var isBlock = /^(pre|div|p|li|table|br)$/i.test(node.nodeName);
+        if (!/^br$/i.test(node.nodeName) && node.textContent.length == 0) { return }
+
+        if (isBlock) { close(); }
+        for (var i = 0; i < node.childNodes.length; i++)
+          { walk(node.childNodes[i]); }
+
+        if (/^(pre|p)$/i.test(node.nodeName)) { extraLinebreak = true; }
+        if (isBlock) { closing = true; }
+      } else if (node.nodeType == 3) {
+        addText(node.nodeValue.replace(/\u200b/g, "").replace(/\u00a0/g, " "));
+      }
+    }
+    for (;;) {
+      walk(from);
+      if (from == to) { break }
+      from = from.nextSibling;
+      extraLinebreak = false;
+    }
+    return text
+  }
+
+  function domToPos(cm, node, offset) {
+    var lineNode;
+    if (node == cm.display.lineDiv) {
+      lineNode = cm.display.lineDiv.childNodes[offset];
+      if (!lineNode) { return badPos(cm.clipPos(Pos(cm.display.viewTo - 1)), true) }
+      node = null; offset = 0;
+    } else {
+      for (lineNode = node;; lineNode = lineNode.parentNode) {
+        if (!lineNode || lineNode == cm.display.lineDiv) { return null }
+        if (lineNode.parentNode && lineNode.parentNode == cm.display.lineDiv) { break }
+      }
+    }
+    for (var i = 0; i < cm.display.view.length; i++) {
+      var lineView = cm.display.view[i];
+      if (lineView.node == lineNode)
+        { return locateNodeInLineView(lineView, node, offset) }
+    }
+  }
+
+  function locateNodeInLineView(lineView, node, offset) {
+    var wrapper = lineView.text.firstChild, bad = false;
+    if (!node || !contains(wrapper, node)) { return badPos(Pos(lineNo(lineView.line), 0), true) }
+    if (node == wrapper) {
+      bad = true;
+      node = wrapper.childNodes[offset];
+      offset = 0;
+      if (!node) {
+        var line = lineView.rest ? lst(lineView.rest) : lineView.line;
+        return badPos(Pos(lineNo(line), line.text.length), bad)
+      }
+    }
+
+    var textNode = node.nodeType == 3 ? node : null, topNode = node;
+    if (!textNode && node.childNodes.length == 1 && node.firstChild.nodeType == 3) {
+      textNode = node.firstChild;
+      if (offset) { offset = textNode.nodeValue.length; }
+    }
+    while (topNode.parentNode != wrapper) { topNode = topNode.parentNode; }
+    var measure = lineView.measure, maps = measure.maps;
+
+    function find(textNode, topNode, offset) {
+      for (var i = -1; i < (maps ? maps.length : 0); i++) {
+        var map = i < 0 ? measure.map : maps[i];
+        for (var j = 0; j < map.length; j += 3) {
+          var curNode = map[j + 2];
+          if (curNode == textNode || curNode == topNode) {
+            var line = lineNo(i < 0 ? lineView.line : lineView.rest[i]);
+            var ch = map[j] + offset;
+            if (offset < 0 || curNode != textNode) { ch = map[j + (offset ? 1 : 0)]; }
+            return Pos(line, ch)
+          }
+        }
+      }
+    }
+    var found = find(textNode, topNode, offset);
+    if (found) { return badPos(found, bad) }
+
+    // FIXME this is all really shaky. might handle the few cases it needs to handle, but likely to cause problems
+    for (var after = topNode.nextSibling, dist = textNode ? textNode.nodeValue.length - offset : 0; after; after = after.nextSibling) {
+      found = find(after, after.firstChild, 0);
+      if (found)
+        { return badPos(Pos(found.line, found.ch - dist), bad) }
+      else
+        { dist += after.textContent.length; }
+    }
+    for (var before = topNode.previousSibling, dist$1 = offset; before; before = before.previousSibling) {
+      found = find(before, before.firstChild, -1);
+      if (found)
+        { return badPos(Pos(found.line, found.ch + dist$1), bad) }
+      else
+        { dist$1 += before.textContent.length; }
+    }
+  }
+
+  // TEXTAREA INPUT STYLE
+
+  var TextareaInput = function(cm) {
+    this.cm = cm;
+    // See input.poll and input.reset
+    this.prevInput = "";
+
+    // Flag that indicates whether we expect input to appear real soon
+    // now (after some event like 'keypress' or 'input') and are
+    // polling intensively.
+    this.pollingFast = false;
+    // Self-resetting timeout for the poller
+    this.polling = new Delayed();
+    // Used to work around IE issue with selection being forgotten when focus moves away from textarea
+    this.hasSelection = false;
+    this.composing = null;
+  };
+
+  TextareaInput.prototype.init = function (display) {
+      var this$1 = this;
+
+    var input = this, cm = this.cm;
+    this.createField(display);
+    var te = this.textarea;
+
+    display.wrapper.insertBefore(this.wrapper, display.wrapper.firstChild);
+
+    // Needed to hide big blue blinking cursor on Mobile Safari (doesn't seem to work in iOS 8 anymore)
+    if (ios) { te.style.width = "0px"; }
+
+    on(te, "input", function () {
+      if (ie && ie_version >= 9 && this$1.hasSelection) { this$1.hasSelection = null; }
+      input.poll();
+    });
+
+    on(te, "paste", function (e) {
+      if (signalDOMEvent(cm, e) || handlePaste(e, cm)) { return }
+
+      cm.state.pasteIncoming = +new Date;
+      input.fastPoll();
+    });
+
+    function prepareCopyCut(e) {
+      if (signalDOMEvent(cm, e)) { return }
+      if (cm.somethingSelected()) {
+        setLastCopied({lineWise: false, text: cm.getSelections()});
+      } else if (!cm.options.lineWiseCopyCut) {
+        return
+      } else {
+        var ranges = copyableRanges(cm);
+        setLastCopied({lineWise: true, text: ranges.text});
+        if (e.type == "cut") {
+          cm.setSelections(ranges.ranges, null, sel_dontScroll);
+        } else {
+          input.prevInput = "";
+          te.value = ranges.text.join("\n");
+          selectInput(te);
+        }
+      }
+      if (e.type == "cut") { cm.state.cutIncoming = +new Date; }
+    }
+    on(te, "cut", prepareCopyCut);
+    on(te, "copy", prepareCopyCut);
+
+    on(display.scroller, "paste", function (e) {
+      if (eventInWidget(display, e) || signalDOMEvent(cm, e)) { return }
+      if (!te.dispatchEvent) {
+        cm.state.pasteIncoming = +new Date;
+        input.focus();
+        return
+      }
+
+      // Pass the `paste` event to the textarea so it's handled by its event listener.
+      var event = new Event("paste");
+      event.clipboardData = e.clipboardData;
+      te.dispatchEvent(event);
+    });
+
+    // Prevent normal selection in the editor (we handle our own)
+    on(display.lineSpace, "selectstart", function (e) {
+      if (!eventInWidget(display, e)) { e_preventDefault(e); }
+    });
+
+    on(te, "compositionstart", function () {
+      var start = cm.getCursor("from");
+      if (input.composing) { input.composing.range.clear(); }
+      input.composing = {
+        start: start,
+        range: cm.markText(start, cm.getCursor("to"), {className: "CodeMirror-composing"})
+      };
+    });
+    on(te, "compositionend", function () {
+      if (input.composing) {
+        input.poll();
+        input.composing.range.clear();
+        input.composing = null;
+      }
+    });
+  };
+
+  TextareaInput.prototype.createField = function (_display) {
+    // Wraps and hides input textarea
+    this.wrapper = hiddenTextarea();
+    // The semihidden textarea that is focused when the editor is
+    // focused, and receives input.
+    this.textarea = this.wrapper.firstChild;
+  };
+
+  TextareaInput.prototype.screenReaderLabelChanged = function (label) {
+    // Label for screenreaders, accessibility
+    if(label) {
+      this.textarea.setAttribute('aria-label', label);
+    } else {
+      this.textarea.removeAttribute('aria-label');
+    }
+  };
+
+  TextareaInput.prototype.prepareSelection = function () {
+    // Redraw the selection and/or cursor
+    var cm = this.cm, display = cm.display, doc = cm.doc;
+    var result = prepareSelection(cm);
+
+    // Move the hidden textarea near the cursor to prevent scrolling artifacts
+    if (cm.options.moveInputWithCursor) {
+      var headPos = cursorCoords(cm, doc.sel.primary().head, "div");
+      var wrapOff = display.wrapper.getBoundingClientRect(), lineOff = display.lineDiv.getBoundingClientRect();
+      result.teTop = Math.max(0, Math.min(display.wrapper.clientHeight - 10,
+                                          headPos.top + lineOff.top - wrapOff.top));
+      result.teLeft = Math.max(0, Math.min(display.wrapper.clientWidth - 10,
+                                           headPos.left + lineOff.left - wrapOff.left));
+    }
+
+    return result
+  };
+
+  TextareaInput.prototype.showSelection = function (drawn) {
+    var cm = this.cm, display = cm.display;
+    removeChildrenAndAdd(display.cursorDiv, drawn.cursors);
+    removeChildrenAndAdd(display.selectionDiv, drawn.selection);
+    if (drawn.teTop != null) {
+      this.wrapper.style.top = drawn.teTop + "px";
+      this.wrapper.style.left = drawn.teLeft + "px";
+    }
+  };
+
+  // Reset the input to correspond to the selection (or to be empty,
+  // when not typing and nothing is selected)
+  TextareaInput.prototype.reset = function (typing) {
+    if (this.contextMenuPending || this.composing) { return }
+    var cm = this.cm;
+    if (cm.somethingSelected()) {
+      this.prevInput = "";
+      var content = cm.getSelection();
+      this.textarea.value = content;
+      if (cm.state.focused) { selectInput(this.textarea); }
+      if (ie && ie_version >= 9) { this.hasSelection = content; }
+    } else if (!typing) {
+      this.prevInput = this.textarea.value = "";
+      if (ie && ie_version >= 9) { this.hasSelection = null; }
+    }
+  };
+
+  TextareaInput.prototype.getField = function () { return this.textarea };
+
+  TextareaInput.prototype.supportsTouch = function () { return false };
+
+  TextareaInput.prototype.focus = function () {
+    if (this.cm.options.readOnly != "nocursor" && (!mobile || activeElt() != this.textarea)) {
+      try { this.textarea.focus(); }
+      catch (e) {} // IE8 will throw if the textarea is display: none or not in DOM
+    }
+  };
+
+  TextareaInput.prototype.blur = function () { this.textarea.blur(); };
+
+  TextareaInput.prototype.resetPosition = function () {
+    this.wrapper.style.top = this.wrapper.style.left = 0;
+  };
+
+  TextareaInput.prototype.receivedFocus = function () { this.slowPoll(); };
+
+  // Poll for input changes, using the normal rate of polling. This
+  // runs as long as the editor is focused.
+  TextareaInput.prototype.slowPoll = function () {
+      var this$1 = this;
+
+    if (this.pollingFast) { return }
+    this.polling.set(this.cm.options.pollInterval, function () {
+      this$1.poll();
+      if (this$1.cm.state.focused) { this$1.slowPoll(); }
+    });
+  };
+
+  // When an event has just come in that is likely to add or change
+  // something in the input textarea, we poll faster, to ensure that
+  // the change appears on the screen quickly.
+  TextareaInput.prototype.fastPoll = function () {
+    var missed = false, input = this;
+    input.pollingFast = true;
+    function p() {
+      var changed = input.poll();
+      if (!changed && !missed) {missed = true; input.polling.set(60, p);}
+      else {input.pollingFast = false; input.slowPoll();}
+    }
+    input.polling.set(20, p);
+  };
+
+  // Read input from the textarea, and update the document to match.
+  // When something is selected, it is present in the textarea, and
+  // selected (unless it is huge, in which case a placeholder is
+  // used). When nothing is selected, the cursor sits after previously
+  // seen text (can be empty), which is stored in prevInput (we must
+  // not reset the textarea when typing, because that breaks IME).
+  TextareaInput.prototype.poll = function () {
+      var this$1 = this;
+
+    var cm = this.cm, input = this.textarea, prevInput = this.prevInput;
+    // Since this is called a *lot*, try to bail out as cheaply as
+    // possible when it is clear that nothing happened. hasSelection
+    // will be the case when there is a lot of text in the textarea,
+    // in which case reading its value would be expensive.
+    if (this.contextMenuPending || !cm.state.focused ||
+        (hasSelection(input) && !prevInput && !this.composing) ||
+        cm.isReadOnly() || cm.options.disableInput || cm.state.keySeq)
+      { return false }
+
+    var text = input.value;
+    // If nothing changed, bail.
+    if (text == prevInput && !cm.somethingSelected()) { return false }
+    // Work around nonsensical selection resetting in IE9/10, and
+    // inexplicable appearance of private area unicode characters on
+    // some key combos in Mac (#2689).
+    if (ie && ie_version >= 9 && this.hasSelection === text ||
+        mac && /[\uf700-\uf7ff]/.test(text)) {
+      cm.display.input.reset();
+      return false
+    }
+
+    if (cm.doc.sel == cm.display.selForContextMenu) {
+      var first = text.charCodeAt(0);
+      if (first == 0x200b && !prevInput) { prevInput = "\u200b"; }
+      if (first == 0x21da) { this.reset(); return this.cm.execCommand("undo") }
+    }
+    // Find the part of the input that is actually new
+    var same = 0, l = Math.min(prevInput.length, text.length);
+    while (same < l && prevInput.charCodeAt(same) == text.charCodeAt(same)) { ++same; }
+
+    runInOp(cm, function () {
+      applyTextInput(cm, text.slice(same), prevInput.length - same,
+                     null, this$1.composing ? "*compose" : null);
+
+      // Don't leave long text in the textarea, since it makes further polling slow
+      if (text.length > 1000 || text.indexOf("\n") > -1) { input.value = this$1.prevInput = ""; }
+      else { this$1.prevInput = text; }
+
+      if (this$1.composing) {
+        this$1.composing.range.clear();
+        this$1.composing.range = cm.markText(this$1.composing.start, cm.getCursor("to"),
+                                           {className: "CodeMirror-composing"});
+      }
+    });
+    return true
+  };
+
+  TextareaInput.prototype.ensurePolled = function () {
+    if (this.pollingFast && this.poll()) { this.pollingFast = false; }
+  };
+
+  TextareaInput.prototype.onKeyPress = function () {
+    if (ie && ie_version >= 9) { this.hasSelection = null; }
+    this.fastPoll();
+  };
+
+  TextareaInput.prototype.onContextMenu = function (e) {
+    var input = this, cm = input.cm, display = cm.display, te = input.textarea;
+    if (input.contextMenuPending) { input.contextMenuPending(); }
+    var pos = posFromMouse(cm, e), scrollPos = display.scroller.scrollTop;
+    if (!pos || presto) { return } // Opera is difficult.
+
+    // Reset the current text selection only if the click is done outside of the selection
+    // and 'resetSelectionOnContextMenu' option is true.
+    var reset = cm.options.resetSelectionOnContextMenu;
+    if (reset && cm.doc.sel.contains(pos) == -1)
+      { operation(cm, setSelection)(cm.doc, simpleSelection(pos), sel_dontScroll); }
+
+    var oldCSS = te.style.cssText, oldWrapperCSS = input.wrapper.style.cssText;
+    var wrapperBox = input.wrapper.offsetParent.getBoundingClientRect();
+    input.wrapper.style.cssText = "position: static";
+    te.style.cssText = "position: absolute; width: 30px; height: 30px;\n      top: " + (e.clientY - wrapperBox.top - 5) + "px; left: " + (e.clientX - wrapperBox.left - 5) + "px;\n      z-index: 1000; background: " + (ie ? "rgba(255, 255, 255, .05)" : "transparent") + ";\n      outline: none; border-width: 0; outline: none; overflow: hidden; opacity: .05; filter: alpha(opacity=5);";
+    var oldScrollY;
+    if (webkit) { oldScrollY = window.scrollY; } // Work around Chrome issue (#2712)
+    display.input.focus();
+    if (webkit) { window.scrollTo(null, oldScrollY); }
+    display.input.reset();
+    // Adds "Select all" to context menu in FF
+    if (!cm.somethingSelected()) { te.value = input.prevInput = " "; }
+    input.contextMenuPending = rehide;
+    display.selForContextMenu = cm.doc.sel;
+    clearTimeout(display.detectingSelectAll);
+
+    // Select-all will be greyed out if there's nothing to select, so
+    // this adds a zero-width space so that we can later check whether
+    // it got selected.
+    function prepareSelectAllHack() {
+      if (te.selectionStart != null) {
+        var selected = cm.somethingSelected();
+        var extval = "\u200b" + (selected ? te.value : "");
+        te.value = "\u21da"; // Used to catch context-menu undo
+        te.value = extval;
+        input.prevInput = selected ? "" : "\u200b";
+        te.selectionStart = 1; te.selectionEnd = extval.length;
+        // Re-set this, in case some other handler touched the
+        // selection in the meantime.
+        display.selForContextMenu = cm.doc.sel;
+      }
+    }
+    function rehide() {
+      if (input.contextMenuPending != rehide) { return }
+      input.contextMenuPending = false;
+      input.wrapper.style.cssText = oldWrapperCSS;
+      te.style.cssText = oldCSS;
+      if (ie && ie_version < 9) { display.scrollbars.setScrollTop(display.scroller.scrollTop = scrollPos); }
+
+      // Try to detect the user choosing select-all
+      if (te.selectionStart != null) {
+        if (!ie || (ie && ie_version < 9)) { prepareSelectAllHack(); }
+        var i = 0, poll = function () {
+          if (display.selForContextMenu == cm.doc.sel && te.selectionStart == 0 &&
+              te.selectionEnd > 0 && input.prevInput == "\u200b") {
+            operation(cm, selectAll)(cm);
+          } else if (i++ < 10) {
+            display.detectingSelectAll = setTimeout(poll, 500);
+          } else {
+            display.selForContextMenu = null;
+            display.input.reset();
+          }
+        };
+        display.detectingSelectAll = setTimeout(poll, 200);
+      }
+    }
+
+    if (ie && ie_version >= 9) { prepareSelectAllHack(); }
+    if (captureRightClick) {
+      e_stop(e);
+      var mouseup = function () {
+        off(window, "mouseup", mouseup);
+        setTimeout(rehide, 20);
+      };
+      on(window, "mouseup", mouseup);
+    } else {
+      setTimeout(rehide, 50);
+    }
+  };
+
+  TextareaInput.prototype.readOnlyChanged = function (val) {
+    if (!val) { this.reset(); }
+    this.textarea.disabled = val == "nocursor";
+    this.textarea.readOnly = !!val;
+  };
+
+  TextareaInput.prototype.setUneditable = function () {};
+
+  TextareaInput.prototype.needsContentAttribute = false;
+
+  function fromTextArea(textarea, options) {
+    options = options ? copyObj(options) : {};
+    options.value = textarea.value;
+    if (!options.tabindex && textarea.tabIndex)
+      { options.tabindex = textarea.tabIndex; }
+    if (!options.placeholder && textarea.placeholder)
+      { options.placeholder = textarea.placeholder; }
+    // Set autofocus to true if this textarea is focused, or if it has
+    // autofocus and no other element is focused.
+    if (options.autofocus == null) {
+      var hasFocus = activeElt();
+      options.autofocus = hasFocus == textarea ||
+        textarea.getAttribute("autofocus") != null && hasFocus == document.body;
+    }
+
+    function save() {textarea.value = cm.getValue();}
+
+    var realSubmit;
+    if (textarea.form) {
+      on(textarea.form, "submit", save);
+      // Deplorable hack to make the submit method do the right thing.
+      if (!options.leaveSubmitMethodAlone) {
+        var form = textarea.form;
+        realSubmit = form.submit;
+        try {
+          var wrappedSubmit = form.submit = function () {
+            save();
+            form.submit = realSubmit;
+            form.submit();
+            form.submit = wrappedSubmit;
+          };
+        } catch(e) {}
+      }
+    }
+
+    options.finishInit = function (cm) {
+      cm.save = save;
+      cm.getTextArea = function () { return textarea; };
+      cm.toTextArea = function () {
+        cm.toTextArea = isNaN; // Prevent this from being ran twice
+        save();
+        textarea.parentNode.removeChild(cm.getWrapperElement());
+        textarea.style.display = "";
+        if (textarea.form) {
+          off(textarea.form, "submit", save);
+          if (!options.leaveSubmitMethodAlone && typeof textarea.form.submit == "function")
+            { textarea.form.submit = realSubmit; }
+        }
+      };
+    };
+
+    textarea.style.display = "none";
+    var cm = CodeMirror(function (node) { return textarea.parentNode.insertBefore(node, textarea.nextSibling); },
+      options);
+    return cm
+  }
+
+  function addLegacyProps(CodeMirror) {
+    CodeMirror.off = off;
+    CodeMirror.on = on;
+    CodeMirror.wheelEventPixels = wheelEventPixels;
+    CodeMirror.Doc = Doc;
+    CodeMirror.splitLines = splitLinesAuto;
+    CodeMirror.countColumn = countColumn;
+    CodeMirror.findColumn = findColumn;
+    CodeMirror.isWordChar = isWordCharBasic;
+    CodeMirror.Pass = Pass;
+    CodeMirror.signal = signal;
+    CodeMirror.Line = Line;
+    CodeMirror.changeEnd = changeEnd;
+    CodeMirror.scrollbarModel = scrollbarModel;
+    CodeMirror.Pos = Pos;
+    CodeMirror.cmpPos = cmp;
+    CodeMirror.modes = modes;
+    CodeMirror.mimeModes = mimeModes;
+    CodeMirror.resolveMode = resolveMode;
+    CodeMirror.getMode = getMode;
+    CodeMirror.modeExtensions = modeExtensions;
+    CodeMirror.extendMode = extendMode;
+    CodeMirror.copyState = copyState;
+    CodeMirror.startState = startState;
+    CodeMirror.innerMode = innerMode;
+    CodeMirror.commands = commands;
+    CodeMirror.keyMap = keyMap;
+    CodeMirror.keyName = keyName;
+    CodeMirror.isModifierKey = isModifierKey;
+    CodeMirror.lookupKey = lookupKey;
+    CodeMirror.normalizeKeyMap = normalizeKeyMap;
+    CodeMirror.StringStream = StringStream;
+    CodeMirror.SharedTextMarker = SharedTextMarker;
+    CodeMirror.TextMarker = TextMarker;
+    CodeMirror.LineWidget = LineWidget;
+    CodeMirror.e_preventDefault = e_preventDefault;
+    CodeMirror.e_stopPropagation = e_stopPropagation;
+    CodeMirror.e_stop = e_stop;
+    CodeMirror.addClass = addClass;
+    CodeMirror.contains = contains;
+    CodeMirror.rmClass = rmClass;
+    CodeMirror.keyNames = keyNames;
+  }
+
+  // EDITOR CONSTRUCTOR
+
+  defineOptions(CodeMirror);
+
+  addEditorMethods(CodeMirror);
+
+  // Set up methods on CodeMirror's prototype to redirect to the editor's document.
+  var dontDelegate = "iter insert remove copy getEditor constructor".split(" ");
+  for (var prop in Doc.prototype) { if (Doc.prototype.hasOwnProperty(prop) && indexOf(dontDelegate, prop) < 0)
+    { CodeMirror.prototype[prop] = (function(method) {
+      return function() {return method.apply(this.doc, arguments)}
+    })(Doc.prototype[prop]); } }
+
+  eventMixin(Doc);
+  CodeMirror.inputStyles = {"textarea": TextareaInput, "contenteditable": ContentEditableInput};
+
+  // Extra arguments are stored as the mode's dependencies, which is
+  // used by (legacy) mechanisms like loadmode.js to automatically
+  // load a mode. (Preferred mechanism is the require/define calls.)
+  CodeMirror.defineMode = function(name/*, mode, …*/) {
+    if (!CodeMirror.defaults.mode && name != "null") { CodeMirror.defaults.mode = name; }
+    defineMode.apply(this, arguments);
+  };
+
+  CodeMirror.defineMIME = defineMIME;
+
+  // Minimal default mode.
+  CodeMirror.defineMode("null", function () { return ({token: function (stream) { return stream.skipToEnd(); }}); });
+  CodeMirror.defineMIME("text/plain", "null");
+
+  // EXTENSIONS
+
+  CodeMirror.defineExtension = function (name, func) {
+    CodeMirror.prototype[name] = func;
+  };
+  CodeMirror.defineDocExtension = function (name, func) {
+    Doc.prototype[name] = func;
+  };
+
+  CodeMirror.fromTextArea = fromTextArea;
+
+  addLegacyProps(CodeMirror);
+
+  CodeMirror.version = "5.58.0";
+
+  return CodeMirror;
+
+})));
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+exports.push([module.i, "@import url(/assets/css/style.css);", ""]);
+exports.push([module.i, "@import url(/assets/css/components.css);", ""]);
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/aos/dist/aos.css":
 /*!***********************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/aos/dist/aos.css ***!
@@ -6664,6 +17433,25 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 // module
 exports.push([module.i, "\n.item-menu[data-v-63cd6604] {\r\n  width: 25%;\n}\n.class-menu[data-v-63cd6604]::after {\r\n  content: \"\";\r\n  flex: 1 100px;\n}\n.myBtn[data-v-63cd6604] {\r\n  position: fixed; /* Fixed/sticky position */\r\n  bottom: 20px; /* Place the button at the bottom of the page */\r\n  right: 30px; /* Place the button 30px from the right */\r\n  z-index: 99; /* Make sure it does not overlap */\r\n  border: none; /* Remove borders */\r\n  outline: none; /* Remove outline */\r\n  background-color: #000; /* Set a background color */\r\n  color: white; /* Text color */\r\n  cursor: pointer; /* Add a mouse pointer on hover */\r\n  font-weight: 700;\r\n  text-decoration: none;\r\n  padding: 15px; /* Some padding */\r\n  border-radius: 10px; /* Rounded corners */\r\n  font-size: 20px; /* Increase font size */\n}\n#myBtn[data-v-63cd6604]:hover {\r\n  background-color: #555; /* Add a dark-grey background on hover */\n}\na[data-v-63cd6604]:hover {\r\n  background-color: #513ba9 !important;\n}\n.bg-primary[data-v-63cd6604] {\r\n  background-color: #513ba9 !important;\n}\n.menu-category button[data-v-63cd6604] {\r\n  border-radius: 40px;\r\n  font-size: 18px;\r\n  font-size: 400;\r\n  background-color: #513ba9;\n}\n.footer-help[data-v-63cd6604] {\r\n  margin-top: 10px;\r\n  font-size: 24px;\r\n  font-weight: 700;\n}\n.footer[data-v-63cd6604] {\r\n  color: white;\n}\nimg[data-v-63cd6604] {\r\n  border-radius: 8px;\n}\n.unggulan .unggulan-text[data-v-63cd6604],\r\n.menu .menu-text[data-v-63cd6604] {\r\n  font-size: 36px;\r\n  font-weight: 700;\n}\n.unggulan .unggulan-subtext[data-v-63cd6604],\r\n.menu .menu-subtext[data-v-63cd6604] {\r\n  font-size: 24px;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\nbody[data-v-2307ab0a] {\r\n  font-size: 14px !important;\n}\n.nav-link[data-v-2307ab0a] {\r\n  font-size: 14px !important;\n}\r\n/**\r\n * Stisla\r\n *\r\n * Stisla is a clean & modern HTML5 admin template based on Bootstrap 4. \r\n * Stisla will make it easier for you to create your own admin interface.\r\n *\r\n * @package\tStisla \r\n * @version\t2.2.0\r\n * @author \tMuhamad Nauval Azhar\r\n * @url \thttps://getstisla.com\r\n * \r\n */\r\n/**\r\n * TABLE OF CONTENTS\r\n *\r\n * 1. Variable\r\n * 2. Mixin\r\n * 3. Bootstrap Override\r\n * \t  3.1 Misc\r\n * \t  3.2 Form\r\n * \t  3.3 List\r\n * \t  3.4 Alert\r\n * \t  3.5 Card\r\n * \t  3.6 Table\r\n * \t  3.7 Tooltip\r\n * \t  3.8 Modal\r\n * \t  3.9 Nav\r\n * \t  3.10 Pagination\r\n * \t  3.11 Badge\r\n * \t  3.12 Button\r\n * \t  3.13 Media\r\n * \t  3.14 Breadcrumb\r\n * \t  3.15 Accordion\r\n * \t  3.16 Popover\r\n * \t  3.17 Grid\r\n * \t  3.18 Navbar\r\n * \t  3.19 Dropdown\r\n * \t  3.20 Tab\r\n * \t  3.21 Progressbar\r\n * \t  3.22 Jumbotron\r\n * \t  3.23 Carousel\r\n * 4. Theme Style\r\n * \t  4.1 Misc\r\n * \t  4.2 Section\r\n * \t  4.3 Page\r\n * \t  4.4 Layout\r\n * \t  4.5 Animation\r\n * 5. Responsive\r\n *\r\n */\r\n/* 1. Variable */\r\n/* 2. Mixin */\r\n/* 3. Bootstrap Override */\r\n/* 3.1 Misc */\n.btn[data-v-2307ab0a]:focus,\r\n.btn[data-v-2307ab0a]:active,\r\n.btn[data-v-2307ab0a]:active:focus,\r\n.custom-select[data-v-2307ab0a]:focus,\r\n.form-control[data-v-2307ab0a]:focus {\r\n  box-shadow: none !important;\r\n  outline: none;\n}\na[data-v-2307ab0a] {\r\n  color: #6777ef;\r\n  font-weight: 500;\r\n  transition: all .5s;\r\n  -webkit-transition: all .5s;\r\n  -o-transition: all .5s;\n}\na:not(.btn-social-icon):not(.btn-social):not(.page-link) .ion[data-v-2307ab0a],\r\na:not(.btn-social-icon):not(.btn-social):not(.page-link) .fas[data-v-2307ab0a],\r\na:not(.btn-social-icon):not(.btn-social):not(.page-link) .far[data-v-2307ab0a],\r\na:not(.btn-social-icon):not(.btn-social):not(.page-link) .fal[data-v-2307ab0a],\r\na:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab[data-v-2307ab0a] {\r\n  margin-left: 4px;\n}\n.bg-primary[data-v-2307ab0a] {\r\n  background-color: #6777ef !important;\n}\n.bg-secondary[data-v-2307ab0a] {\r\n  background-color: #cdd3d8 !important;\n}\n.bg-success[data-v-2307ab0a] {\r\n  background-color: #63ed7a !important;\n}\n.bg-info[data-v-2307ab0a] {\r\n  background-color: #3abaf4 !important;\n}\n.bg-warning[data-v-2307ab0a] {\r\n  background-color: #ffa426 !important;\n}\n.bg-danger[data-v-2307ab0a] {\r\n  background-color: #fc544b !important;\n}\n.bg-light[data-v-2307ab0a] {\r\n  background-color: #e3eaef !important;\n}\n.bg-dark[data-v-2307ab0a] {\r\n  background-color: #191d21 !important;\n}\n.text-primary[data-v-2307ab0a], .text-primary-all *[data-v-2307ab0a], .text-primary-all *[data-v-2307ab0a]:before, .text-primary-all *[data-v-2307ab0a]:after {\r\n  color: #6777ef !important;\n}\n.text-secondary[data-v-2307ab0a], .text-secondary-all *[data-v-2307ab0a], .text-secondary-all *[data-v-2307ab0a]:before, .text-secondary-all *[data-v-2307ab0a]:after {\r\n  color: #cdd3d8 !important;\n}\n.text-success[data-v-2307ab0a], .text-success-all *[data-v-2307ab0a], .text-success-all *[data-v-2307ab0a]:before, .text-success-all *[data-v-2307ab0a]:after {\r\n  color: #63ed7a !important;\n}\n.text-info[data-v-2307ab0a], .text-info-all *[data-v-2307ab0a], .text-info-all *[data-v-2307ab0a]:before, .text-info-all *[data-v-2307ab0a]:after {\r\n  color: #3abaf4 !important;\n}\n.text-warning[data-v-2307ab0a], .text-warning-all *[data-v-2307ab0a], .text-warning-all *[data-v-2307ab0a]:before, .text-warning-all *[data-v-2307ab0a]:after {\r\n  color: #ffa426 !important;\n}\n.text-danger[data-v-2307ab0a], .text-danger-all *[data-v-2307ab0a], .text-danger-all *[data-v-2307ab0a]:before, .text-danger-all *[data-v-2307ab0a]:after {\r\n  color: #fc544b !important;\n}\n.text-light[data-v-2307ab0a], .text-light-all *[data-v-2307ab0a], .text-light-all *[data-v-2307ab0a]:before, .text-light-all *[data-v-2307ab0a]:after {\r\n  color: #e3eaef !important;\n}\n.text-white[data-v-2307ab0a], .text-white-all *[data-v-2307ab0a], .text-white-all *[data-v-2307ab0a]:before, .text-white-all *[data-v-2307ab0a]:after {\r\n  color: #ffffff !important;\n}\n.text-dark[data-v-2307ab0a], .text-dark-all *[data-v-2307ab0a], .text-dark-all *[data-v-2307ab0a]:before, .text-dark-all *[data-v-2307ab0a]:after {\r\n  color: #191d21 !important;\n}\n.font-weight-normal[data-v-2307ab0a] {\r\n  font-weight: 500 !important;\n}\n.lead[data-v-2307ab0a] {\r\n  line-height: 34px;\n}\n@media (max-width: 575.98px) {\n.lead[data-v-2307ab0a] {\r\n    font-size: 17px;\r\n    line-height: 30px;\n}\n}\nh1[data-v-2307ab0a], h2[data-v-2307ab0a], h3[data-v-2307ab0a], h4[data-v-2307ab0a], h5[data-v-2307ab0a], h6[data-v-2307ab0a] {\r\n  font-weight: 700;\n}\np[data-v-2307ab0a], ul[data-v-2307ab0a]:not(.list-unstyled), ol[data-v-2307ab0a] {\r\n  line-height: 28px;\n}\n.shadow[data-v-2307ab0a] {\r\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\n}\n.text-muted[data-v-2307ab0a] {\r\n  color: #98a6ad !important;\n}\r\n\r\n/* 3.2 Form */\n.form-control[data-v-2307ab0a],\r\n.input-group-text[data-v-2307ab0a],\r\n.custom-select[data-v-2307ab0a],\r\n.custom-file-label[data-v-2307ab0a] {\r\n  background-color: #fdfdff;\r\n  border-color: #e4e6fc;\n}\n.form-control[data-v-2307ab0a]:focus,\r\n  .input-group-text[data-v-2307ab0a]:focus,\r\n  .custom-select[data-v-2307ab0a]:focus,\r\n  .custom-file-label[data-v-2307ab0a]:focus {\r\n    background-color: #fefeff;\r\n    border-color: #95a0f4;\n}\n.input-group-text[data-v-2307ab0a],\r\nselect.form-control[data-v-2307ab0a]:not([size]):not([multiple]),\r\n.form-control[data-v-2307ab0a]:not(.form-control-sm):not(.form-control-lg) {\r\n  font-size: 14px;\r\n  padding: 10px 15px;\r\n  height: 42px;\n}\ntextarea.form-control[data-v-2307ab0a] {\r\n  height: 64px !important;\n}\n.custom-control[data-v-2307ab0a] {\r\n  line-height: 1.6rem;\n}\n.custom-file[data-v-2307ab0a],\r\n.custom-file-label[data-v-2307ab0a],\r\n.custom-select[data-v-2307ab0a],\r\n.custom-file-label[data-v-2307ab0a]:after,\r\n.form-control[type=\"color\"][data-v-2307ab0a],\r\nselect.form-control[data-v-2307ab0a]:not([size]):not([multiple]) {\r\n  height: calc(2.25rem + 6px);\n}\n.form-group[data-v-2307ab0a] {\r\n  margin-bottom: 25px;\n}\n.form-group .control-label[data-v-2307ab0a],\r\n  .form-group > label[data-v-2307ab0a] {\r\n    font-weight: 600;\r\n    color: #34395e;\r\n    font-size: 12px;\r\n    letter-spacing: .5px;\n}\n.form-group.floating-addon[data-v-2307ab0a] {\r\n    position: relative;\n}\n.form-group.floating-addon .input-group-prepend[data-v-2307ab0a] {\r\n      position: absolute;\r\n      top: 0;\r\n      left: 0;\r\n      height: 100%;\r\n      z-index: 5;\n}\n.form-group.floating-addon:not(.floating-addon-not-append) .input-group-append[data-v-2307ab0a] {\r\n      position: absolute;\r\n      top: 0;\r\n      left: 0;\r\n      z-index: 5;\r\n      left: initial;\r\n      right: 0;\n}\n.form-group.floating-addon .input-group-prepend .input-group-text[data-v-2307ab0a], .form-group.floating-addon .input-group-append .input-group-text[data-v-2307ab0a] {\r\n      border-color: transparent;\r\n      background-color: transparent;\r\n      font-size: 20px;\n}\n.form-group.floating-addon .form-control[data-v-2307ab0a] {\r\n      border-radius: 3px;\r\n      padding-left: 40px;\n}\n.form-group.floating-addon .form-control + .form-control[data-v-2307ab0a] {\r\n        border-radius: 0 3px 3px 0;\r\n        padding-left: 15px;\n}\n.input-group-append [class*=\"btn-outline-\"][data-v-2307ab0a] {\r\n  background-color: #fdfdff;\n}\n.form-text[data-v-2307ab0a] {\r\n  font-size: 12px;\r\n  line-height: 22px;\n}\n.custom-radio .custom-control-input:checked ~ .custom-control-label[data-v-2307ab0a]::before,\r\n.custom-control-input:checked ~ .custom-control-label[data-v-2307ab0a]::before {\r\n  background-color: #6777ef !important;\n}\n.custom-file-label[data-v-2307ab0a] {\r\n  line-height: 2.2;\n}\n.custom-file-label[data-v-2307ab0a]:after {\r\n    height: calc(2.25rem + 4px);\r\n    line-height: 2.2;\r\n    border-color: transparent;\n}\n.custom-file-label[data-v-2307ab0a]:focus, .custom-file-label[data-v-2307ab0a]:active {\r\n    box-shadow: none;\r\n    outline: none;\n}\n.custom-file-input:focus + .custom-file-label[data-v-2307ab0a] {\r\n  box-shadow: none;\r\n  border-color: #6777ef;\n}\n.custom-file-input:focus + .custom-file-label[data-v-2307ab0a]:after {\r\n    border-color: transparent;\n}\n.selectgroup[data-v-2307ab0a] {\r\n  display: inline-flex;\n}\n.selectgroup-item[data-v-2307ab0a] {\r\n  flex-grow: 1;\r\n  position: relative;\n}\n.selectgroup-item + .selectgroup-item[data-v-2307ab0a] {\r\n    margin-left: -1px;\n}\n.selectgroup-item:not(:first-child) .selectgroup-button[data-v-2307ab0a] {\r\n    border-top-left-radius: 0;\r\n    border-bottom-left-radius: 0;\n}\n.selectgroup-item:not(:last-child) .selectgroup-button[data-v-2307ab0a] {\r\n    border-top-right-radius: 0;\r\n    border-bottom-right-radius: 0;\n}\n.selectgroup-input[data-v-2307ab0a] {\r\n  opacity: 0;\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\n}\n.selectgroup-button[data-v-2307ab0a] {\r\n  background-color: #fdfdff;\r\n  border-color: #e4e6fc;\r\n  border-width: 1px;\r\n  border-style: solid;\r\n  display: block;\r\n  text-align: center;\r\n  padding: 0 1rem;\r\n  height: 35px;\r\n  position: relative;\r\n  cursor: pointer;\r\n  border-radius: 3px;\r\n  -webkit-user-select: none;\r\n  -moz-user-select: none;\r\n  -ms-user-select: none;\r\n  user-select: none;\r\n  font-size: 13px;\r\n  min-width: 2.375rem;\r\n  line-height: 36px;\n}\n.selectgroup-button-icon[data-v-2307ab0a] {\r\n  padding-left: .5rem;\r\n  padding-right: .5rem;\n}\n.selectgroup-button-icon i[data-v-2307ab0a] {\r\n    font-size: 14px;\n}\n.selectgroup-input:focus + .selectgroup-button[data-v-2307ab0a], .selectgroup-input:checked + .selectgroup-button[data-v-2307ab0a] {\r\n  background-color: #6777ef;\r\n  color: #fff;\r\n  z-index: 1;\n}\n.selectgroup-pills[data-v-2307ab0a] {\r\n  display: block;\r\n  flex-wrap: wrap;\r\n  align-items: flex-start;\n}\n.selectgroup-pills .selectgroup-item[data-v-2307ab0a] {\r\n    margin-right: .5rem;\r\n    flex-grow: 0;\n}\n.selectgroup-pills .selectgroup-button[data-v-2307ab0a] {\r\n    border-radius: 50px !important;\n}\n.custom-switch[data-v-2307ab0a] {\r\n  -webkit-user-select: none;\r\n  -moz-user-select: none;\r\n  -ms-user-select: none;\r\n  user-select: none;\r\n  cursor: default;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  margin: 0;\n}\n.custom-switch-input[data-v-2307ab0a] {\r\n  position: absolute;\r\n  z-index: -1;\r\n  opacity: 0;\n}\n.custom-switches-stacked[data-v-2307ab0a] {\r\n  display: flex;\r\n  flex-direction: column;\n}\n.custom-switches-stacked .custom-switch[data-v-2307ab0a] {\r\n    margin-bottom: .5rem;\n}\n.custom-switch-indicator[data-v-2307ab0a] {\r\n  display: inline-block;\r\n  height: 1.25rem;\r\n  width: 2.25rem;\r\n  background: #e9ecef;\r\n  border-radius: 50px;\r\n  position: relative;\r\n  vertical-align: bottom;\r\n  border: 1px solid rgba(0, 40, 100, 0.12);\r\n  transition: .3s border-color, .3s background-color;\n}\n.custom-switch-indicator[data-v-2307ab0a]:before {\r\n    content: '';\r\n    position: absolute;\r\n    height: calc(1.25rem - 4px);\r\n    width: calc(1.25rem - 4px);\r\n    top: 1px;\r\n    left: 1px;\r\n    background: #fff;\r\n    border-radius: 50%;\r\n    transition: .3s left;\n}\n.custom-switch-input:checked ~ .custom-switch-indicator[data-v-2307ab0a] {\r\n  background: #6777ef;\n}\n.custom-switch-input:checked ~ .custom-switch-indicator[data-v-2307ab0a]:before {\r\n    left: calc(1rem + 1px);\n}\n.custom-switch-input:focus ~ .custom-switch-indicator[data-v-2307ab0a] {\r\n  border-color: #6777ef;\n}\n.custom-switch-description[data-v-2307ab0a] {\r\n  margin-left: .5rem;\r\n  color: #6e7687;\r\n  transition: .3s color;\n}\n.custom-switch-input:checked ~ .custom-switch-description[data-v-2307ab0a] {\r\n  color: #495057;\n}\n.imagecheck[data-v-2307ab0a] {\r\n  margin: 0;\r\n  position: relative;\r\n  cursor: pointer;\n}\n.imagecheck-input[data-v-2307ab0a] {\r\n  position: absolute;\r\n  z-index: -1;\r\n  opacity: 0;\n}\n.imagecheck-figure[data-v-2307ab0a] {\r\n  background-color: #fdfdff;\r\n  border-color: #e4e6fc;\r\n  border-width: 1px;\r\n  border-style: solid;\r\n  border-radius: 3px;\r\n  margin: 0;\r\n  position: relative;\n}\n.imagecheck-input:focus ~ .imagecheck-figure[data-v-2307ab0a] {\r\n  border-color: #6777ef;\n}\n.imagecheck-input:checked ~ .imagecheck-figure[data-v-2307ab0a] {\r\n  border-color: rgba(0, 40, 100, 0.24);\n}\n.imagecheck-figure[data-v-2307ab0a]:before {\r\n  content: '';\r\n  position: absolute;\r\n  top: .25rem;\r\n  left: .25rem;\r\n  display: block;\r\n  width: 1rem;\r\n  height: 1rem;\r\n  pointer-events: none;\r\n  -webkit-user-select: none;\r\n  -moz-user-select: none;\r\n  -ms-user-select: none;\r\n  user-select: none;\r\n  background: #6777ef url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E\") no-repeat center center/50% 50%;\r\n  color: #fff;\r\n  z-index: 1;\r\n  border-radius: 3px;\r\n  opacity: 0;\r\n  transition: .3s opacity;\n}\n.imagecheck-input:checked ~ .imagecheck-figure[data-v-2307ab0a]:before {\r\n  opacity: 1;\n}\n.imagecheck-image[data-v-2307ab0a] {\r\n  max-width: 100%;\r\n  opacity: .64;\r\n  transition: .3s opacity;\n}\n.imagecheck-image[data-v-2307ab0a]:first-child {\r\n    border-top-left-radius: 2px;\r\n    border-top-right-radius: 2px;\n}\n.imagecheck-image[data-v-2307ab0a]:last-child {\r\n    border-bottom-left-radius: 2px;\r\n    border-bottom-right-radius: 2px;\n}\n.imagecheck:hover .imagecheck-image[data-v-2307ab0a] {\r\n  opacity: 1;\n}\n.imagecheck-input:focus ~ .imagecheck-figure .imagecheck-image[data-v-2307ab0a], .imagecheck-input:checked ~ .imagecheck-figure .imagecheck-image[data-v-2307ab0a] {\r\n  opacity: 1;\n}\n.imagecheck-caption[data-v-2307ab0a] {\r\n  text-align: center;\r\n  padding: .25rem .25rem;\r\n  color: #9aa0ac;\r\n  font-size: 0.875rem;\r\n  transition: .3s color;\n}\n.imagecheck:hover .imagecheck-caption[data-v-2307ab0a] {\r\n  color: #495057;\n}\n.imagecheck-input:focus ~ .imagecheck-figure .imagecheck-caption[data-v-2307ab0a], .imagecheck-input:checked ~ .imagecheck-figure .imagecheck-caption[data-v-2307ab0a] {\r\n  color: #495057;\n}\n.colorinput[data-v-2307ab0a] {\r\n  margin: 0;\r\n  position: relative;\r\n  cursor: pointer;\n}\n.colorinput-input[data-v-2307ab0a] {\r\n  position: absolute;\r\n  z-index: -1;\r\n  opacity: 0;\n}\n.colorinput-color[data-v-2307ab0a] {\r\n  background-color: #fdfdff;\r\n  border-color: #e4e6fc;\r\n  border-width: 1px;\r\n  border-style: solid;\r\n  display: inline-block;\r\n  width: 1.75rem;\r\n  height: 1.75rem;\r\n  border-radius: 3px;\r\n  color: #fff;\r\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n}\n.colorinput-color[data-v-2307ab0a]:before {\r\n    content: '';\r\n    opacity: 0;\r\n    position: absolute;\r\n    top: .25rem;\r\n    left: .25rem;\r\n    height: 1.25rem;\r\n    width: 1.25rem;\r\n    transition: .3s opacity;\r\n    background: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E\") no-repeat center center/50% 50%;\n}\n.colorinput-input:checked ~ .colorinput-color[data-v-2307ab0a]:before {\r\n  opacity: 1;\n}\r\n\r\n/* 3.3 List */\n.list-unstyled-border li[data-v-2307ab0a] {\r\n  border-bottom: 1px solid #f9f9f9;\r\n  padding-bottom: 15px;\r\n  margin-bottom: 15px;\n}\n.list-unstyled-border li .custom-checkbox[data-v-2307ab0a] {\r\n    margin-right: 15px;\n}\n.list-unstyled-border li[data-v-2307ab0a]:last-child {\r\n    margin-bottom: 0;\r\n    padding-bottom: 0;\r\n    border-bottom: none;\n}\n.list-unstyled-noborder li[data-v-2307ab0a]:last-child {\r\n  border-bottom: none;\n}\n.list-group-item.active[data-v-2307ab0a] {\r\n  background-color: #6777ef;\n}\n.list-group-item.disabled[data-v-2307ab0a] {\r\n  color: #c9d7e0;\n}\n.list-group-item-primary[data-v-2307ab0a] {\r\n  background-color: #6777ef;\r\n  color: #fff;\n}\n.list-group-item-secondary[data-v-2307ab0a] {\r\n  background-color: #cdd3d8;\r\n  color: #fff;\n}\n.list-group-item-success[data-v-2307ab0a] {\r\n  background-color: #63ed7a;\r\n  color: #fff;\n}\n.list-group-item-danger[data-v-2307ab0a] {\r\n  background-color: #fc544b;\r\n  color: #fff;\n}\n.list-group-item-warning[data-v-2307ab0a] {\r\n  background-color: #ffa426;\r\n  color: #fff;\n}\n.list-group-item-info[data-v-2307ab0a] {\r\n  background-color: #3abaf4;\r\n  color: #fff;\n}\n.list-group-item-light[data-v-2307ab0a] {\r\n  background-color: #e3eaef;\r\n  color: #191d21;\n}\n.list-group-item-dark[data-v-2307ab0a] {\r\n  background-color: #191d21;\r\n  color: #fff;\n}\r\n\r\n/* 3.4 Alert */\n.alert[data-v-2307ab0a] {\r\n  color: #fff;\r\n  border: none;\r\n  padding: 15px 20px;\n}\n.alert .alert-title[data-v-2307ab0a] {\r\n    font-size: 18px;\r\n    font-weight: 700;\r\n    margin-bottom: 5px;\n}\n.alert code[data-v-2307ab0a] {\r\n    background-color: #fff;\r\n    border-radius: 3px;\r\n    padding: 1px 4px;\n}\n.alert p[data-v-2307ab0a] {\r\n    margin-bottom: 0;\n}\n.alert.alert-has-icon[data-v-2307ab0a] {\r\n    display: flex;\n}\n.alert.alert-has-icon .alert-icon[data-v-2307ab0a] {\r\n      margin-top: 4px;\r\n      width: 30px;\n}\n.alert.alert-has-icon .alert-icon .ion[data-v-2307ab0a], .alert.alert-has-icon .alert-icon .fas[data-v-2307ab0a], .alert.alert-has-icon .alert-icon .far[data-v-2307ab0a], .alert.alert-has-icon .alert-icon .fab[data-v-2307ab0a], .alert.alert-has-icon .alert-icon .fal[data-v-2307ab0a] {\r\n        font-size: 20px;\n}\n.alert.alert-has-icon .alert-body[data-v-2307ab0a] {\r\n      flex: 1;\n}\n.alert:not(.alert-light) a[data-v-2307ab0a] {\r\n    color: #fff;\n}\n.alert.alert-primary[data-v-2307ab0a] {\r\n    background-color: #6777ef;\n}\n.alert.alert-secondary[data-v-2307ab0a] {\r\n    background-color: #cdd3d8;\n}\n.alert.alert-success[data-v-2307ab0a] {\r\n    background-color: #63ed7a;\n}\n.alert.alert-info[data-v-2307ab0a] {\r\n    background-color: #3abaf4;\n}\n.alert.alert-warning[data-v-2307ab0a] {\r\n    background-color: #ffa426;\n}\n.alert.alert-danger[data-v-2307ab0a] {\r\n    background-color: #fc544b;\n}\n.alert.alert-light[data-v-2307ab0a] {\r\n    background-color: #e3eaef;\r\n    color: #191d21;\n}\n.alert.alert-dark[data-v-2307ab0a] {\r\n    background-color: #191d21;\n}\r\n\r\n/* 3.5 Card */\n.card[data-v-2307ab0a] {\r\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n  background-color: #fff;\r\n  border-radius: 3px;\r\n  border: none;\r\n  position: relative;\r\n  margin-bottom: 30px;\n}\n.card .card-header[data-v-2307ab0a], .card .card-body[data-v-2307ab0a], .card .card-footer[data-v-2307ab0a] {\r\n    background-color: transparent;\r\n    padding: 20px 25px;\n}\n.card .navbar[data-v-2307ab0a] {\r\n    position: static;\n}\n.card .card-body[data-v-2307ab0a] {\r\n    padding-top: 20px;\r\n    padding-bottom: 20px;\n}\n.card .card-body .section-title[data-v-2307ab0a] {\r\n      margin: 30px 0 10px 0;\r\n      font-size: 16px;\n}\n.card .card-body .section-title[data-v-2307ab0a]:before {\r\n        margin-top: 8px;\n}\n.card .card-body .section-title + .section-lead[data-v-2307ab0a] {\r\n      margin-top: -5px;\n}\n.card .card-body p[data-v-2307ab0a] {\r\n      font-weight: 500;\n}\n.card .card-header[data-v-2307ab0a] {\r\n    border-bottom-color: #f9f9f9;\r\n    line-height: 30px;\r\n    -ms-grid-row-align: center;\r\n    align-self: center;\r\n    width: 100%;\r\n    min-height: 70px;\r\n    padding: 15px 25px;\r\n    display: flex;\r\n    align-items: center;\n}\n.card .card-header .btn[data-v-2307ab0a] {\r\n      margin-top: 1px;\r\n      padding: 2px 15px;\n}\n.card .card-header .btn[data-v-2307ab0a]:not(.note-btn) {\r\n        border-radius: 30px;\n}\n.card .card-header .btn[data-v-2307ab0a]:hover {\r\n        box-shadow: none;\n}\n.card .card-header .form-control[data-v-2307ab0a] {\r\n      height: 31px;\r\n      font-size: 13px;\r\n      border-radius: 30px;\n}\n.card .card-header .form-control + .input-group-btn .btn[data-v-2307ab0a] {\r\n        margin-top: -1px;\n}\n.card .card-header h4[data-v-2307ab0a] {\r\n      font-size: 16px;\r\n      line-height: 28px;\r\n      padding-right: 10px;\r\n      margin-bottom: 0;\n}\n.card .card-header h4 + .card-header-action[data-v-2307ab0a],\r\n      .card .card-header h4 + .card-header-form[data-v-2307ab0a] {\r\n        margin-left: auto;\n}\n.card .card-header h4 + .card-header-action .btn[data-v-2307ab0a],\r\n        .card .card-header h4 + .card-header-form .btn[data-v-2307ab0a] {\r\n          font-size: 12px;\r\n          border-radius: 30px !important;\r\n          padding-left: 13px !important;\r\n          padding-right: 13px !important;\n}\n.card .card-header h4 + .card-header-action .btn.active[data-v-2307ab0a],\r\n          .card .card-header h4 + .card-header-form .btn.active[data-v-2307ab0a] {\r\n            box-shadow: 0 2px 6px #acb5f6;\r\n            background-color: #6777ef;\r\n            color: #fff;\n}\n.card .card-header h4 + .card-header-action .dropdown[data-v-2307ab0a],\r\n        .card .card-header h4 + .card-header-form .dropdown[data-v-2307ab0a] {\r\n          display: inline;\n}\n.card .card-header h4 + .card-header-action .btn-group .btn[data-v-2307ab0a],\r\n        .card .card-header h4 + .card-header-form .btn-group .btn[data-v-2307ab0a] {\r\n          border-radius: 0 !important;\n}\n.card .card-header h4 + .card-header-action .btn-group .btn[data-v-2307ab0a]:first-child,\r\n        .card .card-header h4 + .card-header-form .btn-group .btn[data-v-2307ab0a]:first-child {\r\n          border-radius: 30px 0 0 30px !important;\n}\n.card .card-header h4 + .card-header-action .btn-group .btn[data-v-2307ab0a]:last-child,\r\n        .card .card-header h4 + .card-header-form .btn-group .btn[data-v-2307ab0a]:last-child {\r\n          border-radius: 0 30px 30px 0 !important;\n}\n.card .card-header h4 + .card-header-action .input-group .form-control[data-v-2307ab0a],\r\n        .card .card-header h4 + .card-header-form .input-group .form-control[data-v-2307ab0a] {\r\n          border-radius: 30px 0 0 30px !important;\n}\n.card .card-header h4 + .card-header-action .input-group .form-control + .input-group-btn .btn[data-v-2307ab0a],\r\n          .card .card-header h4 + .card-header-form .input-group .form-control + .input-group-btn .btn[data-v-2307ab0a] {\r\n            border-radius: 0 30px 30px 0 !important;\n}\n.card .card-header h4 + .card-header-action .input-group .input-group-btn + .form-control[data-v-2307ab0a],\r\n        .card .card-header h4 + .card-header-form .input-group .input-group-btn + .form-control[data-v-2307ab0a] {\r\n          border-radius: 0 30px 30px 0 !important;\n}\n.card .card-header h4 + .card-header-action .input-group .input-group-btn .btn[data-v-2307ab0a],\r\n        .card .card-header h4 + .card-header-form .input-group .input-group-btn .btn[data-v-2307ab0a] {\r\n          margin-top: -1px;\r\n          border-radius: 30px 0 0 30px !important;\n}\n.card .card-footer[data-v-2307ab0a] {\r\n    background-color: transparent;\r\n    border: none;\n}\n.card.card-mt[data-v-2307ab0a] {\r\n    margin-top: 30px;\n}\n.card.card-progress[data-v-2307ab0a]:after {\r\n    content: ' ';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(255, 255, 255, 0.5);\r\n    z-index: 99;\r\n    z-index: 99;\n}\n.card.card-progress .card-progress-dismiss[data-v-2307ab0a] {\r\n    position: absolute;\r\n    top: 66%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n    z-index: 999;\r\n    color: #fff !important;\r\n    padding: 5px 13px;\n}\n.card.card-progress.remove-spinner .card-progress-dismiss[data-v-2307ab0a] {\r\n    top: 50%;\r\n    transform: translate(-50%, -50%);\n}\n.card.card-primary[data-v-2307ab0a] {\r\n    border-top: 2px solid #6777ef;\n}\n.card.card-secondary[data-v-2307ab0a] {\r\n    border-top: 2px solid #34395e;\n}\n.card.card-success[data-v-2307ab0a] {\r\n    border-top: 2px solid #63ed7a;\n}\n.card.card-danger[data-v-2307ab0a] {\r\n    border-top: 2px solid #fc544b;\n}\n.card.card-warning[data-v-2307ab0a] {\r\n    border-top: 2px solid #ffa426;\n}\n.card.card-info[data-v-2307ab0a] {\r\n    border-top: 2px solid #3abaf4;\n}\n.card.card-dark[data-v-2307ab0a] {\r\n    border-top: 2px solid #191d21;\n}\n.card.card-hero .card-header[data-v-2307ab0a] {\r\n    padding: 40px;\r\n    background-image: linear-gradient(to bottom, #6777ef, #95a0f4);\r\n    color: #fff;\r\n    overflow: hidden;\r\n    height: auto;\r\n    min-height: auto;\r\n    display: block;\n}\n.card.card-hero .card-header h4[data-v-2307ab0a] {\r\n      font-size: 40px;\r\n      line-height: 1;\n}\n.card.card-hero .card-header .card-description[data-v-2307ab0a] {\r\n      margin-top: 5px;\r\n      font-size: 16px;\n}\n.card.card-hero .card-header .card-icon[data-v-2307ab0a] {\r\n      float: right;\r\n      color: #8c98f3;\r\n      margin: -60px;\n}\n.card.card-hero .card-header .card-icon .ion[data-v-2307ab0a], .card.card-hero .card-header .card-icon .fas[data-v-2307ab0a], .card.card-hero .card-header .card-icon .far[data-v-2307ab0a], .card.card-hero .card-header .card-icon .fab[data-v-2307ab0a], .card.card-hero .card-header .card-icon .fal[data-v-2307ab0a] {\r\n        font-size: 140px;\n}\n.card.card-statistic-1 .card-header[data-v-2307ab0a], .card.card-statistic-2 .card-header[data-v-2307ab0a] {\r\n    border-color: transparent;\r\n    padding-bottom: 0;\r\n    height: auto;\r\n    min-height: auto;\r\n    display: block;\n}\n.card.card-statistic-1 .card-header h4[data-v-2307ab0a], .card.card-statistic-2 .card-header h4[data-v-2307ab0a] {\r\n    line-height: 1.2;\r\n    color: #98a6ad;\n}\n.card.card-statistic-1 .card-body[data-v-2307ab0a], .card.card-statistic-2 .card-body[data-v-2307ab0a] {\r\n    padding-top: 0;\n}\n.card.card-statistic-1 .card-body[data-v-2307ab0a], .card.card-statistic-2 .card-body[data-v-2307ab0a] {\r\n    font-size: 26px;\r\n    font-weight: 700;\r\n    color: #34395e;\r\n    padding-bottom: 0;\n}\n.card.card-statistic-1[data-v-2307ab0a], .card.card-statistic-2[data-v-2307ab0a] {\r\n    display: inline-block;\r\n    width: 100%;\n}\n.card.card-statistic-1 .card-icon[data-v-2307ab0a], .card.card-statistic-2 .card-icon[data-v-2307ab0a] {\r\n    width: 80px;\r\n    height: 80px;\r\n    margin: 10px;\r\n    border-radius: 3px;\r\n    line-height: 94px;\r\n    text-align: center;\r\n    float: left;\r\n    margin-right: 15px;\n}\n.card.card-statistic-1 .card-icon .ion[data-v-2307ab0a], .card.card-statistic-1 .card-icon .fas[data-v-2307ab0a], .card.card-statistic-1 .card-icon .far[data-v-2307ab0a], .card.card-statistic-1 .card-icon .fab[data-v-2307ab0a], .card.card-statistic-1 .card-icon .fal[data-v-2307ab0a], .card.card-statistic-2 .card-icon .ion[data-v-2307ab0a], .card.card-statistic-2 .card-icon .fas[data-v-2307ab0a], .card.card-statistic-2 .card-icon .far[data-v-2307ab0a], .card.card-statistic-2 .card-icon .fab[data-v-2307ab0a], .card.card-statistic-2 .card-icon .fal[data-v-2307ab0a] {\r\n      font-size: 22px;\r\n      color: #fff;\n}\n.card.card-statistic-1 .card-icon[data-v-2307ab0a] {\r\n    line-height: 90px;\n}\n.card.card-statistic-2 .card-icon[data-v-2307ab0a] {\r\n    width: 50px;\r\n    height: 50px;\r\n    line-height: 50px;\r\n    font-size: 22px;\r\n    margin: 25px;\n}\n.card.card-statistic-1 .card-header[data-v-2307ab0a], .card.card-statistic-2 .card-header[data-v-2307ab0a] {\r\n    padding-bottom: 0;\r\n    padding-top: 25px;\n}\n.card.card-statistic-2 .card-body[data-v-2307ab0a] {\r\n    padding-top: 20px;\n}\n.card.card-statistic-2 .card-header + .card-body[data-v-2307ab0a], .card.card-statistic-2 .card-body + .card-header[data-v-2307ab0a] {\r\n    padding-top: 0;\n}\n.card.card-statistic-1 .card-header h4[data-v-2307ab0a], .card.card-statistic-2 .card-header h4[data-v-2307ab0a] {\r\n    font-weight: 600;\r\n    font-size: 13px;\r\n    letter-spacing: .5px;\n}\n.card.card-statistic-1 .card-header h4[data-v-2307ab0a] {\r\n    margin-bottom: 0;\n}\n.card.card-statistic-2 .card-header h4[data-v-2307ab0a] {\r\n    text-transform: none;\r\n    margin-bottom: 0;\n}\n.card.card-statistic-1 .card-body[data-v-2307ab0a] {\r\n    font-size: 20px;\n}\n.card.card-statistic-2 .card-chart[data-v-2307ab0a] {\r\n    padding-top: 20px;\r\n    margin-left: -9px;\r\n    margin-right: -1px;\r\n    margin-bottom: -15px;\n}\n.card.card-statistic-2 .card-chart canvas[data-v-2307ab0a] {\r\n      height: 90px !important;\n}\n.card .card-stats[data-v-2307ab0a] {\r\n    width: 100%;\r\n    display: inline-block;\r\n    margin-top: 2px;\r\n    margin-bottom: -6px;\n}\n.card .card-stats .card-stats-title[data-v-2307ab0a] {\r\n      padding: 15px 25px;\r\n      background-color: #fff;\r\n      font-size: 13px;\r\n      font-weight: 600;\r\n      letter-spacing: .3px;\n}\n.card .card-stats .card-stats-items[data-v-2307ab0a] {\r\n      display: flex;\r\n      height: 50px;\r\n      align-items: center;\n}\n.card .card-stats .card-stats-item[data-v-2307ab0a] {\r\n      width: calc(100% / 3);\r\n      text-align: center;\r\n      padding: 5px 20px;\n}\n.card .card-stats .card-stats-item .card-stats-item-label[data-v-2307ab0a] {\r\n        font-size: 12px;\r\n        letter-spacing: .5px;\r\n        margin-top: 4px;\r\n        text-overflow: ellipsis;\r\n        overflow: hidden;\r\n        white-space: nowrap;\n}\n.card .card-stats .card-stats-item .card-stats-item-count[data-v-2307ab0a] {\r\n        line-height: 1;\r\n        margin-bottom: 8px;\r\n        font-size: 20px;\r\n        font-weight: 700;\n}\n.card.card-large-icons[data-v-2307ab0a] {\r\n    display: flex;\r\n    flex-direction: row;\n}\n.card.card-large-icons .card-icon[data-v-2307ab0a] {\r\n      display: flex;\r\n      align-items: center;\r\n      justify-content: center;\r\n      flex-shrink: 0;\r\n      width: 150px;\r\n      border-radius: 3px 0 0 3px;\n}\n.card.card-large-icons .card-icon .ion[data-v-2307ab0a], .card.card-large-icons .card-icon .fas[data-v-2307ab0a], .card.card-large-icons .card-icon .far[data-v-2307ab0a], .card.card-large-icons .card-icon .fab[data-v-2307ab0a], .card.card-large-icons .card-icon .fal[data-v-2307ab0a] {\r\n        font-size: 60px;\n}\n.card.card-large-icons .card-body[data-v-2307ab0a] {\r\n      padding: 25px 30px;\n}\n.card.card-large-icons .card-body h4[data-v-2307ab0a] {\r\n        font-size: 18px;\n}\n.card.card-large-icons .card-body p[data-v-2307ab0a] {\r\n        opacity: .6;\r\n        font-weight: 500;\n}\n.card.card-large-icons .card-body a.card-cta[data-v-2307ab0a] {\r\n        text-decoration: none;\n}\n.card.card-large-icons .card-body a.card-cta i[data-v-2307ab0a] {\r\n          margin-left: 7px;\n}\n.card.bg-primary[data-v-2307ab0a], .card.bg-danger[data-v-2307ab0a], .card.bg-success[data-v-2307ab0a], .card.bg-info[data-v-2307ab0a], .card.bg-dark[data-v-2307ab0a], .card.bg-warning[data-v-2307ab0a] {\r\n    color: #fff;\n}\n.card.bg-primary .card-header[data-v-2307ab0a], .card.bg-danger .card-header[data-v-2307ab0a], .card.bg-success .card-header[data-v-2307ab0a], .card.bg-info .card-header[data-v-2307ab0a], .card.bg-dark .card-header[data-v-2307ab0a], .card.bg-warning .card-header[data-v-2307ab0a] {\r\n    color: #fff;\r\n    opacity: .9;\n}\n@media (max-width: 575.98px) {\n.card.card-large-icons[data-v-2307ab0a] {\r\n    display: inline-block;\n}\n.card.card-large-icons .card-icon[data-v-2307ab0a] {\r\n      width: 100%;\r\n      height: 200px;\n}\n}\n@media (max-width: 767.98px) {\n.card .card-header[data-v-2307ab0a] {\r\n    height: auto;\r\n    flex-wrap: wrap;\n}\n.card .card-header h4 + .card-header-action[data-v-2307ab0a],\r\n    .card .card-header h4 + .card-header-form[data-v-2307ab0a] {\r\n      flex-grow: 0;\r\n      width: 100%;\r\n      margin-top: 10px;\n}\n}\n@media (min-width: 768px) and (max-width: 991.98px) {\n.card .card-stats .card-stats-items[data-v-2307ab0a] {\r\n    height: 49px;\n}\n.card .card-stats .card-stats-items .card-stats-item[data-v-2307ab0a] {\r\n      padding: 5px 7px;\n}\n.card .card-stats .card-stats-items .card-stats-item .card-stats-item-count[data-v-2307ab0a] {\r\n        font-size: 16px;\n}\n.card.card-sm-6 .card-chart canvas[data-v-2307ab0a] {\r\n    height: 85px !important;\n}\n.card.card-hero .card-header[data-v-2307ab0a] {\r\n    padding: 25px;\n}\n}\r\n/* 3.6 Table */\n.table td[data-v-2307ab0a], .table:not(.table-bordered) th[data-v-2307ab0a] {\r\n  border-top: none;\n}\n.table:not(.table-sm):not(.table-md):not(.dataTable) td[data-v-2307ab0a], .table:not(.table-sm):not(.table-md):not(.dataTable) th[data-v-2307ab0a] {\r\n  padding: 0 25px;\r\n  height: 60px;\r\n  vertical-align: middle;\n}\n.table:not(.table-sm) thead th[data-v-2307ab0a] {\r\n  border-bottom: none;\r\n  background-color: rgba(0, 0, 0, 0.04);\r\n  color: #666;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\n}\n.table.table-md th[data-v-2307ab0a], .table.table-md td[data-v-2307ab0a] {\r\n  padding: 10px 15px;\n}\n.table.table-bordered td[data-v-2307ab0a], .table.table-bordered th[data-v-2307ab0a] {\r\n  border-color: #f6f6f6;\n}\n.table-links[data-v-2307ab0a] {\r\n  color: #34395e;\r\n  font-size: 12px;\r\n  margin-top: 5px;\r\n  opacity: 0;\r\n  transition: all .3s;\n}\n.table-links a[data-v-2307ab0a] {\r\n    color: #666;\n}\ntable tr:hover .table-links[data-v-2307ab0a] {\r\n  opacity: 1;\n}\n.table-striped tbody tr[data-v-2307ab0a]:nth-of-type(odd) {\r\n  background-color: rgba(0, 0, 0, 0.02);\n}\n@media (max-width: 575.98px) {\n.table-responsive table[data-v-2307ab0a] {\r\n    min-width: 800px;\n}\n}\r\n/* 3.7 Tooltip */\n.tooltip[data-v-2307ab0a] {\r\n  font-size: 12px;\n}\n.tooltip-inner[data-v-2307ab0a] {\r\n  padding: 7px 13px;\n}\r\n\r\n/* 3.8 Modal */\n.modal-header[data-v-2307ab0a],\r\n.modal-body[data-v-2307ab0a],\r\n.modal-footer[data-v-2307ab0a] {\r\n  padding: 25px;\n}\n.modal-body[data-v-2307ab0a] {\r\n  padding-top: 15px;\n}\n.modal-footer[data-v-2307ab0a] {\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\n}\n.modal-header[data-v-2307ab0a] {\r\n  border-bottom: none;\r\n  padding-bottom: 5px;\n}\n.modal-header h5[data-v-2307ab0a] {\r\n    font-size: 18px;\n}\n.modal-footer[data-v-2307ab0a] {\r\n  border-top: none;\r\n  border-radius: 0 0 3px 3px;\n}\n.modal-content[data-v-2307ab0a] {\r\n  max-width: 100%;\r\n  border: none;\r\n  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);\n}\n.modal.show .modal-content[data-v-2307ab0a] {\r\n  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);\n}\n.modal-progress .modal-content[data-v-2307ab0a] {\r\n  position: relative;\n}\n.modal-progress .modal-content[data-v-2307ab0a]:after {\r\n    content: ' ';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(255, 255, 255, 0.5);\r\n    z-index: 999;\r\n    background-size: 80px;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    border-radius: 3px;\n}\n.modal-part[data-v-2307ab0a] {\r\n  display: none;\n}\r\n\r\n/* 3.9 Nav */\n.nav-tabs .nav-item .nav-link[data-v-2307ab0a] {\r\n  color: #6777ef;\n}\n.nav-tabs .nav-item .nav-link.active[data-v-2307ab0a] {\r\n    color: #000;\n}\n.tab-content > .tab-pane[data-v-2307ab0a] {\r\n  padding: 10px 0;\r\n  line-height: 24px;\n}\n.tab-bordered .tab-pane[data-v-2307ab0a] {\r\n  padding: 15px;\r\n  border: 1px solid #ededed;\r\n  margin-top: -1px;\n}\n.nav-pills .nav-link.active[data-v-2307ab0a], .nav-pills .show > .nav-link[data-v-2307ab0a] {\r\n  color: #fff;\r\n  background-color: #6777ef;\n}\n.nav-pills .nav-item .nav-link[data-v-2307ab0a] {\r\n  color: #6777ef;\r\n  padding-left: 15px !important;\r\n  padding-right: 15px !important;\n}\n.nav-pills .nav-item .nav-link[data-v-2307ab0a]:hover {\r\n    background-color: #f6f7fe;\n}\n.nav-pills .nav-item .nav-link.active[data-v-2307ab0a] {\r\n    box-shadow: 0 2px 6px #acb5f6;\r\n    color: #fff;\r\n    background-color: #6777ef;\n}\n.nav-pills .nav-item .nav-link .badge[data-v-2307ab0a] {\r\n    padding: 5px 8px;\r\n    margin-left: 5px;\n}\n.nav .nav-item .nav-link .ion[data-v-2307ab0a], .nav .nav-item .nav-link .fas[data-v-2307ab0a], .nav .nav-item .nav-link .far[data-v-2307ab0a], .nav .nav-item .nav-link .fab[data-v-2307ab0a], .nav .nav-item .nav-link .fal[data-v-2307ab0a] {\r\n  margin-right: 3px;\r\n  font-size: 12px;\n}\r\n\r\n/* 3.10 Pagination */\n.page-item .page-link[data-v-2307ab0a] {\r\n  color: #6777ef;\r\n  border-radius: 3px;\r\n  margin: 0 3px;\n}\n.page-item.active .page-link[data-v-2307ab0a] {\r\n  background-color: #6777ef;\r\n  border-color: #6777ef;\n}\n.page-item.disabled .page-link[data-v-2307ab0a] {\r\n  border-color: transparent;\r\n  background-color: #f9fafe;\r\n  color: #6777ef;\r\n  opacity: .6;\n}\n.page-link[data-v-2307ab0a] {\r\n  border-color: transparent;\r\n  background-color: #f9fafe;\r\n  font-weight: 600;\n}\n.page-link[data-v-2307ab0a]:hover {\r\n    background-color: #6777ef;\r\n    color: #fff;\r\n    border-color: transparent;\n}\n.page-link[data-v-2307ab0a]:focus {\r\n    box-shadow: none;\n}\r\n\r\n/* 3.11 Badge */\n.badges .badge[data-v-2307ab0a] {\r\n  margin: 0 8px 10px 0;\n}\n.badge[data-v-2307ab0a] {\r\n  vertical-align: middle;\r\n  padding: 7px 12px;\r\n  font-weight: 600;\r\n  letter-spacing: .3px;\r\n  border-radius: 30px;\r\n  font-size: 12px;\n}\n.badge.badge-warning[data-v-2307ab0a] {\r\n    color: #fff;\n}\n.badge.badge-primary[data-v-2307ab0a] {\r\n    background-color: #6777ef;\n}\n.badge.badge-secondary[data-v-2307ab0a] {\r\n    background-color: #34395e;\n}\n.badge.badge-success[data-v-2307ab0a] {\r\n    background-color: #63ed7a;\n}\n.badge.badge-info[data-v-2307ab0a] {\r\n    background-color: #3abaf4;\n}\n.badge.badge-danger[data-v-2307ab0a] {\r\n    background-color: #fc544b;\n}\n.badge.badge-light[data-v-2307ab0a] {\r\n    background-color: #e3eaef;\r\n    color: #191d21;\n}\n.badge.badge-white[data-v-2307ab0a] {\r\n    background-color: #ffffff;\r\n    color: #191d21;\n}\n.badge.badge-dark[data-v-2307ab0a] {\r\n    background-color: #191d21;\n}\nh1 .badge[data-v-2307ab0a] {\r\n  font-size: 24px;\r\n  padding: 16px 21px;\n}\nh2 .badge[data-v-2307ab0a] {\r\n  font-size: 22px;\r\n  padding: 14px 19px;\n}\nh3 .badge[data-v-2307ab0a] {\r\n  font-size: 18px;\r\n  padding: 11px 16px;\n}\nh4 .badge[data-v-2307ab0a] {\r\n  font-size: 16px;\r\n  padding: 8px 13px;\n}\nh5 .badge[data-v-2307ab0a] {\r\n  font-size: 14px;\r\n  padding: 5px 10px;\n}\nh6 .badge[data-v-2307ab0a] {\r\n  font-size: 11px;\r\n  padding: 3px 8px;\n}\n.btn .badge[data-v-2307ab0a] {\r\n  margin-left: 5px;\r\n  padding: 4px 7px;\n}\n.btn .badge.badge-transparent[data-v-2307ab0a] {\r\n    background-color: rgba(255, 255, 255, 0.25);\r\n    color: #fff;\n}\r\n\r\n/* 3.12 Button */\n.buttons .btn[data-v-2307ab0a] {\r\n  margin: 0 8px 10px 0;\n}\n.btn[data-v-2307ab0a]:focus {\r\n  box-shadow: none !important;\r\n  outline: none;\n}\n.btn[data-v-2307ab0a]:active {\r\n  box-shadow: none !important;\r\n  outline: none;\n}\n.btn[data-v-2307ab0a]:active:focus {\r\n    box-shadow: none !important;\r\n    outline: none;\n}\n.btn.btn-icon-split i[data-v-2307ab0a], .dropdown-item.has-icon i[data-v-2307ab0a] {\r\n  text-align: center;\r\n  width: 15px;\r\n  font-size: 15px;\r\n  float: left;\r\n  margin-right: 10px;\n}\n.btn[data-v-2307ab0a] {\r\n  font-weight: 600;\r\n  font-size: 12px;\r\n  line-height: 24px;\r\n  padding: .3rem .8rem;\r\n  letter-spacing: .5px;\n}\n.btn.btn-icon-split[data-v-2307ab0a] {\r\n    position: relative;\n}\n.btn.btn-icon-split i[data-v-2307ab0a] {\r\n      position: absolute;\r\n      left: 0;\r\n      top: 0;\r\n      height: 100%;\r\n      width: 45px;\r\n      border-radius: 3px 0 0 3px;\r\n      line-height: 32px;\n}\n.btn.btn-icon-split div[data-v-2307ab0a] {\r\n      margin-left: 40px;\n}\n.btn.btn-icon-noflo-splitat[data-v-2307ab0a] {\r\n    display: table;\r\n    text-align: right;\n}\n.btn.btn-icon-noflo-splitat i[data-v-2307ab0a] {\r\n      float: none;\r\n      margin: 0;\r\n      display: table-cell;\r\n      vertical-align: middle;\r\n      width: 30%;\n}\n.btn.btn-icon-noflo-splitat div[data-v-2307ab0a] {\r\n      display: table-cell;\r\n      vertical-align: middle;\r\n      width: 70%;\r\n      text-align: left;\r\n      padding-left: 10px;\n}\n.btn[data-v-2307ab0a]:not(.btn-social):not(.btn-social-icon):active, .btn[data-v-2307ab0a]:not(.btn-social):not(.btn-social-icon):focus, .btn[data-v-2307ab0a]:not(.btn-social):not(.btn-social-icon):hover {\r\n    border-color: transparent !important;\r\n    background-color: white;\n}\n.btn > i[data-v-2307ab0a] {\r\n    margin-left: 0 !important;\n}\n.btn.btn-lg[data-v-2307ab0a] {\r\n    padding: .55rem 1.5rem;\r\n    font-size: 12px;\n}\n.btn.btn-lg.btn-icon-split i[data-v-2307ab0a] {\r\n      line-height: 42px;\n}\n.btn.btn-lg.btn-icon-split div[data-v-2307ab0a] {\r\n      margin-left: 25px;\n}\n.btn.btn-sm[data-v-2307ab0a] {\r\n    padding: .10rem .4rem;\r\n    font-size: 12px;\n}\n.btn.btn-icon .ion[data-v-2307ab0a], .btn.btn-icon .fas[data-v-2307ab0a], .btn.btn-icon .far[data-v-2307ab0a], .btn.btn-icon .fab[data-v-2307ab0a], .btn.btn-icon .fal[data-v-2307ab0a] {\r\n    margin-left: 0 !important;\r\n    font-size: 12px;\n}\n.btn.btn-icon.icon-left .ion[data-v-2307ab0a], .btn.btn-icon.icon-left .fas[data-v-2307ab0a], .btn.btn-icon.icon-left .far[data-v-2307ab0a], .btn.btn-icon.icon-left .fab[data-v-2307ab0a], .btn.btn-icon.icon-left .fal[data-v-2307ab0a] {\r\n    margin-right: 3px;\n}\n.btn.btn-icon.icon-right .ion[data-v-2307ab0a], .btn.btn-icon.icon-right .fas[data-v-2307ab0a], .btn.btn-icon.icon-right .far[data-v-2307ab0a], .btn.btn-icon.icon-right .fab[data-v-2307ab0a], .btn.btn-icon.icon-right .fal[data-v-2307ab0a] {\r\n    margin-left: 3px !important;\n}\n.btn-action[data-v-2307ab0a] {\r\n  color: #fff !important;\r\n  line-height: 25px;\r\n  font-size: 12px;\r\n  min-width: 35px;\r\n  min-height: 35px;\n}\n.btn-secondary[data-v-2307ab0a], .btn-secondary.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #e1e5e8;\r\n  background-color: #cdd3d8;\r\n  border-color: #cdd3d8;\r\n  color: #fff;\n}\n.btn-secondary[data-v-2307ab0a]:hover, .btn-secondary[data-v-2307ab0a]:focus, .btn-secondary[data-v-2307ab0a]:active, .btn-secondary.disabled[data-v-2307ab0a]:hover, .btn-secondary.disabled[data-v-2307ab0a]:focus, .btn-secondary.disabled[data-v-2307ab0a]:active {\r\n    background-color: #bfc6cd !important;\r\n    color: #fff !important;\n}\n.btn-outline-secondary[data-v-2307ab0a]:hover, .btn-outline-secondary[data-v-2307ab0a]:focus, .btn-outline-secondary[data-v-2307ab0a]:active, .btn-outline-secondary.disabled[data-v-2307ab0a]:hover, .btn-outline-secondary.disabled[data-v-2307ab0a]:focus, .btn-outline-secondary.disabled[data-v-2307ab0a]:active {\r\n  background-color: #cdd3d8 !important;\r\n  color: #fff !important;\n}\n.btn-success[data-v-2307ab0a], .btn-success.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #a8f5b4;\r\n  background-color: #63ed7a;\r\n  border-color: #63ed7a;\r\n  color: #fff;\n}\n.btn-success[data-v-2307ab0a]:hover, .btn-success[data-v-2307ab0a]:focus, .btn-success[data-v-2307ab0a]:active, .btn-success.disabled[data-v-2307ab0a]:hover, .btn-success.disabled[data-v-2307ab0a]:focus, .btn-success.disabled[data-v-2307ab0a]:active {\r\n    background-color: #4cea67 !important;\r\n    color: #fff !important;\n}\n.btn-outline-success[data-v-2307ab0a]:hover, .btn-outline-success[data-v-2307ab0a]:focus, .btn-outline-success[data-v-2307ab0a]:active, .btn-outline-success.disabled[data-v-2307ab0a]:hover, .btn-outline-success.disabled[data-v-2307ab0a]:focus, .btn-outline-success.disabled[data-v-2307ab0a]:active {\r\n  background-color: #63ed7a !important;\r\n  color: #fff !important;\n}\n.btn-danger[data-v-2307ab0a], .btn-danger.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #fd9b96;\r\n  background-color: #fc544b;\r\n  border-color: #fc544b;\r\n  color: #fff;\n}\n.btn-danger[data-v-2307ab0a]:hover, .btn-danger[data-v-2307ab0a]:focus, .btn-danger[data-v-2307ab0a]:active, .btn-danger.disabled[data-v-2307ab0a]:hover, .btn-danger.disabled[data-v-2307ab0a]:focus, .btn-danger.disabled[data-v-2307ab0a]:active {\r\n    background-color: #fb160a !important;\n}\n.btn-outline-danger[data-v-2307ab0a]:hover, .btn-outline-danger[data-v-2307ab0a]:focus, .btn-outline-danger[data-v-2307ab0a]:active, .btn-outline-danger.disabled[data-v-2307ab0a]:hover, .btn-outline-danger.disabled[data-v-2307ab0a]:focus, .btn-outline-danger.disabled[data-v-2307ab0a]:active {\r\n  background-color: #fb160a !important;\r\n  color: #fff !important;\n}\n.btn-dark[data-v-2307ab0a], .btn-dark.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #728394;\r\n  background-color: #191d21;\r\n  border-color: #191d21;\r\n  color: #fff;\n}\n.btn-dark[data-v-2307ab0a]:hover, .btn-dark[data-v-2307ab0a]:focus, .btn-dark[data-v-2307ab0a]:active, .btn-dark.disabled[data-v-2307ab0a]:hover, .btn-dark.disabled[data-v-2307ab0a]:focus, .btn-dark.disabled[data-v-2307ab0a]:active {\r\n    background-color: black !important;\n}\n.btn-outline-dark[data-v-2307ab0a]:hover, .btn-outline-dark[data-v-2307ab0a]:focus, .btn-outline-dark[data-v-2307ab0a]:active, .btn-outline-dark.disabled[data-v-2307ab0a]:hover, .btn-outline-dark.disabled[data-v-2307ab0a]:focus, .btn-outline-dark.disabled[data-v-2307ab0a]:active {\r\n  background-color: black !important;\r\n  color: #fff !important;\n}\n.btn-light[data-v-2307ab0a], .btn-light.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #e6ecf1;\r\n  background-color: #e3eaef;\r\n  border-color: #e3eaef;\r\n  color: #191d21;\n}\n.btn-light[data-v-2307ab0a]:hover, .btn-light[data-v-2307ab0a]:focus, .btn-light[data-v-2307ab0a]:active, .btn-light.disabled[data-v-2307ab0a]:hover, .btn-light.disabled[data-v-2307ab0a]:focus, .btn-light.disabled[data-v-2307ab0a]:active {\r\n    background-color: #c3d2dc !important;\n}\n.btn-outline-light[data-v-2307ab0a], .btn-outline-light.disabled[data-v-2307ab0a] {\r\n  border-color: #e3eaef;\r\n  color: #e3eaef;\n}\n.btn-outline-light[data-v-2307ab0a]:hover, .btn-outline-light[data-v-2307ab0a]:focus, .btn-outline-light[data-v-2307ab0a]:active, .btn-outline-light.disabled[data-v-2307ab0a]:hover, .btn-outline-light.disabled[data-v-2307ab0a]:focus, .btn-outline-light.disabled[data-v-2307ab0a]:active {\r\n    background-color: #e3eaef !important;\r\n    color: #fff !important;\n}\n.btn-warning[data-v-2307ab0a], .btn-warning.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #ffc473;\r\n  background-color: #ffa426;\r\n  border-color: #ffa426;\r\n  color: #fff;\n}\n.btn-warning[data-v-2307ab0a]:hover, .btn-warning[data-v-2307ab0a]:focus, .btn-warning[data-v-2307ab0a]:active, .btn-warning.disabled[data-v-2307ab0a]:hover, .btn-warning.disabled[data-v-2307ab0a]:focus, .btn-warning.disabled[data-v-2307ab0a]:active {\r\n    background-color: #ff990d !important;\r\n    color: #fff !important;\n}\n.btn-outline-warning[data-v-2307ab0a]:hover, .btn-outline-warning[data-v-2307ab0a]:focus, .btn-outline-warning[data-v-2307ab0a]:active, .btn-outline-warning.disabled[data-v-2307ab0a]:hover, .btn-outline-warning.disabled[data-v-2307ab0a]:focus, .btn-outline-warning.disabled[data-v-2307ab0a]:active {\r\n  background-color: #ffa426 !important;\r\n  color: #fff !important;\n}\n.btn-info[data-v-2307ab0a], .btn-info.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #82d3f8;\r\n  background-color: #3abaf4;\r\n  border-color: #3abaf4;\r\n  color: #fff;\n}\n.btn-info[data-v-2307ab0a]:hover, .btn-info[data-v-2307ab0a]:focus, .btn-info[data-v-2307ab0a]:active, .btn-info.disabled[data-v-2307ab0a]:hover, .btn-info.disabled[data-v-2307ab0a]:focus, .btn-info.disabled[data-v-2307ab0a]:active {\r\n    background-color: #0da8ee !important;\n}\n.btn-outline-info[data-v-2307ab0a]:hover, .btn-outline-info[data-v-2307ab0a]:focus, .btn-outline-info[data-v-2307ab0a]:active, .btn-outline-info.disabled[data-v-2307ab0a]:hover, .btn-outline-info.disabled[data-v-2307ab0a]:focus, .btn-outline-info.disabled[data-v-2307ab0a]:active {\r\n  background-color: #0da8ee !important;\r\n  color: #fff !important;\n}\n.btn-primary[data-v-2307ab0a], .btn-primary.disabled[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #acb5f6;\r\n  background-color: #6777ef;\r\n  border-color: #6777ef;\n}\n.btn-primary[data-v-2307ab0a]:focus, .btn-primary.disabled[data-v-2307ab0a]:focus {\r\n    background-color: #394eea !important;\n}\n.btn-primary[data-v-2307ab0a]:focus:active, .btn-primary.disabled[data-v-2307ab0a]:focus:active {\r\n      background-color: #394eea !important;\n}\n.btn-primary[data-v-2307ab0a]:active, .btn-primary[data-v-2307ab0a]:hover, .btn-primary.disabled[data-v-2307ab0a]:active, .btn-primary.disabled[data-v-2307ab0a]:hover {\r\n    background-color: #394eea !important;\n}\n.btn-outline-primary[data-v-2307ab0a], .btn-outline-primary.disabled[data-v-2307ab0a] {\r\n  border-color: #6777ef;\r\n  color: #6777ef;\n}\n.btn-outline-primary[data-v-2307ab0a]:hover, .btn-outline-primary[data-v-2307ab0a]:focus, .btn-outline-primary[data-v-2307ab0a]:active, .btn-outline-primary.disabled[data-v-2307ab0a]:hover, .btn-outline-primary.disabled[data-v-2307ab0a]:focus, .btn-outline-primary.disabled[data-v-2307ab0a]:active {\r\n    background-color: #6777ef !important;\r\n    color: #fff;\n}\n.btn-outline-white[data-v-2307ab0a], .btn-outline-white.disabled[data-v-2307ab0a] {\r\n  border-color: #fff;\r\n  color: #fff;\n}\n.btn-outline-white[data-v-2307ab0a]:hover, .btn-outline-white[data-v-2307ab0a]:focus, .btn-outline-white[data-v-2307ab0a]:active, .btn-outline-white.disabled[data-v-2307ab0a]:hover, .btn-outline-white.disabled[data-v-2307ab0a]:focus, .btn-outline-white.disabled[data-v-2307ab0a]:active {\r\n    background-color: #fff;\r\n    color: #6777ef;\n}\n.btn-round[data-v-2307ab0a] {\r\n  border-radius: 30px;\r\n  padding-left: 34px;\r\n  padding-right: 34px;\n}\n.btn-social-icon[data-v-2307ab0a], .btn-social[data-v-2307ab0a] {\r\n  border: none;\r\n  border-radius: 3px;\n}\n.btn-social-icon[data-v-2307ab0a] {\r\n  color: #fff !important;\r\n  padding-left: 18px;\r\n  padding-right: 18px;\n}\n.btn-social-icon[data-v-2307ab0a] > :first-child {\r\n    font-size: 16px;\n}\n.btn-social[data-v-2307ab0a] {\r\n  padding: 12px 12px 12px 50px;\r\n  color: #fff !important;\r\n  font-weight: 500;\n}\n.btn-social[data-v-2307ab0a] > :first-child {\r\n    width: 55px;\r\n    line-height: 50px;\r\n    border-right: none;\n}\n.btn-reddit[data-v-2307ab0a] {\r\n  color: #000 !important;\n}\n.btn-group .btn.active[data-v-2307ab0a] {\r\n  background-color: #6777ef;\r\n  color: #fff;\n}\n.btn-progress[data-v-2307ab0a] {\r\n  position: relative;\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: 30px;\r\n  color: transparent !important;\r\n  pointer-events: none;\n}\r\n\r\n/* 3.13 Media */\n.media .media-right[data-v-2307ab0a] {\r\n  float: right;\r\n  color: #6777ef;\r\n  font-weight: 600;\r\n  font-size: 16px;\n}\n.media .media-icon[data-v-2307ab0a] {\r\n  font-size: 20px;\r\n  margin-right: 15px;\r\n  line-height: 1;\n}\n.media .media-title[data-v-2307ab0a] {\r\n  margin-top: 0;\r\n  margin-bottom: 5px;\r\n  font-weight: 600;\r\n  font-size: 15px;\r\n  color: #34395e;\n}\n.media .media-title a[data-v-2307ab0a] {\r\n    font-weight: inherit;\r\n    color: #000;\n}\n.media .media-description[data-v-2307ab0a] {\r\n  line-height: 24px;\r\n  color: #34395e;\n}\n.media .media-links[data-v-2307ab0a] {\r\n  margin-top: 10px;\n}\n.media .media-links a[data-v-2307ab0a] {\r\n    font-size: 12px;\r\n    color: #999;\n}\n.media .media-progressbar[data-v-2307ab0a] {\r\n  flex: 1;\n}\n.media .media-progressbar .progress-text[data-v-2307ab0a] {\r\n    font-size: 12px;\r\n    font-weight: 600;\r\n    margin-bottom: 5px;\r\n    color: #34395e;\n}\n.media .media-cta[data-v-2307ab0a] {\r\n  margin-left: 40px;\n}\n.media .media-cta .btn[data-v-2307ab0a] {\r\n    padding: 5px 15px;\r\n    border-radius: 30px;\r\n    font-size: 12px;\n}\n.media .media-items[data-v-2307ab0a] {\r\n  display: flex;\n}\n.media .media-items .media-item[data-v-2307ab0a] {\r\n    flex: 1;\r\n    text-align: center;\r\n    padding: 0 15px;\n}\n.media .media-items .media-item .media-label[data-v-2307ab0a] {\r\n      font-weight: 600;\r\n      font-size: 12px;\r\n      color: #34395e;\r\n      letter-spacing: .5px;\n}\n.media .media-items .media-item .media-value[data-v-2307ab0a] {\r\n      font-weight: 700;\r\n      font-size: 18px;\n}\r\n\r\n/* 3.14 Breadcrumb */\n.breadcrumb[data-v-2307ab0a] {\r\n  background-color: #f9f9f9;\n}\n.breadcrumb .breadcrumb-item[data-v-2307ab0a] {\r\n    line-height: 1;\n}\n.breadcrumb .breadcrumb-item i[data-v-2307ab0a] {\r\n      margin-right: 5px;\n}\r\n\r\n/* 3.15 Accordion */\n.accordion[data-v-2307ab0a] {\r\n  display: inline-block;\r\n  width: 100%;\r\n  margin-bottom: 10px;\n}\n.accordion .accordion-header[data-v-2307ab0a], .accordion .accordion-body[data-v-2307ab0a] {\r\n    padding: 10px 15px;\n}\n.accordion .accordion-header[data-v-2307ab0a] {\r\n    background-color: #f9f9f9;\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n    transition: all .5s;\n}\n.accordion .accordion-header h4[data-v-2307ab0a] {\r\n      line-height: 1;\r\n      margin: 0;\r\n      font-size: 14px;\r\n      font-weight: 700;\n}\n.accordion .accordion-header[data-v-2307ab0a]:hover {\r\n      background-color: #f2f2f2;\n}\n.accordion .accordion-header[aria-expanded=\"true\"][data-v-2307ab0a] {\r\n      box-shadow: 0 2px 6px #acb5f6;\r\n      background-color: #6777ef;\r\n      color: #fff;\n}\n.accordion .accordion-body[data-v-2307ab0a] {\r\n    line-height: 24px;\n}\r\n\r\n/* 3.16 Popover */\n.popover[data-v-2307ab0a] {\r\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n  border-color: transparent;\n}\n.popover .manual-arrow[data-v-2307ab0a] {\r\n    position: absolute;\r\n    bottom: -15px;\r\n    font-size: 26px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    color: #fff;\n}\n.bs-popover-auto[x-placement^=left] .arrow[data-v-2307ab0a]::before, .bs-popover-left .arrow[data-v-2307ab0a]::before {\r\n  border-left-color: #f2f2f2;\n}\n.bs-popover-auto[x-placement^=bottom] .arrow[data-v-2307ab0a]::before, .bs-popover-bottom .arrow[data-v-2307ab0a]::before {\r\n  border-bottom-color: #f2f2f2;\n}\n.bs-popover-auto[x-placement^=top] .arrow[data-v-2307ab0a]::before, .bs-popover-top .arrow[data-v-2307ab0a]::before {\r\n  border-top-color: #f2f2f2;\n}\n.bs-popover-auto[x-placement^=right] .arrow[data-v-2307ab0a]::before, .bs-popover-right .arrow[data-v-2307ab0a]::before {\r\n  border-right-color: #f2f2f2;\n}\n.popover .popover-header[data-v-2307ab0a] {\r\n  background-color: transparent;\r\n  border: none;\r\n  padding-bottom: 0;\r\n  padding-top: 10px;\n}\n.popover .popover-body[data-v-2307ab0a] {\r\n  padding: 15px;\r\n  line-height: 24px;\n}\r\n\r\n/* 3.17 Grid */\n.sm-gutters[data-v-2307ab0a] {\r\n  margin-left: -5px;\r\n  margin-right: -5px;\n}\n.sm-gutters > .col[data-v-2307ab0a], .sm-gutters > [class*=col-][data-v-2307ab0a] {\r\n    padding-left: 5px;\r\n    padding-right: 5px;\n}\r\n\r\n/* 3.18 Navbar */\n.navbar[data-v-2307ab0a] {\r\n  height: 70px;\r\n  left: 250px;\r\n  right: 5px;\r\n  position: absolute;\r\n  z-index: 890;\r\n  background-color: transparent;\n}\n.navbar.active[data-v-2307ab0a] {\r\n    background-color: #6777ef;\r\n    box-shadow: rgba(103, 119, 239, 0.2) rgba(0, 0, 0, 0.03);\n}\n.navbar-bg[data-v-2307ab0a] {\r\n  content: ' ';\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 115px;\r\n  background-color: #6777ef;\r\n  z-index: -1;\n}\n.navbar[data-v-2307ab0a] {\r\n  align-items: center;\n}\n.navbar .navbar-brand[data-v-2307ab0a] {\r\n    color: #fff;\r\n    text-transform: uppercase;\r\n    letter-spacing: 3px;\r\n    font-weight: 700;\n}\n.navbar .form-inline .form-control[data-v-2307ab0a] {\r\n    background-color: #fff;\r\n    border-color: transparent;\r\n    padding-left: 20px;\r\n    padding-right: 0;\r\n    margin-right: -6px;\r\n    min-height: 46px;\r\n    font-weight: 500;\r\n    border-radius: 3px 0 0 3px;\r\n    transition: all 1s;\n}\n.navbar .form-inline .form-control[data-v-2307ab0a]:focus, .navbar .form-inline .form-control:focus + .btn[data-v-2307ab0a] {\r\n      position: relative;\r\n      z-index: 9001;\n}\n.navbar .form-inline .form-control:focus + .btn + .search-backdrop[data-v-2307ab0a] {\r\n      opacity: .6;\r\n      visibility: visible;\n}\n.navbar .form-inline .form-control:focus + .btn + .search-backdrop + .search-result[data-v-2307ab0a] {\r\n      opacity: 1;\r\n      visibility: visible;\r\n      top: 80px;\n}\n.navbar .form-inline .btn[data-v-2307ab0a] {\r\n    border-radius: 0 3px 3px 0;\r\n    background-color: #fff;\r\n    padding: 9px 15px 9px 15px;\r\n    border-color: transparent;\n}\n.navbar .form-inline .search-backdrop[data-v-2307ab0a] {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 9000;\r\n    background-color: #000;\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    transition: all .5s;\n}\n.navbar .form-inline .search-result[data-v-2307ab0a] {\r\n    position: absolute;\r\n    z-index: 9002;\r\n    top: 100px;\r\n    background-color: #fff;\r\n    border-radius: 3px;\r\n    width: 450px;\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    transition: all .5s;\n}\n.navbar .form-inline .search-result[data-v-2307ab0a]:before {\r\n      position: absolute;\r\n      top: -26px;\r\n      left: 34px;\r\n      content: '\\F0D8';\r\n      font-weight: 600;\r\n      font-family: 'Font Awesome 5 Free';\r\n      color: #fff;\r\n      font-size: 30px;\n}\n.navbar .form-inline .search-result .search-header[data-v-2307ab0a] {\r\n      padding: 13px 18px 2px 18px;\r\n      text-transform: uppercase;\r\n      letter-spacing: 1.3px;\r\n      font-weight: 600;\r\n      font-size: 10px;\r\n      color: #bcc1c6;\n}\n.navbar .form-inline .search-result .search-item[data-v-2307ab0a] {\r\n      display: flex;\n}\n.navbar .form-inline .search-result .search-item a[data-v-2307ab0a] {\r\n        display: block;\r\n        padding: 13px 18px;\r\n        text-decoration: none;\r\n        color: #34395e;\r\n        font-weight: 600;\r\n        display: flex;\r\n        align-items: center;\n}\n.navbar .form-inline .search-result .search-item a[data-v-2307ab0a]:hover {\r\n          background-color: #fbfbff;\n}\n.navbar .form-inline .search-result .search-item a[data-v-2307ab0a]:not(.search-close) {\r\n          width: 100%;\n}\n.navbar .form-inline .search-result .search-item a i[data-v-2307ab0a] {\r\n          margin-left: 0 !important;\n}\n.navbar .form-inline .search-result .search-item .search-icon[data-v-2307ab0a] {\r\n        width: 35px;\r\n        height: 35px;\r\n        line-height: 35px;\r\n        text-align: center;\r\n        border-radius: 50%;\n}\n.navbar .active .nav-link[data-v-2307ab0a] {\r\n    color: #fff;\r\n    font-weight: 700;\n}\n.navbar .navbar-text[data-v-2307ab0a] {\r\n    color: #fff;\n}\n.navbar .nav-link[data-v-2307ab0a] {\r\n    color: #f2f2f2;\r\n    padding-left: 15px !important;\r\n    padding-right: 15px !important;\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n    height: 100%;\n}\n.navbar .nav-link.nav-link-lg div[data-v-2307ab0a] {\r\n      margin-top: 3px;\n}\n.navbar .nav-link.nav-link-lg i[data-v-2307ab0a] {\r\n      margin-left: 0 !important;\r\n      font-size: 18px;\r\n      line-height: 32px;\n}\n.navbar .nav-link.nav-link-user[data-v-2307ab0a] {\r\n      color: #fff;\r\n      padding-top: 4px;\r\n      padding-bottom: 4px;\r\n      font-weight: 600;\n}\n.navbar .nav-link.nav-link-user img[data-v-2307ab0a] {\r\n        width: 30px;\n}\n.navbar .nav-link.nav-link-img[data-v-2307ab0a] {\r\n      padding-top: 4px;\r\n      padding-bottom: 4px;\r\n      border-radius: 50%;\r\n      overflow: hidden;\n}\n.navbar .nav-link.nav-link-img .flag-icon[data-v-2307ab0a] {\r\n        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n        border-radius: 50%;\r\n        line-height: 18px;\r\n        height: 22px;\r\n        width: 22px;\r\n        background-size: cover;\n}\n.remove-caret[data-v-2307ab0a]:after {\r\n  display: none;\n}\n.navbar .nav-link[data-v-2307ab0a]:hover {\r\n  color: #fff;\n}\n.navbar .nav-link.disabled[data-v-2307ab0a] {\r\n  color: #fff;\r\n  opacity: .6;\n}\n.nav-collapse[data-v-2307ab0a] {\r\n  display: flex;\n}\n@media (max-width: 575.98px) {\nbody.search-show .navbar .form-inline .search-element[data-v-2307ab0a] {\r\n    display: block;\n}\n.navbar .form-inline .search-element[data-v-2307ab0a] {\r\n    position: absolute;\r\n    top: 10px;\r\n    left: 10px;\r\n    right: 10px;\r\n    z-index: 892;\r\n    display: none;\n}\n.navbar .form-inline .search-element .form-control[data-v-2307ab0a] {\r\n      float: left;\r\n      border-radius: 3px 0 0 3px;\r\n      width: calc(100% - 43px) !important;\n}\n.navbar .form-inline .search-element .btn[data-v-2307ab0a] {\r\n      margin-top: 1px;\r\n      border-radius: 0 3px 3px 0;\n}\n.navbar .form-inline .search-result[data-v-2307ab0a] {\r\n    width: 100%;\n}\n.navbar .form-inline .search-backdrop[data-v-2307ab0a] {\r\n    display: none;\n}\n.navbar .nav-link.nav-link-lg div[data-v-2307ab0a] {\r\n    display: none;\n}\n}\n@media (min-width: 576px) and (max-width: 767.98px) {\n.navbar .form-inline .search-element[data-v-2307ab0a] {\r\n    display: block;\n}\n}\n@media (min-width: 768px) and (max-width: 991.98px) {\n.collapse[data-v-2307ab0a] {\r\n    position: relative;\n}\n.collapse .navbar-nav[data-v-2307ab0a] {\r\n      position: absolute;\n}\n}\n@media (max-width: 1024px) {\n.nav-collapse[data-v-2307ab0a] {\r\n    position: relative;\n}\n.nav-collapse .navbar-nav[data-v-2307ab0a] {\r\n      box-shadow: 0 0 30px rgba(0, 0, 0, 0.03);\r\n      position: absolute;\r\n      top: 40px;\r\n      left: 0;\r\n      width: 200px;\r\n      display: none;\n}\n.nav-collapse .navbar-nav.show[data-v-2307ab0a] {\r\n        display: block;\n}\n.nav-collapse .navbar-nav .nav-item[data-v-2307ab0a]:first-child {\r\n        border-radius: 3px 3px 0 0;\n}\n.nav-collapse .navbar-nav .nav-item[data-v-2307ab0a]:last-child {\r\n        border-radius: 0 0 3px 3px;\n}\n.nav-collapse .navbar-nav .nav-item .nav-link[data-v-2307ab0a] {\r\n        background-color: #fff;\r\n        color: #6c757d;\n}\n.nav-collapse .navbar-nav .nav-item .nav-link[data-v-2307ab0a]:hover {\r\n          background-color: #fcfcfd;\r\n          color: #6777ef;\n}\n.nav-collapse .navbar-nav .nav-item:focus > a[data-v-2307ab0a], .nav-collapse .navbar-nav .nav-item.active > a[data-v-2307ab0a] {\r\n        background-color: #6777ef;\r\n        color: #fff;\n}\n.navbar[data-v-2307ab0a] {\r\n    left: 5px;\r\n    right: 0;\n}\n.navbar .dropdown-menu[data-v-2307ab0a] {\r\n      position: absolute;\n}\n.navbar .navbar-nav[data-v-2307ab0a] {\r\n      flex-direction: row;\n}\n.navbar-expand-lg .navbar-nav .dropdown-menu-right[data-v-2307ab0a] {\r\n    right: 0;\r\n    left: auto;\n}\n}\r\n/* 3.19 Dropdown */\n.dropdown-item.has-icon i[data-v-2307ab0a] {\r\n  margin-top: -1px;\r\n  font-size: 13px;\n}\n.dropdown-menu[data-v-2307ab0a] {\r\n  box-shadow: 0 0 30px rgba(0, 0, 0, 0.03);\r\n  border: none;\r\n  width: 200px;\n}\n.dropdown-menu.show[data-v-2307ab0a] {\r\n    display: block !important;\n}\n.dropdown-menu a[data-v-2307ab0a] {\r\n    font-size: 13px;\n}\n.dropdown-menu .dropdown-title[data-v-2307ab0a] {\r\n    text-transform: uppercase;\r\n    font-size: 10px;\r\n    letter-spacing: 1.5px;\r\n    font-weight: 700;\r\n    color: #191d21 !important;\r\n    padding: 10px 20px;\r\n    line-height: 20px;\r\n    color: #98a6ad;\n}\n.dropdown-menu.dropdown-menu-sm a[data-v-2307ab0a] {\r\n    font-size: 14px;\r\n    letter-spacing: normal;\r\n    padding: 10px 20px;\r\n    color: #6c757d;\n}\na.dropdown-item[data-v-2307ab0a] {\r\n  padding: 10px 20px;\r\n  font-weight: 500;\r\n  line-height: 1.2;\n}\na.dropdown-item[data-v-2307ab0a]:focus, a.dropdown-item[data-v-2307ab0a]:active, a.dropdown-item.active[data-v-2307ab0a] {\r\n    background-color: #6777ef;\r\n    color: #fff !important;\n}\n.dropdown-divider[data-v-2307ab0a] {\r\n  border-top-color: #f9f9f9;\n}\n.dropdown-list[data-v-2307ab0a] {\r\n  width: 350px;\r\n  padding: 0;\n}\n.dropdown-list .dropdown-item[data-v-2307ab0a] {\r\n    display: inline-block;\r\n    width: 100%;\r\n    padding-top: 15px;\r\n    padding-bottom: 15px;\r\n    font-size: 13px;\r\n    border-bottom: 1px solid #f9f9f9;\n}\n.dropdown-list .dropdown-item.dropdown-item-header[data-v-2307ab0a]:hover {\r\n      background-color: transparent;\n}\n.dropdown-list .dropdown-item .time[data-v-2307ab0a] {\r\n      margin-top: 10px;\r\n      font-weight: 600;\r\n      text-transform: uppercase;\r\n      font-size: 10px;\r\n      letter-spacing: .5px;\n}\n.dropdown-list .dropdown-item .dropdown-item-avatar[data-v-2307ab0a] {\r\n      float: left;\r\n      width: 40px;\r\n      text-align: right;\r\n      position: relative;\n}\n.dropdown-list .dropdown-item .dropdown-item-avatar img[data-v-2307ab0a] {\r\n        width: 100%;\n}\n.dropdown-list .dropdown-item .dropdown-item-avatar .is-online[data-v-2307ab0a] {\r\n        position: absolute;\r\n        bottom: 0;\r\n        right: 0;\n}\n.dropdown-list .dropdown-item .dropdown-item-desc[data-v-2307ab0a] {\r\n      line-height: 24px;\r\n      white-space: normal;\r\n      color: #34395e;\r\n      margin-left: 60px;\n}\n.dropdown-list .dropdown-item .dropdown-item-desc b[data-v-2307ab0a] {\r\n        font-weight: 600;\r\n        color: #666;\n}\n.dropdown-list .dropdown-item .dropdown-item-desc p[data-v-2307ab0a] {\r\n        margin-bottom: 0;\n}\n.dropdown-list .dropdown-item[data-v-2307ab0a]:focus {\r\n      background-color: #6777ef;\n}\n.dropdown-list .dropdown-item:focus .dropdown-item-desc[data-v-2307ab0a] {\r\n        color: #fff !important;\n}\n.dropdown-list .dropdown-item:focus .dropdown-item-desc b[data-v-2307ab0a] {\r\n          color: #fff !important;\n}\n.dropdown-list .dropdown-item.dropdown-item-unread:active .dropdown-item-desc[data-v-2307ab0a] {\r\n      color: #6c757d;\n}\n.dropdown-list .dropdown-item.dropdown-item-unread:active .dropdown-item-desc b[data-v-2307ab0a] {\r\n        color: #6c757d;\n}\n.dropdown-list .dropdown-item:active .dropdown-item-desc[data-v-2307ab0a] {\r\n      color: #fff;\n}\n.dropdown-list .dropdown-item:active .dropdown-item-desc b[data-v-2307ab0a] {\r\n        color: #fff;\n}\n.dropdown-list .dropdown-item.dropdown-item-unread[data-v-2307ab0a] {\r\n      background-color: #fbfbfb;\r\n      border-bottom-color: #f2f2f2;\n}\n.dropdown-list .dropdown-item.dropdown-item-unread:focus .dropdown-item-desc[data-v-2307ab0a] {\r\n        color: #6c757d !important;\n}\n.dropdown-list .dropdown-item.dropdown-item-unread:focus .dropdown-item-desc b[data-v-2307ab0a] {\r\n          color: #6c757d !important;\n}\n.dropdown-list .dropdown-footer[data-v-2307ab0a],\r\n  .dropdown-list .dropdown-header[data-v-2307ab0a] {\r\n    letter-spacing: .5px;\r\n    font-weight: 600;\r\n    padding: 15px;\n}\n.dropdown-list .dropdown-footer a[data-v-2307ab0a],\r\n    .dropdown-list .dropdown-header a[data-v-2307ab0a] {\r\n      font-weight: 600;\n}\n.dropdown-list .dropdown-list-content[data-v-2307ab0a] {\r\n    height: 350px;\r\n    overflow: hidden;\n}\n.dropdown-list .dropdown-list-content[data-v-2307ab0a]:not(.is-end):after {\r\n      content: ' ';\r\n      position: absolute;\r\n      bottom: 46px;\r\n      left: 0;\r\n      width: 100%;\r\n      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8));\r\n      height: 60px;\n}\n.dropdown-list .dropdown-list-icons .dropdown-item[data-v-2307ab0a] {\r\n    display: flex;\n}\n.dropdown-list .dropdown-list-icons .dropdown-item .dropdown-item-icon[data-v-2307ab0a] {\r\n      flex-shrink: 0;\r\n      border-radius: 50%;\r\n      width: 40px;\r\n      height: 40px;\r\n      line-height: 42px;\r\n      text-align: center;\n}\n.dropdown-list .dropdown-list-icons .dropdown-item .dropdown-item-icon i[data-v-2307ab0a] {\r\n        margin: 0;\n}\n.dropdown-list .dropdown-list-icons .dropdown-item .dropdown-item-desc[data-v-2307ab0a] {\r\n      margin-left: 15px;\r\n      line-height: 20px;\n}\n.dropdown-list .dropdown-list-icons .dropdown-item .dropdown-item-desc .time[data-v-2307ab0a] {\r\n        margin-top: 5px;\n}\n.dropdown-flag .dropdown-item[data-v-2307ab0a] {\r\n  font-weight: 600;\n}\n.dropdown-flag .dropdown-item .flag-icon[data-v-2307ab0a] {\r\n    width: 20px;\r\n    height: 13px;\r\n    margin-right: 7px;\r\n    margin-top: -6px;\n}\n.dropdown-flag .dropdown-item.active[data-v-2307ab0a] {\r\n    background-color: #6777ef;\r\n    color: #fff;\n}\n@media (max-width: 575.98px) {\n.dropdown-list-toggle[data-v-2307ab0a] {\r\n    position: static;\n}\n.dropdown-list-toggle .dropdown-list[data-v-2307ab0a] {\r\n      left: 10px !important;\r\n      width: calc(100% - 20px);\n}\n}\r\n/* 3.20 Dropdown */\n.tab-content.no-padding > .tab-pane[data-v-2307ab0a] {\r\n  padding: 0;\n}\n.tab-content > .tab-pane[data-v-2307ab0a] {\r\n  line-height: 28px;\n}\r\n\r\n/* 3.21 Progress Bar */\n.progress-bar[data-v-2307ab0a] {\r\n  background-color: #6777ef;\n}\r\n\r\n/* 3.22 Jumbotron */\n.jumbotron[data-v-2307ab0a] {\r\n  background-color: #e3eaef;\n}\r\n\r\n/* 3.23 Carousel */\n.carousel .carousel-caption p[data-v-2307ab0a] {\r\n  font-size: 13px;\r\n  line-height: 24px;\n}\r\n\r\n/* 4. Theme Style */\r\n/* 4.1 Misc */\r\n/* nunito-regular - latin */\r\n\r\n/* nunito-600 - latin */\n[data-v-2307ab0a]:root {\r\n  /* Colors */\r\n  --primary: color(primary);\r\n  --secondary: color(fontdark);\r\n  --success: color(success);\r\n  --info: color(info);\r\n  --warning: color(warning);\r\n  --danger: color(danger);\r\n  --light: color(light);\r\n  --dark: color(dark);\n}\nbody[data-v-2307ab0a] {\r\n  background-color: #fafdfb;\r\n  font-size: 14px;\r\n  font-weight: 400;\r\n  font-family: 'Nunito', 'Segoe UI', arial;\r\n  color: #6c757d;\n}\na.bb[data-v-2307ab0a] {\r\n  text-decoration: none;\r\n  border-bottom: 1px solid #6777ef;\r\n  padding-bottom: 1px;\n}\n.form-divider[data-v-2307ab0a] {\r\n  display: inline-block;\r\n  width: 100%;\r\n  margin: 10px 0;\r\n  font-size: 16px;\r\n  font-weight: 600;\n}\n.ui-sortable-handle[data-v-2307ab0a],\r\n.sort-handler[data-v-2307ab0a] {\r\n  cursor: move;\n}\n.text-job[data-v-2307ab0a] {\r\n  font-size: 10px;\r\n  text-transform: uppercase;\r\n  letter-spacing: 1px;\r\n  font-weight: 700;\r\n  color: #34395e;\n}\n.text-time[data-v-2307ab0a] {\r\n  font-size: 12px;\r\n  color: #666;\r\n  font-weight: 500;\r\n  margin-bottom: 10px;\n}\n.bullet[data-v-2307ab0a], .slash[data-v-2307ab0a] {\r\n  display: inline;\r\n  margin: 0 4px;\n}\n.bullet[data-v-2307ab0a]:after {\r\n  content: '\\2022';\n}\n.slash[data-v-2307ab0a]:after {\r\n  content: '/';\n}\n.login-brand[data-v-2307ab0a] {\r\n  margin: 20px 0;\r\n  margin-bottom: 40px;\r\n  font-size: 24px;\r\n  text-transform: uppercase;\r\n  letter-spacing: 4px;\r\n  color: #666;\r\n  text-align: center;\n}\n.font-weight-600[data-v-2307ab0a] {\r\n  font-weight: 600 !important;\n}\n.budget-price[data-v-2307ab0a] {\r\n  display: inline-block;\r\n  width: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n  margin-bottom: 3px;\n}\n.budget-price .budget-price-square[data-v-2307ab0a] {\r\n    width: 15px;\r\n    height: 3px;\r\n    background-color: #f9f9f9;\n}\n.budget-price .budget-price-label[data-v-2307ab0a] {\r\n    font-size: 12px;\r\n    font-weight: 600;\r\n    margin-left: 5px;\n}\n.gradient-bottom[data-v-2307ab0a] {\r\n  position: relative;\n}\n.gradient-bottom[data-v-2307ab0a]:after {\r\n    content: ' ';\r\n    position: absolute;\r\n    bottom: 41px;\r\n    left: 0;\r\n    width: 100%;\r\n    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8));\r\n    height: 60px;\n}\n.text-small[data-v-2307ab0a] {\r\n  font-size: 12px;\r\n  line-height: 20px;\n}\n.text-title[data-v-2307ab0a] {\r\n  font-size: 14px;\r\n  color: #34395e;\r\n  font-weight: 600;\n}\n.img-shadow[data-v-2307ab0a] {\r\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\n}\n.colors[data-v-2307ab0a] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin: 0 -5px;\n}\n.colors .color[data-v-2307ab0a] {\r\n    border-radius: 3px;\r\n    width: calc((100% / 4) - 10px);\r\n    padding: 10px;\r\n    height: 60px;\r\n    line-height: 40px;\r\n    text-align: center;\r\n    margin: 5px;\n}\nblockquote[data-v-2307ab0a] {\r\n  padding: 20px;\r\n  padding-left: 40px;\r\n  font-style: oblique;\r\n  background-color: #f9f9f9;\r\n  border-radius: 3px;\r\n  position: relative;\r\n  font-family: 'Time new Romans';\r\n  font-size: 16px;\r\n  letter-spacing: .3px;\n}\nblockquote[data-v-2307ab0a]:before {\r\n    content: '\"';\r\n    font-size: 30px;\r\n    position: absolute;\r\n    top: 10px;\r\n    left: 20px;\r\n    opacity: .2;\n}\nblockquote .blockquote-footer[data-v-2307ab0a] {\r\n    margin-top: 10px;\n}\n.bg-whitesmoke[data-v-2307ab0a] {\r\n  background-color: #f7f9f9 !important;\n}\n.ion[data-v-2307ab0a] {\r\n  font-size: 15px;\n}\n.fas[data-v-2307ab0a], .far[data-v-2307ab0a], .fab[data-v-2307ab0a], .fal[data-v-2307ab0a] {\r\n  font-size: 13px;\n}\n#visitorMap[data-v-2307ab0a] {\r\n  height: 210px;\n}\n.sidebar-gone-show[data-v-2307ab0a] {\r\n  display: none !important;\n}\npre[data-v-2307ab0a] {\r\n  border-radius: 3px;\n}\n.circle-step[data-v-2307ab0a] {\r\n  display: flex;\r\n  margin-bottom: 10px;\n}\n.circle-step .circle-content[data-v-2307ab0a] {\r\n    margin-top: 3px;\r\n    margin-left: 13px;\n}\n.circle-step .circle[data-v-2307ab0a] {\r\n    border-width: 2px;\r\n    border-style: solid;\r\n    border-radius: 50%;\r\n    display: inline-block;\r\n    width: 32px;\r\n    height: 32px;\r\n    line-height: 30px;\r\n    font-size: 11px;\r\n    text-align: center;\n}\n.circle-step .circle.circle-primary[data-v-2307ab0a] {\r\n      border-color: #6777ef;\r\n      color: #6777ef;\n}\n.pe-none[data-v-2307ab0a] {\r\n  pointer-events: none;\n}\n.contact-map[data-v-2307ab0a] {\r\n  width: 100%;\r\n  height: 100%;\r\n  min-height: 400px;\n}\n#visitorMap2[data-v-2307ab0a],\r\n#visitorMap3[data-v-2307ab0a] {\r\n  height: 350px;\n}\n.shadow-primary[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #acb5f6;\n}\n.shadow-secondary[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #e1e5e8;\n}\n.shadow-success[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #a8f5b4;\n}\n.shadow-warning[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #ffc473;\n}\n.shadow-danger[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #fd9b96;\n}\n.shadow-info[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #82d3f8;\n}\n.shadow-light[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #e6ecf1;\n}\n.shadow-dark[data-v-2307ab0a] {\r\n  box-shadow: 0 2px 6px #728394;\n}\n.is-online[data-v-2307ab0a] {\r\n  width: 10px;\r\n  height: 10px;\r\n  background-color: #63ed7a;\r\n  border-radius: 50%;\r\n  display: inline-block;\n}\n.gutters-xs[data-v-2307ab0a] {\r\n  margin-right: -0.25rem;\r\n  margin-left: -0.25rem;\n}\n.gutters-xs > .col[data-v-2307ab0a],\r\n.gutters-xs > [class*=\"col-\"][data-v-2307ab0a] {\r\n  padding-right: 0.25rem;\r\n  padding-left: 0.25rem;\n}\n.beep[data-v-2307ab0a] {\r\n  position: relative;\n}\n.beep[data-v-2307ab0a]:after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 2px;\r\n    right: 8px;\r\n    width: 7px;\r\n    height: 7px;\r\n    background-color: #ffa426;\r\n    border-radius: 50%;\r\n    -webkit-animation: pulsate-data-v-2307ab0a 1s ease-out;\r\n            animation: pulsate-data-v-2307ab0a 1s ease-out;\r\n    -webkit-animation-iteration-count: infinite;\r\n            animation-iteration-count: infinite;\r\n    opacity: 1;\n}\n.beep.beep-sidebar[data-v-2307ab0a]:after {\r\n    position: static;\r\n    margin-left: 10px;\n}\n@media (max-width: 575.98px) {\n.fc-overflow[data-v-2307ab0a] {\r\n    width: 100%;\r\n    overflow: auto;\n}\n.fc-overflow #myEvent[data-v-2307ab0a] {\r\n      width: 800px;\n}\n.ionicons li[data-v-2307ab0a] {\r\n    width: calc(100% / 4);\n}\n.icon-wrap[data-v-2307ab0a] {\r\n    width: 100%;\n}\n}\r\n/* 4.2 Section */\n.section[data-v-2307ab0a] {\r\n  position: relative;\r\n  z-index: 1;\n}\n.section > *[data-v-2307ab0a]:first-child {\r\n    margin-top: -7px;\n}\n.section .section-header[data-v-2307ab0a] {\r\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n    background-color: #fff;\r\n    border-radius: 3px;\r\n    border: none;\r\n    position: relative;\r\n    margin-bottom: 30px;\r\n    padding: 20px;\r\n    display: flex;\r\n    align-items: center;\n}\n.section .section-header h1[data-v-2307ab0a] {\r\n      margin-bottom: 0;\r\n      font-weight: 700;\r\n      display: inline-block;\r\n      font-size: 24px;\r\n      margin-top: 3px;\r\n      color: #34395e;\n}\n.section .section-header .section-header-back[data-v-2307ab0a] {\r\n      margin-right: 15px;\n}\n.section .section-header .section-header-back .btn[data-v-2307ab0a]:hover {\r\n        background-color: #6777ef;\r\n        color: #fff;\n}\n.section .section-header .section-header-button[data-v-2307ab0a] {\r\n      margin-left: 20px;\n}\n.section .section-header .section-header-breadcrumb[data-v-2307ab0a] {\r\n      margin-left: auto;\r\n      display: flex;\r\n      align-items: center;\n}\n.section .section-header .section-header-breadcrumb .breadcrumb-item[data-v-2307ab0a] {\r\n        font-size: 12px;\n}\n.section .section-header .btn[data-v-2307ab0a] {\r\n      font-size: 12px;\n}\n.section .section-title[data-v-2307ab0a] {\r\n    font-size: 18px;\r\n    color: #191d21;\r\n    font-weight: 600;\r\n    position: relative;\r\n    margin: 30px 0 25px 0;\n}\n.section .section-title[data-v-2307ab0a]:before {\r\n      content: ' ';\r\n      border-radius: 5px;\r\n      height: 8px;\r\n      width: 30px;\r\n      background-color: #6777ef;\r\n      display: inline-block;\r\n\r\n      margin-top: 6px;\r\n      margin-right: 15px;\n}\n.section .section-title + .section-lead[data-v-2307ab0a] {\r\n    margin-top: -20px;\n}\n.section .section-lead[data-v-2307ab0a] {\r\n    margin-left: 45px;\n}\n.main-wrapper-1 .section .section-header[data-v-2307ab0a] {\r\n  margin-left: -30px;\r\n  margin-right: -30px;\r\n  margin-top: -10px;\r\n  border-radius: 0;\r\n  border-top: 1px solid #f9f9f9;\r\n  padding-left: 35px;\r\n  padding-right: 35px;\n}\n@media (max-width: 575.98px) {\n.section .section-title[data-v-2307ab0a] {\r\n    font-size: 14px;\n}\n.section .section-header[data-v-2307ab0a] {\r\n    flex-wrap: wrap;\r\n    margin-bottom: 20px !important;\n}\n.section .section-header h1[data-v-2307ab0a] {\r\n      font-size: 18px;\n}\n.section .section-header .float-right[data-v-2307ab0a] {\r\n      display: inline-block;\r\n      width: 100%;\r\n      margin-top: 15px;\n}\n.section .section-header .section-header-breadcrumb[data-v-2307ab0a] {\r\n      flex-basis: 100%;\r\n      margin-top: 10px;\n}\n}\r\n/* 4.3 Page */\n.page-error[data-v-2307ab0a] {\r\n  height: 100%;\r\n  width: 100%;\r\n  padding-top: 60px;\r\n  text-align: center;\r\n  display: table;\n}\n.page-error .page-inner[data-v-2307ab0a] {\r\n    display: table-cell;\r\n    width: 100%;\r\n    vertical-align: middle;\n}\n.page-error h1[data-v-2307ab0a] {\r\n    font-size: 10em;\r\n    font-weight: 700;\n}\n.page-error .page-description[data-v-2307ab0a] {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n    color: #34395e;\n}\n.page-error .page-search[data-v-2307ab0a] {\r\n    margin: 40px auto;\r\n    max-width: 100%;\r\n    width: 350px;\n}\n.page-error .page-search .form-control[data-v-2307ab0a] {\r\n      border-radius: 30px;\n}\n.page-error .page-search .btn[data-v-2307ab0a] {\r\n      border-radius: 30px;\r\n      margin-left: 10px;\n}\n@media (max-width: 575.98px) {\n.page-error .page-search[data-v-2307ab0a] {\r\n    width: 100%;\n}\n}\r\n/* 4.4 Layout */\n.main-sidebar[data-v-2307ab0a] {\r\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n  position: fixed;\r\n  top: 0;\r\n  height: 100%;\r\n  width: 250px;\r\n  background-color: #fff;\r\n  z-index: 880;\r\n  left: 0;\n}\n.main-sidebar[data-v-2307ab0a],\r\n.navbar[data-v-2307ab0a],\r\n.main-content[data-v-2307ab0a],\r\n.main-footer[data-v-2307ab0a] {\r\n  transition: all .5s;\n}\nbody.sidebar-gone .main-sidebar[data-v-2307ab0a] {\r\n  left: -250px;\n}\nbody.sidebar-mini .hide-sidebar-mini[data-v-2307ab0a] {\r\n  display: none !important;\n}\nbody.sidebar-mini .main-sidebar[data-v-2307ab0a] {\r\n  width: 65px;\r\n  overflow: initial !important;\r\n  position: absolute;\r\n  box-shadow: none;\n}\nbody.sidebar-mini .main-sidebar[data-v-2307ab0a]:after {\r\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n    content: ' ';\r\n    position: fixed;\r\n    background-color: #fff;\r\n    width: 65px;\r\n    height: 100%;\r\n    left: 0;\r\n    top: 0;\r\n    z-index: -1;\r\n    opacity: 0;\r\n    -webkit-animation-name: mini-sidebar-data-v-2307ab0a;\r\n            animation-name: mini-sidebar-data-v-2307ab0a;\r\n    -webkit-animation-duration: 1.5s;\r\n            animation-duration: 1.5s;\r\n    -webkit-animation-fill-mode: forwards;\r\n            animation-fill-mode: forwards;\n}\n@-webkit-keyframes mini-sidebar-data-v-2307ab0a {\nfrom {\r\n    opacity: 0;\n}\nto {\r\n    opacity: 1;\n}\n}\n@keyframes mini-sidebar-data-v-2307ab0a {\nfrom {\r\n    opacity: 0;\n}\nto {\r\n    opacity: 1;\n}\n}\nbody.sidebar-mini .main-sidebar .sidebar-brand[data-v-2307ab0a] {\r\n    display: none;\n}\nbody.sidebar-mini .main-sidebar .sidebar-brand-sm[data-v-2307ab0a] {\r\n    display: block;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li[data-v-2307ab0a] {\r\n    padding: 10px;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li.menu-header[data-v-2307ab0a] {\r\n      padding: 0;\r\n      font-size: 0;\r\n      height: 2px;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li > a[data-v-2307ab0a] {\r\n      border-radius: 3px;\r\n      height: 45px;\r\n      padding: 0;\r\n      justify-content: center;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li > a .ion[data-v-2307ab0a], body.sidebar-mini .main-sidebar .sidebar-menu > li > a .fas[data-v-2307ab0a], body.sidebar-mini .main-sidebar .sidebar-menu > li > a .far[data-v-2307ab0a], body.sidebar-mini .main-sidebar .sidebar-menu > li > a .fab[data-v-2307ab0a], body.sidebar-mini .main-sidebar .sidebar-menu > li > a .fal[data-v-2307ab0a] {\r\n        margin: 0;\r\n        font-size: 20px;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li > a span[data-v-2307ab0a] {\r\n        display: none;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li > a .badge[data-v-2307ab0a] {\r\n        padding: 5px;\r\n        position: absolute;\r\n        top: 4px;\r\n        right: 4px;\r\n        font-size: 10px;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li > a.has-dropdown[data-v-2307ab0a]:after {\r\n        content: initial;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li.active > a[data-v-2307ab0a] {\r\n      box-shadow: 0 4px 8px #acb5f6;\r\n      background-color: #6777ef;\r\n      color: #fff;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu[data-v-2307ab0a] {\r\n      position: absolute;\r\n      background-color: #fff;\r\n      left: 65px;\r\n      top: 10px;\r\n      width: 200px;\r\n      display: none;\r\n      box-shadow: 0 0 30px rgba(0, 0, 0, 0.03);\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu li > a[data-v-2307ab0a]:focus,\r\n      body.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu li.active > a[data-v-2307ab0a],\r\n      body.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu li.active > a[data-v-2307ab0a]:hover {\r\n        color: #fff;\r\n        background-color: #6777ef !important;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu li a[data-v-2307ab0a] {\r\n        height: 40px;\r\n        padding: 0 20px;\r\n        background-color: #fff;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu li a.has-dropdown[data-v-2307ab0a]:after {\r\n          content: \"\\F0D7\";\r\n          font-family: 'Font Awesome 5 Free';\r\n          font-weight: 900;\r\n          position: absolute;\r\n          top: 50%;\r\n          right: 20px;\r\n          transform: translate(0, -50%);\r\n          font-size: 12px;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu li:hover > ul.dropdown-menu[data-v-2307ab0a] {\r\n    display: block !important;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu li:hover > ul.dropdown-menu li:hover > a[data-v-2307ab0a] {\r\n      background-color: #fcfcfd;\n}\nbody.sidebar-mini .main-sidebar .sidebar-menu li:hover > ul.dropdown-menu li .dropdown-menu[data-v-2307ab0a] {\r\n      left: 200px;\r\n      padding: 0;\n}\nbody.sidebar-mini .navbar[data-v-2307ab0a] {\r\n  left: 65px;\n}\nbody.sidebar-mini .main-content[data-v-2307ab0a], body.sidebar-mini .main-footer[data-v-2307ab0a] {\r\n  padding-left: 90px;\n}\nbody.layout-2 .navbar-bg[data-v-2307ab0a] {\r\n  z-index: 889;\r\n  height: 70px;\n}\nbody.layout-2 .navbar[data-v-2307ab0a] {\r\n  left: 0;\r\n  z-index: 890;\n}\nbody.layout-2 .main-wrapper[data-v-2307ab0a] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  padding: 0 50px;\n}\nbody.layout-2 .main-sidebar[data-v-2307ab0a],\r\nbody.layout-2 .main-content[data-v-2307ab0a],\r\nbody.layout-2 .main-footer[data-v-2307ab0a] {\r\n  flex-shrink: 0;\r\n  flex-grow: 0;\n}\nbody.layout-2 .main-sidebar[data-v-2307ab0a] {\r\n  background-color: transparent;\r\n  box-shadow: none;\r\n  position: static;\r\n  margin-top: 100px;\r\n  width: 200px;\n}\nbody.layout-2 .main-sidebar .sidebar-menu li.menu-header[data-v-2307ab0a] {\r\n    padding: 0;\n}\nbody.layout-2 .main-sidebar .sidebar-menu li a[data-v-2307ab0a] {\r\n    padding: 0;\n}\nbody.layout-2 .main-sidebar .sidebar-menu li a i[data-v-2307ab0a] {\r\n      width: 10px;\n}\nbody.layout-2 .main-sidebar .sidebar-menu li a.has-dropdown[data-v-2307ab0a]:after {\r\n      right: 0;\n}\nbody.layout-2 .main-sidebar .sidebar-menu li a[data-v-2307ab0a]:hover {\r\n      color: #6777ef;\r\n      background-color: transparent;\n}\nbody.layout-2 .main-sidebar .sidebar-menu li ul.dropdown-menu li a[data-v-2307ab0a] {\r\n    padding-left: 34px;\n}\nbody.layout-2 .main-content[data-v-2307ab0a] {\r\n  padding-top: 107px;\r\n  padding-left: 30px;\r\n  padding-right: 0;\r\n  width: calc(100% - 200px);\n}\nbody.layout-2 .main-footer[data-v-2307ab0a] {\r\n  margin-left: 230px;\r\n  width: calc(100% - 230px);\r\n  padding-left: 0;\r\n  padding-right: 0;\n}\nbody.layout-3 .navbar[data-v-2307ab0a] {\r\n  left: 0;\r\n  right: 0;\n}\nbody.layout-3 .navbar.navbar-secondary[data-v-2307ab0a] {\r\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);\r\n  background-color: #fff;\r\n  top: 70px;\r\n  padding: 0;\r\n  z-index: 889;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item.active > .nav-link[data-v-2307ab0a] {\r\n    color: #6777ef;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item.active > .nav-link[data-v-2307ab0a]:before {\r\n      left: 35px;\r\n      right: 0;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item:first-child .nav-link[data-v-2307ab0a] {\r\n    margin-left: 0;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item:last-child .nav-link[data-v-2307ab0a] {\r\n    margin-right: 0;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link[data-v-2307ab0a] {\r\n    color: #868e96;\r\n    font-size: 13px;\r\n    letter-spacing: .3px;\r\n    height: 70px;\r\n    padding: 0;\r\n    padding-left: 0 !important;\r\n    padding-right: 0 !important;\r\n    margin-left: 15px;\r\n    margin-right: 15px;\r\n    position: relative;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link.has-dropdown[data-v-2307ab0a] {\r\n      margin-right: 35px;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link.has-dropdown[data-v-2307ab0a]:after {\r\n        content: \"\\F0D7\";\r\n        font-family: 'Font Awesome 5 Free';\r\n        font-weight: 900;\r\n        position: absolute;\r\n        top: 50%;\r\n        right: 20px;\r\n        transform: translate(0, -50%);\r\n        font-size: 12px;\r\n        right: -20px;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link[data-v-2307ab0a]:before {\r\n      content: ' ';\r\n      position: absolute;\r\n      left: initial;\r\n      right: initial;\r\n      bottom: 0;\r\n      height: 2px;\r\n      background-color: #6777ef;\r\n      transition: all .5s;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link span[data-v-2307ab0a] {\r\n      line-height: 74px;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link i[data-v-2307ab0a] {\r\n      width: 30px;\r\n      font-size: 16px;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link[data-v-2307ab0a]:hover {\r\n      color: #191d21 !important;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu[data-v-2307ab0a] {\r\n    padding: 0;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item .nav-link[data-v-2307ab0a] {\r\n      color: #6c757d;\r\n      font-weight: 600;\r\n      letter-spacing: .3px;\r\n      padding: 7px !important;\r\n      padding-left: 20px !important;\r\n      padding-right: 20px !important;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item .nav-link.has-dropdown[data-v-2307ab0a]:after {\r\n        content: \"\\F0D7\";\r\n        font-family: 'Font Awesome 5 Free';\r\n        font-weight: 900;\r\n        position: absolute;\r\n        top: 50%;\r\n        right: 20px;\r\n        transform: translate(0, -50%);\r\n        font-size: 12px;\r\n        right: 15px;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item:hover > .nav-link[data-v-2307ab0a] {\r\n      background-color: #fcfcfd;\r\n      color: #191d21;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item:hover > .dropdown-menu[data-v-2307ab0a] {\r\n      display: block !important;\r\n      top: -5px;\r\n      left: 200px;\n}\nbody.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item.active > .nav-link[data-v-2307ab0a],\r\n    body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item .nav-link[data-v-2307ab0a]:focus {\r\n      background-color: #6777ef;\r\n      color: #fff;\n}\nbody.layout-3 .main-content[data-v-2307ab0a] {\r\n  padding-left: 0;\r\n  padding-right: 0;\r\n  padding-top: 170px;\n}\nbody.layout-3 .main-footer[data-v-2307ab0a] {\r\n  padding-left: 0;\r\n  padding-right: 0;\n}\n.main-sidebar .sidebar-brand[data-v-2307ab0a] {\r\n  display: inline-block;\r\n  width: 100%;\r\n  text-align: center;\r\n  height: 60px;\r\n  line-height: 60px;\n}\n.main-sidebar .sidebar-brand.sidebar-brand-sm[data-v-2307ab0a] {\r\n    display: none;\n}\n.main-sidebar .sidebar-brand a[data-v-2307ab0a] {\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1.5px;\r\n    font-weight: 700;\r\n    color: #000;\n}\n.main-sidebar .sidebar-user[data-v-2307ab0a] {\r\n  display: inline-block;\r\n  width: 100%;\r\n  padding: 10px;\r\n  margin-bottom: 10px;\n}\n.main-sidebar .sidebar-user .sidebar-user-picture[data-v-2307ab0a] {\r\n    float: left;\r\n    margin-right: 10px;\n}\n.main-sidebar .sidebar-user .sidebar-user-picture img[data-v-2307ab0a] {\r\n      width: 50px;\r\n      border-radius: 50%;\n}\n.main-sidebar .sidebar-menu[data-v-2307ab0a] {\r\n  padding: 0;\r\n  margin: 0;\n}\n.main-sidebar .sidebar-menu li[data-v-2307ab0a] {\r\n    display: block;\n}\n.main-sidebar .sidebar-menu li.menu-header[data-v-2307ab0a] {\r\n      padding: 3px 15px;\r\n      color: #bcc1c6;\r\n      font-size: 10px;\r\n      text-transform: uppercase;\r\n      letter-spacing: 1.3px;\r\n      font-weight: 600;\n}\n.main-sidebar .sidebar-menu li.menu-header[data-v-2307ab0a]:not(:first-child) {\r\n        margin-top: 10px;\n}\n.main-sidebar .sidebar-menu li a[data-v-2307ab0a] {\r\n      position: relative;\r\n      display: flex;\r\n      align-items: center;\r\n      height: 50px;\r\n      padding: 0 20px;\r\n      width: 100%;\r\n      letter-spacing: .3px;\r\n      color: #868e96;\r\n      text-decoration: none;\n}\n.main-sidebar .sidebar-menu li a .badge[data-v-2307ab0a] {\r\n        float: right;\r\n        padding: 5px 10px;\r\n        margin-top: 2px;\n}\n.main-sidebar .sidebar-menu li a i[data-v-2307ab0a] {\r\n        width: 28px;\r\n        margin-right: 20px;\r\n        text-align: center;\n}\n.main-sidebar .sidebar-menu li a span[data-v-2307ab0a] {\r\n        margin-top: 3px;\r\n        width: 100%;\n}\n.main-sidebar .sidebar-menu li a[data-v-2307ab0a]:hover {\r\n        background-color: #fcfcfd;\n}\n.main-sidebar .sidebar-menu li.active a[data-v-2307ab0a] {\r\n      color: #6777ef;\r\n      font-weight: 600;\r\n      background-color: #fcfcfd;\n}\n.main-sidebar .sidebar-menu li.active ul.dropdown-menu[data-v-2307ab0a] {\r\n      background-color: #fcfcfd;\n}\n.main-sidebar .sidebar-menu li a.has-dropdown[data-v-2307ab0a]:after {\r\n      content: \"\\F0D7\";\r\n      font-family: 'Font Awesome 5 Free';\r\n      font-weight: 900;\r\n      position: absolute;\r\n      top: 50%;\r\n      right: 20px;\r\n      transform: translate(0, -50%);\r\n      font-size: 12px;\n}\n.main-sidebar .sidebar-menu li.active > ul.dropdown-menu[data-v-2307ab0a] {\r\n      display: block;\n}\n.main-sidebar .sidebar-menu li.active > ul.dropdown-menu li a[data-v-2307ab0a]:hover {\r\n        background-color: #fcfcfd;\n}\n.main-sidebar .sidebar-menu li ul.dropdown-menu[data-v-2307ab0a] {\r\n      padding: 0;\r\n      margin: 0;\r\n      display: none;\r\n      position: static;\r\n      float: none;\r\n      width: 100%;\r\n      box-shadow: none;\r\n      background-color: transparent;\n}\n.main-sidebar .sidebar-menu li ul.dropdown-menu li a[data-v-2307ab0a] {\r\n        color: #868e96;\r\n        height: 35px;\r\n        padding-left: 65px;\r\n        font-weight: 400;\n}\n.main-sidebar .sidebar-menu li ul.dropdown-menu li a[data-v-2307ab0a]:hover {\r\n          color: #6777ef;\r\n          background-color: inherit;\n}\n.main-sidebar .sidebar-menu li ul.dropdown-menu li.active > a[data-v-2307ab0a] {\r\n        color: #6777ef;\r\n        font-weight: 600;\n}\n.main-sidebar .sidebar-menu li ul.dropdown-menu li a i[data-v-2307ab0a] {\r\n        margin-top: 1px;\r\n        text-align: center;\n}\n.main-sidebar .sidebar-menu li ul.dropdown-menu li ul.dropdown-menu[data-v-2307ab0a] {\r\n        padding-left: 10px;\n}\n.main-content[data-v-2307ab0a] {\r\n  padding-left: 280px;\r\n  padding-right: 30px;\r\n  padding-top: 80px;\r\n  width: 100%;\r\n  position: relative;\n}\n.main-footer[data-v-2307ab0a] {\r\n  padding: 20px 30px 20px 280px;\r\n  margin-top: 40px;\r\n  color: #98a6ad;\r\n  border-top: 1px solid #e3eaef;\r\n  display: inline-block;\r\n  width: 100%;\n}\n.main-footer .footer-left[data-v-2307ab0a] {\r\n    float: left;\n}\n.main-footer .footer-right[data-v-2307ab0a] {\r\n    float: right;\n}\n.simple-footer[data-v-2307ab0a] {\r\n  text-align: center;\r\n  margin-top: 40px;\r\n  margin-bottom: 40px;\n}\nbody:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active a[data-v-2307ab0a] {\r\n  background-color: #6777ef;\r\n  color: #fff;\n}\nbody:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li a[data-v-2307ab0a] {\r\n  color: #e8ebfd;\n}\nbody:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li a[data-v-2307ab0a]:hover {\r\n    background-color: #6777ef;\r\n    color: #fff;\n}\nbody:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li.active a[data-v-2307ab0a] {\r\n  color: #fff;\n}\nbody:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a[data-v-2307ab0a] {\r\n  padding-left: 16px;\r\n  background-color: transparent;\r\n  position: relative;\n}\nbody:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a[data-v-2307ab0a]:before {\r\n    content: '';\r\n    position: absolute;\r\n    left: 0;\r\n    top: 50%;\r\n    transform: translateY(-50%);\r\n    height: 25px;\r\n    width: 4px;\r\n    background-color: #6777ef;\n}\nbody:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-menu li a[data-v-2307ab0a] {\r\n  padding-left: 61px;\r\n  background-color: #fff;\n}\n@media (max-width: 1024px) {\n.sidebar-gone-hide[data-v-2307ab0a] {\r\n    display: none !important;\n}\n.sidebar-gone-show[data-v-2307ab0a] {\r\n    display: block !important;\n}\n.main-sidebar[data-v-2307ab0a] {\r\n    position: fixed !important;\r\n    margin-top: 0 !important;\r\n    z-index: 891;\n}\nbody.layout-2 .main-wrapper[data-v-2307ab0a],\r\n  body.layout-3 .main-wrapper[data-v-2307ab0a] {\r\n    width: 100%;\r\n    padding: 0;\r\n    display: block;\n}\n.main-content[data-v-2307ab0a] {\r\n    padding-left: 30px;\r\n    padding-right: 30px;\r\n    width: 100% !important;\n}\n.main-footer[data-v-2307ab0a] {\r\n    padding-left: 30px;\n}\nbody.search-show[data-v-2307ab0a] {\r\n    overflow: hidden;\n}\nbody.search-show .navbar[data-v-2307ab0a] {\r\n      z-index: 892;\n}\nbody.sidebar-show[data-v-2307ab0a] {\r\n    overflow: hidden;\n}\nbody.search-show[data-v-2307ab0a]:before, body.sidebar-show[data-v-2307ab0a]:before {\r\n    content: '';\r\n    position: fixed;\r\n    left: 0;\r\n    right: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: #000;\r\n    opacity: 0;\r\n    z-index: 891;\r\n    -webkit-animation-name: fadeinbackdrop-data-v-2307ab0a;\r\n    animation-name: fadeinbackdrop-data-v-2307ab0a;\r\n    -webkit-animation-duration: 1s;\r\n    animation-duration: 1s;\r\n    -webkit-animation-fill-mode: forwards;\r\n    animation-fill-mode: forwards;\n}\n@-webkit-keyframes fadeinbackdrop-data-v-2307ab0a {\nto {\r\n      opacity: .6;\n}\n}\n@keyframes fadeinbackdrop-data-v-2307ab0a {\nto {\r\n      opacity: .6;\n}\n}\n}\r\n/* 4.5 Animation */\n.pulsate[data-v-2307ab0a] {\r\n  -webkit-animation: pulsate-data-v-2307ab0a 1s ease-out;\r\n          animation: pulsate-data-v-2307ab0a 1s ease-out;\r\n  -webkit-animation-iteration-count: infinite;\r\n          animation-iteration-count: infinite;\r\n  opacity: 1;\n}\n@-webkit-keyframes pulsate-data-v-2307ab0a {\n0% {\r\n    -webkit-transform: scale(0.1, 0.1);\r\n    opacity: 0.0;\n}\n50% {\r\n    opacity: 1.0;\n}\n100% {\r\n    -webkit-transform: scale(1.2, 1.2);\r\n    opacity: 0.0;\n}\n}\n@keyframes pulsate-data-v-2307ab0a {\n0% {\r\n    -webkit-transform: scale(0.1, 0.1);\r\n    opacity: 0.0;\n}\n50% {\r\n    opacity: 1.0;\n}\n100% {\r\n    -webkit-transform: scale(1.2, 1.2);\r\n    opacity: 0.0;\n}\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -6754,6 +17542,3541 @@ function toComment(sourceMap) {
 	return '/*# ' + data + ' */';
 }
 
+
+/***/ }),
+
+/***/ "./node_modules/dropzone/dist/dropzone.js":
+/*!************************************************!*\
+  !*** ./node_modules/dropzone/dist/dropzone.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/*
+ *
+ * More info at [www.dropzonejs.com](http://www.dropzonejs.com)
+ *
+ * Copyright (c) 2012, Matias Meno
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ */
+// The Emitter class provides the ability to call `.on()` on Dropzone to listen
+// to events.
+// It is strongly based on component's emitter class, and I removed the
+// functionality because of the dependency hell with different frameworks.
+var Emitter = /*#__PURE__*/function () {
+  function Emitter() {
+    _classCallCheck(this, Emitter);
+  }
+
+  _createClass(Emitter, [{
+    key: "on",
+    // Add an event listener for given event
+    value: function on(event, fn) {
+      this._callbacks = this._callbacks || {}; // Create namespace for this event
+
+      if (!this._callbacks[event]) {
+        this._callbacks[event] = [];
+      }
+
+      this._callbacks[event].push(fn);
+
+      return this;
+    }
+  }, {
+    key: "emit",
+    value: function emit(event) {
+      this._callbacks = this._callbacks || {};
+      var callbacks = this._callbacks[event];
+
+      if (callbacks) {
+        for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+          args[_key - 1] = arguments[_key];
+        }
+
+        var _iterator = _createForOfIteratorHelper(callbacks),
+            _step;
+
+        try {
+          for (_iterator.s(); !(_step = _iterator.n()).done;) {
+            var callback = _step.value;
+            callback.apply(this, args);
+          }
+        } catch (err) {
+          _iterator.e(err);
+        } finally {
+          _iterator.f();
+        }
+      }
+
+      return this;
+    } // Remove event listener for given event. If fn is not provided, all event
+    // listeners for that event will be removed. If neither is provided, all
+    // event listeners will be removed.
+
+  }, {
+    key: "off",
+    value: function off(event, fn) {
+      if (!this._callbacks || arguments.length === 0) {
+        this._callbacks = {};
+        return this;
+      } // specific event
+
+
+      var callbacks = this._callbacks[event];
+
+      if (!callbacks) {
+        return this;
+      } // remove all handlers
+
+
+      if (arguments.length === 1) {
+        delete this._callbacks[event];
+        return this;
+      } // remove specific handler
+
+
+      for (var i = 0; i < callbacks.length; i++) {
+        var callback = callbacks[i];
+
+        if (callback === fn) {
+          callbacks.splice(i, 1);
+          break;
+        }
+      }
+
+      return this;
+    }
+  }]);
+
+  return Emitter;
+}();
+
+var Dropzone = /*#__PURE__*/function (_Emitter) {
+  _inherits(Dropzone, _Emitter);
+
+  var _super = _createSuper(Dropzone);
+
+  _createClass(Dropzone, null, [{
+    key: "initClass",
+    value: function initClass() {
+      // Exposing the emitter class, mainly for tests
+      this.prototype.Emitter = Emitter;
+      /*
+       This is a list of all available events you can register on a dropzone object.
+        You can register an event handler like this:
+        dropzone.on("dragEnter", function() { });
+        */
+
+      this.prototype.events = ["drop", "dragstart", "dragend", "dragenter", "dragover", "dragleave", "addedfile", "addedfiles", "removedfile", "thumbnail", "error", "errormultiple", "processing", "processingmultiple", "uploadprogress", "totaluploadprogress", "sending", "sendingmultiple", "success", "successmultiple", "canceled", "canceledmultiple", "complete", "completemultiple", "reset", "maxfilesexceeded", "maxfilesreached", "queuecomplete"];
+      this.prototype.defaultOptions = {
+        /**
+         * Has to be specified on elements other than form (or when the form
+         * doesn't have an `action` attribute). You can also
+         * provide a function that will be called with `files` and
+         * must return the url (since `v3.12.0`)
+         */
+        url: null,
+
+        /**
+         * Can be changed to `"put"` if necessary. You can also provide a function
+         * that will be called with `files` and must return the method (since `v3.12.0`).
+         */
+        method: "post",
+
+        /**
+         * Will be set on the XHRequest.
+         */
+        withCredentials: false,
+
+        /**
+         * The timeout for the XHR requests in milliseconds (since `v4.4.0`).
+         */
+        timeout: 30000,
+
+        /**
+         * How many file uploads to process in parallel (See the
+         * Enqueuing file uploads documentation section for more info)
+         */
+        parallelUploads: 2,
+
+        /**
+         * Whether to send multiple files in one request. If
+         * this it set to true, then the fallback file input element will
+         * have the `multiple` attribute as well. This option will
+         * also trigger additional events (like `processingmultiple`). See the events
+         * documentation section for more information.
+         */
+        uploadMultiple: false,
+
+        /**
+         * Whether you want files to be uploaded in chunks to your server. This can't be
+         * used in combination with `uploadMultiple`.
+         *
+         * See [chunksUploaded](#config-chunksUploaded) for the callback to finalise an upload.
+         */
+        chunking: false,
+
+        /**
+         * If `chunking` is enabled, this defines whether **every** file should be chunked,
+         * even if the file size is below chunkSize. This means, that the additional chunk
+         * form data will be submitted and the `chunksUploaded` callback will be invoked.
+         */
+        forceChunking: false,
+
+        /**
+         * If `chunking` is `true`, then this defines the chunk size in bytes.
+         */
+        chunkSize: 2000000,
+
+        /**
+         * If `true`, the individual chunks of a file are being uploaded simultaneously.
+         */
+        parallelChunkUploads: false,
+
+        /**
+         * Whether a chunk should be retried if it fails.
+         */
+        retryChunks: false,
+
+        /**
+         * If `retryChunks` is true, how many times should it be retried.
+         */
+        retryChunksLimit: 3,
+
+        /**
+         * If not `null` defines how many files this Dropzone handles. If it exceeds,
+         * the event `maxfilesexceeded` will be called. The dropzone element gets the
+         * class `dz-max-files-reached` accordingly so you can provide visual feedback.
+         */
+        maxFilesize: 256,
+
+        /**
+         * The name of the file param that gets transferred.
+         * **NOTE**: If you have the option  `uploadMultiple` set to `true`, then
+         * Dropzone will append `[]` to the name.
+         */
+        paramName: "file",
+
+        /**
+         * Whether thumbnails for images should be generated
+         */
+        createImageThumbnails: true,
+
+        /**
+         * In MB. When the filename exceeds this limit, the thumbnail will not be generated.
+         */
+        maxThumbnailFilesize: 10,
+
+        /**
+         * If `null`, the ratio of the image will be used to calculate it.
+         */
+        thumbnailWidth: 120,
+
+        /**
+         * The same as `thumbnailWidth`. If both are null, images will not be resized.
+         */
+        thumbnailHeight: 120,
+
+        /**
+         * How the images should be scaled down in case both, `thumbnailWidth` and `thumbnailHeight` are provided.
+         * Can be either `contain` or `crop`.
+         */
+        thumbnailMethod: 'crop',
+
+        /**
+         * If set, images will be resized to these dimensions before being **uploaded**.
+         * If only one, `resizeWidth` **or** `resizeHeight` is provided, the original aspect
+         * ratio of the file will be preserved.
+         *
+         * The `options.transformFile` function uses these options, so if the `transformFile` function
+         * is overridden, these options don't do anything.
+         */
+        resizeWidth: null,
+
+        /**
+         * See `resizeWidth`.
+         */
+        resizeHeight: null,
+
+        /**
+         * The mime type of the resized image (before it gets uploaded to the server).
+         * If `null` the original mime type will be used. To force jpeg, for example, use `image/jpeg`.
+         * See `resizeWidth` for more information.
+         */
+        resizeMimeType: null,
+
+        /**
+         * The quality of the resized images. See `resizeWidth`.
+         */
+        resizeQuality: 0.8,
+
+        /**
+         * How the images should be scaled down in case both, `resizeWidth` and `resizeHeight` are provided.
+         * Can be either `contain` or `crop`.
+         */
+        resizeMethod: 'contain',
+
+        /**
+         * The base that is used to calculate the filesize. You can change this to
+         * 1024 if you would rather display kibibytes, mebibytes, etc...
+         * 1024 is technically incorrect, because `1024 bytes` are `1 kibibyte` not `1 kilobyte`.
+         * You can change this to `1024` if you don't care about validity.
+         */
+        filesizeBase: 1000,
+
+        /**
+         * Can be used to limit the maximum number of files that will be handled by this Dropzone
+         */
+        maxFiles: null,
+
+        /**
+         * An optional object to send additional headers to the server. Eg:
+         * `{ "My-Awesome-Header": "header value" }`
+         */
+        headers: null,
+
+        /**
+         * If `true`, the dropzone element itself will be clickable, if `false`
+         * nothing will be clickable.
+         *
+         * You can also pass an HTML element, a CSS selector (for multiple elements)
+         * or an array of those. In that case, all of those elements will trigger an
+         * upload when clicked.
+         */
+        clickable: true,
+
+        /**
+         * Whether hidden files in directories should be ignored.
+         */
+        ignoreHiddenFiles: true,
+
+        /**
+         * The default implementation of `accept` checks the file's mime type or
+         * extension against this list. This is a comma separated list of mime
+         * types or file extensions.
+         *
+         * Eg.: `image/*,application/pdf,.psd`
+         *
+         * If the Dropzone is `clickable` this option will also be used as
+         * [`accept`](https://developer.mozilla.org/en-US/docs/HTML/Element/input#attr-accept)
+         * parameter on the hidden file input as well.
+         */
+        acceptedFiles: null,
+
+        /**
+         * **Deprecated!**
+         * Use acceptedFiles instead.
+         */
+        acceptedMimeTypes: null,
+
+        /**
+         * If false, files will be added to the queue but the queue will not be
+         * processed automatically.
+         * This can be useful if you need some additional user input before sending
+         * files (or if you want want all files sent at once).
+         * If you're ready to send the file simply call `myDropzone.processQueue()`.
+         *
+         * See the [enqueuing file uploads](#enqueuing-file-uploads) documentation
+         * section for more information.
+         */
+        autoProcessQueue: true,
+
+        /**
+         * If false, files added to the dropzone will not be queued by default.
+         * You'll have to call `enqueueFile(file)` manually.
+         */
+        autoQueue: true,
+
+        /**
+         * If `true`, this will add a link to every file preview to remove or cancel (if
+         * already uploading) the file. The `dictCancelUpload`, `dictCancelUploadConfirmation`
+         * and `dictRemoveFile` options are used for the wording.
+         */
+        addRemoveLinks: false,
+
+        /**
+         * Defines where to display the file previews – if `null` the
+         * Dropzone element itself is used. Can be a plain `HTMLElement` or a CSS
+         * selector. The element should have the `dropzone-previews` class so
+         * the previews are displayed properly.
+         */
+        previewsContainer: null,
+
+        /**
+         * This is the element the hidden input field (which is used when clicking on the
+         * dropzone to trigger file selection) will be appended to. This might
+         * be important in case you use frameworks to switch the content of your page.
+         *
+         * Can be a selector string, or an element directly.
+         */
+        hiddenInputContainer: "body",
+
+        /**
+         * If null, no capture type will be specified
+         * If camera, mobile devices will skip the file selection and choose camera
+         * If microphone, mobile devices will skip the file selection and choose the microphone
+         * If camcorder, mobile devices will skip the file selection and choose the camera in video mode
+         * On apple devices multiple must be set to false.  AcceptedFiles may need to
+         * be set to an appropriate mime type (e.g. "image/*", "audio/*", or "video/*").
+         */
+        capture: null,
+
+        /**
+         * **Deprecated**. Use `renameFile` instead.
+         */
+        renameFilename: null,
+
+        /**
+         * A function that is invoked before the file is uploaded to the server and renames the file.
+         * This function gets the `File` as argument and can use the `file.name`. The actual name of the
+         * file that gets used during the upload can be accessed through `file.upload.filename`.
+         */
+        renameFile: null,
+
+        /**
+         * If `true` the fallback will be forced. This is very useful to test your server
+         * implementations first and make sure that everything works as
+         * expected without dropzone if you experience problems, and to test
+         * how your fallbacks will look.
+         */
+        forceFallback: false,
+
+        /**
+         * The text used before any files are dropped.
+         */
+        dictDefaultMessage: "Drop files here to upload",
+
+        /**
+         * The text that replaces the default message text it the browser is not supported.
+         */
+        dictFallbackMessage: "Your browser does not support drag'n'drop file uploads.",
+
+        /**
+         * The text that will be added before the fallback form.
+         * If you provide a  fallback element yourself, or if this option is `null` this will
+         * be ignored.
+         */
+        dictFallbackText: "Please use the fallback form below to upload your files like in the olden days.",
+
+        /**
+         * If the filesize is too big.
+         * `{{filesize}}` and `{{maxFilesize}}` will be replaced with the respective configuration values.
+         */
+        dictFileTooBig: "File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.",
+
+        /**
+         * If the file doesn't match the file type.
+         */
+        dictInvalidFileType: "You can't upload files of this type.",
+
+        /**
+         * If the server response was invalid.
+         * `{{statusCode}}` will be replaced with the servers status code.
+         */
+        dictResponseError: "Server responded with {{statusCode}} code.",
+
+        /**
+         * If `addRemoveLinks` is true, the text to be used for the cancel upload link.
+         */
+        dictCancelUpload: "Cancel upload",
+
+        /**
+         * The text that is displayed if an upload was manually canceled
+         */
+        dictUploadCanceled: "Upload canceled.",
+
+        /**
+         * If `addRemoveLinks` is true, the text to be used for confirmation when cancelling upload.
+         */
+        dictCancelUploadConfirmation: "Are you sure you want to cancel this upload?",
+
+        /**
+         * If `addRemoveLinks` is true, the text to be used to remove a file.
+         */
+        dictRemoveFile: "Remove file",
+
+        /**
+         * If this is not null, then the user will be prompted before removing a file.
+         */
+        dictRemoveFileConfirmation: null,
+
+        /**
+         * Displayed if `maxFiles` is st and exceeded.
+         * The string `{{maxFiles}}` will be replaced by the configuration value.
+         */
+        dictMaxFilesExceeded: "You can not upload any more files.",
+
+        /**
+         * Allows you to translate the different units. Starting with `tb` for terabytes and going down to
+         * `b` for bytes.
+         */
+        dictFileSizeUnits: {
+          tb: "TB",
+          gb: "GB",
+          mb: "MB",
+          kb: "KB",
+          b: "b"
+        },
+
+        /**
+         * Called when dropzone initialized
+         * You can add event listeners here
+         */
+        init: function init() {},
+
+        /**
+         * Can be an **object** of additional parameters to transfer to the server, **or** a `Function`
+         * that gets invoked with the `files`, `xhr` and, if it's a chunked upload, `chunk` arguments. In case
+         * of a function, this needs to return a map.
+         *
+         * The default implementation does nothing for normal uploads, but adds relevant information for
+         * chunked uploads.
+         *
+         * This is the same as adding hidden input fields in the form element.
+         */
+        params: function params(files, xhr, chunk) {
+          if (chunk) {
+            return {
+              dzuuid: chunk.file.upload.uuid,
+              dzchunkindex: chunk.index,
+              dztotalfilesize: chunk.file.size,
+              dzchunksize: this.options.chunkSize,
+              dztotalchunkcount: chunk.file.upload.totalChunkCount,
+              dzchunkbyteoffset: chunk.index * this.options.chunkSize
+            };
+          }
+        },
+
+        /**
+         * A function that gets a [file](https://developer.mozilla.org/en-US/docs/DOM/File)
+         * and a `done` function as parameters.
+         *
+         * If the done function is invoked without arguments, the file is "accepted" and will
+         * be processed. If you pass an error message, the file is rejected, and the error
+         * message will be displayed.
+         * This function will not be called if the file is too big or doesn't match the mime types.
+         */
+        accept: function accept(file, done) {
+          return done();
+        },
+
+        /**
+         * The callback that will be invoked when all chunks have been uploaded for a file.
+         * It gets the file for which the chunks have been uploaded as the first parameter,
+         * and the `done` function as second. `done()` needs to be invoked when everything
+         * needed to finish the upload process is done.
+         */
+        chunksUploaded: function chunksUploaded(file, done) {
+          done();
+        },
+
+        /**
+         * Gets called when the browser is not supported.
+         * The default implementation shows the fallback input field and adds
+         * a text.
+         */
+        fallback: function fallback() {
+          // This code should pass in IE7... :(
+          var messageElement;
+          this.element.className = "".concat(this.element.className, " dz-browser-not-supported");
+
+          var _iterator2 = _createForOfIteratorHelper(this.element.getElementsByTagName("div")),
+              _step2;
+
+          try {
+            for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+              var child = _step2.value;
+
+              if (/(^| )dz-message($| )/.test(child.className)) {
+                messageElement = child;
+                child.className = "dz-message"; // Removes the 'dz-default' class
+
+                break;
+              }
+            }
+          } catch (err) {
+            _iterator2.e(err);
+          } finally {
+            _iterator2.f();
+          }
+
+          if (!messageElement) {
+            messageElement = Dropzone.createElement("<div class=\"dz-message\"><span></span></div>");
+            this.element.appendChild(messageElement);
+          }
+
+          var span = messageElement.getElementsByTagName("span")[0];
+
+          if (span) {
+            if (span.textContent != null) {
+              span.textContent = this.options.dictFallbackMessage;
+            } else if (span.innerText != null) {
+              span.innerText = this.options.dictFallbackMessage;
+            }
+          }
+
+          return this.element.appendChild(this.getFallbackForm());
+        },
+
+        /**
+         * Gets called to calculate the thumbnail dimensions.
+         *
+         * It gets `file`, `width` and `height` (both may be `null`) as parameters and must return an object containing:
+         *
+         *  - `srcWidth` & `srcHeight` (required)
+         *  - `trgWidth` & `trgHeight` (required)
+         *  - `srcX` & `srcY` (optional, default `0`)
+         *  - `trgX` & `trgY` (optional, default `0`)
+         *
+         * Those values are going to be used by `ctx.drawImage()`.
+         */
+        resize: function resize(file, width, height, resizeMethod) {
+          var info = {
+            srcX: 0,
+            srcY: 0,
+            srcWidth: file.width,
+            srcHeight: file.height
+          };
+          var srcRatio = file.width / file.height; // Automatically calculate dimensions if not specified
+
+          if (width == null && height == null) {
+            width = info.srcWidth;
+            height = info.srcHeight;
+          } else if (width == null) {
+            width = height * srcRatio;
+          } else if (height == null) {
+            height = width / srcRatio;
+          } // Make sure images aren't upscaled
+
+
+          width = Math.min(width, info.srcWidth);
+          height = Math.min(height, info.srcHeight);
+          var trgRatio = width / height;
+
+          if (info.srcWidth > width || info.srcHeight > height) {
+            // Image is bigger and needs rescaling
+            if (resizeMethod === 'crop') {
+              if (srcRatio > trgRatio) {
+                info.srcHeight = file.height;
+                info.srcWidth = info.srcHeight * trgRatio;
+              } else {
+                info.srcWidth = file.width;
+                info.srcHeight = info.srcWidth / trgRatio;
+              }
+            } else if (resizeMethod === 'contain') {
+              // Method 'contain'
+              if (srcRatio > trgRatio) {
+                height = width / srcRatio;
+              } else {
+                width = height * srcRatio;
+              }
+            } else {
+              throw new Error("Unknown resizeMethod '".concat(resizeMethod, "'"));
+            }
+          }
+
+          info.srcX = (file.width - info.srcWidth) / 2;
+          info.srcY = (file.height - info.srcHeight) / 2;
+          info.trgWidth = width;
+          info.trgHeight = height;
+          return info;
+        },
+
+        /**
+         * Can be used to transform the file (for example, resize an image if necessary).
+         *
+         * The default implementation uses `resizeWidth` and `resizeHeight` (if provided) and resizes
+         * images according to those dimensions.
+         *
+         * Gets the `file` as the first parameter, and a `done()` function as the second, that needs
+         * to be invoked with the file when the transformation is done.
+         */
+        transformFile: function transformFile(file, done) {
+          if ((this.options.resizeWidth || this.options.resizeHeight) && file.type.match(/image.*/)) {
+            return this.resizeImage(file, this.options.resizeWidth, this.options.resizeHeight, this.options.resizeMethod, done);
+          } else {
+            return done(file);
+          }
+        },
+
+        /**
+         * A string that contains the template used for each dropped
+         * file. Change it to fulfill your needs but make sure to properly
+         * provide all elements.
+         *
+         * If you want to use an actual HTML element instead of providing a String
+         * as a config option, you could create a div with the id `tpl`,
+         * put the template inside it and provide the element like this:
+         *
+         *     document
+         *       .querySelector('#tpl')
+         *       .innerHTML
+         *
+         */
+        previewTemplate: "<div class=\"dz-preview dz-file-preview\">\n  <div class=\"dz-image\"><img data-dz-thumbnail /></div>\n  <div class=\"dz-details\">\n    <div class=\"dz-size\"><span data-dz-size></span></div>\n    <div class=\"dz-filename\"><span data-dz-name></span></div>\n  </div>\n  <div class=\"dz-progress\"><span class=\"dz-upload\" data-dz-uploadprogress></span></div>\n  <div class=\"dz-error-message\"><span data-dz-errormessage></span></div>\n  <div class=\"dz-success-mark\">\n    <svg width=\"54px\" height=\"54px\" viewBox=\"0 0 54 54\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n      <title>Check</title>\n      <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M23.5,31.8431458 L17.5852419,25.9283877 C16.0248253,24.3679711 13.4910294,24.366835 11.9289322,25.9289322 C10.3700136,27.4878508 10.3665912,30.0234455 11.9283877,31.5852419 L20.4147581,40.0716123 C20.5133999,40.1702541 20.6159315,40.2626649 20.7218615,40.3488435 C22.2835669,41.8725651 24.794234,41.8626202 26.3461564,40.3106978 L43.3106978,23.3461564 C44.8771021,21.7797521 44.8758057,19.2483887 43.3137085,17.6862915 C41.7547899,16.1273729 39.2176035,16.1255422 37.6538436,17.6893022 L23.5,31.8431458 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z\" stroke-opacity=\"0.198794158\" stroke=\"#747474\" fill-opacity=\"0.816519475\" fill=\"#FFFFFF\"></path>\n      </g>\n    </svg>\n  </div>\n  <div class=\"dz-error-mark\">\n    <svg width=\"54px\" height=\"54px\" viewBox=\"0 0 54 54\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n      <title>Error</title>\n      <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g stroke=\"#747474\" stroke-opacity=\"0.198794158\" fill=\"#FFFFFF\" fill-opacity=\"0.816519475\">\n          <path d=\"M32.6568542,29 L38.3106978,23.3461564 C39.8771021,21.7797521 39.8758057,19.2483887 38.3137085,17.6862915 C36.7547899,16.1273729 34.2176035,16.1255422 32.6538436,17.6893022 L27,23.3431458 L21.3461564,17.6893022 C19.7823965,16.1255422 17.2452101,16.1273729 15.6862915,17.6862915 C14.1241943,19.2483887 14.1228979,21.7797521 15.6893022,23.3461564 L21.3431458,29 L15.6893022,34.6538436 C14.1228979,36.2202479 14.1241943,38.7516113 15.6862915,40.3137085 C17.2452101,41.8726271 19.7823965,41.8744578 21.3461564,40.3106978 L27,34.6568542 L32.6538436,40.3106978 C34.2176035,41.8744578 36.7547899,41.8726271 38.3137085,40.3137085 C39.8758057,38.7516113 39.8771021,36.2202479 38.3106978,34.6538436 L32.6568542,29 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z\"></path>\n        </g>\n      </g>\n    </svg>\n  </div>\n</div>",
+        // END OPTIONS
+        // (Required by the dropzone documentation parser)
+
+        /*
+         Those functions register themselves to the events on init and handle all
+         the user interface specific stuff. Overwriting them won't break the upload
+         but can break the way it's displayed.
+         You can overwrite them if you don't like the default behavior. If you just
+         want to add an additional event handler, register it on the dropzone object
+         and don't overwrite those options.
+         */
+        // Those are self explanatory and simply concern the DragnDrop.
+        drop: function drop(e) {
+          return this.element.classList.remove("dz-drag-hover");
+        },
+        dragstart: function dragstart(e) {},
+        dragend: function dragend(e) {
+          return this.element.classList.remove("dz-drag-hover");
+        },
+        dragenter: function dragenter(e) {
+          return this.element.classList.add("dz-drag-hover");
+        },
+        dragover: function dragover(e) {
+          return this.element.classList.add("dz-drag-hover");
+        },
+        dragleave: function dragleave(e) {
+          return this.element.classList.remove("dz-drag-hover");
+        },
+        paste: function paste(e) {},
+        // Called whenever there are no files left in the dropzone anymore, and the
+        // dropzone should be displayed as if in the initial state.
+        reset: function reset() {
+          return this.element.classList.remove("dz-started");
+        },
+        // Called when a file is added to the queue
+        // Receives `file`
+        addedfile: function addedfile(file) {
+          var _this2 = this;
+
+          if (this.element === this.previewsContainer) {
+            this.element.classList.add("dz-started");
+          }
+
+          if (this.previewsContainer) {
+            file.previewElement = Dropzone.createElement(this.options.previewTemplate.trim());
+            file.previewTemplate = file.previewElement; // Backwards compatibility
+
+            this.previewsContainer.appendChild(file.previewElement);
+
+            var _iterator3 = _createForOfIteratorHelper(file.previewElement.querySelectorAll("[data-dz-name]")),
+                _step3;
+
+            try {
+              for (_iterator3.s(); !(_step3 = _iterator3.n()).done;) {
+                var node = _step3.value;
+                node.textContent = file.name;
+              }
+            } catch (err) {
+              _iterator3.e(err);
+            } finally {
+              _iterator3.f();
+            }
+
+            var _iterator4 = _createForOfIteratorHelper(file.previewElement.querySelectorAll("[data-dz-size]")),
+                _step4;
+
+            try {
+              for (_iterator4.s(); !(_step4 = _iterator4.n()).done;) {
+                node = _step4.value;
+                node.innerHTML = this.filesize(file.size);
+              }
+            } catch (err) {
+              _iterator4.e(err);
+            } finally {
+              _iterator4.f();
+            }
+
+            if (this.options.addRemoveLinks) {
+              file._removeLink = Dropzone.createElement("<a class=\"dz-remove\" href=\"javascript:undefined;\" data-dz-remove>".concat(this.options.dictRemoveFile, "</a>"));
+              file.previewElement.appendChild(file._removeLink);
+            }
+
+            var removeFileEvent = function removeFileEvent(e) {
+              e.preventDefault();
+              e.stopPropagation();
+
+              if (file.status === Dropzone.UPLOADING) {
+                return Dropzone.confirm(_this2.options.dictCancelUploadConfirmation, function () {
+                  return _this2.removeFile(file);
+                });
+              } else {
+                if (_this2.options.dictRemoveFileConfirmation) {
+                  return Dropzone.confirm(_this2.options.dictRemoveFileConfirmation, function () {
+                    return _this2.removeFile(file);
+                  });
+                } else {
+                  return _this2.removeFile(file);
+                }
+              }
+            };
+
+            var _iterator5 = _createForOfIteratorHelper(file.previewElement.querySelectorAll("[data-dz-remove]")),
+                _step5;
+
+            try {
+              for (_iterator5.s(); !(_step5 = _iterator5.n()).done;) {
+                var removeLink = _step5.value;
+                removeLink.addEventListener("click", removeFileEvent);
+              }
+            } catch (err) {
+              _iterator5.e(err);
+            } finally {
+              _iterator5.f();
+            }
+          }
+        },
+        // Called whenever a file is removed.
+        removedfile: function removedfile(file) {
+          if (file.previewElement != null && file.previewElement.parentNode != null) {
+            file.previewElement.parentNode.removeChild(file.previewElement);
+          }
+
+          return this._updateMaxFilesReachedClass();
+        },
+        // Called when a thumbnail has been generated
+        // Receives `file` and `dataUrl`
+        thumbnail: function thumbnail(file, dataUrl) {
+          if (file.previewElement) {
+            file.previewElement.classList.remove("dz-file-preview");
+
+            var _iterator6 = _createForOfIteratorHelper(file.previewElement.querySelectorAll("[data-dz-thumbnail]")),
+                _step6;
+
+            try {
+              for (_iterator6.s(); !(_step6 = _iterator6.n()).done;) {
+                var thumbnailElement = _step6.value;
+                thumbnailElement.alt = file.name;
+                thumbnailElement.src = dataUrl;
+              }
+            } catch (err) {
+              _iterator6.e(err);
+            } finally {
+              _iterator6.f();
+            }
+
+            return setTimeout(function () {
+              return file.previewElement.classList.add("dz-image-preview");
+            }, 1);
+          }
+        },
+        // Called whenever an error occurs
+        // Receives `file` and `message`
+        error: function error(file, message) {
+          if (file.previewElement) {
+            file.previewElement.classList.add("dz-error");
+
+            if (typeof message !== "string" && message.error) {
+              message = message.error;
+            }
+
+            var _iterator7 = _createForOfIteratorHelper(file.previewElement.querySelectorAll("[data-dz-errormessage]")),
+                _step7;
+
+            try {
+              for (_iterator7.s(); !(_step7 = _iterator7.n()).done;) {
+                var node = _step7.value;
+                node.textContent = message;
+              }
+            } catch (err) {
+              _iterator7.e(err);
+            } finally {
+              _iterator7.f();
+            }
+          }
+        },
+        errormultiple: function errormultiple() {},
+        // Called when a file gets processed. Since there is a cue, not all added
+        // files are processed immediately.
+        // Receives `file`
+        processing: function processing(file) {
+          if (file.previewElement) {
+            file.previewElement.classList.add("dz-processing");
+
+            if (file._removeLink) {
+              return file._removeLink.innerHTML = this.options.dictCancelUpload;
+            }
+          }
+        },
+        processingmultiple: function processingmultiple() {},
+        // Called whenever the upload progress gets updated.
+        // Receives `file`, `progress` (percentage 0-100) and `bytesSent`.
+        // To get the total number of bytes of the file, use `file.size`
+        uploadprogress: function uploadprogress(file, progress, bytesSent) {
+          if (file.previewElement) {
+            var _iterator8 = _createForOfIteratorHelper(file.previewElement.querySelectorAll("[data-dz-uploadprogress]")),
+                _step8;
+
+            try {
+              for (_iterator8.s(); !(_step8 = _iterator8.n()).done;) {
+                var node = _step8.value;
+                node.nodeName === 'PROGRESS' ? node.value = progress : node.style.width = "".concat(progress, "%");
+              }
+            } catch (err) {
+              _iterator8.e(err);
+            } finally {
+              _iterator8.f();
+            }
+          }
+        },
+        // Called whenever the total upload progress gets updated.
+        // Called with totalUploadProgress (0-100), totalBytes and totalBytesSent
+        totaluploadprogress: function totaluploadprogress() {},
+        // Called just before the file is sent. Gets the `xhr` object as second
+        // parameter, so you can modify it (for example to add a CSRF token) and a
+        // `formData` object to add additional information.
+        sending: function sending() {},
+        sendingmultiple: function sendingmultiple() {},
+        // When the complete upload is finished and successful
+        // Receives `file`
+        success: function success(file) {
+          if (file.previewElement) {
+            return file.previewElement.classList.add("dz-success");
+          }
+        },
+        successmultiple: function successmultiple() {},
+        // When the upload is canceled.
+        canceled: function canceled(file) {
+          return this.emit("error", file, this.options.dictUploadCanceled);
+        },
+        canceledmultiple: function canceledmultiple() {},
+        // When the upload is finished, either with success or an error.
+        // Receives `file`
+        complete: function complete(file) {
+          if (file._removeLink) {
+            file._removeLink.innerHTML = this.options.dictRemoveFile;
+          }
+
+          if (file.previewElement) {
+            return file.previewElement.classList.add("dz-complete");
+          }
+        },
+        completemultiple: function completemultiple() {},
+        maxfilesexceeded: function maxfilesexceeded() {},
+        maxfilesreached: function maxfilesreached() {},
+        queuecomplete: function queuecomplete() {},
+        addedfiles: function addedfiles() {}
+      };
+      this.prototype._thumbnailQueue = [];
+      this.prototype._processingThumbnail = false;
+    } // global utility
+
+  }, {
+    key: "extend",
+    value: function extend(target) {
+      for (var _len2 = arguments.length, objects = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+        objects[_key2 - 1] = arguments[_key2];
+      }
+
+      for (var _i = 0, _objects = objects; _i < _objects.length; _i++) {
+        var object = _objects[_i];
+
+        for (var key in object) {
+          var val = object[key];
+          target[key] = val;
+        }
+      }
+
+      return target;
+    }
+  }]);
+
+  function Dropzone(el, options) {
+    var _this;
+
+    _classCallCheck(this, Dropzone);
+
+    _this = _super.call(this);
+    var fallback, left;
+    _this.element = el; // For backwards compatibility since the version was in the prototype previously
+
+    _this.version = Dropzone.version;
+    _this.defaultOptions.previewTemplate = _this.defaultOptions.previewTemplate.replace(/\n*/g, "");
+    _this.clickableElements = [];
+    _this.listeners = [];
+    _this.files = []; // All files
+
+    if (typeof _this.element === "string") {
+      _this.element = document.querySelector(_this.element);
+    } // Not checking if instance of HTMLElement or Element since IE9 is extremely weird.
+
+
+    if (!_this.element || _this.element.nodeType == null) {
+      throw new Error("Invalid dropzone element.");
+    }
+
+    if (_this.element.dropzone) {
+      throw new Error("Dropzone already attached.");
+    } // Now add this dropzone to the instances.
+
+
+    Dropzone.instances.push(_assertThisInitialized(_this)); // Put the dropzone inside the element itself.
+
+    _this.element.dropzone = _assertThisInitialized(_this);
+    var elementOptions = (left = Dropzone.optionsForElement(_this.element)) != null ? left : {};
+    _this.options = Dropzone.extend({}, _this.defaultOptions, elementOptions, options != null ? options : {}); // If the browser failed, just call the fallback and leave
+
+    if (_this.options.forceFallback || !Dropzone.isBrowserSupported()) {
+      return _possibleConstructorReturn(_this, _this.options.fallback.call(_assertThisInitialized(_this)));
+    } // @options.url = @element.getAttribute "action" unless @options.url?
+
+
+    if (_this.options.url == null) {
+      _this.options.url = _this.element.getAttribute("action");
+    }
+
+    if (!_this.options.url) {
+      throw new Error("No URL provided.");
+    }
+
+    if (_this.options.acceptedFiles && _this.options.acceptedMimeTypes) {
+      throw new Error("You can't provide both 'acceptedFiles' and 'acceptedMimeTypes'. 'acceptedMimeTypes' is deprecated.");
+    }
+
+    if (_this.options.uploadMultiple && _this.options.chunking) {
+      throw new Error('You cannot set both: uploadMultiple and chunking.');
+    } // Backwards compatibility
+
+
+    if (_this.options.acceptedMimeTypes) {
+      _this.options.acceptedFiles = _this.options.acceptedMimeTypes;
+      delete _this.options.acceptedMimeTypes;
+    } // Backwards compatibility
+
+
+    if (_this.options.renameFilename != null) {
+      _this.options.renameFile = function (file) {
+        return _this.options.renameFilename.call(_assertThisInitialized(_this), file.name, file);
+      };
+    }
+
+    if (typeof _this.options.method === 'string') {
+      _this.options.method = _this.options.method.toUpperCase();
+    }
+
+    if ((fallback = _this.getExistingFallback()) && fallback.parentNode) {
+      // Remove the fallback
+      fallback.parentNode.removeChild(fallback);
+    } // Display previews in the previewsContainer element or the Dropzone element unless explicitly set to false
+
+
+    if (_this.options.previewsContainer !== false) {
+      if (_this.options.previewsContainer) {
+        _this.previewsContainer = Dropzone.getElement(_this.options.previewsContainer, "previewsContainer");
+      } else {
+        _this.previewsContainer = _this.element;
+      }
+    }
+
+    if (_this.options.clickable) {
+      if (_this.options.clickable === true) {
+        _this.clickableElements = [_this.element];
+      } else {
+        _this.clickableElements = Dropzone.getElements(_this.options.clickable, "clickable");
+      }
+    }
+
+    _this.init();
+
+    return _this;
+  } // Returns all files that have been accepted
+
+
+  _createClass(Dropzone, [{
+    key: "getAcceptedFiles",
+    value: function getAcceptedFiles() {
+      return this.files.filter(function (file) {
+        return file.accepted;
+      }).map(function (file) {
+        return file;
+      });
+    } // Returns all files that have been rejected
+    // Not sure when that's going to be useful, but added for completeness.
+
+  }, {
+    key: "getRejectedFiles",
+    value: function getRejectedFiles() {
+      return this.files.filter(function (file) {
+        return !file.accepted;
+      }).map(function (file) {
+        return file;
+      });
+    }
+  }, {
+    key: "getFilesWithStatus",
+    value: function getFilesWithStatus(status) {
+      return this.files.filter(function (file) {
+        return file.status === status;
+      }).map(function (file) {
+        return file;
+      });
+    } // Returns all files that are in the queue
+
+  }, {
+    key: "getQueuedFiles",
+    value: function getQueuedFiles() {
+      return this.getFilesWithStatus(Dropzone.QUEUED);
+    }
+  }, {
+    key: "getUploadingFiles",
+    value: function getUploadingFiles() {
+      return this.getFilesWithStatus(Dropzone.UPLOADING);
+    }
+  }, {
+    key: "getAddedFiles",
+    value: function getAddedFiles() {
+      return this.getFilesWithStatus(Dropzone.ADDED);
+    } // Files that are either queued or uploading
+
+  }, {
+    key: "getActiveFiles",
+    value: function getActiveFiles() {
+      return this.files.filter(function (file) {
+        return file.status === Dropzone.UPLOADING || file.status === Dropzone.QUEUED;
+      }).map(function (file) {
+        return file;
+      });
+    } // The function that gets called when Dropzone is initialized. You
+    // can (and should) setup event listeners inside this function.
+
+  }, {
+    key: "init",
+    value: function init() {
+      var _this3 = this;
+
+      // In case it isn't set already
+      if (this.element.tagName === "form") {
+        this.element.setAttribute("enctype", "multipart/form-data");
+      }
+
+      if (this.element.classList.contains("dropzone") && !this.element.querySelector(".dz-message")) {
+        this.element.appendChild(Dropzone.createElement("<div class=\"dz-default dz-message\"><button class=\"dz-button\" type=\"button\">".concat(this.options.dictDefaultMessage, "</button></div>")));
+      }
+
+      if (this.clickableElements.length) {
+        var setupHiddenFileInput = function setupHiddenFileInput() {
+          if (_this3.hiddenFileInput) {
+            _this3.hiddenFileInput.parentNode.removeChild(_this3.hiddenFileInput);
+          }
+
+          _this3.hiddenFileInput = document.createElement("input");
+
+          _this3.hiddenFileInput.setAttribute("type", "file");
+
+          if (_this3.options.maxFiles === null || _this3.options.maxFiles > 1) {
+            _this3.hiddenFileInput.setAttribute("multiple", "multiple");
+          }
+
+          _this3.hiddenFileInput.className = "dz-hidden-input";
+
+          if (_this3.options.acceptedFiles !== null) {
+            _this3.hiddenFileInput.setAttribute("accept", _this3.options.acceptedFiles);
+          }
+
+          if (_this3.options.capture !== null) {
+            _this3.hiddenFileInput.setAttribute("capture", _this3.options.capture);
+          } // Not setting `display="none"` because some browsers don't accept clicks
+          // on elements that aren't displayed.
+
+
+          _this3.hiddenFileInput.style.visibility = "hidden";
+          _this3.hiddenFileInput.style.position = "absolute";
+          _this3.hiddenFileInput.style.top = "0";
+          _this3.hiddenFileInput.style.left = "0";
+          _this3.hiddenFileInput.style.height = "0";
+          _this3.hiddenFileInput.style.width = "0";
+          Dropzone.getElement(_this3.options.hiddenInputContainer, 'hiddenInputContainer').appendChild(_this3.hiddenFileInput);
+          return _this3.hiddenFileInput.addEventListener("change", function () {
+            var files = _this3.hiddenFileInput.files;
+
+            if (files.length) {
+              var _iterator9 = _createForOfIteratorHelper(files),
+                  _step9;
+
+              try {
+                for (_iterator9.s(); !(_step9 = _iterator9.n()).done;) {
+                  var file = _step9.value;
+
+                  _this3.addFile(file);
+                }
+              } catch (err) {
+                _iterator9.e(err);
+              } finally {
+                _iterator9.f();
+              }
+            }
+
+            _this3.emit("addedfiles", files);
+
+            return setupHiddenFileInput();
+          });
+        };
+
+        setupHiddenFileInput();
+      }
+
+      this.URL = window.URL !== null ? window.URL : window.webkitURL; // Setup all event listeners on the Dropzone object itself.
+      // They're not in @setupEventListeners() because they shouldn't be removed
+      // again when the dropzone gets disabled.
+
+      var _iterator10 = _createForOfIteratorHelper(this.events),
+          _step10;
+
+      try {
+        for (_iterator10.s(); !(_step10 = _iterator10.n()).done;) {
+          var eventName = _step10.value;
+          this.on(eventName, this.options[eventName]);
+        }
+      } catch (err) {
+        _iterator10.e(err);
+      } finally {
+        _iterator10.f();
+      }
+
+      this.on("uploadprogress", function () {
+        return _this3.updateTotalUploadProgress();
+      });
+      this.on("removedfile", function () {
+        return _this3.updateTotalUploadProgress();
+      });
+      this.on("canceled", function (file) {
+        return _this3.emit("complete", file);
+      }); // Emit a `queuecomplete` event if all files finished uploading.
+
+      this.on("complete", function (file) {
+        if (_this3.getAddedFiles().length === 0 && _this3.getUploadingFiles().length === 0 && _this3.getQueuedFiles().length === 0) {
+          // This needs to be deferred so that `queuecomplete` really triggers after `complete`
+          return setTimeout(function () {
+            return _this3.emit("queuecomplete");
+          }, 0);
+        }
+      });
+
+      var containsFiles = function containsFiles(e) {
+        if (e.dataTransfer.types) {
+          // Because e.dataTransfer.types is an Object in
+          // IE, we need to iterate like this instead of
+          // using e.dataTransfer.types.some()
+          for (var i = 0; i < e.dataTransfer.types.length; i++) {
+            if (e.dataTransfer.types[i] === "Files") return true;
+          }
+        }
+
+        return false;
+      };
+
+      var noPropagation = function noPropagation(e) {
+        // If there are no files, we don't want to stop
+        // propagation so we don't interfere with other
+        // drag and drop behaviour.
+        if (!containsFiles(e)) return;
+        e.stopPropagation();
+
+        if (e.preventDefault) {
+          return e.preventDefault();
+        } else {
+          return e.returnValue = false;
+        }
+      }; // Create the listeners
+
+
+      this.listeners = [{
+        element: this.element,
+        events: {
+          "dragstart": function dragstart(e) {
+            return _this3.emit("dragstart", e);
+          },
+          "dragenter": function dragenter(e) {
+            noPropagation(e);
+            return _this3.emit("dragenter", e);
+          },
+          "dragover": function dragover(e) {
+            // Makes it possible to drag files from chrome's download bar
+            // http://stackoverflow.com/questions/19526430/drag-and-drop-file-uploads-from-chrome-downloads-bar
+            // Try is required to prevent bug in Internet Explorer 11 (SCRIPT65535 exception)
+            var efct;
+
+            try {
+              efct = e.dataTransfer.effectAllowed;
+            } catch (error) {}
+
+            e.dataTransfer.dropEffect = 'move' === efct || 'linkMove' === efct ? 'move' : 'copy';
+            noPropagation(e);
+            return _this3.emit("dragover", e);
+          },
+          "dragleave": function dragleave(e) {
+            return _this3.emit("dragleave", e);
+          },
+          "drop": function drop(e) {
+            noPropagation(e);
+            return _this3.drop(e);
+          },
+          "dragend": function dragend(e) {
+            return _this3.emit("dragend", e);
+          }
+        } // This is disabled right now, because the browsers don't implement it properly.
+        // "paste": (e) =>
+        //   noPropagation e
+        //   @paste e
+
+      }];
+      this.clickableElements.forEach(function (clickableElement) {
+        return _this3.listeners.push({
+          element: clickableElement,
+          events: {
+            "click": function click(evt) {
+              // Only the actual dropzone or the message element should trigger file selection
+              if (clickableElement !== _this3.element || evt.target === _this3.element || Dropzone.elementInside(evt.target, _this3.element.querySelector(".dz-message"))) {
+                _this3.hiddenFileInput.click(); // Forward the click
+
+              }
+
+              return true;
+            }
+          }
+        });
+      });
+      this.enable();
+      return this.options.init.call(this);
+    } // Not fully tested yet
+
+  }, {
+    key: "destroy",
+    value: function destroy() {
+      this.disable();
+      this.removeAllFiles(true);
+
+      if (this.hiddenFileInput != null ? this.hiddenFileInput.parentNode : undefined) {
+        this.hiddenFileInput.parentNode.removeChild(this.hiddenFileInput);
+        this.hiddenFileInput = null;
+      }
+
+      delete this.element.dropzone;
+      return Dropzone.instances.splice(Dropzone.instances.indexOf(this), 1);
+    }
+  }, {
+    key: "updateTotalUploadProgress",
+    value: function updateTotalUploadProgress() {
+      var totalUploadProgress;
+      var totalBytesSent = 0;
+      var totalBytes = 0;
+      var activeFiles = this.getActiveFiles();
+
+      if (activeFiles.length) {
+        var _iterator11 = _createForOfIteratorHelper(this.getActiveFiles()),
+            _step11;
+
+        try {
+          for (_iterator11.s(); !(_step11 = _iterator11.n()).done;) {
+            var file = _step11.value;
+            totalBytesSent += file.upload.bytesSent;
+            totalBytes += file.upload.total;
+          }
+        } catch (err) {
+          _iterator11.e(err);
+        } finally {
+          _iterator11.f();
+        }
+
+        totalUploadProgress = 100 * totalBytesSent / totalBytes;
+      } else {
+        totalUploadProgress = 100;
+      }
+
+      return this.emit("totaluploadprogress", totalUploadProgress, totalBytes, totalBytesSent);
+    } // @options.paramName can be a function taking one parameter rather than a string.
+    // A parameter name for a file is obtained simply by calling this with an index number.
+
+  }, {
+    key: "_getParamName",
+    value: function _getParamName(n) {
+      if (typeof this.options.paramName === "function") {
+        return this.options.paramName(n);
+      } else {
+        return "".concat(this.options.paramName).concat(this.options.uploadMultiple ? "[".concat(n, "]") : "");
+      }
+    } // If @options.renameFile is a function,
+    // the function will be used to rename the file.name before appending it to the formData
+
+  }, {
+    key: "_renameFile",
+    value: function _renameFile(file) {
+      if (typeof this.options.renameFile !== "function") {
+        return file.name;
+      }
+
+      return this.options.renameFile(file);
+    } // Returns a form that can be used as fallback if the browser does not support DragnDrop
+    //
+    // If the dropzone is already a form, only the input field and button are returned. Otherwise a complete form element is provided.
+    // This code has to pass in IE7 :(
+
+  }, {
+    key: "getFallbackForm",
+    value: function getFallbackForm() {
+      var existingFallback, form;
+
+      if (existingFallback = this.getExistingFallback()) {
+        return existingFallback;
+      }
+
+      var fieldsString = "<div class=\"dz-fallback\">";
+
+      if (this.options.dictFallbackText) {
+        fieldsString += "<p>".concat(this.options.dictFallbackText, "</p>");
+      }
+
+      fieldsString += "<input type=\"file\" name=\"".concat(this._getParamName(0), "\" ").concat(this.options.uploadMultiple ? 'multiple="multiple"' : undefined, " /><input type=\"submit\" value=\"Upload!\"></div>");
+      var fields = Dropzone.createElement(fieldsString);
+
+      if (this.element.tagName !== "FORM") {
+        form = Dropzone.createElement("<form action=\"".concat(this.options.url, "\" enctype=\"multipart/form-data\" method=\"").concat(this.options.method, "\"></form>"));
+        form.appendChild(fields);
+      } else {
+        // Make sure that the enctype and method attributes are set properly
+        this.element.setAttribute("enctype", "multipart/form-data");
+        this.element.setAttribute("method", this.options.method);
+      }
+
+      return form != null ? form : fields;
+    } // Returns the fallback elements if they exist already
+    //
+    // This code has to pass in IE7 :(
+
+  }, {
+    key: "getExistingFallback",
+    value: function getExistingFallback() {
+      var getFallback = function getFallback(elements) {
+        var _iterator12 = _createForOfIteratorHelper(elements),
+            _step12;
+
+        try {
+          for (_iterator12.s(); !(_step12 = _iterator12.n()).done;) {
+            var el = _step12.value;
+
+            if (/(^| )fallback($| )/.test(el.className)) {
+              return el;
+            }
+          }
+        } catch (err) {
+          _iterator12.e(err);
+        } finally {
+          _iterator12.f();
+        }
+      };
+
+      for (var _i2 = 0, _arr = ["div", "form"]; _i2 < _arr.length; _i2++) {
+        var tagName = _arr[_i2];
+        var fallback;
+
+        if (fallback = getFallback(this.element.getElementsByTagName(tagName))) {
+          return fallback;
+        }
+      }
+    } // Activates all listeners stored in @listeners
+
+  }, {
+    key: "setupEventListeners",
+    value: function setupEventListeners() {
+      return this.listeners.map(function (elementListeners) {
+        return function () {
+          var result = [];
+
+          for (var event in elementListeners.events) {
+            var listener = elementListeners.events[event];
+            result.push(elementListeners.element.addEventListener(event, listener, false));
+          }
+
+          return result;
+        }();
+      });
+    } // Deactivates all listeners stored in @listeners
+
+  }, {
+    key: "removeEventListeners",
+    value: function removeEventListeners() {
+      return this.listeners.map(function (elementListeners) {
+        return function () {
+          var result = [];
+
+          for (var event in elementListeners.events) {
+            var listener = elementListeners.events[event];
+            result.push(elementListeners.element.removeEventListener(event, listener, false));
+          }
+
+          return result;
+        }();
+      });
+    } // Removes all event listeners and cancels all files in the queue or being processed.
+
+  }, {
+    key: "disable",
+    value: function disable() {
+      var _this4 = this;
+
+      this.clickableElements.forEach(function (element) {
+        return element.classList.remove("dz-clickable");
+      });
+      this.removeEventListeners();
+      this.disabled = true;
+      return this.files.map(function (file) {
+        return _this4.cancelUpload(file);
+      });
+    }
+  }, {
+    key: "enable",
+    value: function enable() {
+      delete this.disabled;
+      this.clickableElements.forEach(function (element) {
+        return element.classList.add("dz-clickable");
+      });
+      return this.setupEventListeners();
+    } // Returns a nicely formatted filesize
+
+  }, {
+    key: "filesize",
+    value: function filesize(size) {
+      var selectedSize = 0;
+      var selectedUnit = "b";
+
+      if (size > 0) {
+        var units = ['tb', 'gb', 'mb', 'kb', 'b'];
+
+        for (var i = 0; i < units.length; i++) {
+          var unit = units[i];
+          var cutoff = Math.pow(this.options.filesizeBase, 4 - i) / 10;
+
+          if (size >= cutoff) {
+            selectedSize = size / Math.pow(this.options.filesizeBase, 4 - i);
+            selectedUnit = unit;
+            break;
+          }
+        }
+
+        selectedSize = Math.round(10 * selectedSize) / 10; // Cutting of digits
+      }
+
+      return "<strong>".concat(selectedSize, "</strong> ").concat(this.options.dictFileSizeUnits[selectedUnit]);
+    } // Adds or removes the `dz-max-files-reached` class from the form.
+
+  }, {
+    key: "_updateMaxFilesReachedClass",
+    value: function _updateMaxFilesReachedClass() {
+      if (this.options.maxFiles != null && this.getAcceptedFiles().length >= this.options.maxFiles) {
+        if (this.getAcceptedFiles().length === this.options.maxFiles) {
+          this.emit('maxfilesreached', this.files);
+        }
+
+        return this.element.classList.add("dz-max-files-reached");
+      } else {
+        return this.element.classList.remove("dz-max-files-reached");
+      }
+    }
+  }, {
+    key: "drop",
+    value: function drop(e) {
+      if (!e.dataTransfer) {
+        return;
+      }
+
+      this.emit("drop", e); // Convert the FileList to an Array
+      // This is necessary for IE11
+
+      var files = [];
+
+      for (var i = 0; i < e.dataTransfer.files.length; i++) {
+        files[i] = e.dataTransfer.files[i];
+      } // Even if it's a folder, files.length will contain the folders.
+
+
+      if (files.length) {
+        var items = e.dataTransfer.items;
+
+        if (items && items.length && items[0].webkitGetAsEntry != null) {
+          // The browser supports dropping of folders, so handle items instead of files
+          this._addFilesFromItems(items);
+        } else {
+          this.handleFiles(files);
+        }
+      }
+
+      this.emit("addedfiles", files);
+    }
+  }, {
+    key: "paste",
+    value: function paste(e) {
+      if (__guard__(e != null ? e.clipboardData : undefined, function (x) {
+        return x.items;
+      }) == null) {
+        return;
+      }
+
+      this.emit("paste", e);
+      var items = e.clipboardData.items;
+
+      if (items.length) {
+        return this._addFilesFromItems(items);
+      }
+    }
+  }, {
+    key: "handleFiles",
+    value: function handleFiles(files) {
+      var _iterator13 = _createForOfIteratorHelper(files),
+          _step13;
+
+      try {
+        for (_iterator13.s(); !(_step13 = _iterator13.n()).done;) {
+          var file = _step13.value;
+          this.addFile(file);
+        }
+      } catch (err) {
+        _iterator13.e(err);
+      } finally {
+        _iterator13.f();
+      }
+    } // When a folder is dropped (or files are pasted), items must be handled
+    // instead of files.
+
+  }, {
+    key: "_addFilesFromItems",
+    value: function _addFilesFromItems(items) {
+      var _this5 = this;
+
+      return function () {
+        var result = [];
+
+        var _iterator14 = _createForOfIteratorHelper(items),
+            _step14;
+
+        try {
+          for (_iterator14.s(); !(_step14 = _iterator14.n()).done;) {
+            var item = _step14.value;
+            var entry;
+
+            if (item.webkitGetAsEntry != null && (entry = item.webkitGetAsEntry())) {
+              if (entry.isFile) {
+                result.push(_this5.addFile(item.getAsFile()));
+              } else if (entry.isDirectory) {
+                // Append all files from that directory to files
+                result.push(_this5._addFilesFromDirectory(entry, entry.name));
+              } else {
+                result.push(undefined);
+              }
+            } else if (item.getAsFile != null) {
+              if (item.kind == null || item.kind === "file") {
+                result.push(_this5.addFile(item.getAsFile()));
+              } else {
+                result.push(undefined);
+              }
+            } else {
+              result.push(undefined);
+            }
+          }
+        } catch (err) {
+          _iterator14.e(err);
+        } finally {
+          _iterator14.f();
+        }
+
+        return result;
+      }();
+    } // Goes through the directory, and adds each file it finds recursively
+
+  }, {
+    key: "_addFilesFromDirectory",
+    value: function _addFilesFromDirectory(directory, path) {
+      var _this6 = this;
+
+      var dirReader = directory.createReader();
+
+      var errorHandler = function errorHandler(error) {
+        return __guardMethod__(console, 'log', function (o) {
+          return o.log(error);
+        });
+      };
+
+      var readEntries = function readEntries() {
+        return dirReader.readEntries(function (entries) {
+          if (entries.length > 0) {
+            var _iterator15 = _createForOfIteratorHelper(entries),
+                _step15;
+
+            try {
+              for (_iterator15.s(); !(_step15 = _iterator15.n()).done;) {
+                var entry = _step15.value;
+
+                if (entry.isFile) {
+                  entry.file(function (file) {
+                    if (_this6.options.ignoreHiddenFiles && file.name.substring(0, 1) === '.') {
+                      return;
+                    }
+
+                    file.fullPath = "".concat(path, "/").concat(file.name);
+                    return _this6.addFile(file);
+                  });
+                } else if (entry.isDirectory) {
+                  _this6._addFilesFromDirectory(entry, "".concat(path, "/").concat(entry.name));
+                }
+              } // Recursively call readEntries() again, since browser only handle
+              // the first 100 entries.
+              // See: https://developer.mozilla.org/en-US/docs/Web/API/DirectoryReader#readEntries
+
+            } catch (err) {
+              _iterator15.e(err);
+            } finally {
+              _iterator15.f();
+            }
+
+            readEntries();
+          }
+
+          return null;
+        }, errorHandler);
+      };
+
+      return readEntries();
+    } // If `done()` is called without argument the file is accepted
+    // If you call it with an error message, the file is rejected
+    // (This allows for asynchronous validation)
+    //
+    // This function checks the filesize, and if the file.type passes the
+    // `acceptedFiles` check.
+
+  }, {
+    key: "accept",
+    value: function accept(file, done) {
+      if (this.options.maxFilesize && file.size > this.options.maxFilesize * 1024 * 1024) {
+        done(this.options.dictFileTooBig.replace("{{filesize}}", Math.round(file.size / 1024 / 10.24) / 100).replace("{{maxFilesize}}", this.options.maxFilesize));
+      } else if (!Dropzone.isValidFile(file, this.options.acceptedFiles)) {
+        done(this.options.dictInvalidFileType);
+      } else if (this.options.maxFiles != null && this.getAcceptedFiles().length >= this.options.maxFiles) {
+        done(this.options.dictMaxFilesExceeded.replace("{{maxFiles}}", this.options.maxFiles));
+        this.emit("maxfilesexceeded", file);
+      } else {
+        this.options.accept.call(this, file, done);
+      }
+    }
+  }, {
+    key: "addFile",
+    value: function addFile(file) {
+      var _this7 = this;
+
+      file.upload = {
+        uuid: Dropzone.uuidv4(),
+        progress: 0,
+        // Setting the total upload size to file.size for the beginning
+        // It's actual different than the size to be transmitted.
+        total: file.size,
+        bytesSent: 0,
+        filename: this._renameFile(file) // Not setting chunking information here, because the acutal data — and
+        // thus the chunks — might change if `options.transformFile` is set
+        // and does something to the data.
+
+      };
+      this.files.push(file);
+      file.status = Dropzone.ADDED;
+      this.emit("addedfile", file);
+
+      this._enqueueThumbnail(file);
+
+      this.accept(file, function (error) {
+        if (error) {
+          file.accepted = false;
+
+          _this7._errorProcessing([file], error); // Will set the file.status
+
+        } else {
+          file.accepted = true;
+
+          if (_this7.options.autoQueue) {
+            _this7.enqueueFile(file);
+          } // Will set .accepted = true
+
+        }
+
+        _this7._updateMaxFilesReachedClass();
+      });
+    } // Wrapper for enqueueFile
+
+  }, {
+    key: "enqueueFiles",
+    value: function enqueueFiles(files) {
+      var _iterator16 = _createForOfIteratorHelper(files),
+          _step16;
+
+      try {
+        for (_iterator16.s(); !(_step16 = _iterator16.n()).done;) {
+          var file = _step16.value;
+          this.enqueueFile(file);
+        }
+      } catch (err) {
+        _iterator16.e(err);
+      } finally {
+        _iterator16.f();
+      }
+
+      return null;
+    }
+  }, {
+    key: "enqueueFile",
+    value: function enqueueFile(file) {
+      var _this8 = this;
+
+      if (file.status === Dropzone.ADDED && file.accepted === true) {
+        file.status = Dropzone.QUEUED;
+
+        if (this.options.autoProcessQueue) {
+          return setTimeout(function () {
+            return _this8.processQueue();
+          }, 0); // Deferring the call
+        }
+      } else {
+        throw new Error("This file can't be queued because it has already been processed or was rejected.");
+      }
+    }
+  }, {
+    key: "_enqueueThumbnail",
+    value: function _enqueueThumbnail(file) {
+      var _this9 = this;
+
+      if (this.options.createImageThumbnails && file.type.match(/image.*/) && file.size <= this.options.maxThumbnailFilesize * 1024 * 1024) {
+        this._thumbnailQueue.push(file);
+
+        return setTimeout(function () {
+          return _this9._processThumbnailQueue();
+        }, 0); // Deferring the call
+      }
+    }
+  }, {
+    key: "_processThumbnailQueue",
+    value: function _processThumbnailQueue() {
+      var _this10 = this;
+
+      if (this._processingThumbnail || this._thumbnailQueue.length === 0) {
+        return;
+      }
+
+      this._processingThumbnail = true;
+
+      var file = this._thumbnailQueue.shift();
+
+      return this.createThumbnail(file, this.options.thumbnailWidth, this.options.thumbnailHeight, this.options.thumbnailMethod, true, function (dataUrl) {
+        _this10.emit("thumbnail", file, dataUrl);
+
+        _this10._processingThumbnail = false;
+        return _this10._processThumbnailQueue();
+      });
+    } // Can be called by the user to remove a file
+
+  }, {
+    key: "removeFile",
+    value: function removeFile(file) {
+      if (file.status === Dropzone.UPLOADING) {
+        this.cancelUpload(file);
+      }
+
+      this.files = without(this.files, file);
+      this.emit("removedfile", file);
+
+      if (this.files.length === 0) {
+        return this.emit("reset");
+      }
+    } // Removes all files that aren't currently processed from the list
+
+  }, {
+    key: "removeAllFiles",
+    value: function removeAllFiles(cancelIfNecessary) {
+      // Create a copy of files since removeFile() changes the @files array.
+      if (cancelIfNecessary == null) {
+        cancelIfNecessary = false;
+      }
+
+      var _iterator17 = _createForOfIteratorHelper(this.files.slice()),
+          _step17;
+
+      try {
+        for (_iterator17.s(); !(_step17 = _iterator17.n()).done;) {
+          var file = _step17.value;
+
+          if (file.status !== Dropzone.UPLOADING || cancelIfNecessary) {
+            this.removeFile(file);
+          }
+        }
+      } catch (err) {
+        _iterator17.e(err);
+      } finally {
+        _iterator17.f();
+      }
+
+      return null;
+    } // Resizes an image before it gets sent to the server. This function is the default behavior of
+    // `options.transformFile` if `resizeWidth` or `resizeHeight` are set. The callback is invoked with
+    // the resized blob.
+
+  }, {
+    key: "resizeImage",
+    value: function resizeImage(file, width, height, resizeMethod, callback) {
+      var _this11 = this;
+
+      return this.createThumbnail(file, width, height, resizeMethod, true, function (dataUrl, canvas) {
+        if (canvas == null) {
+          // The image has not been resized
+          return callback(file);
+        } else {
+          var resizeMimeType = _this11.options.resizeMimeType;
+
+          if (resizeMimeType == null) {
+            resizeMimeType = file.type;
+          }
+
+          var resizedDataURL = canvas.toDataURL(resizeMimeType, _this11.options.resizeQuality);
+
+          if (resizeMimeType === 'image/jpeg' || resizeMimeType === 'image/jpg') {
+            // Now add the original EXIF information
+            resizedDataURL = ExifRestore.restore(file.dataURL, resizedDataURL);
+          }
+
+          return callback(Dropzone.dataURItoBlob(resizedDataURL));
+        }
+      });
+    }
+  }, {
+    key: "createThumbnail",
+    value: function createThumbnail(file, width, height, resizeMethod, fixOrientation, callback) {
+      var _this12 = this;
+
+      var fileReader = new FileReader();
+
+      fileReader.onload = function () {
+        file.dataURL = fileReader.result; // Don't bother creating a thumbnail for SVG images since they're vector
+
+        if (file.type === "image/svg+xml") {
+          if (callback != null) {
+            callback(fileReader.result);
+          }
+
+          return;
+        }
+
+        _this12.createThumbnailFromUrl(file, width, height, resizeMethod, fixOrientation, callback);
+      };
+
+      fileReader.readAsDataURL(file);
+    } // `mockFile` needs to have these attributes:
+    // 
+    //     { name: 'name', size: 12345, imageUrl: '' }
+    //
+    // `callback` will be invoked when the image has been downloaded and displayed.
+    // `crossOrigin` will be added to the `img` tag when accessing the file.
+
+  }, {
+    key: "displayExistingFile",
+    value: function displayExistingFile(mockFile, imageUrl, callback, crossOrigin) {
+      var _this13 = this;
+
+      var resizeThumbnail = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : true;
+      this.emit("addedfile", mockFile);
+      this.emit("complete", mockFile);
+
+      if (!resizeThumbnail) {
+        this.emit("thumbnail", mockFile, imageUrl);
+        if (callback) callback();
+      } else {
+        var onDone = function onDone(thumbnail) {
+          _this13.emit('thumbnail', mockFile, thumbnail);
+
+          if (callback) callback();
+        };
+
+        mockFile.dataURL = imageUrl;
+        this.createThumbnailFromUrl(mockFile, this.options.thumbnailWidth, this.options.thumbnailHeight, this.options.resizeMethod, this.options.fixOrientation, onDone, crossOrigin);
+      }
+    }
+  }, {
+    key: "createThumbnailFromUrl",
+    value: function createThumbnailFromUrl(file, width, height, resizeMethod, fixOrientation, callback, crossOrigin) {
+      var _this14 = this;
+
+      // Not using `new Image` here because of a bug in latest Chrome versions.
+      // See https://github.com/enyo/dropzone/pull/226
+      var img = document.createElement("img");
+
+      if (crossOrigin) {
+        img.crossOrigin = crossOrigin;
+      } // fixOrientation is not needed anymore with browsers handling imageOrientation
+
+
+      fixOrientation = getComputedStyle(document.body)['imageOrientation'] == 'from-image' ? false : fixOrientation;
+
+      img.onload = function () {
+        var loadExif = function loadExif(callback) {
+          return callback(1);
+        };
+
+        if (typeof EXIF !== 'undefined' && EXIF !== null && fixOrientation) {
+          loadExif = function loadExif(callback) {
+            return EXIF.getData(img, function () {
+              return callback(EXIF.getTag(this, 'Orientation'));
+            });
+          };
+        }
+
+        return loadExif(function (orientation) {
+          file.width = img.width;
+          file.height = img.height;
+
+          var resizeInfo = _this14.options.resize.call(_this14, file, width, height, resizeMethod);
+
+          var canvas = document.createElement("canvas");
+          var ctx = canvas.getContext("2d");
+          canvas.width = resizeInfo.trgWidth;
+          canvas.height = resizeInfo.trgHeight;
+
+          if (orientation > 4) {
+            canvas.width = resizeInfo.trgHeight;
+            canvas.height = resizeInfo.trgWidth;
+          }
+
+          switch (orientation) {
+            case 2:
+              // horizontal flip
+              ctx.translate(canvas.width, 0);
+              ctx.scale(-1, 1);
+              break;
+
+            case 3:
+              // 180° rotate left
+              ctx.translate(canvas.width, canvas.height);
+              ctx.rotate(Math.PI);
+              break;
+
+            case 4:
+              // vertical flip
+              ctx.translate(0, canvas.height);
+              ctx.scale(1, -1);
+              break;
+
+            case 5:
+              // vertical flip + 90 rotate right
+              ctx.rotate(0.5 * Math.PI);
+              ctx.scale(1, -1);
+              break;
+
+            case 6:
+              // 90° rotate right
+              ctx.rotate(0.5 * Math.PI);
+              ctx.translate(0, -canvas.width);
+              break;
+
+            case 7:
+              // horizontal flip + 90 rotate right
+              ctx.rotate(0.5 * Math.PI);
+              ctx.translate(canvas.height, -canvas.width);
+              ctx.scale(-1, 1);
+              break;
+
+            case 8:
+              // 90° rotate left
+              ctx.rotate(-0.5 * Math.PI);
+              ctx.translate(-canvas.height, 0);
+              break;
+          } // This is a bugfix for iOS' scaling bug.
+
+
+          drawImageIOSFix(ctx, img, resizeInfo.srcX != null ? resizeInfo.srcX : 0, resizeInfo.srcY != null ? resizeInfo.srcY : 0, resizeInfo.srcWidth, resizeInfo.srcHeight, resizeInfo.trgX != null ? resizeInfo.trgX : 0, resizeInfo.trgY != null ? resizeInfo.trgY : 0, resizeInfo.trgWidth, resizeInfo.trgHeight);
+          var thumbnail = canvas.toDataURL("image/png");
+
+          if (callback != null) {
+            return callback(thumbnail, canvas);
+          }
+        });
+      };
+
+      if (callback != null) {
+        img.onerror = callback;
+      }
+
+      return img.src = file.dataURL;
+    } // Goes through the queue and processes files if there aren't too many already.
+
+  }, {
+    key: "processQueue",
+    value: function processQueue() {
+      var parallelUploads = this.options.parallelUploads;
+      var processingLength = this.getUploadingFiles().length;
+      var i = processingLength; // There are already at least as many files uploading than should be
+
+      if (processingLength >= parallelUploads) {
+        return;
+      }
+
+      var queuedFiles = this.getQueuedFiles();
+
+      if (!(queuedFiles.length > 0)) {
+        return;
+      }
+
+      if (this.options.uploadMultiple) {
+        // The files should be uploaded in one request
+        return this.processFiles(queuedFiles.slice(0, parallelUploads - processingLength));
+      } else {
+        while (i < parallelUploads) {
+          if (!queuedFiles.length) {
+            return;
+          } // Nothing left to process
+
+
+          this.processFile(queuedFiles.shift());
+          i++;
+        }
+      }
+    } // Wrapper for `processFiles`
+
+  }, {
+    key: "processFile",
+    value: function processFile(file) {
+      return this.processFiles([file]);
+    } // Loads the file, then calls finishedLoading()
+
+  }, {
+    key: "processFiles",
+    value: function processFiles(files) {
+      var _iterator18 = _createForOfIteratorHelper(files),
+          _step18;
+
+      try {
+        for (_iterator18.s(); !(_step18 = _iterator18.n()).done;) {
+          var file = _step18.value;
+          file.processing = true; // Backwards compatibility
+
+          file.status = Dropzone.UPLOADING;
+          this.emit("processing", file);
+        }
+      } catch (err) {
+        _iterator18.e(err);
+      } finally {
+        _iterator18.f();
+      }
+
+      if (this.options.uploadMultiple) {
+        this.emit("processingmultiple", files);
+      }
+
+      return this.uploadFiles(files);
+    }
+  }, {
+    key: "_getFilesWithXhr",
+    value: function _getFilesWithXhr(xhr) {
+      var files;
+      return files = this.files.filter(function (file) {
+        return file.xhr === xhr;
+      }).map(function (file) {
+        return file;
+      });
+    } // Cancels the file upload and sets the status to CANCELED
+    // **if** the file is actually being uploaded.
+    // If it's still in the queue, the file is being removed from it and the status
+    // set to CANCELED.
+
+  }, {
+    key: "cancelUpload",
+    value: function cancelUpload(file) {
+      if (file.status === Dropzone.UPLOADING) {
+        var groupedFiles = this._getFilesWithXhr(file.xhr);
+
+        var _iterator19 = _createForOfIteratorHelper(groupedFiles),
+            _step19;
+
+        try {
+          for (_iterator19.s(); !(_step19 = _iterator19.n()).done;) {
+            var groupedFile = _step19.value;
+            groupedFile.status = Dropzone.CANCELED;
+          }
+        } catch (err) {
+          _iterator19.e(err);
+        } finally {
+          _iterator19.f();
+        }
+
+        if (typeof file.xhr !== 'undefined') {
+          file.xhr.abort();
+        }
+
+        var _iterator20 = _createForOfIteratorHelper(groupedFiles),
+            _step20;
+
+        try {
+          for (_iterator20.s(); !(_step20 = _iterator20.n()).done;) {
+            var _groupedFile = _step20.value;
+            this.emit("canceled", _groupedFile);
+          }
+        } catch (err) {
+          _iterator20.e(err);
+        } finally {
+          _iterator20.f();
+        }
+
+        if (this.options.uploadMultiple) {
+          this.emit("canceledmultiple", groupedFiles);
+        }
+      } else if (file.status === Dropzone.ADDED || file.status === Dropzone.QUEUED) {
+        file.status = Dropzone.CANCELED;
+        this.emit("canceled", file);
+
+        if (this.options.uploadMultiple) {
+          this.emit("canceledmultiple", [file]);
+        }
+      }
+
+      if (this.options.autoProcessQueue) {
+        return this.processQueue();
+      }
+    }
+  }, {
+    key: "resolveOption",
+    value: function resolveOption(option) {
+      if (typeof option === 'function') {
+        for (var _len3 = arguments.length, args = new Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
+          args[_key3 - 1] = arguments[_key3];
+        }
+
+        return option.apply(this, args);
+      }
+
+      return option;
+    }
+  }, {
+    key: "uploadFile",
+    value: function uploadFile(file) {
+      return this.uploadFiles([file]);
+    }
+  }, {
+    key: "uploadFiles",
+    value: function uploadFiles(files) {
+      var _this15 = this;
+
+      this._transformFiles(files, function (transformedFiles) {
+        if (_this15.options.chunking) {
+          // Chunking is not allowed to be used with `uploadMultiple` so we know
+          // that there is only __one__file.
+          var transformedFile = transformedFiles[0];
+          files[0].upload.chunked = _this15.options.chunking && (_this15.options.forceChunking || transformedFile.size > _this15.options.chunkSize);
+          files[0].upload.totalChunkCount = Math.ceil(transformedFile.size / _this15.options.chunkSize);
+        }
+
+        if (files[0].upload.chunked) {
+          // This file should be sent in chunks!
+          // If the chunking option is set, we **know** that there can only be **one** file, since
+          // uploadMultiple is not allowed with this option.
+          var file = files[0];
+          var _transformedFile = transformedFiles[0];
+          var startedChunkCount = 0;
+          file.upload.chunks = [];
+
+          var handleNextChunk = function handleNextChunk() {
+            var chunkIndex = 0; // Find the next item in file.upload.chunks that is not defined yet.
+
+            while (file.upload.chunks[chunkIndex] !== undefined) {
+              chunkIndex++;
+            } // This means, that all chunks have already been started.
+
+
+            if (chunkIndex >= file.upload.totalChunkCount) return;
+            startedChunkCount++;
+            var start = chunkIndex * _this15.options.chunkSize;
+            var end = Math.min(start + _this15.options.chunkSize, _transformedFile.size);
+            var dataBlock = {
+              name: _this15._getParamName(0),
+              data: _transformedFile.webkitSlice ? _transformedFile.webkitSlice(start, end) : _transformedFile.slice(start, end),
+              filename: file.upload.filename,
+              chunkIndex: chunkIndex
+            };
+            file.upload.chunks[chunkIndex] = {
+              file: file,
+              index: chunkIndex,
+              dataBlock: dataBlock,
+              // In case we want to retry.
+              status: Dropzone.UPLOADING,
+              progress: 0,
+              retries: 0 // The number of times this block has been retried.
+
+            };
+
+            _this15._uploadData(files, [dataBlock]);
+          };
+
+          file.upload.finishedChunkUpload = function (chunk) {
+            var allFinished = true;
+            chunk.status = Dropzone.SUCCESS; // Clear the data from the chunk
+
+            chunk.dataBlock = null; // Leaving this reference to xhr intact here will cause memory leaks in some browsers
+
+            chunk.xhr = null;
+
+            for (var i = 0; i < file.upload.totalChunkCount; i++) {
+              if (file.upload.chunks[i] === undefined) {
+                return handleNextChunk();
+              }
+
+              if (file.upload.chunks[i].status !== Dropzone.SUCCESS) {
+                allFinished = false;
+              }
+            }
+
+            if (allFinished) {
+              _this15.options.chunksUploaded(file, function () {
+                _this15._finished(files, '', null);
+              });
+            }
+          };
+
+          if (_this15.options.parallelChunkUploads) {
+            for (var i = 0; i < file.upload.totalChunkCount; i++) {
+              handleNextChunk();
+            }
+          } else {
+            handleNextChunk();
+          }
+        } else {
+          var dataBlocks = [];
+
+          for (var _i3 = 0; _i3 < files.length; _i3++) {
+            dataBlocks[_i3] = {
+              name: _this15._getParamName(_i3),
+              data: transformedFiles[_i3],
+              filename: files[_i3].upload.filename
+            };
+          }
+
+          _this15._uploadData(files, dataBlocks);
+        }
+      });
+    } /// Returns the right chunk for given file and xhr
+
+  }, {
+    key: "_getChunk",
+    value: function _getChunk(file, xhr) {
+      for (var i = 0; i < file.upload.totalChunkCount; i++) {
+        if (file.upload.chunks[i] !== undefined && file.upload.chunks[i].xhr === xhr) {
+          return file.upload.chunks[i];
+        }
+      }
+    } // This function actually uploads the file(s) to the server.
+    // If dataBlocks contains the actual data to upload (meaning, that this could either be transformed
+    // files, or individual chunks for chunked upload).
+
+  }, {
+    key: "_uploadData",
+    value: function _uploadData(files, dataBlocks) {
+      var _this16 = this;
+
+      var xhr = new XMLHttpRequest(); // Put the xhr object in the file objects to be able to reference it later.
+
+      var _iterator21 = _createForOfIteratorHelper(files),
+          _step21;
+
+      try {
+        for (_iterator21.s(); !(_step21 = _iterator21.n()).done;) {
+          var file = _step21.value;
+          file.xhr = xhr;
+        }
+      } catch (err) {
+        _iterator21.e(err);
+      } finally {
+        _iterator21.f();
+      }
+
+      if (files[0].upload.chunked) {
+        // Put the xhr object in the right chunk object, so it can be associated later, and found with _getChunk
+        files[0].upload.chunks[dataBlocks[0].chunkIndex].xhr = xhr;
+      }
+
+      var method = this.resolveOption(this.options.method, files);
+      var url = this.resolveOption(this.options.url, files);
+      xhr.open(method, url, true); // Setting the timeout after open because of IE11 issue: https://gitlab.com/meno/dropzone/issues/8
+
+      xhr.timeout = this.resolveOption(this.options.timeout, files); // Has to be after `.open()`. See https://github.com/enyo/dropzone/issues/179
+
+      xhr.withCredentials = !!this.options.withCredentials;
+
+      xhr.onload = function (e) {
+        _this16._finishedUploading(files, xhr, e);
+      };
+
+      xhr.ontimeout = function () {
+        _this16._handleUploadError(files, xhr, "Request timedout after ".concat(_this16.options.timeout / 1000, " seconds"));
+      };
+
+      xhr.onerror = function () {
+        _this16._handleUploadError(files, xhr);
+      }; // Some browsers do not have the .upload property
+
+
+      var progressObj = xhr.upload != null ? xhr.upload : xhr;
+
+      progressObj.onprogress = function (e) {
+        return _this16._updateFilesUploadProgress(files, xhr, e);
+      };
+
+      var headers = {
+        "Accept": "application/json",
+        "Cache-Control": "no-cache",
+        "X-Requested-With": "XMLHttpRequest"
+      };
+
+      if (this.options.headers) {
+        Dropzone.extend(headers, this.options.headers);
+      }
+
+      for (var headerName in headers) {
+        var headerValue = headers[headerName];
+
+        if (headerValue) {
+          xhr.setRequestHeader(headerName, headerValue);
+        }
+      }
+
+      var formData = new FormData(); // Adding all @options parameters
+
+      if (this.options.params) {
+        var additionalParams = this.options.params;
+
+        if (typeof additionalParams === 'function') {
+          additionalParams = additionalParams.call(this, files, xhr, files[0].upload.chunked ? this._getChunk(files[0], xhr) : null);
+        }
+
+        for (var key in additionalParams) {
+          var value = additionalParams[key];
+
+          if (Array.isArray(value)) {
+            // The additional parameter contains an array,
+            // so lets iterate over it to attach each value
+            // individually.
+            for (var i = 0; i < value.length; i++) {
+              formData.append(key, value[i]);
+            }
+          } else {
+            formData.append(key, value);
+          }
+        }
+      } // Let the user add additional data if necessary
+
+
+      var _iterator22 = _createForOfIteratorHelper(files),
+          _step22;
+
+      try {
+        for (_iterator22.s(); !(_step22 = _iterator22.n()).done;) {
+          var _file = _step22.value;
+          this.emit("sending", _file, xhr, formData);
+        }
+      } catch (err) {
+        _iterator22.e(err);
+      } finally {
+        _iterator22.f();
+      }
+
+      if (this.options.uploadMultiple) {
+        this.emit("sendingmultiple", files, xhr, formData);
+      }
+
+      this._addFormElementData(formData); // Finally add the files
+      // Has to be last because some servers (eg: S3) expect the file to be the last parameter
+
+
+      for (var _i4 = 0; _i4 < dataBlocks.length; _i4++) {
+        var dataBlock = dataBlocks[_i4];
+        formData.append(dataBlock.name, dataBlock.data, dataBlock.filename);
+      }
+
+      this.submitRequest(xhr, formData, files);
+    } // Transforms all files with this.options.transformFile and invokes done with the transformed files when done.
+
+  }, {
+    key: "_transformFiles",
+    value: function _transformFiles(files, done) {
+      var _this17 = this;
+
+      var transformedFiles = []; // Clumsy way of handling asynchronous calls, until I get to add a proper Future library.
+
+      var doneCounter = 0;
+
+      var _loop = function _loop(i) {
+        _this17.options.transformFile.call(_this17, files[i], function (transformedFile) {
+          transformedFiles[i] = transformedFile;
+
+          if (++doneCounter === files.length) {
+            done(transformedFiles);
+          }
+        });
+      };
+
+      for (var i = 0; i < files.length; i++) {
+        _loop(i);
+      }
+    } // Takes care of adding other input elements of the form to the AJAX request
+
+  }, {
+    key: "_addFormElementData",
+    value: function _addFormElementData(formData) {
+      // Take care of other input elements
+      if (this.element.tagName === "FORM") {
+        var _iterator23 = _createForOfIteratorHelper(this.element.querySelectorAll("input, textarea, select, button")),
+            _step23;
+
+        try {
+          for (_iterator23.s(); !(_step23 = _iterator23.n()).done;) {
+            var input = _step23.value;
+            var inputName = input.getAttribute("name");
+            var inputType = input.getAttribute("type");
+            if (inputType) inputType = inputType.toLowerCase(); // If the input doesn't have a name, we can't use it.
+
+            if (typeof inputName === 'undefined' || inputName === null) continue;
+
+            if (input.tagName === "SELECT" && input.hasAttribute("multiple")) {
+              // Possibly multiple values
+              var _iterator24 = _createForOfIteratorHelper(input.options),
+                  _step24;
+
+              try {
+                for (_iterator24.s(); !(_step24 = _iterator24.n()).done;) {
+                  var option = _step24.value;
+
+                  if (option.selected) {
+                    formData.append(inputName, option.value);
+                  }
+                }
+              } catch (err) {
+                _iterator24.e(err);
+              } finally {
+                _iterator24.f();
+              }
+            } else if (!inputType || inputType !== "checkbox" && inputType !== "radio" || input.checked) {
+              formData.append(inputName, input.value);
+            }
+          }
+        } catch (err) {
+          _iterator23.e(err);
+        } finally {
+          _iterator23.f();
+        }
+      }
+    } // Invoked when there is new progress information about given files.
+    // If e is not provided, it is assumed that the upload is finished.
+
+  }, {
+    key: "_updateFilesUploadProgress",
+    value: function _updateFilesUploadProgress(files, xhr, e) {
+      var progress;
+
+      if (typeof e !== 'undefined') {
+        progress = 100 * e.loaded / e.total;
+
+        if (files[0].upload.chunked) {
+          var file = files[0]; // Since this is a chunked upload, we need to update the appropriate chunk progress.
+
+          var chunk = this._getChunk(file, xhr);
+
+          chunk.progress = progress;
+          chunk.total = e.total;
+          chunk.bytesSent = e.loaded;
+          var fileProgress = 0,
+              fileTotal,
+              fileBytesSent;
+          file.upload.progress = 0;
+          file.upload.total = 0;
+          file.upload.bytesSent = 0;
+
+          for (var i = 0; i < file.upload.totalChunkCount; i++) {
+            if (file.upload.chunks[i] !== undefined && file.upload.chunks[i].progress !== undefined) {
+              file.upload.progress += file.upload.chunks[i].progress;
+              file.upload.total += file.upload.chunks[i].total;
+              file.upload.bytesSent += file.upload.chunks[i].bytesSent;
+            }
+          }
+
+          file.upload.progress = file.upload.progress / file.upload.totalChunkCount;
+        } else {
+          var _iterator25 = _createForOfIteratorHelper(files),
+              _step25;
+
+          try {
+            for (_iterator25.s(); !(_step25 = _iterator25.n()).done;) {
+              var _file2 = _step25.value;
+              _file2.upload.progress = progress;
+              _file2.upload.total = e.total;
+              _file2.upload.bytesSent = e.loaded;
+            }
+          } catch (err) {
+            _iterator25.e(err);
+          } finally {
+            _iterator25.f();
+          }
+        }
+
+        var _iterator26 = _createForOfIteratorHelper(files),
+            _step26;
+
+        try {
+          for (_iterator26.s(); !(_step26 = _iterator26.n()).done;) {
+            var _file3 = _step26.value;
+            this.emit("uploadprogress", _file3, _file3.upload.progress, _file3.upload.bytesSent);
+          }
+        } catch (err) {
+          _iterator26.e(err);
+        } finally {
+          _iterator26.f();
+        }
+      } else {
+        // Called when the file finished uploading
+        var allFilesFinished = true;
+        progress = 100;
+
+        var _iterator27 = _createForOfIteratorHelper(files),
+            _step27;
+
+        try {
+          for (_iterator27.s(); !(_step27 = _iterator27.n()).done;) {
+            var _file4 = _step27.value;
+
+            if (_file4.upload.progress !== 100 || _file4.upload.bytesSent !== _file4.upload.total) {
+              allFilesFinished = false;
+            }
+
+            _file4.upload.progress = progress;
+            _file4.upload.bytesSent = _file4.upload.total;
+          } // Nothing to do, all files already at 100%
+
+        } catch (err) {
+          _iterator27.e(err);
+        } finally {
+          _iterator27.f();
+        }
+
+        if (allFilesFinished) {
+          return;
+        }
+
+        var _iterator28 = _createForOfIteratorHelper(files),
+            _step28;
+
+        try {
+          for (_iterator28.s(); !(_step28 = _iterator28.n()).done;) {
+            var _file5 = _step28.value;
+            this.emit("uploadprogress", _file5, progress, _file5.upload.bytesSent);
+          }
+        } catch (err) {
+          _iterator28.e(err);
+        } finally {
+          _iterator28.f();
+        }
+      }
+    }
+  }, {
+    key: "_finishedUploading",
+    value: function _finishedUploading(files, xhr, e) {
+      var response;
+
+      if (files[0].status === Dropzone.CANCELED) {
+        return;
+      }
+
+      if (xhr.readyState !== 4) {
+        return;
+      }
+
+      if (xhr.responseType !== 'arraybuffer' && xhr.responseType !== 'blob') {
+        response = xhr.responseText;
+
+        if (xhr.getResponseHeader("content-type") && ~xhr.getResponseHeader("content-type").indexOf("application/json")) {
+          try {
+            response = JSON.parse(response);
+          } catch (error) {
+            e = error;
+            response = "Invalid JSON response from server.";
+          }
+        }
+      }
+
+      this._updateFilesUploadProgress(files);
+
+      if (!(200 <= xhr.status && xhr.status < 300)) {
+        this._handleUploadError(files, xhr, response);
+      } else {
+        if (files[0].upload.chunked) {
+          files[0].upload.finishedChunkUpload(this._getChunk(files[0], xhr));
+        } else {
+          this._finished(files, response, e);
+        }
+      }
+    }
+  }, {
+    key: "_handleUploadError",
+    value: function _handleUploadError(files, xhr, response) {
+      if (files[0].status === Dropzone.CANCELED) {
+        return;
+      }
+
+      if (files[0].upload.chunked && this.options.retryChunks) {
+        var chunk = this._getChunk(files[0], xhr);
+
+        if (chunk.retries++ < this.options.retryChunksLimit) {
+          this._uploadData(files, [chunk.dataBlock]);
+
+          return;
+        } else {
+          console.warn('Retried this chunk too often. Giving up.');
+        }
+      }
+
+      this._errorProcessing(files, response || this.options.dictResponseError.replace("{{statusCode}}", xhr.status), xhr);
+    }
+  }, {
+    key: "submitRequest",
+    value: function submitRequest(xhr, formData, files) {
+      xhr.send(formData);
+    } // Called internally when processing is finished.
+    // Individual callbacks have to be called in the appropriate sections.
+
+  }, {
+    key: "_finished",
+    value: function _finished(files, responseText, e) {
+      var _iterator29 = _createForOfIteratorHelper(files),
+          _step29;
+
+      try {
+        for (_iterator29.s(); !(_step29 = _iterator29.n()).done;) {
+          var file = _step29.value;
+          file.status = Dropzone.SUCCESS;
+          this.emit("success", file, responseText, e);
+          this.emit("complete", file);
+        }
+      } catch (err) {
+        _iterator29.e(err);
+      } finally {
+        _iterator29.f();
+      }
+
+      if (this.options.uploadMultiple) {
+        this.emit("successmultiple", files, responseText, e);
+        this.emit("completemultiple", files);
+      }
+
+      if (this.options.autoProcessQueue) {
+        return this.processQueue();
+      }
+    } // Called internally when processing is finished.
+    // Individual callbacks have to be called in the appropriate sections.
+
+  }, {
+    key: "_errorProcessing",
+    value: function _errorProcessing(files, message, xhr) {
+      var _iterator30 = _createForOfIteratorHelper(files),
+          _step30;
+
+      try {
+        for (_iterator30.s(); !(_step30 = _iterator30.n()).done;) {
+          var file = _step30.value;
+          file.status = Dropzone.ERROR;
+          this.emit("error", file, message, xhr);
+          this.emit("complete", file);
+        }
+      } catch (err) {
+        _iterator30.e(err);
+      } finally {
+        _iterator30.f();
+      }
+
+      if (this.options.uploadMultiple) {
+        this.emit("errormultiple", files, message, xhr);
+        this.emit("completemultiple", files);
+      }
+
+      if (this.options.autoProcessQueue) {
+        return this.processQueue();
+      }
+    }
+  }], [{
+    key: "uuidv4",
+    value: function uuidv4() {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        var r = Math.random() * 16 | 0,
+            v = c === 'x' ? r : r & 0x3 | 0x8;
+        return v.toString(16);
+      });
+    }
+  }]);
+
+  return Dropzone;
+}(Emitter);
+
+Dropzone.initClass();
+Dropzone.version = "5.7.2"; // This is a map of options for your different dropzones. Add configurations
+// to this object for your different dropzone elemens.
+//
+// Example:
+//
+//     Dropzone.options.myDropzoneElementId = { maxFilesize: 1 };
+//
+// To disable autoDiscover for a specific element, you can set `false` as an option:
+//
+//     Dropzone.options.myDisabledElementId = false;
+//
+// And in html:
+//
+//     <form action="/upload" id="my-dropzone-element-id" class="dropzone"></form>
+
+Dropzone.options = {}; // Returns the options for an element or undefined if none available.
+
+Dropzone.optionsForElement = function (element) {
+  // Get the `Dropzone.options.elementId` for this element if it exists
+  if (element.getAttribute("id")) {
+    return Dropzone.options[camelize(element.getAttribute("id"))];
+  } else {
+    return undefined;
+  }
+}; // Holds a list of all dropzone instances
+
+
+Dropzone.instances = []; // Returns the dropzone for given element if any
+
+Dropzone.forElement = function (element) {
+  if (typeof element === "string") {
+    element = document.querySelector(element);
+  }
+
+  if ((element != null ? element.dropzone : undefined) == null) {
+    throw new Error("No Dropzone found for given element. This is probably because you're trying to access it before Dropzone had the time to initialize. Use the `init` option to setup any additional observers on your Dropzone.");
+  }
+
+  return element.dropzone;
+}; // Set to false if you don't want Dropzone to automatically find and attach to .dropzone elements.
+
+
+Dropzone.autoDiscover = true; // Looks for all .dropzone elements and creates a dropzone for them
+
+Dropzone.discover = function () {
+  var dropzones;
+
+  if (document.querySelectorAll) {
+    dropzones = document.querySelectorAll(".dropzone");
+  } else {
+    dropzones = []; // IE :(
+
+    var checkElements = function checkElements(elements) {
+      return function () {
+        var result = [];
+
+        var _iterator31 = _createForOfIteratorHelper(elements),
+            _step31;
+
+        try {
+          for (_iterator31.s(); !(_step31 = _iterator31.n()).done;) {
+            var el = _step31.value;
+
+            if (/(^| )dropzone($| )/.test(el.className)) {
+              result.push(dropzones.push(el));
+            } else {
+              result.push(undefined);
+            }
+          }
+        } catch (err) {
+          _iterator31.e(err);
+        } finally {
+          _iterator31.f();
+        }
+
+        return result;
+      }();
+    };
+
+    checkElements(document.getElementsByTagName("div"));
+    checkElements(document.getElementsByTagName("form"));
+  }
+
+  return function () {
+    var result = [];
+
+    var _iterator32 = _createForOfIteratorHelper(dropzones),
+        _step32;
+
+    try {
+      for (_iterator32.s(); !(_step32 = _iterator32.n()).done;) {
+        var dropzone = _step32.value;
+
+        // Create a dropzone unless auto discover has been disabled for specific element
+        if (Dropzone.optionsForElement(dropzone) !== false) {
+          result.push(new Dropzone(dropzone));
+        } else {
+          result.push(undefined);
+        }
+      }
+    } catch (err) {
+      _iterator32.e(err);
+    } finally {
+      _iterator32.f();
+    }
+
+    return result;
+  }();
+}; // Since the whole Drag'n'Drop API is pretty new, some browsers implement it,
+// but not correctly.
+// So I created a blacklist of userAgents. Yes, yes. Browser sniffing, I know.
+// But what to do when browsers *theoretically* support an API, but crash
+// when using it.
+//
+// This is a list of regular expressions tested against navigator.userAgent
+//
+// ** It should only be used on browser that *do* support the API, but
+// incorrectly **
+//
+
+
+Dropzone.blacklistedBrowsers = [// The mac os and windows phone version of opera 12 seems to have a problem with the File drag'n'drop API.
+/opera.*(Macintosh|Windows Phone).*version\/12/i]; // Checks if the browser is supported
+
+Dropzone.isBrowserSupported = function () {
+  var capableBrowser = true;
+
+  if (window.File && window.FileReader && window.FileList && window.Blob && window.FormData && document.querySelector) {
+    if (!("classList" in document.createElement("a"))) {
+      capableBrowser = false;
+    } else {
+      // The browser supports the API, but may be blacklisted.
+      var _iterator33 = _createForOfIteratorHelper(Dropzone.blacklistedBrowsers),
+          _step33;
+
+      try {
+        for (_iterator33.s(); !(_step33 = _iterator33.n()).done;) {
+          var regex = _step33.value;
+
+          if (regex.test(navigator.userAgent)) {
+            capableBrowser = false;
+            continue;
+          }
+        }
+      } catch (err) {
+        _iterator33.e(err);
+      } finally {
+        _iterator33.f();
+      }
+    }
+  } else {
+    capableBrowser = false;
+  }
+
+  return capableBrowser;
+};
+
+Dropzone.dataURItoBlob = function (dataURI) {
+  // convert base64 to raw binary data held in a string
+  // doesn't handle URLEncoded DataURIs - see SO answer #6850276 for code that does this
+  var byteString = atob(dataURI.split(',')[1]); // separate out the mime component
+
+  var mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0]; // write the bytes of the string to an ArrayBuffer
+
+  var ab = new ArrayBuffer(byteString.length);
+  var ia = new Uint8Array(ab);
+
+  for (var i = 0, end = byteString.length, asc = 0 <= end; asc ? i <= end : i >= end; asc ? i++ : i--) {
+    ia[i] = byteString.charCodeAt(i);
+  } // write the ArrayBuffer to a blob
+
+
+  return new Blob([ab], {
+    type: mimeString
+  });
+}; // Returns an array without the rejected item
+
+
+var without = function without(list, rejectedItem) {
+  return list.filter(function (item) {
+    return item !== rejectedItem;
+  }).map(function (item) {
+    return item;
+  });
+}; // abc-def_ghi -> abcDefGhi
+
+
+var camelize = function camelize(str) {
+  return str.replace(/[\-_](\w)/g, function (match) {
+    return match.charAt(1).toUpperCase();
+  });
+}; // Creates an element from string
+
+
+Dropzone.createElement = function (string) {
+  var div = document.createElement("div");
+  div.innerHTML = string;
+  return div.childNodes[0];
+}; // Tests if given element is inside (or simply is) the container
+
+
+Dropzone.elementInside = function (element, container) {
+  if (element === container) {
+    return true;
+  } // Coffeescript doesn't support do/while loops
+
+
+  while (element = element.parentNode) {
+    if (element === container) {
+      return true;
+    }
+  }
+
+  return false;
+};
+
+Dropzone.getElement = function (el, name) {
+  var element;
+
+  if (typeof el === "string") {
+    element = document.querySelector(el);
+  } else if (el.nodeType != null) {
+    element = el;
+  }
+
+  if (element == null) {
+    throw new Error("Invalid `".concat(name, "` option provided. Please provide a CSS selector or a plain HTML element."));
+  }
+
+  return element;
+};
+
+Dropzone.getElements = function (els, name) {
+  var el, elements;
+
+  if (els instanceof Array) {
+    elements = [];
+
+    try {
+      var _iterator34 = _createForOfIteratorHelper(els),
+          _step34;
+
+      try {
+        for (_iterator34.s(); !(_step34 = _iterator34.n()).done;) {
+          el = _step34.value;
+          elements.push(this.getElement(el, name));
+        }
+      } catch (err) {
+        _iterator34.e(err);
+      } finally {
+        _iterator34.f();
+      }
+    } catch (e) {
+      elements = null;
+    }
+  } else if (typeof els === "string") {
+    elements = [];
+
+    var _iterator35 = _createForOfIteratorHelper(document.querySelectorAll(els)),
+        _step35;
+
+    try {
+      for (_iterator35.s(); !(_step35 = _iterator35.n()).done;) {
+        el = _step35.value;
+        elements.push(el);
+      }
+    } catch (err) {
+      _iterator35.e(err);
+    } finally {
+      _iterator35.f();
+    }
+  } else if (els.nodeType != null) {
+    elements = [els];
+  }
+
+  if (elements == null || !elements.length) {
+    throw new Error("Invalid `".concat(name, "` option provided. Please provide a CSS selector, a plain HTML element or a list of those."));
+  }
+
+  return elements;
+}; // Asks the user the question and calls accepted or rejected accordingly
+//
+// The default implementation just uses `window.confirm` and then calls the
+// appropriate callback.
+
+
+Dropzone.confirm = function (question, accepted, rejected) {
+  if (window.confirm(question)) {
+    return accepted();
+  } else if (rejected != null) {
+    return rejected();
+  }
+}; // Validates the mime type like this:
+//
+// https://developer.mozilla.org/en-US/docs/HTML/Element/input#attr-accept
+
+
+Dropzone.isValidFile = function (file, acceptedFiles) {
+  if (!acceptedFiles) {
+    return true;
+  } // If there are no accepted mime types, it's OK
+
+
+  acceptedFiles = acceptedFiles.split(",");
+  var mimeType = file.type;
+  var baseMimeType = mimeType.replace(/\/.*$/, "");
+
+  var _iterator36 = _createForOfIteratorHelper(acceptedFiles),
+      _step36;
+
+  try {
+    for (_iterator36.s(); !(_step36 = _iterator36.n()).done;) {
+      var validType = _step36.value;
+      validType = validType.trim();
+
+      if (validType.charAt(0) === ".") {
+        if (file.name.toLowerCase().indexOf(validType.toLowerCase(), file.name.length - validType.length) !== -1) {
+          return true;
+        }
+      } else if (/\/\*$/.test(validType)) {
+        // This is something like a image/* mime type
+        if (baseMimeType === validType.replace(/\/.*$/, "")) {
+          return true;
+        }
+      } else {
+        if (mimeType === validType) {
+          return true;
+        }
+      }
+    }
+  } catch (err) {
+    _iterator36.e(err);
+  } finally {
+    _iterator36.f();
+  }
+
+  return false;
+}; // Augment jQuery
+
+
+if (typeof jQuery !== 'undefined' && jQuery !== null) {
+  jQuery.fn.dropzone = function (options) {
+    return this.each(function () {
+      return new Dropzone(this, options);
+    });
+  };
+}
+
+if ( true && module !== null) {
+  module.exports = Dropzone;
+} else {
+  window.Dropzone = Dropzone;
+} // Dropzone file status codes
+
+
+Dropzone.ADDED = "added";
+Dropzone.QUEUED = "queued"; // For backwards compatibility. Now, if a file is accepted, it's either queued
+// or uploading.
+
+Dropzone.ACCEPTED = Dropzone.QUEUED;
+Dropzone.UPLOADING = "uploading";
+Dropzone.PROCESSING = Dropzone.UPLOADING; // alias
+
+Dropzone.CANCELED = "canceled";
+Dropzone.ERROR = "error";
+Dropzone.SUCCESS = "success";
+/*
+
+ Bugfix for iOS 6 and 7
+ Source: http://stackoverflow.com/questions/11929099/html5-canvas-drawimage-ratio-bug-ios
+ based on the work of https://github.com/stomita/ios-imagefile-megapixel
+
+ */
+// Detecting vertical squash in loaded image.
+// Fixes a bug which squash image vertically while drawing into canvas for some images.
+// This is a bug in iOS6 devices. This function from https://github.com/stomita/ios-imagefile-megapixel
+
+var detectVerticalSquash = function detectVerticalSquash(img) {
+  var iw = img.naturalWidth;
+  var ih = img.naturalHeight;
+  var canvas = document.createElement("canvas");
+  canvas.width = 1;
+  canvas.height = ih;
+  var ctx = canvas.getContext("2d");
+  ctx.drawImage(img, 0, 0);
+
+  var _ctx$getImageData = ctx.getImageData(1, 0, 1, ih),
+      data = _ctx$getImageData.data; // search image edge pixel position in case it is squashed vertically.
+
+
+  var sy = 0;
+  var ey = ih;
+  var py = ih;
+
+  while (py > sy) {
+    var alpha = data[(py - 1) * 4 + 3];
+
+    if (alpha === 0) {
+      ey = py;
+    } else {
+      sy = py;
+    }
+
+    py = ey + sy >> 1;
+  }
+
+  var ratio = py / ih;
+
+  if (ratio === 0) {
+    return 1;
+  } else {
+    return ratio;
+  }
+}; // A replacement for context.drawImage
+// (args are for source and destination).
+
+
+var drawImageIOSFix = function drawImageIOSFix(ctx, img, sx, sy, sw, sh, dx, dy, dw, dh) {
+  var vertSquashRatio = detectVerticalSquash(img);
+  return ctx.drawImage(img, sx, sy, sw, sh, dx, dy, dw, dh / vertSquashRatio);
+}; // Based on MinifyJpeg
+// Source: http://www.perry.cz/files/ExifRestorer.js
+// http://elicon.blog57.fc2.com/blog-entry-206.html
+
+
+var ExifRestore = /*#__PURE__*/function () {
+  function ExifRestore() {
+    _classCallCheck(this, ExifRestore);
+  }
+
+  _createClass(ExifRestore, null, [{
+    key: "initClass",
+    value: function initClass() {
+      this.KEY_STR = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+    }
+  }, {
+    key: "encode64",
+    value: function encode64(input) {
+      var output = '';
+      var chr1 = undefined;
+      var chr2 = undefined;
+      var chr3 = '';
+      var enc1 = undefined;
+      var enc2 = undefined;
+      var enc3 = undefined;
+      var enc4 = '';
+      var i = 0;
+
+      while (true) {
+        chr1 = input[i++];
+        chr2 = input[i++];
+        chr3 = input[i++];
+        enc1 = chr1 >> 2;
+        enc2 = (chr1 & 3) << 4 | chr2 >> 4;
+        enc3 = (chr2 & 15) << 2 | chr3 >> 6;
+        enc4 = chr3 & 63;
+
+        if (isNaN(chr2)) {
+          enc3 = enc4 = 64;
+        } else if (isNaN(chr3)) {
+          enc4 = 64;
+        }
+
+        output = output + this.KEY_STR.charAt(enc1) + this.KEY_STR.charAt(enc2) + this.KEY_STR.charAt(enc3) + this.KEY_STR.charAt(enc4);
+        chr1 = chr2 = chr3 = '';
+        enc1 = enc2 = enc3 = enc4 = '';
+
+        if (!(i < input.length)) {
+          break;
+        }
+      }
+
+      return output;
+    }
+  }, {
+    key: "restore",
+    value: function restore(origFileBase64, resizedFileBase64) {
+      if (!origFileBase64.match('data:image/jpeg;base64,')) {
+        return resizedFileBase64;
+      }
+
+      var rawImage = this.decode64(origFileBase64.replace('data:image/jpeg;base64,', ''));
+      var segments = this.slice2Segments(rawImage);
+      var image = this.exifManipulation(resizedFileBase64, segments);
+      return "data:image/jpeg;base64,".concat(this.encode64(image));
+    }
+  }, {
+    key: "exifManipulation",
+    value: function exifManipulation(resizedFileBase64, segments) {
+      var exifArray = this.getExifArray(segments);
+      var newImageArray = this.insertExif(resizedFileBase64, exifArray);
+      var aBuffer = new Uint8Array(newImageArray);
+      return aBuffer;
+    }
+  }, {
+    key: "getExifArray",
+    value: function getExifArray(segments) {
+      var seg = undefined;
+      var x = 0;
+
+      while (x < segments.length) {
+        seg = segments[x];
+
+        if (seg[0] === 255 & seg[1] === 225) {
+          return seg;
+        }
+
+        x++;
+      }
+
+      return [];
+    }
+  }, {
+    key: "insertExif",
+    value: function insertExif(resizedFileBase64, exifArray) {
+      var imageData = resizedFileBase64.replace('data:image/jpeg;base64,', '');
+      var buf = this.decode64(imageData);
+      var separatePoint = buf.indexOf(255, 3);
+      var mae = buf.slice(0, separatePoint);
+      var ato = buf.slice(separatePoint);
+      var array = mae;
+      array = array.concat(exifArray);
+      array = array.concat(ato);
+      return array;
+    }
+  }, {
+    key: "slice2Segments",
+    value: function slice2Segments(rawImageArray) {
+      var head = 0;
+      var segments = [];
+
+      while (true) {
+        var length;
+
+        if (rawImageArray[head] === 255 & rawImageArray[head + 1] === 218) {
+          break;
+        }
+
+        if (rawImageArray[head] === 255 & rawImageArray[head + 1] === 216) {
+          head += 2;
+        } else {
+          length = rawImageArray[head + 2] * 256 + rawImageArray[head + 3];
+          var endPoint = head + length + 2;
+          var seg = rawImageArray.slice(head, endPoint);
+          segments.push(seg);
+          head = endPoint;
+        }
+
+        if (head > rawImageArray.length) {
+          break;
+        }
+      }
+
+      return segments;
+    }
+  }, {
+    key: "decode64",
+    value: function decode64(input) {
+      var output = '';
+      var chr1 = undefined;
+      var chr2 = undefined;
+      var chr3 = '';
+      var enc1 = undefined;
+      var enc2 = undefined;
+      var enc3 = undefined;
+      var enc4 = '';
+      var i = 0;
+      var buf = []; // remove all characters that are not A-Z, a-z, 0-9, +, /, or =
+
+      var base64test = /[^A-Za-z0-9\+\/\=]/g;
+
+      if (base64test.exec(input)) {
+        console.warn('There were invalid base64 characters in the input text.\nValid base64 characters are A-Z, a-z, 0-9, \'+\', \'/\',and \'=\'\nExpect errors in decoding.');
+      }
+
+      input = input.replace(/[^A-Za-z0-9\+\/\=]/g, '');
+
+      while (true) {
+        enc1 = this.KEY_STR.indexOf(input.charAt(i++));
+        enc2 = this.KEY_STR.indexOf(input.charAt(i++));
+        enc3 = this.KEY_STR.indexOf(input.charAt(i++));
+        enc4 = this.KEY_STR.indexOf(input.charAt(i++));
+        chr1 = enc1 << 2 | enc2 >> 4;
+        chr2 = (enc2 & 15) << 4 | enc3 >> 2;
+        chr3 = (enc3 & 3) << 6 | enc4;
+        buf.push(chr1);
+
+        if (enc3 !== 64) {
+          buf.push(chr2);
+        }
+
+        if (enc4 !== 64) {
+          buf.push(chr3);
+        }
+
+        chr1 = chr2 = chr3 = '';
+        enc1 = enc2 = enc3 = enc4 = '';
+
+        if (!(i < input.length)) {
+          break;
+        }
+      }
+
+      return buf;
+    }
+  }]);
+
+  return ExifRestore;
+}();
+
+ExifRestore.initClass();
+/*
+ * contentloaded.js
+ *
+ * Author: Diego Perini (diego.perini at gmail.com)
+ * Summary: cross-browser wrapper for DOMContentLoaded
+ * Updated: 20101020
+ * License: MIT
+ * Version: 1.2
+ *
+ * URL:
+ * http://javascript.nwbox.com/ContentLoaded/
+ * http://javascript.nwbox.com/ContentLoaded/MIT-LICENSE
+ */
+// @win window reference
+// @fn function reference
+
+var contentLoaded = function contentLoaded(win, fn) {
+  var done = false;
+  var top = true;
+  var doc = win.document;
+  var root = doc.documentElement;
+  var add = doc.addEventListener ? "addEventListener" : "attachEvent";
+  var rem = doc.addEventListener ? "removeEventListener" : "detachEvent";
+  var pre = doc.addEventListener ? "" : "on";
+
+  var init = function init(e) {
+    if (e.type === "readystatechange" && doc.readyState !== "complete") {
+      return;
+    }
+
+    (e.type === "load" ? win : doc)[rem](pre + e.type, init, false);
+
+    if (!done && (done = true)) {
+      return fn.call(win, e.type || e);
+    }
+  };
+
+  var poll = function poll() {
+    try {
+      root.doScroll("left");
+    } catch (e) {
+      setTimeout(poll, 50);
+      return;
+    }
+
+    return init("poll");
+  };
+
+  if (doc.readyState !== "complete") {
+    if (doc.createEventObject && root.doScroll) {
+      try {
+        top = !win.frameElement;
+      } catch (error) {}
+
+      if (top) {
+        poll();
+      }
+    }
+
+    doc[add](pre + "DOMContentLoaded", init, false);
+    doc[add](pre + "readystatechange", init, false);
+    return win[add](pre + "load", init, false);
+  }
+}; // As a single function to be able to write tests.
+
+
+Dropzone._autoDiscoverFunction = function () {
+  if (Dropzone.autoDiscover) {
+    return Dropzone.discover();
+  }
+};
+
+contentLoaded(window, Dropzone._autoDiscoverFunction);
+
+function __guard__(value, transform) {
+  return typeof value !== 'undefined' && value !== null ? transform(value) : undefined;
+}
+
+function __guardMethod__(obj, methodName, transform) {
+  if (typeof obj !== 'undefined' && obj !== null && typeof obj[methodName] === 'function') {
+    return transform(obj, methodName);
+  } else {
+    return undefined;
+  }
+}
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* jquery.nicescroll v3.7.6 InuYaksa - MIT - https://nicescroll.areaaperta.com */
+!function(e){ true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (e),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):undefined}(function(e){"use strict";var o=!1,t=!1,r=0,i=2e3,s=0,n=e,l=document,a=window,c=n(a),d=[],u=a.requestAnimationFrame||a.webkitRequestAnimationFrame||a.mozRequestAnimationFrame||!1,h=a.cancelAnimationFrame||a.webkitCancelAnimationFrame||a.mozCancelAnimationFrame||!1;if(u)a.cancelAnimationFrame||(h=function(e){});else{var p=0;u=function(e,o){var t=(new Date).getTime(),r=Math.max(0,16-(t-p)),i=a.setTimeout(function(){e(t+r)},r);return p=t+r,i},h=function(e){a.clearTimeout(e)}}var m=a.MutationObserver||a.WebKitMutationObserver||!1,f=Date.now||function(){return(new Date).getTime()},g={zindex:"auto",cursoropacitymin:0,cursoropacitymax:1,cursorcolor:"#424242",cursorwidth:"6px",cursorborder:"1px solid #fff",cursorborderradius:"5px",scrollspeed:40,mousescrollstep:27,touchbehavior:!1,emulatetouch:!1,hwacceleration:!0,usetransition:!0,boxzoom:!1,dblclickzoom:!0,gesturezoom:!0,grabcursorenabled:!0,autohidemode:!0,background:"",iframeautoresize:!0,cursorminheight:32,preservenativescrolling:!0,railoffset:!1,railhoffset:!1,bouncescroll:!0,spacebarenabled:!0,railpadding:{top:0,right:0,left:0,bottom:0},disableoutline:!0,horizrailenabled:!0,railalign:"right",railvalign:"bottom",enabletranslate3d:!0,enablemousewheel:!0,enablekeyboard:!0,smoothscroll:!0,sensitiverail:!0,enablemouselockapi:!0,cursorfixedheight:!1,directionlockdeadzone:6,hidecursordelay:400,nativeparentscrolling:!0,enablescrollonselection:!0,overflowx:!0,overflowy:!0,cursordragspeed:.3,rtlmode:"auto",cursordragontouch:!1,oneaxismousemode:"auto",scriptpath:function(){var e=l.currentScript||function(){var e=l.getElementsByTagName("script");return!!e.length&&e[e.length-1]}(),o=e?e.src.split("?")[0]:"";return o.split("/").length>0?o.split("/").slice(0,-1).join("/")+"/":""}(),preventmultitouchscrolling:!0,disablemutationobserver:!1,enableobserver:!0,scrollbarid:!1},v=!1,w=function(){if(v)return v;var e=l.createElement("DIV"),o=e.style,t=navigator.userAgent,r=navigator.platform,i={};return i.haspointerlock="pointerLockElement"in l||"webkitPointerLockElement"in l||"mozPointerLockElement"in l,i.isopera="opera"in a,i.isopera12=i.isopera&&"getUserMedia"in navigator,i.isoperamini="[object OperaMini]"===Object.prototype.toString.call(a.operamini),i.isie="all"in l&&"attachEvent"in e&&!i.isopera,i.isieold=i.isie&&!("msInterpolationMode"in o),i.isie7=i.isie&&!i.isieold&&(!("documentMode"in l)||7===l.documentMode),i.isie8=i.isie&&"documentMode"in l&&8===l.documentMode,i.isie9=i.isie&&"performance"in a&&9===l.documentMode,i.isie10=i.isie&&"performance"in a&&10===l.documentMode,i.isie11="msRequestFullscreen"in e&&l.documentMode>=11,i.ismsedge="msCredentials"in a,i.ismozilla="MozAppearance"in o,i.iswebkit=!i.ismsedge&&"WebkitAppearance"in o,i.ischrome=i.iswebkit&&"chrome"in a,i.ischrome38=i.ischrome&&"touchAction"in o,i.ischrome22=!i.ischrome38&&i.ischrome&&i.haspointerlock,i.ischrome26=!i.ischrome38&&i.ischrome&&"transition"in o,i.cantouch="ontouchstart"in l.documentElement||"ontouchstart"in a,i.hasw3ctouch=(a.PointerEvent||!1)&&(navigator.maxTouchPoints>0||navigator.msMaxTouchPoints>0),i.hasmstouch=!i.hasw3ctouch&&(a.MSPointerEvent||!1),i.ismac=/^mac$/i.test(r),i.isios=i.cantouch&&/iphone|ipad|ipod/i.test(r),i.isios4=i.isios&&!("seal"in Object),i.isios7=i.isios&&"webkitHidden"in l,i.isios8=i.isios&&"hidden"in l,i.isios10=i.isios&&a.Proxy,i.isandroid=/android/i.test(t),i.haseventlistener="addEventListener"in e,i.trstyle=!1,i.hastransform=!1,i.hastranslate3d=!1,i.transitionstyle=!1,i.hastransition=!1,i.transitionend=!1,i.trstyle="transform",i.hastransform="transform"in o||function(){for(var e=["msTransform","webkitTransform","MozTransform","OTransform"],t=0,r=e.length;t<r;t++)if(void 0!==o[e[t]]){i.trstyle=e[t];break}i.hastransform=!!i.trstyle}(),i.hastransform&&(o[i.trstyle]="translate3d(1px,2px,3px)",i.hastranslate3d=/translate3d/.test(o[i.trstyle])),i.transitionstyle="transition",i.prefixstyle="",i.transitionend="transitionend",i.hastransition="transition"in o||function(){i.transitionend=!1;for(var e=["webkitTransition","msTransition","MozTransition","OTransition","OTransition","KhtmlTransition"],t=["-webkit-","-ms-","-moz-","-o-","-o","-khtml-"],r=["webkitTransitionEnd","msTransitionEnd","transitionend","otransitionend","oTransitionEnd","KhtmlTransitionEnd"],s=0,n=e.length;s<n;s++)if(e[s]in o){i.transitionstyle=e[s],i.prefixstyle=t[s],i.transitionend=r[s];break}i.ischrome26&&(i.prefixstyle=t[1]),i.hastransition=i.transitionstyle}(),i.cursorgrabvalue=function(){var e=["grab","-webkit-grab","-moz-grab"];(i.ischrome&&!i.ischrome38||i.isie)&&(e=[]);for(var t=0,r=e.length;t<r;t++){var s=e[t];if(o.cursor=s,o.cursor==s)return s}return"url(https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.3.0/css/images/openhand.cur),n-resize"}(),i.hasmousecapture="setCapture"in e,i.hasMutationObserver=!1!==m,e=null,v=i,i},b=function(e,p){function v(){var e=T.doc.css(P.trstyle);return!(!e||"matrix"!=e.substr(0,6))&&e.replace(/^.*\((.*)\)$/g,"$1").replace(/px/g,"").split(/, +/)}function b(){var e=T.win;if("zIndex"in e)return e.zIndex();for(;e.length>0;){if(9==e[0].nodeType)return!1;var o=e.css("zIndex");if(!isNaN(o)&&0!==o)return parseInt(o);e=e.parent()}return!1}function x(e,o,t){var r=e.css(o),i=parseFloat(r);if(isNaN(i)){var s=3==(i=I[r]||0)?t?T.win.outerHeight()-T.win.innerHeight():T.win.outerWidth()-T.win.innerWidth():1;return T.isie8&&i&&(i+=1),s?i:0}return i}function S(e,o,t,r){T._bind(e,o,function(r){var i={original:r=r||a.event,target:r.target||r.srcElement,type:"wheel",deltaMode:"MozMousePixelScroll"==r.type?0:1,deltaX:0,deltaZ:0,preventDefault:function(){return r.preventDefault?r.preventDefault():r.returnValue=!1,!1},stopImmediatePropagation:function(){r.stopImmediatePropagation?r.stopImmediatePropagation():r.cancelBubble=!0}};return"mousewheel"==o?(r.wheelDeltaX&&(i.deltaX=-.025*r.wheelDeltaX),r.wheelDeltaY&&(i.deltaY=-.025*r.wheelDeltaY),!i.deltaY&&!i.deltaX&&(i.deltaY=-.025*r.wheelDelta)):i.deltaY=r.detail,t.call(e,i)},r)}function z(e,o,t,r){T.scrollrunning||(T.newscrolly=T.getScrollTop(),T.newscrollx=T.getScrollLeft(),D=f());var i=f()-D;if(D=f(),i>350?A=1:A+=(2-A)/10,e=e*A|0,o=o*A|0,e){if(r)if(e<0){if(T.getScrollLeft()>=T.page.maxw)return!0}else if(T.getScrollLeft()<=0)return!0;var s=e>0?1:-1;X!==s&&(T.scrollmom&&T.scrollmom.stop(),T.newscrollx=T.getScrollLeft(),X=s),T.lastdeltax-=e}if(o){if(function(){var e=T.getScrollTop();if(o<0){if(e>=T.page.maxh)return!0}else if(e<=0)return!0}()){if(M.nativeparentscrolling&&t&&!T.ispage&&!T.zoomactive)return!0;var n=T.view.h>>1;T.newscrolly<-n?(T.newscrolly=-n,o=-1):T.newscrolly>T.page.maxh+n?(T.newscrolly=T.page.maxh+n,o=1):o=0}var l=o>0?1:-1;B!==l&&(T.scrollmom&&T.scrollmom.stop(),T.newscrolly=T.getScrollTop(),B=l),T.lastdeltay-=o}(o||e)&&T.synched("relativexy",function(){var e=T.lastdeltay+T.newscrolly;T.lastdeltay=0;var o=T.lastdeltax+T.newscrollx;T.lastdeltax=0,T.rail.drag||T.doScrollPos(o,e)})}function k(e,o,t){var r,i;return!(t||!q)||(0===e.deltaMode?(r=-e.deltaX*(M.mousescrollstep/54)|0,i=-e.deltaY*(M.mousescrollstep/54)|0):1===e.deltaMode&&(r=-e.deltaX*M.mousescrollstep*50/80|0,i=-e.deltaY*M.mousescrollstep*50/80|0),o&&M.oneaxismousemode&&0===r&&i&&(r=i,i=0,t&&(r<0?T.getScrollLeft()>=T.page.maxw:T.getScrollLeft()<=0)&&(i=r,r=0)),T.isrtlmode&&(r=-r),z(r,i,t,!0)?void(t&&(q=!0)):(q=!1,e.stopImmediatePropagation(),e.preventDefault()))}var T=this;this.version="3.7.6",this.name="nicescroll",this.me=p;var E=n("body"),M=this.opt={doc:E,win:!1};if(n.extend(M,g),M.snapbackspeed=80,e)for(var L in M)void 0!==e[L]&&(M[L]=e[L]);if(M.disablemutationobserver&&(m=!1),this.doc=M.doc,this.iddoc=this.doc&&this.doc[0]?this.doc[0].id||"":"",this.ispage=/^BODY|HTML/.test(M.win?M.win[0].nodeName:this.doc[0].nodeName),this.haswrapper=!1!==M.win,this.win=M.win||(this.ispage?c:this.doc),this.docscroll=this.ispage&&!this.haswrapper?c:this.win,this.body=E,this.viewport=!1,this.isfixed=!1,this.iframe=!1,this.isiframe="IFRAME"==this.doc[0].nodeName&&"IFRAME"==this.win[0].nodeName,this.istextarea="TEXTAREA"==this.win[0].nodeName,this.forcescreen=!1,this.canshowonmouseevent="scroll"!=M.autohidemode,this.onmousedown=!1,this.onmouseup=!1,this.onmousemove=!1,this.onmousewheel=!1,this.onkeypress=!1,this.ongesturezoom=!1,this.onclick=!1,this.onscrollstart=!1,this.onscrollend=!1,this.onscrollcancel=!1,this.onzoomin=!1,this.onzoomout=!1,this.view=!1,this.page=!1,this.scroll={x:0,y:0},this.scrollratio={x:0,y:0},this.cursorheight=20,this.scrollvaluemax=0,"auto"==M.rtlmode){var C=this.win[0]==a?this.body:this.win,N=C.css("writing-mode")||C.css("-webkit-writing-mode")||C.css("-ms-writing-mode")||C.css("-moz-writing-mode");"horizontal-tb"==N||"lr-tb"==N||""===N?(this.isrtlmode="rtl"==C.css("direction"),this.isvertical=!1):(this.isrtlmode="vertical-rl"==N||"tb"==N||"tb-rl"==N||"rl-tb"==N,this.isvertical="vertical-rl"==N||"tb"==N||"tb-rl"==N)}else this.isrtlmode=!0===M.rtlmode,this.isvertical=!1;if(this.scrollrunning=!1,this.scrollmom=!1,this.observer=!1,this.observerremover=!1,this.observerbody=!1,!1!==M.scrollbarid)this.id=M.scrollbarid;else do{this.id="ascrail"+i++}while(l.getElementById(this.id));this.rail=!1,this.cursor=!1,this.cursorfreezed=!1,this.selectiondrag=!1,this.zoom=!1,this.zoomactive=!1,this.hasfocus=!1,this.hasmousefocus=!1,this.railslocked=!1,this.locked=!1,this.hidden=!1,this.cursoractive=!0,this.wheelprevented=!1,this.overflowx=M.overflowx,this.overflowy=M.overflowy,this.nativescrollingarea=!1,this.checkarea=0,this.events=[],this.saved={},this.delaylist={},this.synclist={},this.lastdeltax=0,this.lastdeltay=0,this.detected=w();var P=n.extend({},this.detected);this.canhwscroll=P.hastransform&&M.hwacceleration,this.ishwscroll=this.canhwscroll&&T.haswrapper,this.isrtlmode?this.isvertical?this.hasreversehr=!(P.iswebkit||P.isie||P.isie11):this.hasreversehr=!(P.iswebkit||P.isie&&!P.isie10&&!P.isie11):this.hasreversehr=!1,this.istouchcapable=!1,P.cantouch||!P.hasw3ctouch&&!P.hasmstouch?!P.cantouch||P.isios||P.isandroid||!P.iswebkit&&!P.ismozilla||(this.istouchcapable=!0):this.istouchcapable=!0,M.enablemouselockapi||(P.hasmousecapture=!1,P.haspointerlock=!1),this.debounced=function(e,o,t){T&&(T.delaylist[e]||!1||(T.delaylist[e]={h:u(function(){T.delaylist[e].fn.call(T),T.delaylist[e]=!1},t)},o.call(T)),T.delaylist[e].fn=o)},this.synched=function(e,o){T.synclist[e]?T.synclist[e]=o:(T.synclist[e]=o,u(function(){T&&(T.synclist[e]&&T.synclist[e].call(T),T.synclist[e]=null)}))},this.unsynched=function(e){T.synclist[e]&&(T.synclist[e]=!1)},this.css=function(e,o){for(var t in o)T.saved.css.push([e,t,e.css(t)]),e.css(t,o[t])},this.scrollTop=function(e){return void 0===e?T.getScrollTop():T.setScrollTop(e)},this.scrollLeft=function(e){return void 0===e?T.getScrollLeft():T.setScrollLeft(e)};var R=function(e,o,t,r,i,s,n){this.st=e,this.ed=o,this.spd=t,this.p1=r||0,this.p2=i||1,this.p3=s||0,this.p4=n||1,this.ts=f(),this.df=o-e};if(R.prototype={B2:function(e){return 3*(1-e)*(1-e)*e},B3:function(e){return 3*(1-e)*e*e},B4:function(e){return e*e*e},getPos:function(){return(f()-this.ts)/this.spd},getNow:function(){var e=(f()-this.ts)/this.spd,o=this.B2(e)+this.B3(e)+this.B4(e);return e>=1?this.ed:this.st+this.df*o|0},update:function(e,o){return this.st=this.getNow(),this.ed=e,this.spd=o,this.ts=f(),this.df=this.ed-this.st,this}},this.ishwscroll){this.doc.translate={x:0,y:0,tx:"0px",ty:"0px"},P.hastranslate3d&&P.isios&&this.doc.css("-webkit-backface-visibility","hidden"),this.getScrollTop=function(e){if(!e){var o=v();if(o)return 16==o.length?-o[13]:-o[5];if(T.timerscroll&&T.timerscroll.bz)return T.timerscroll.bz.getNow()}return T.doc.translate.y},this.getScrollLeft=function(e){if(!e){var o=v();if(o)return 16==o.length?-o[12]:-o[4];if(T.timerscroll&&T.timerscroll.bh)return T.timerscroll.bh.getNow()}return T.doc.translate.x},this.notifyScrollEvent=function(e){var o=l.createEvent("UIEvents");o.initUIEvent("scroll",!1,!1,a,1),o.niceevent=!0,e.dispatchEvent(o)};var _=this.isrtlmode?1:-1;P.hastranslate3d&&M.enabletranslate3d?(this.setScrollTop=function(e,o){T.doc.translate.y=e,T.doc.translate.ty=-1*e+"px",T.doc.css(P.trstyle,"translate3d("+T.doc.translate.tx+","+T.doc.translate.ty+",0)"),o||T.notifyScrollEvent(T.win[0])},this.setScrollLeft=function(e,o){T.doc.translate.x=e,T.doc.translate.tx=e*_+"px",T.doc.css(P.trstyle,"translate3d("+T.doc.translate.tx+","+T.doc.translate.ty+",0)"),o||T.notifyScrollEvent(T.win[0])}):(this.setScrollTop=function(e,o){T.doc.translate.y=e,T.doc.translate.ty=-1*e+"px",T.doc.css(P.trstyle,"translate("+T.doc.translate.tx+","+T.doc.translate.ty+")"),o||T.notifyScrollEvent(T.win[0])},this.setScrollLeft=function(e,o){T.doc.translate.x=e,T.doc.translate.tx=e*_+"px",T.doc.css(P.trstyle,"translate("+T.doc.translate.tx+","+T.doc.translate.ty+")"),o||T.notifyScrollEvent(T.win[0])})}else this.getScrollTop=function(){return T.docscroll.scrollTop()},this.setScrollTop=function(e){T.docscroll.scrollTop(e)},this.getScrollLeft=function(){return T.hasreversehr?T.detected.ismozilla?T.page.maxw-Math.abs(T.docscroll.scrollLeft()):T.page.maxw-T.docscroll.scrollLeft():T.docscroll.scrollLeft()},this.setScrollLeft=function(e){return setTimeout(function(){if(T)return T.hasreversehr&&(e=T.detected.ismozilla?-(T.page.maxw-e):T.page.maxw-e),T.docscroll.scrollLeft(e)},1)};this.getTarget=function(e){return!!e&&(e.target?e.target:!!e.srcElement&&e.srcElement)},this.hasParent=function(e,o){if(!e)return!1;for(var t=e.target||e.srcElement||e||!1;t&&t.id!=o;)t=t.parentNode||!1;return!1!==t};var I={thin:1,medium:3,thick:5};this.getDocumentScrollOffset=function(){return{top:a.pageYOffset||l.documentElement.scrollTop,left:a.pageXOffset||l.documentElement.scrollLeft}},this.getOffset=function(){if(T.isfixed){var e=T.win.offset(),o=T.getDocumentScrollOffset();return e.top-=o.top,e.left-=o.left,e}var t=T.win.offset();if(!T.viewport)return t;var r=T.viewport.offset();return{top:t.top-r.top,left:t.left-r.left}},this.updateScrollBar=function(e){var o,t;if(T.ishwscroll)T.rail.css({height:T.win.innerHeight()-(M.railpadding.top+M.railpadding.bottom)}),T.railh&&T.railh.css({width:T.win.innerWidth()-(M.railpadding.left+M.railpadding.right)});else{var r=T.getOffset();if(o={top:r.top,left:r.left-(M.railpadding.left+M.railpadding.right)},o.top+=x(T.win,"border-top-width",!0),o.left+=T.rail.align?T.win.outerWidth()-x(T.win,"border-right-width")-T.rail.width:x(T.win,"border-left-width"),(t=M.railoffset)&&(t.top&&(o.top+=t.top),t.left&&(o.left+=t.left)),T.railslocked||T.rail.css({top:o.top,left:o.left,height:(e?e.h:T.win.innerHeight())-(M.railpadding.top+M.railpadding.bottom)}),T.zoom&&T.zoom.css({top:o.top+1,left:1==T.rail.align?o.left-20:o.left+T.rail.width+4}),T.railh&&!T.railslocked){o={top:r.top,left:r.left},(t=M.railhoffset)&&(t.top&&(o.top+=t.top),t.left&&(o.left+=t.left));var i=T.railh.align?o.top+x(T.win,"border-top-width",!0)+T.win.innerHeight()-T.railh.height:o.top+x(T.win,"border-top-width",!0),s=o.left+x(T.win,"border-left-width");T.railh.css({top:i-(M.railpadding.top+M.railpadding.bottom),left:s,width:T.railh.width})}}},this.doRailClick=function(e,o,t){var r,i,s,n;T.railslocked||(T.cancelEvent(e),"pageY"in e||(e.pageX=e.clientX+l.documentElement.scrollLeft,e.pageY=e.clientY+l.documentElement.scrollTop),o?(r=t?T.doScrollLeft:T.doScrollTop,s=t?(e.pageX-T.railh.offset().left-T.cursorwidth/2)*T.scrollratio.x:(e.pageY-T.rail.offset().top-T.cursorheight/2)*T.scrollratio.y,T.unsynched("relativexy"),r(0|s)):(r=t?T.doScrollLeftBy:T.doScrollBy,s=t?T.scroll.x:T.scroll.y,n=t?e.pageX-T.railh.offset().left:e.pageY-T.rail.offset().top,i=t?T.view.w:T.view.h,r(s>=n?i:-i)))},T.newscrolly=T.newscrollx=0,T.hasanimationframe="requestAnimationFrame"in a,T.hascancelanimationframe="cancelAnimationFrame"in a,T.hasborderbox=!1,this.init=function(){if(T.saved.css=[],P.isoperamini)return!0;if(P.isandroid&&!("hidden"in l))return!0;M.emulatetouch=M.emulatetouch||M.touchbehavior,T.hasborderbox=a.getComputedStyle&&"border-box"===a.getComputedStyle(l.body)["box-sizing"];var e={"overflow-y":"hidden"};if((P.isie11||P.isie10)&&(e["-ms-overflow-style"]="none"),T.ishwscroll&&(this.doc.css(P.transitionstyle,P.prefixstyle+"transform 0ms ease-out"),P.transitionend&&T.bind(T.doc,P.transitionend,T.onScrollTransitionEnd,!1)),T.zindex="auto",T.ispage||"auto"!=M.zindex?T.zindex=M.zindex:T.zindex=b()||"auto",!T.ispage&&"auto"!=T.zindex&&T.zindex>s&&(s=T.zindex),T.isie&&0===T.zindex&&"auto"==M.zindex&&(T.zindex="auto"),!T.ispage||!P.isieold){var i=T.docscroll;T.ispage&&(i=T.haswrapper?T.win:T.doc),T.css(i,e),T.ispage&&(P.isie11||P.isie)&&T.css(n("html"),e),!P.isios||T.ispage||T.haswrapper||T.css(E,{"-webkit-overflow-scrolling":"touch"});var d=n(l.createElement("div"));d.css({position:"relative",top:0,float:"right",width:M.cursorwidth,height:0,"background-color":M.cursorcolor,border:M.cursorborder,"background-clip":"padding-box","-webkit-border-radius":M.cursorborderradius,"-moz-border-radius":M.cursorborderradius,"border-radius":M.cursorborderradius}),d.addClass("nicescroll-cursors"),T.cursor=d;var u=n(l.createElement("div"));u.attr("id",T.id),u.addClass("nicescroll-rails nicescroll-rails-vr");var h,p,f=["left","right","top","bottom"];for(var g in f)p=f[g],(h=M.railpadding[p]||0)&&u.css("padding-"+p,h+"px");u.append(d),u.width=Math.max(parseFloat(M.cursorwidth),d.outerWidth()),u.css({width:u.width+"px",zIndex:T.zindex,background:M.background,cursor:"default"}),u.visibility=!0,u.scrollable=!0,u.align="left"==M.railalign?0:1,T.rail=u,T.rail.drag=!1;var v=!1;!M.boxzoom||T.ispage||P.isieold||(v=l.createElement("div"),T.bind(v,"click",T.doZoom),T.bind(v,"mouseenter",function(){T.zoom.css("opacity",M.cursoropacitymax)}),T.bind(v,"mouseleave",function(){T.zoom.css("opacity",M.cursoropacitymin)}),T.zoom=n(v),T.zoom.css({cursor:"pointer",zIndex:T.zindex,backgroundImage:"url("+M.scriptpath+"zoomico.png)",height:18,width:18,backgroundPosition:"0 0"}),M.dblclickzoom&&T.bind(T.win,"dblclick",T.doZoom),P.cantouch&&M.gesturezoom&&(T.ongesturezoom=function(e){return e.scale>1.5&&T.doZoomIn(e),e.scale<.8&&T.doZoomOut(e),T.cancelEvent(e)},T.bind(T.win,"gestureend",T.ongesturezoom))),T.railh=!1;var w;if(M.horizrailenabled&&(T.css(i,{overflowX:"hidden"}),(d=n(l.createElement("div"))).css({position:"absolute",top:0,height:M.cursorwidth,width:0,backgroundColor:M.cursorcolor,border:M.cursorborder,backgroundClip:"padding-box","-webkit-border-radius":M.cursorborderradius,"-moz-border-radius":M.cursorborderradius,"border-radius":M.cursorborderradius}),P.isieold&&d.css("overflow","hidden"),d.addClass("nicescroll-cursors"),T.cursorh=d,(w=n(l.createElement("div"))).attr("id",T.id+"-hr"),w.addClass("nicescroll-rails nicescroll-rails-hr"),w.height=Math.max(parseFloat(M.cursorwidth),d.outerHeight()),w.css({height:w.height+"px",zIndex:T.zindex,background:M.background}),w.append(d),w.visibility=!0,w.scrollable=!0,w.align="top"==M.railvalign?0:1,T.railh=w,T.railh.drag=!1),T.ispage)u.css({position:"fixed",top:0,height:"100%"}),u.css(u.align?{right:0}:{left:0}),T.body.append(u),T.railh&&(w.css({position:"fixed",left:0,width:"100%"}),w.css(w.align?{bottom:0}:{top:0}),T.body.append(w));else{if(T.ishwscroll){"static"==T.win.css("position")&&T.css(T.win,{position:"relative"});var x="HTML"==T.win[0].nodeName?T.body:T.win;n(x).scrollTop(0).scrollLeft(0),T.zoom&&(T.zoom.css({position:"absolute",top:1,right:0,"margin-right":u.width+4}),x.append(T.zoom)),u.css({position:"absolute",top:0}),u.css(u.align?{right:0}:{left:0}),x.append(u),w&&(w.css({position:"absolute",left:0,bottom:0}),w.css(w.align?{bottom:0}:{top:0}),x.append(w))}else{T.isfixed="fixed"==T.win.css("position");var S=T.isfixed?"fixed":"absolute";T.isfixed||(T.viewport=T.getViewport(T.win[0])),T.viewport&&(T.body=T.viewport,/fixed|absolute/.test(T.viewport.css("position"))||T.css(T.viewport,{position:"relative"})),u.css({position:S}),T.zoom&&T.zoom.css({position:S}),T.updateScrollBar(),T.body.append(u),T.zoom&&T.body.append(T.zoom),T.railh&&(w.css({position:S}),T.body.append(w))}P.isios&&T.css(T.win,{"-webkit-tap-highlight-color":"rgba(0,0,0,0)","-webkit-touch-callout":"none"}),M.disableoutline&&(P.isie&&T.win.attr("hideFocus","true"),P.iswebkit&&T.win.css("outline","none"))}if(!1===M.autohidemode?(T.autohidedom=!1,T.rail.css({opacity:M.cursoropacitymax}),T.railh&&T.railh.css({opacity:M.cursoropacitymax})):!0===M.autohidemode||"leave"===M.autohidemode?(T.autohidedom=n().add(T.rail),P.isie8&&(T.autohidedom=T.autohidedom.add(T.cursor)),T.railh&&(T.autohidedom=T.autohidedom.add(T.railh)),T.railh&&P.isie8&&(T.autohidedom=T.autohidedom.add(T.cursorh))):"scroll"==M.autohidemode?(T.autohidedom=n().add(T.rail),T.railh&&(T.autohidedom=T.autohidedom.add(T.railh))):"cursor"==M.autohidemode?(T.autohidedom=n().add(T.cursor),T.railh&&(T.autohidedom=T.autohidedom.add(T.cursorh))):"hidden"==M.autohidemode&&(T.autohidedom=!1,T.hide(),T.railslocked=!1),P.cantouch||T.istouchcapable||M.emulatetouch||P.hasmstouch){T.scrollmom=new y(T);T.ontouchstart=function(e){if(T.locked)return!1;if(e.pointerType&&("mouse"===e.pointerType||e.pointerType===e.MSPOINTER_TYPE_MOUSE))return!1;if(T.hasmoving=!1,T.scrollmom.timer&&(T.triggerScrollEnd(),T.scrollmom.stop()),!T.railslocked){var o=T.getTarget(e);if(o&&/INPUT/i.test(o.nodeName)&&/range/i.test(o.type))return T.stopPropagation(e);var t="mousedown"===e.type;if(!("clientX"in e)&&"changedTouches"in e&&(e.clientX=e.changedTouches[0].clientX,e.clientY=e.changedTouches[0].clientY),T.forcescreen){var r=e;(e={original:e.original?e.original:e}).clientX=r.screenX,e.clientY=r.screenY}if(T.rail.drag={x:e.clientX,y:e.clientY,sx:T.scroll.x,sy:T.scroll.y,st:T.getScrollTop(),sl:T.getScrollLeft(),pt:2,dl:!1,tg:o},T.ispage||!M.directionlockdeadzone)T.rail.drag.dl="f";else{var i={w:c.width(),h:c.height()},s=T.getContentSize(),l=s.h-i.h,a=s.w-i.w;T.rail.scrollable&&!T.railh.scrollable?T.rail.drag.ck=l>0&&"v":!T.rail.scrollable&&T.railh.scrollable?T.rail.drag.ck=a>0&&"h":T.rail.drag.ck=!1}if(M.emulatetouch&&T.isiframe&&P.isie){var d=T.win.position();T.rail.drag.x+=d.left,T.rail.drag.y+=d.top}if(T.hasmoving=!1,T.lastmouseup=!1,T.scrollmom.reset(e.clientX,e.clientY),o&&t){if(!/INPUT|SELECT|BUTTON|TEXTAREA/i.test(o.nodeName))return P.hasmousecapture&&o.setCapture(),M.emulatetouch?(o.onclick&&!o._onclick&&(o._onclick=o.onclick,o.onclick=function(e){if(T.hasmoving)return!1;o._onclick.call(this,e)}),T.cancelEvent(e)):T.stopPropagation(e);/SUBMIT|CANCEL|BUTTON/i.test(n(o).attr("type"))&&(T.preventclick={tg:o,click:!1})}}},T.ontouchend=function(e){if(!T.rail.drag)return!0;if(2==T.rail.drag.pt){if(e.pointerType&&("mouse"===e.pointerType||e.pointerType===e.MSPOINTER_TYPE_MOUSE))return!1;T.rail.drag=!1;var o="mouseup"===e.type;if(T.hasmoving&&(T.scrollmom.doMomentum(),T.lastmouseup=!0,T.hideCursor(),P.hasmousecapture&&l.releaseCapture(),o))return T.cancelEvent(e)}else if(1==T.rail.drag.pt)return T.onmouseup(e)};var z=M.emulatetouch&&T.isiframe&&!P.hasmousecapture,k=.3*M.directionlockdeadzone|0;T.ontouchmove=function(e,o){if(!T.rail.drag)return!0;if(e.targetTouches&&M.preventmultitouchscrolling&&e.targetTouches.length>1)return!0;if(e.pointerType&&("mouse"===e.pointerType||e.pointerType===e.MSPOINTER_TYPE_MOUSE))return!0;if(2==T.rail.drag.pt){"changedTouches"in e&&(e.clientX=e.changedTouches[0].clientX,e.clientY=e.changedTouches[0].clientY);var t,r;if(r=t=0,z&&!o){var i=T.win.position();r=-i.left,t=-i.top}var s=e.clientY+t,n=s-T.rail.drag.y,a=e.clientX+r,c=a-T.rail.drag.x,d=T.rail.drag.st-n;if(T.ishwscroll&&M.bouncescroll)d<0?d=Math.round(d/2):d>T.page.maxh&&(d=T.page.maxh+Math.round((d-T.page.maxh)/2));else if(d<0?(d=0,s=0):d>T.page.maxh&&(d=T.page.maxh,s=0),0===s&&!T.hasmoving)return T.ispage||(T.rail.drag=!1),!0;var u=T.getScrollLeft();if(T.railh&&T.railh.scrollable&&(u=T.isrtlmode?c-T.rail.drag.sl:T.rail.drag.sl-c,T.ishwscroll&&M.bouncescroll?u<0?u=Math.round(u/2):u>T.page.maxw&&(u=T.page.maxw+Math.round((u-T.page.maxw)/2)):(u<0&&(u=0,a=0),u>T.page.maxw&&(u=T.page.maxw,a=0))),!T.hasmoving){if(T.rail.drag.y===e.clientY&&T.rail.drag.x===e.clientX)return T.cancelEvent(e);var h=Math.abs(n),p=Math.abs(c),m=M.directionlockdeadzone;if(T.rail.drag.ck?"v"==T.rail.drag.ck?p>m&&h<=k?T.rail.drag=!1:h>m&&(T.rail.drag.dl="v"):"h"==T.rail.drag.ck&&(h>m&&p<=k?T.rail.drag=!1:p>m&&(T.rail.drag.dl="h")):h>m&&p>m?T.rail.drag.dl="f":h>m?T.rail.drag.dl=p>k?"f":"v":p>m&&(T.rail.drag.dl=h>k?"f":"h"),!T.rail.drag.dl)return T.cancelEvent(e);T.triggerScrollStart(e.clientX,e.clientY,0,0,0),T.hasmoving=!0}return T.preventclick&&!T.preventclick.click&&(T.preventclick.click=T.preventclick.tg.onclick||!1,T.preventclick.tg.onclick=T.onpreventclick),T.rail.drag.dl&&("v"==T.rail.drag.dl?u=T.rail.drag.sl:"h"==T.rail.drag.dl&&(d=T.rail.drag.st)),T.synched("touchmove",function(){T.rail.drag&&2==T.rail.drag.pt&&(T.prepareTransition&&T.resetTransition(),T.rail.scrollable&&T.setScrollTop(d),T.scrollmom.update(a,s),T.railh&&T.railh.scrollable?(T.setScrollLeft(u),T.showCursor(d,u)):T.showCursor(d),P.isie10&&l.selection.clear())}),T.cancelEvent(e)}return 1==T.rail.drag.pt?T.onmousemove(e):void 0},T.ontouchstartCursor=function(e,o){if(!T.rail.drag||3==T.rail.drag.pt){if(T.locked)return T.cancelEvent(e);T.cancelScroll(),T.rail.drag={x:e.touches[0].clientX,y:e.touches[0].clientY,sx:T.scroll.x,sy:T.scroll.y,pt:3,hr:!!o};var t=T.getTarget(e);return!T.ispage&&P.hasmousecapture&&t.setCapture(),T.isiframe&&!P.hasmousecapture&&(T.saved.csspointerevents=T.doc.css("pointer-events"),T.css(T.doc,{"pointer-events":"none"})),T.cancelEvent(e)}},T.ontouchendCursor=function(e){if(T.rail.drag){if(P.hasmousecapture&&l.releaseCapture(),T.isiframe&&!P.hasmousecapture&&T.doc.css("pointer-events",T.saved.csspointerevents),3!=T.rail.drag.pt)return;return T.rail.drag=!1,T.cancelEvent(e)}},T.ontouchmoveCursor=function(e){if(T.rail.drag){if(3!=T.rail.drag.pt)return;if(T.cursorfreezed=!0,T.rail.drag.hr){T.scroll.x=T.rail.drag.sx+(e.touches[0].clientX-T.rail.drag.x),T.scroll.x<0&&(T.scroll.x=0);var o=T.scrollvaluemaxw;T.scroll.x>o&&(T.scroll.x=o)}else{T.scroll.y=T.rail.drag.sy+(e.touches[0].clientY-T.rail.drag.y),T.scroll.y<0&&(T.scroll.y=0);var t=T.scrollvaluemax;T.scroll.y>t&&(T.scroll.y=t)}return T.synched("touchmove",function(){T.rail.drag&&3==T.rail.drag.pt&&(T.showCursor(),T.rail.drag.hr?T.doScrollLeft(Math.round(T.scroll.x*T.scrollratio.x),M.cursordragspeed):T.doScrollTop(Math.round(T.scroll.y*T.scrollratio.y),M.cursordragspeed))}),T.cancelEvent(e)}}}if(T.onmousedown=function(e,o){if(!T.rail.drag||1==T.rail.drag.pt){if(T.railslocked)return T.cancelEvent(e);T.cancelScroll(),T.rail.drag={x:e.clientX,y:e.clientY,sx:T.scroll.x,sy:T.scroll.y,pt:1,hr:o||!1};var t=T.getTarget(e);return P.hasmousecapture&&t.setCapture(),T.isiframe&&!P.hasmousecapture&&(T.saved.csspointerevents=T.doc.css("pointer-events"),T.css(T.doc,{"pointer-events":"none"})),T.hasmoving=!1,T.cancelEvent(e)}},T.onmouseup=function(e){if(T.rail.drag)return 1!=T.rail.drag.pt||(P.hasmousecapture&&l.releaseCapture(),T.isiframe&&!P.hasmousecapture&&T.doc.css("pointer-events",T.saved.csspointerevents),T.rail.drag=!1,T.cursorfreezed=!1,T.hasmoving&&T.triggerScrollEnd(),T.cancelEvent(e))},T.onmousemove=function(e){if(T.rail.drag){if(1!==T.rail.drag.pt)return;if(P.ischrome&&0===e.which)return T.onmouseup(e);if(T.cursorfreezed=!0,T.hasmoving||T.triggerScrollStart(e.clientX,e.clientY,0,0,0),T.hasmoving=!0,T.rail.drag.hr){T.scroll.x=T.rail.drag.sx+(e.clientX-T.rail.drag.x),T.scroll.x<0&&(T.scroll.x=0);var o=T.scrollvaluemaxw;T.scroll.x>o&&(T.scroll.x=o)}else{T.scroll.y=T.rail.drag.sy+(e.clientY-T.rail.drag.y),T.scroll.y<0&&(T.scroll.y=0);var t=T.scrollvaluemax;T.scroll.y>t&&(T.scroll.y=t)}return T.synched("mousemove",function(){T.cursorfreezed&&(T.showCursor(),T.rail.drag.hr?T.scrollLeft(Math.round(T.scroll.x*T.scrollratio.x)):T.scrollTop(Math.round(T.scroll.y*T.scrollratio.y)))}),T.cancelEvent(e)}T.checkarea=0},P.cantouch||M.emulatetouch)T.onpreventclick=function(e){if(T.preventclick)return T.preventclick.tg.onclick=T.preventclick.click,T.preventclick=!1,T.cancelEvent(e)},T.onclick=!P.isios&&function(e){return!T.lastmouseup||(T.lastmouseup=!1,T.cancelEvent(e))},M.grabcursorenabled&&P.cursorgrabvalue&&(T.css(T.ispage?T.doc:T.win,{cursor:P.cursorgrabvalue}),T.css(T.rail,{cursor:P.cursorgrabvalue}));else{var L=function(e){if(T.selectiondrag){if(e){var o=T.win.outerHeight(),t=e.pageY-T.selectiondrag.top;t>0&&t<o&&(t=0),t>=o&&(t-=o),T.selectiondrag.df=t}if(0!==T.selectiondrag.df){var r=-2*T.selectiondrag.df/6|0;T.doScrollBy(r),T.debounced("doselectionscroll",function(){L()},50)}}};T.hasTextSelected="getSelection"in l?function(){return l.getSelection().rangeCount>0}:"selection"in l?function(){return"None"!=l.selection.type}:function(){return!1},T.onselectionstart=function(e){T.ispage||(T.selectiondrag=T.win.offset())},T.onselectionend=function(e){T.selectiondrag=!1},T.onselectiondrag=function(e){T.selectiondrag&&T.hasTextSelected()&&T.debounced("selectionscroll",function(){L(e)},250)}}if(P.hasw3ctouch?(T.css(T.ispage?n("html"):T.win,{"touch-action":"none"}),T.css(T.rail,{"touch-action":"none"}),T.css(T.cursor,{"touch-action":"none"}),T.bind(T.win,"pointerdown",T.ontouchstart),T.bind(l,"pointerup",T.ontouchend),T.delegate(l,"pointermove",T.ontouchmove)):P.hasmstouch?(T.css(T.ispage?n("html"):T.win,{"-ms-touch-action":"none"}),T.css(T.rail,{"-ms-touch-action":"none"}),T.css(T.cursor,{"-ms-touch-action":"none"}),T.bind(T.win,"MSPointerDown",T.ontouchstart),T.bind(l,"MSPointerUp",T.ontouchend),T.delegate(l,"MSPointerMove",T.ontouchmove),T.bind(T.cursor,"MSGestureHold",function(e){e.preventDefault()}),T.bind(T.cursor,"contextmenu",function(e){e.preventDefault()})):P.cantouch&&(T.bind(T.win,"touchstart",T.ontouchstart,!1,!0),T.bind(l,"touchend",T.ontouchend,!1,!0),T.bind(l,"touchcancel",T.ontouchend,!1,!0),T.delegate(l,"touchmove",T.ontouchmove,!1,!0)),M.emulatetouch&&(T.bind(T.win,"mousedown",T.ontouchstart,!1,!0),T.bind(l,"mouseup",T.ontouchend,!1,!0),T.bind(l,"mousemove",T.ontouchmove,!1,!0)),(M.cursordragontouch||!P.cantouch&&!M.emulatetouch)&&(T.rail.css({cursor:"default"}),T.railh&&T.railh.css({cursor:"default"}),T.jqbind(T.rail,"mouseenter",function(){if(!T.ispage&&!T.win.is(":visible"))return!1;T.canshowonmouseevent&&T.showCursor(),T.rail.active=!0}),T.jqbind(T.rail,"mouseleave",function(){T.rail.active=!1,T.rail.drag||T.hideCursor()}),M.sensitiverail&&(T.bind(T.rail,"click",function(e){T.doRailClick(e,!1,!1)}),T.bind(T.rail,"dblclick",function(e){T.doRailClick(e,!0,!1)}),T.bind(T.cursor,"click",function(e){T.cancelEvent(e)}),T.bind(T.cursor,"dblclick",function(e){T.cancelEvent(e)})),T.railh&&(T.jqbind(T.railh,"mouseenter",function(){if(!T.ispage&&!T.win.is(":visible"))return!1;T.canshowonmouseevent&&T.showCursor(),T.rail.active=!0}),T.jqbind(T.railh,"mouseleave",function(){T.rail.active=!1,T.rail.drag||T.hideCursor()}),M.sensitiverail&&(T.bind(T.railh,"click",function(e){T.doRailClick(e,!1,!0)}),T.bind(T.railh,"dblclick",function(e){T.doRailClick(e,!0,!0)}),T.bind(T.cursorh,"click",function(e){T.cancelEvent(e)}),T.bind(T.cursorh,"dblclick",function(e){T.cancelEvent(e)})))),M.cursordragontouch&&(this.istouchcapable||P.cantouch)&&(T.bind(T.cursor,"touchstart",T.ontouchstartCursor),T.bind(T.cursor,"touchmove",T.ontouchmoveCursor),T.bind(T.cursor,"touchend",T.ontouchendCursor),T.cursorh&&T.bind(T.cursorh,"touchstart",function(e){T.ontouchstartCursor(e,!0)}),T.cursorh&&T.bind(T.cursorh,"touchmove",T.ontouchmoveCursor),T.cursorh&&T.bind(T.cursorh,"touchend",T.ontouchendCursor)),M.emulatetouch||P.isandroid||P.isios?(T.bind(P.hasmousecapture?T.win:l,"mouseup",T.ontouchend),T.onclick&&T.bind(l,"click",T.onclick),M.cursordragontouch?(T.bind(T.cursor,"mousedown",T.onmousedown),T.bind(T.cursor,"mouseup",T.onmouseup),T.cursorh&&T.bind(T.cursorh,"mousedown",function(e){T.onmousedown(e,!0)}),T.cursorh&&T.bind(T.cursorh,"mouseup",T.onmouseup)):(T.bind(T.rail,"mousedown",function(e){e.preventDefault()}),T.railh&&T.bind(T.railh,"mousedown",function(e){e.preventDefault()}))):(T.bind(P.hasmousecapture?T.win:l,"mouseup",T.onmouseup),T.bind(l,"mousemove",T.onmousemove),T.onclick&&T.bind(l,"click",T.onclick),T.bind(T.cursor,"mousedown",T.onmousedown),T.bind(T.cursor,"mouseup",T.onmouseup),T.railh&&(T.bind(T.cursorh,"mousedown",function(e){T.onmousedown(e,!0)}),T.bind(T.cursorh,"mouseup",T.onmouseup)),!T.ispage&&M.enablescrollonselection&&(T.bind(T.win[0],"mousedown",T.onselectionstart),T.bind(l,"mouseup",T.onselectionend),T.bind(T.cursor,"mouseup",T.onselectionend),T.cursorh&&T.bind(T.cursorh,"mouseup",T.onselectionend),T.bind(l,"mousemove",T.onselectiondrag)),T.zoom&&(T.jqbind(T.zoom,"mouseenter",function(){T.canshowonmouseevent&&T.showCursor(),T.rail.active=!0}),T.jqbind(T.zoom,"mouseleave",function(){T.rail.active=!1,T.rail.drag||T.hideCursor()}))),M.enablemousewheel&&(T.isiframe||T.mousewheel(P.isie&&T.ispage?l:T.win,T.onmousewheel),T.mousewheel(T.rail,T.onmousewheel),T.railh&&T.mousewheel(T.railh,T.onmousewheelhr)),T.ispage||P.cantouch||/HTML|^BODY/.test(T.win[0].nodeName)||(T.win.attr("tabindex")||T.win.attr({tabindex:++r}),T.bind(T.win,"focus",function(e){o=T.getTarget(e).id||T.getTarget(e)||!1,T.hasfocus=!0,T.canshowonmouseevent&&T.noticeCursor()}),T.bind(T.win,"blur",function(e){o=!1,T.hasfocus=!1}),T.bind(T.win,"mouseenter",function(e){t=T.getTarget(e).id||T.getTarget(e)||!1,T.hasmousefocus=!0,T.canshowonmouseevent&&T.noticeCursor()}),T.bind(T.win,"mouseleave",function(e){t=!1,T.hasmousefocus=!1,T.rail.drag||T.hideCursor()})),T.onkeypress=function(e){if(T.railslocked&&0===T.page.maxh)return!0;e=e||a.event;var r=T.getTarget(e);if(r&&/INPUT|TEXTAREA|SELECT|OPTION/.test(r.nodeName)&&(!(r.getAttribute("type")||r.type||!1)||!/submit|button|cancel/i.tp))return!0;if(n(r).attr("contenteditable"))return!0;if(T.hasfocus||T.hasmousefocus&&!o||T.ispage&&!o&&!t){var i=e.keyCode;if(T.railslocked&&27!=i)return T.cancelEvent(e);var s=e.ctrlKey||!1,l=e.shiftKey||!1,c=!1;switch(i){case 38:case 63233:T.doScrollBy(72),c=!0;break;case 40:case 63235:T.doScrollBy(-72),c=!0;break;case 37:case 63232:T.railh&&(s?T.doScrollLeft(0):T.doScrollLeftBy(72),c=!0);break;case 39:case 63234:T.railh&&(s?T.doScrollLeft(T.page.maxw):T.doScrollLeftBy(-72),c=!0);break;case 33:case 63276:T.doScrollBy(T.view.h),c=!0;break;case 34:case 63277:T.doScrollBy(-T.view.h),c=!0;break;case 36:case 63273:T.railh&&s?T.doScrollPos(0,0):T.doScrollTo(0),c=!0;break;case 35:case 63275:T.railh&&s?T.doScrollPos(T.page.maxw,T.page.maxh):T.doScrollTo(T.page.maxh),c=!0;break;case 32:M.spacebarenabled&&(l?T.doScrollBy(T.view.h):T.doScrollBy(-T.view.h),c=!0);break;case 27:T.zoomactive&&(T.doZoom(),c=!0)}if(c)return T.cancelEvent(e)}},M.enablekeyboard&&T.bind(l,P.isopera&&!P.isopera12?"keypress":"keydown",T.onkeypress),T.bind(l,"keydown",function(e){(e.ctrlKey||!1)&&(T.wheelprevented=!0)}),T.bind(l,"keyup",function(e){e.ctrlKey||!1||(T.wheelprevented=!1)}),T.bind(a,"blur",function(e){T.wheelprevented=!1}),T.bind(a,"resize",T.onscreenresize),T.bind(a,"orientationchange",T.onscreenresize),T.bind(a,"load",T.lazyResize),P.ischrome&&!T.ispage&&!T.haswrapper){var C=T.win.attr("style"),N=parseFloat(T.win.css("width"))+1;T.win.css("width",N),T.synched("chromefix",function(){T.win.attr("style",C)})}if(T.onAttributeChange=function(e){T.lazyResize(T.isieold?250:30)},M.enableobserver&&(T.isie11||!1===m||(T.observerbody=new m(function(e){if(e.forEach(function(e){if("attributes"==e.type)return E.hasClass("modal-open")&&E.hasClass("modal-dialog")&&!n.contains(n(".modal-dialog")[0],T.doc[0])?T.hide():T.show()}),T.me.clientWidth!=T.page.width||T.me.clientHeight!=T.page.height)return T.lazyResize(30)}),T.observerbody.observe(l.body,{childList:!0,subtree:!0,characterData:!1,attributes:!0,attributeFilter:["class"]})),!T.ispage&&!T.haswrapper)){var R=T.win[0];!1!==m?(T.observer=new m(function(e){e.forEach(T.onAttributeChange)}),T.observer.observe(R,{childList:!0,characterData:!1,attributes:!0,subtree:!1}),T.observerremover=new m(function(e){e.forEach(function(e){if(e.removedNodes.length>0)for(var o in e.removedNodes)if(T&&e.removedNodes[o]===R)return T.remove()})}),T.observerremover.observe(R.parentNode,{childList:!0,characterData:!1,attributes:!1,subtree:!1})):(T.bind(R,P.isie&&!P.isie9?"propertychange":"DOMAttrModified",T.onAttributeChange),P.isie9&&R.attachEvent("onpropertychange",T.onAttributeChange),T.bind(R,"DOMNodeRemoved",function(e){e.target===R&&T.remove()}))}!T.ispage&&M.boxzoom&&T.bind(a,"resize",T.resizeZoom),T.istextarea&&(T.bind(T.win,"keydown",T.lazyResize),T.bind(T.win,"mouseup",T.lazyResize)),T.lazyResize(30)}if("IFRAME"==this.doc[0].nodeName){var _=function(){T.iframexd=!1;var o;try{(o="contentDocument"in this?this.contentDocument:this.contentWindow._doc).domain}catch(e){T.iframexd=!0,o=!1}if(T.iframexd)return"console"in a&&console.log("NiceScroll error: policy restriced iframe"),!0;if(T.forcescreen=!0,T.isiframe&&(T.iframe={doc:n(o),html:T.doc.contents().find("html")[0],body:T.doc.contents().find("body")[0]},T.getContentSize=function(){return{w:Math.max(T.iframe.html.scrollWidth,T.iframe.body.scrollWidth),h:Math.max(T.iframe.html.scrollHeight,T.iframe.body.scrollHeight)}},T.docscroll=n(T.iframe.body)),!P.isios&&M.iframeautoresize&&!T.isiframe){T.win.scrollTop(0),T.doc.height("");var t=Math.max(o.getElementsByTagName("html")[0].scrollHeight,o.body.scrollHeight);T.doc.height(t)}T.lazyResize(30),T.css(n(T.iframe.body),e),P.isios&&T.haswrapper&&T.css(n(o.body),{"-webkit-transform":"translate3d(0,0,0)"}),"contentWindow"in this?T.bind(this.contentWindow,"scroll",T.onscroll):T.bind(o,"scroll",T.onscroll),M.enablemousewheel&&T.mousewheel(o,T.onmousewheel),M.enablekeyboard&&T.bind(o,P.isopera?"keypress":"keydown",T.onkeypress),P.cantouch?(T.bind(o,"touchstart",T.ontouchstart),T.bind(o,"touchmove",T.ontouchmove)):M.emulatetouch&&(T.bind(o,"mousedown",T.ontouchstart),T.bind(o,"mousemove",function(e){return T.ontouchmove(e,!0)}),M.grabcursorenabled&&P.cursorgrabvalue&&T.css(n(o.body),{cursor:P.cursorgrabvalue})),T.bind(o,"mouseup",T.ontouchend),T.zoom&&(M.dblclickzoom&&T.bind(o,"dblclick",T.doZoom),T.ongesturezoom&&T.bind(o,"gestureend",T.ongesturezoom))};this.doc[0].readyState&&"complete"===this.doc[0].readyState&&setTimeout(function(){_.call(T.doc[0],!1)},500),T.bind(this.doc,"load",_)}},this.showCursor=function(e,o){if(T.cursortimeout&&(clearTimeout(T.cursortimeout),T.cursortimeout=0),T.rail){if(T.autohidedom&&(T.autohidedom.stop().css({opacity:M.cursoropacitymax}),T.cursoractive=!0),T.rail.drag&&1==T.rail.drag.pt||(void 0!==e&&!1!==e&&(T.scroll.y=e/T.scrollratio.y|0),void 0!==o&&(T.scroll.x=o/T.scrollratio.x|0)),T.cursor.css({height:T.cursorheight,top:T.scroll.y}),T.cursorh){var t=T.hasreversehr?T.scrollvaluemaxw-T.scroll.x:T.scroll.x;T.cursorh.css({width:T.cursorwidth,left:!T.rail.align&&T.rail.visibility?t+T.rail.width:t}),T.cursoractive=!0}T.zoom&&T.zoom.stop().css({opacity:M.cursoropacitymax})}},this.hideCursor=function(e){T.cursortimeout||T.rail&&T.autohidedom&&(T.hasmousefocus&&"leave"===M.autohidemode||(T.cursortimeout=setTimeout(function(){T.rail.active&&T.showonmouseevent||(T.autohidedom.stop().animate({opacity:M.cursoropacitymin}),T.zoom&&T.zoom.stop().animate({opacity:M.cursoropacitymin}),T.cursoractive=!1),T.cursortimeout=0},e||M.hidecursordelay)))},this.noticeCursor=function(e,o,t){T.showCursor(o,t),T.rail.active||T.hideCursor(e)},this.getContentSize=T.ispage?function(){return{w:Math.max(l.body.scrollWidth,l.documentElement.scrollWidth),h:Math.max(l.body.scrollHeight,l.documentElement.scrollHeight)}}:T.haswrapper?function(){return{w:T.doc[0].offsetWidth,h:T.doc[0].offsetHeight}}:function(){return{w:T.docscroll[0].scrollWidth,h:T.docscroll[0].scrollHeight}},this.onResize=function(e,o){if(!T||!T.win)return!1;var t=T.page.maxh,r=T.page.maxw,i=T.view.h,s=T.view.w;if(T.view={w:T.ispage?T.win.width():T.win[0].clientWidth,h:T.ispage?T.win.height():T.win[0].clientHeight},T.page=o||T.getContentSize(),T.page.maxh=Math.max(0,T.page.h-T.view.h),T.page.maxw=Math.max(0,T.page.w-T.view.w),T.page.maxh==t&&T.page.maxw==r&&T.view.w==s&&T.view.h==i){if(T.ispage)return T;var n=T.win.offset();if(T.lastposition){var l=T.lastposition;if(l.top==n.top&&l.left==n.left)return T}T.lastposition=n}return 0===T.page.maxh?(T.hideRail(),T.scrollvaluemax=0,T.scroll.y=0,T.scrollratio.y=0,T.cursorheight=0,T.setScrollTop(0),T.rail&&(T.rail.scrollable=!1)):(T.page.maxh-=M.railpadding.top+M.railpadding.bottom,T.rail.scrollable=!0),0===T.page.maxw?(T.hideRailHr(),T.scrollvaluemaxw=0,T.scroll.x=0,T.scrollratio.x=0,T.cursorwidth=0,T.setScrollLeft(0),T.railh&&(T.railh.scrollable=!1)):(T.page.maxw-=M.railpadding.left+M.railpadding.right,T.railh&&(T.railh.scrollable=M.horizrailenabled)),T.railslocked=T.locked||0===T.page.maxh&&0===T.page.maxw,T.railslocked?(T.ispage||T.updateScrollBar(T.view),!1):(T.hidden||(T.rail.visibility||T.showRail(),T.railh&&!T.railh.visibility&&T.showRailHr()),T.istextarea&&T.win.css("resize")&&"none"!=T.win.css("resize")&&(T.view.h-=20),T.cursorheight=Math.min(T.view.h,Math.round(T.view.h*(T.view.h/T.page.h))),T.cursorheight=M.cursorfixedheight?M.cursorfixedheight:Math.max(M.cursorminheight,T.cursorheight),T.cursorwidth=Math.min(T.view.w,Math.round(T.view.w*(T.view.w/T.page.w))),T.cursorwidth=M.cursorfixedheight?M.cursorfixedheight:Math.max(M.cursorminheight,T.cursorwidth),T.scrollvaluemax=T.view.h-T.cursorheight-(M.railpadding.top+M.railpadding.bottom),T.hasborderbox||(T.scrollvaluemax-=T.cursor[0].offsetHeight-T.cursor[0].clientHeight),T.railh&&(T.railh.width=T.page.maxh>0?T.view.w-T.rail.width:T.view.w,T.scrollvaluemaxw=T.railh.width-T.cursorwidth-(M.railpadding.left+M.railpadding.right)),T.ispage||T.updateScrollBar(T.view),T.scrollratio={x:T.page.maxw/T.scrollvaluemaxw,y:T.page.maxh/T.scrollvaluemax},T.getScrollTop()>T.page.maxh?T.doScrollTop(T.page.maxh):(T.scroll.y=T.getScrollTop()/T.scrollratio.y|0,T.scroll.x=T.getScrollLeft()/T.scrollratio.x|0,T.cursoractive&&T.noticeCursor()),T.scroll.y&&0===T.getScrollTop()&&T.doScrollTo(T.scroll.y*T.scrollratio.y|0),T)},this.resize=T.onResize;var O=0;this.onscreenresize=function(e){clearTimeout(O);var o=!T.ispage&&!T.haswrapper;o&&T.hideRails(),O=setTimeout(function(){T&&(o&&T.showRails(),T.resize()),O=0},120)},this.lazyResize=function(e){return clearTimeout(O),e=isNaN(e)?240:e,O=setTimeout(function(){T&&T.resize(),O=0},e),T},this.jqbind=function(e,o,t){T.events.push({e:e,n:o,f:t,q:!0}),n(e).on(o,t)},this.mousewheel=function(e,o,t){var r="jquery"in e?e[0]:e;if("onwheel"in l.createElement("div"))T._bind(r,"wheel",o,t||!1);else{var i=void 0!==l.onmousewheel?"mousewheel":"DOMMouseScroll";S(r,i,o,t||!1),"DOMMouseScroll"==i&&S(r,"MozMousePixelScroll",o,t||!1)}};var Y=!1;if(P.haseventlistener){try{var H=Object.defineProperty({},"passive",{get:function(){Y=!0}});a.addEventListener("test",null,H)}catch(e){}this.stopPropagation=function(e){return!!e&&((e=e.original?e.original:e).stopPropagation(),!1)},this.cancelEvent=function(e){return e.cancelable&&e.preventDefault(),e.stopImmediatePropagation(),e.preventManipulation&&e.preventManipulation(),!1}}else Event.prototype.preventDefault=function(){this.returnValue=!1},Event.prototype.stopPropagation=function(){this.cancelBubble=!0},a.constructor.prototype.addEventListener=l.constructor.prototype.addEventListener=Element.prototype.addEventListener=function(e,o,t){this.attachEvent("on"+e,o)},a.constructor.prototype.removeEventListener=l.constructor.prototype.removeEventListener=Element.prototype.removeEventListener=function(e,o,t){this.detachEvent("on"+e,o)},this.cancelEvent=function(e){return(e=e||a.event)&&(e.cancelBubble=!0,e.cancel=!0,e.returnValue=!1),!1},this.stopPropagation=function(e){return(e=e||a.event)&&(e.cancelBubble=!0),!1};this.delegate=function(e,o,t,r,i){var s=d[o]||!1;s||(s={a:[],l:[],f:function(e){for(var o=s.l,t=!1,r=o.length-1;r>=0;r--)if(!1===(t=o[r].call(e.target,e)))return!1;return t}},T.bind(e,o,s.f,r,i),d[o]=s),T.ispage?(s.a=[T.id].concat(s.a),s.l=[t].concat(s.l)):(s.a.push(T.id),s.l.push(t))},this.undelegate=function(e,o,t,r,i){var s=d[o]||!1;if(s&&s.l)for(var n=0,l=s.l.length;n<l;n++)s.a[n]===T.id&&(s.a.splice(n),s.l.splice(n),0===s.a.length&&(T._unbind(e,o,s.l.f),d[o]=null))},this.bind=function(e,o,t,r,i){var s="jquery"in e?e[0]:e;T._bind(s,o,t,r||!1,i||!1)},this._bind=function(e,o,t,r,i){T.events.push({e:e,n:o,f:t,b:r,q:!1}),Y&&i?e.addEventListener(o,t,{passive:!1,capture:r}):e.addEventListener(o,t,r||!1)},this._unbind=function(e,o,t,r){d[o]?T.undelegate(e,o,t,r):e.removeEventListener(o,t,r)},this.unbindAll=function(){for(var e=0;e<T.events.length;e++){var o=T.events[e];o.q?o.e.unbind(o.n,o.f):T._unbind(o.e,o.n,o.f,o.b)}},this.showRails=function(){return T.showRail().showRailHr()},this.showRail=function(){return 0===T.page.maxh||!T.ispage&&"none"==T.win.css("display")||(T.rail.visibility=!0,T.rail.css("display","block")),T},this.showRailHr=function(){return T.railh&&(0===T.page.maxw||!T.ispage&&"none"==T.win.css("display")||(T.railh.visibility=!0,T.railh.css("display","block"))),T},this.hideRails=function(){return T.hideRail().hideRailHr()},this.hideRail=function(){return T.rail.visibility=!1,T.rail.css("display","none"),T},this.hideRailHr=function(){return T.railh&&(T.railh.visibility=!1,T.railh.css("display","none")),T},this.show=function(){return T.hidden=!1,T.railslocked=!1,T.showRails()},this.hide=function(){return T.hidden=!0,T.railslocked=!0,T.hideRails()},this.toggle=function(){return T.hidden?T.show():T.hide()},this.remove=function(){T.stop(),T.cursortimeout&&clearTimeout(T.cursortimeout);for(var e in T.delaylist)T.delaylist[e]&&h(T.delaylist[e].h);T.doZoomOut(),T.unbindAll(),P.isie9&&T.win[0].detachEvent("onpropertychange",T.onAttributeChange),!1!==T.observer&&T.observer.disconnect(),!1!==T.observerremover&&T.observerremover.disconnect(),!1!==T.observerbody&&T.observerbody.disconnect(),T.events=null,T.cursor&&T.cursor.remove(),T.cursorh&&T.cursorh.remove(),T.rail&&T.rail.remove(),T.railh&&T.railh.remove(),T.zoom&&T.zoom.remove();for(var o=0;o<T.saved.css.length;o++){var t=T.saved.css[o];t[0].css(t[1],void 0===t[2]?"":t[2])}T.saved=!1,T.me.data("__nicescroll","");var r=n.nicescroll;r.each(function(e){if(this&&this.id===T.id){delete r[e];for(var o=++e;o<r.length;o++,e++)r[e]=r[o];--r.length&&delete r[r.length]}});for(var i in T)T[i]=null,delete T[i];T=null},this.scrollstart=function(e){return this.onscrollstart=e,T},this.scrollend=function(e){return this.onscrollend=e,T},this.scrollcancel=function(e){return this.onscrollcancel=e,T},this.zoomin=function(e){return this.onzoomin=e,T},this.zoomout=function(e){return this.onzoomout=e,T},this.isScrollable=function(e){var o=e.target?e.target:e;if("OPTION"==o.nodeName)return!0;for(;o&&1==o.nodeType&&o!==this.me[0]&&!/^BODY|HTML/.test(o.nodeName);){var t=n(o),r=t.css("overflowY")||t.css("overflowX")||t.css("overflow")||"";if(/scroll|auto/.test(r))return o.clientHeight!=o.scrollHeight;o=!!o.parentNode&&o.parentNode}return!1},this.getViewport=function(e){for(var o=!(!e||!e.parentNode)&&e.parentNode;o&&1==o.nodeType&&!/^BODY|HTML/.test(o.nodeName);){var t=n(o);if(/fixed|absolute/.test(t.css("position")))return t;var r=t.css("overflowY")||t.css("overflowX")||t.css("overflow")||"";if(/scroll|auto/.test(r)&&o.clientHeight!=o.scrollHeight)return t;if(t.getNiceScroll().length>0)return t;o=!!o.parentNode&&o.parentNode}return!1},this.triggerScrollStart=function(e,o,t,r,i){if(T.onscrollstart){var s={type:"scrollstart",current:{x:e,y:o},request:{x:t,y:r},end:{x:T.newscrollx,y:T.newscrolly},speed:i};T.onscrollstart.call(T,s)}},this.triggerScrollEnd=function(){if(T.onscrollend){var e=T.getScrollLeft(),o=T.getScrollTop(),t={type:"scrollend",current:{x:e,y:o},end:{x:e,y:o}};T.onscrollend.call(T,t)}};var B=0,X=0,D=0,A=1,q=!1;if(this.onmousewheel=function(e){if(T.wheelprevented||T.locked)return!1;if(T.railslocked)return T.debounced("checkunlock",T.resize,250),!1;if(T.rail.drag)return T.cancelEvent(e);if("auto"===M.oneaxismousemode&&0!==e.deltaX&&(M.oneaxismousemode=!1),M.oneaxismousemode&&0===e.deltaX&&!T.rail.scrollable)return!T.railh||!T.railh.scrollable||T.onmousewheelhr(e);var o=f(),t=!1;if(M.preservenativescrolling&&T.checkarea+600<o&&(T.nativescrollingarea=T.isScrollable(e),t=!0),T.checkarea=o,T.nativescrollingarea)return!0;var r=k(e,!1,t);return r&&(T.checkarea=0),r},this.onmousewheelhr=function(e){if(!T.wheelprevented){if(T.railslocked||!T.railh.scrollable)return!0;if(T.rail.drag)return T.cancelEvent(e);var o=f(),t=!1;return M.preservenativescrolling&&T.checkarea+600<o&&(T.nativescrollingarea=T.isScrollable(e),t=!0),T.checkarea=o,!!T.nativescrollingarea||(T.railslocked?T.cancelEvent(e):k(e,!0,t))}},this.stop=function(){return T.cancelScroll(),T.scrollmon&&T.scrollmon.stop(),T.cursorfreezed=!1,T.scroll.y=Math.round(T.getScrollTop()*(1/T.scrollratio.y)),T.noticeCursor(),T},this.getTransitionSpeed=function(e){return 80+e/72*M.scrollspeed|0},M.smoothscroll)if(T.ishwscroll&&P.hastransition&&M.usetransition&&M.smoothscroll){var j="";this.resetTransition=function(){j="",T.doc.css(P.prefixstyle+"transition-duration","0ms")},this.prepareTransition=function(e,o){var t=o?e:T.getTransitionSpeed(e),r=t+"ms";return j!==r&&(j=r,T.doc.css(P.prefixstyle+"transition-duration",r)),t},this.doScrollLeft=function(e,o){var t=T.scrollrunning?T.newscrolly:T.getScrollTop();T.doScrollPos(e,t,o)},this.doScrollTop=function(e,o){var t=T.scrollrunning?T.newscrollx:T.getScrollLeft();T.doScrollPos(t,e,o)},this.cursorupdate={running:!1,start:function(){var e=this;if(!e.running){e.running=!0;var o=function(){e.running&&u(o),T.showCursor(T.getScrollTop(),T.getScrollLeft()),T.notifyScrollEvent(T.win[0])};u(o)}},stop:function(){this.running=!1}},this.doScrollPos=function(e,o,t){var r=T.getScrollTop(),i=T.getScrollLeft();if(((T.newscrolly-r)*(o-r)<0||(T.newscrollx-i)*(e-i)<0)&&T.cancelScroll(),M.bouncescroll?(o<0?o=o/2|0:o>T.page.maxh&&(o=T.page.maxh+(o-T.page.maxh)/2|0),e<0?e=e/2|0:e>T.page.maxw&&(e=T.page.maxw+(e-T.page.maxw)/2|0)):(o<0?o=0:o>T.page.maxh&&(o=T.page.maxh),e<0?e=0:e>T.page.maxw&&(e=T.page.maxw)),T.scrollrunning&&e==T.newscrollx&&o==T.newscrolly)return!1;T.newscrolly=o,T.newscrollx=e;var s=T.getScrollTop(),n=T.getScrollLeft(),l={};l.x=e-n,l.y=o-s;var a=0|Math.sqrt(l.x*l.x+l.y*l.y),c=T.prepareTransition(a);T.scrollrunning||(T.scrollrunning=!0,T.triggerScrollStart(n,s,e,o,c),T.cursorupdate.start()),T.scrollendtrapped=!0,P.transitionend||(T.scrollendtrapped&&clearTimeout(T.scrollendtrapped),T.scrollendtrapped=setTimeout(T.onScrollTransitionEnd,c)),T.setScrollTop(T.newscrolly),T.setScrollLeft(T.newscrollx)},this.cancelScroll=function(){if(!T.scrollendtrapped)return!0;var e=T.getScrollTop(),o=T.getScrollLeft();return T.scrollrunning=!1,P.transitionend||clearTimeout(P.transitionend),T.scrollendtrapped=!1,T.resetTransition(),T.setScrollTop(e),T.railh&&T.setScrollLeft(o),T.timerscroll&&T.timerscroll.tm&&clearInterval(T.timerscroll.tm),T.timerscroll=!1,T.cursorfreezed=!1,T.cursorupdate.stop(),T.showCursor(e,o),T},this.onScrollTransitionEnd=function(){if(T.scrollendtrapped){var e=T.getScrollTop(),o=T.getScrollLeft();if(e<0?e=0:e>T.page.maxh&&(e=T.page.maxh),o<0?o=0:o>T.page.maxw&&(o=T.page.maxw),e!=T.newscrolly||o!=T.newscrollx)return T.doScrollPos(o,e,M.snapbackspeed);T.scrollrunning&&T.triggerScrollEnd(),T.scrollrunning=!1,T.scrollendtrapped=!1,T.resetTransition(),T.timerscroll=!1,T.setScrollTop(e),T.railh&&T.setScrollLeft(o),T.cursorupdate.stop(),T.noticeCursor(!1,e,o),T.cursorfreezed=!1}}}else this.doScrollLeft=function(e,o){var t=T.scrollrunning?T.newscrolly:T.getScrollTop();T.doScrollPos(e,t,o)},this.doScrollTop=function(e,o){var t=T.scrollrunning?T.newscrollx:T.getScrollLeft();T.doScrollPos(t,e,o)},this.doScrollPos=function(e,o,t){var r=T.getScrollTop(),i=T.getScrollLeft();((T.newscrolly-r)*(o-r)<0||(T.newscrollx-i)*(e-i)<0)&&T.cancelScroll();var s=!1;if(T.bouncescroll&&T.rail.visibility||(o<0?(o=0,s=!0):o>T.page.maxh&&(o=T.page.maxh,s=!0)),T.bouncescroll&&T.railh.visibility||(e<0?(e=0,s=!0):e>T.page.maxw&&(e=T.page.maxw,s=!0)),T.scrollrunning&&T.newscrolly===o&&T.newscrollx===e)return!0;T.newscrolly=o,T.newscrollx=e,T.dst={},T.dst.x=e-i,T.dst.y=o-r,T.dst.px=i,T.dst.py=r;var n=0|Math.sqrt(T.dst.x*T.dst.x+T.dst.y*T.dst.y),l=T.getTransitionSpeed(n);T.bzscroll={};var a=s?1:.58;T.bzscroll.x=new R(i,T.newscrollx,l,0,0,a,1),T.bzscroll.y=new R(r,T.newscrolly,l,0,0,a,1);f();var c=function(){if(T.scrollrunning){var e=T.bzscroll.y.getPos();T.setScrollLeft(T.bzscroll.x.getNow()),T.setScrollTop(T.bzscroll.y.getNow()),e<=1?T.timer=u(c):(T.scrollrunning=!1,T.timer=0,T.triggerScrollEnd())}};T.scrollrunning||(T.triggerScrollStart(i,r,e,o,l),T.scrollrunning=!0,T.timer=u(c))},this.cancelScroll=function(){return T.timer&&h(T.timer),T.timer=0,T.bzscroll=!1,T.scrollrunning=!1,T};else this.doScrollLeft=function(e,o){var t=T.getScrollTop();T.doScrollPos(e,t,o)},this.doScrollTop=function(e,o){var t=T.getScrollLeft();T.doScrollPos(t,e,o)},this.doScrollPos=function(e,o,t){var r=e>T.page.maxw?T.page.maxw:e;r<0&&(r=0);var i=o>T.page.maxh?T.page.maxh:o;i<0&&(i=0),T.synched("scroll",function(){T.setScrollTop(i),T.setScrollLeft(r)})},this.cancelScroll=function(){};this.doScrollBy=function(e,o){z(0,e)},this.doScrollLeftBy=function(e,o){z(e,0)},this.doScrollTo=function(e,o){var t=o?Math.round(e*T.scrollratio.y):e;t<0?t=0:t>T.page.maxh&&(t=T.page.maxh),T.cursorfreezed=!1,T.doScrollTop(e)},this.checkContentSize=function(){var e=T.getContentSize();e.h==T.page.h&&e.w==T.page.w||T.resize(!1,e)},T.onscroll=function(e){T.rail.drag||T.cursorfreezed||T.synched("scroll",function(){T.scroll.y=Math.round(T.getScrollTop()/T.scrollratio.y),T.railh&&(T.scroll.x=Math.round(T.getScrollLeft()/T.scrollratio.x)),T.noticeCursor()})},T.bind(T.docscroll,"scroll",T.onscroll),this.doZoomIn=function(e){if(!T.zoomactive){T.zoomactive=!0,T.zoomrestore={style:{}};var o=["position","top","left","zIndex","backgroundColor","marginTop","marginBottom","marginLeft","marginRight"],t=T.win[0].style;for(var r in o){var i=o[r];T.zoomrestore.style[i]=void 0!==t[i]?t[i]:""}T.zoomrestore.style.width=T.win.css("width"),T.zoomrestore.style.height=T.win.css("height"),T.zoomrestore.padding={w:T.win.outerWidth()-T.win.width(),h:T.win.outerHeight()-T.win.height()},P.isios4&&(T.zoomrestore.scrollTop=c.scrollTop(),c.scrollTop(0)),T.win.css({position:P.isios4?"absolute":"fixed",top:0,left:0,zIndex:s+100,margin:0});var n=T.win.css("backgroundColor");return(""===n||/transparent|rgba\(0, 0, 0, 0\)|rgba\(0,0,0,0\)/.test(n))&&T.win.css("backgroundColor","#fff"),T.rail.css({zIndex:s+101}),T.zoom.css({zIndex:s+102}),T.zoom.css("backgroundPosition","0 -18px"),T.resizeZoom(),T.onzoomin&&T.onzoomin.call(T),T.cancelEvent(e)}},this.doZoomOut=function(e){if(T.zoomactive)return T.zoomactive=!1,T.win.css("margin",""),T.win.css(T.zoomrestore.style),P.isios4&&c.scrollTop(T.zoomrestore.scrollTop),T.rail.css({"z-index":T.zindex}),T.zoom.css({"z-index":T.zindex}),T.zoomrestore=!1,T.zoom.css("backgroundPosition","0 0"),T.onResize(),T.onzoomout&&T.onzoomout.call(T),T.cancelEvent(e)},this.doZoom=function(e){return T.zoomactive?T.doZoomOut(e):T.doZoomIn(e)},this.resizeZoom=function(){if(T.zoomactive){var e=T.getScrollTop();T.win.css({width:c.width()-T.zoomrestore.padding.w+"px",height:c.height()-T.zoomrestore.padding.h+"px"}),T.onResize(),T.setScrollTop(Math.min(T.page.maxh,e))}},this.init(),n.nicescroll.push(this)},y=function(e){var o=this;this.nc=e,this.lastx=0,this.lasty=0,this.speedx=0,this.speedy=0,this.lasttime=0,this.steptime=0,this.snapx=!1,this.snapy=!1,this.demulx=0,this.demuly=0,this.lastscrollx=-1,this.lastscrolly=-1,this.chkx=0,this.chky=0,this.timer=0,this.reset=function(e,t){o.stop(),o.steptime=0,o.lasttime=f(),o.speedx=0,o.speedy=0,o.lastx=e,o.lasty=t,o.lastscrollx=-1,o.lastscrolly=-1},this.update=function(e,t){var r=f();o.steptime=r-o.lasttime,o.lasttime=r;var i=t-o.lasty,s=e-o.lastx,n=o.nc.getScrollTop()+i,l=o.nc.getScrollLeft()+s;o.snapx=l<0||l>o.nc.page.maxw,o.snapy=n<0||n>o.nc.page.maxh,o.speedx=s,o.speedy=i,o.lastx=e,o.lasty=t},this.stop=function(){o.nc.unsynched("domomentum2d"),o.timer&&clearTimeout(o.timer),o.timer=0,o.lastscrollx=-1,o.lastscrolly=-1},this.doSnapy=function(e,t){var r=!1;t<0?(t=0,r=!0):t>o.nc.page.maxh&&(t=o.nc.page.maxh,r=!0),e<0?(e=0,r=!0):e>o.nc.page.maxw&&(e=o.nc.page.maxw,r=!0),r?o.nc.doScrollPos(e,t,o.nc.opt.snapbackspeed):o.nc.triggerScrollEnd()},this.doMomentum=function(e){var t=f(),r=e?t+e:o.lasttime,i=o.nc.getScrollLeft(),s=o.nc.getScrollTop(),n=o.nc.page.maxh,l=o.nc.page.maxw;o.speedx=l>0?Math.min(60,o.speedx):0,o.speedy=n>0?Math.min(60,o.speedy):0;var a=r&&t-r<=60;(s<0||s>n||i<0||i>l)&&(a=!1);var c=!(!o.speedy||!a)&&o.speedy,d=!(!o.speedx||!a)&&o.speedx;if(c||d){var u=Math.max(16,o.steptime);if(u>50){var h=u/50;o.speedx*=h,o.speedy*=h,u=50}o.demulxy=0,o.lastscrollx=o.nc.getScrollLeft(),o.chkx=o.lastscrollx,o.lastscrolly=o.nc.getScrollTop(),o.chky=o.lastscrolly;var p=o.lastscrollx,m=o.lastscrolly,g=function(){var e=f()-t>600?.04:.02;o.speedx&&(p=Math.floor(o.lastscrollx-o.speedx*(1-o.demulxy)),o.lastscrollx=p,(p<0||p>l)&&(e=.1)),o.speedy&&(m=Math.floor(o.lastscrolly-o.speedy*(1-o.demulxy)),o.lastscrolly=m,(m<0||m>n)&&(e=.1)),o.demulxy=Math.min(1,o.demulxy+e),o.nc.synched("domomentum2d",function(){if(o.speedx){o.nc.getScrollLeft();o.chkx=p,o.nc.setScrollLeft(p)}if(o.speedy){o.nc.getScrollTop();o.chky=m,o.nc.setScrollTop(m)}o.timer||(o.nc.hideCursor(),o.doSnapy(p,m))}),o.demulxy<1?o.timer=setTimeout(g,u):(o.stop(),o.nc.hideCursor(),o.doSnapy(p,m))};g()}else o.doSnapy(o.nc.getScrollLeft(),o.nc.getScrollTop())}},x=e.fn.scrollTop;e.cssHooks.pageYOffset={get:function(e,o,t){var r=n.data(e,"__nicescroll")||!1;return r&&r.ishwscroll?r.getScrollTop():x.call(e)},set:function(e,o){var t=n.data(e,"__nicescroll")||!1;return t&&t.ishwscroll?t.setScrollTop(parseInt(o)):x.call(e,o),this}},e.fn.scrollTop=function(e){if(void 0===e){var o=!!this[0]&&(n.data(this[0],"__nicescroll")||!1);return o&&o.ishwscroll?o.getScrollTop():x.call(this)}return this.each(function(){var o=n.data(this,"__nicescroll")||!1;o&&o.ishwscroll?o.setScrollTop(parseInt(e)):x.call(n(this),e)})};var S=e.fn.scrollLeft;n.cssHooks.pageXOffset={get:function(e,o,t){var r=n.data(e,"__nicescroll")||!1;return r&&r.ishwscroll?r.getScrollLeft():S.call(e)},set:function(e,o){var t=n.data(e,"__nicescroll")||!1;return t&&t.ishwscroll?t.setScrollLeft(parseInt(o)):S.call(e,o),this}},e.fn.scrollLeft=function(e){if(void 0===e){var o=!!this[0]&&(n.data(this[0],"__nicescroll")||!1);return o&&o.ishwscroll?o.getScrollLeft():S.call(this)}return this.each(function(){var o=n.data(this,"__nicescroll")||!1;o&&o.ishwscroll?o.setScrollLeft(parseInt(e)):S.call(n(this),e)})};var z=function(e){var o=this;if(this.length=0,this.name="nicescrollarray",this.each=function(e){return n.each(o,e),o},this.push=function(e){o[o.length]=e,o.length++},this.eq=function(e){return o[e]},e)for(var t=0;t<e.length;t++){var r=n.data(e[t],"__nicescroll")||!1;r&&(this[this.length]=r,this.length++)}return this};!function(e,o,t){for(var r=0,i=o.length;r<i;r++)t(e,o[r])}(z.prototype,["show","hide","toggle","onResize","resize","remove","stop","doScrollPos"],function(e,o){e[o]=function(){var e=arguments;return this.each(function(){this[o].apply(this,e)})}}),e.fn.getNiceScroll=function(e){return void 0===e?new z(this):this[e]&&n.data(this[e],"__nicescroll")||!1},(e.expr.pseudos||e.expr[":"]).nicescroll=function(e){return void 0!==n.data(e,"__nicescroll")},n.fn.niceScroll=function(e,o){void 0!==o||"object"!=typeof e||"jquery"in e||(o=e,e=!1);var t=new z;return this.each(function(){var r=n(this),i=n.extend({},o);if(e){var s=n(e);i.doc=s.length>1?n(e,r):s,i.win=r}!("doc"in i)||"win"in i||(i.win=r);var l=r.data("__nicescroll")||!1;l||(i.doc=i.doc||r,l=new b(i,r),r.data("__nicescroll",l)),t.push(l)}),1===t.length?t[0]:t},a.NiceScroll={getjQuery:function(){return e}},n.nicescroll||(n.nicescroll=new z,n.nicescroll.options=g)});
 
 /***/ }),
 
@@ -20664,6 +34987,36 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=style&index=1&lang=scss& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navigation.vue?vue&type=style&index=0&lang=css&":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Navigation.vue?vue&type=style&index=0&lang=css& ***!
@@ -20717,6 +35070,36 @@ options.transform = transform
 options.insertInto = undefined;
 
 var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -21456,7 +35839,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "menu-category my-4" },
+            { staticClass: "menu-category my-4 text-center" },
             _vm._l(_vm.category, function(category) {
               return _c(
                 "button",
@@ -21509,7 +35892,40 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(2)
+    _c(
+      "section",
+      { staticClass: "footer py-5 bg-primary", attrs: { id: "kontak" } },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "d-flex justify-content-between" }, [
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticStyle: { width: "317px" } },
+              [
+                _c("div", { staticClass: "footer-help" }, [
+                  _vm._v("Tech Support")
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _vm._v(
+                    "Terdapat kesalahan pada sistem kami? silakan hubungi."
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(4),
+                _vm._v(" "),
+                _c("Hello")
+              ],
+              1
+            )
+          ])
+        ])
+      ]
+    )
   ])
 }
 var staticRenderFns = [
@@ -21558,77 +35974,1779 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "footer py-5 bg-primary", attrs: { id: "kontak" } },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "d-flex justify-content-between" }, [
-            _c("div", { staticStyle: { width: "317px" } }, [
-              _c("div", { staticClass: "brand-logo" }, [_vm._v("Nyuss")]),
-              _vm._v(" "),
-              _c("div", [
-                _vm._v(
-                  "\n            Minuman yang bikin nyuss. bikin seleb bilang “Rasanya mau\n            meninggal”.\n          "
+    return _c("div", { staticStyle: { width: "317px" } }, [
+      _c("div", { staticClass: "brand-logo" }, [_vm._v("Nyuss")]),
+      _vm._v(" "),
+      _c("div", [
+        _vm._v(
+          "\n            Minuman yang bikin nyuss. bikin seleb bilang “Rasanya mau\n            meninggal”.\n          "
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "info" }, [
+        _c("div", { staticClass: "contact" }, [_vm._v("contact@nyuss.com")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "telp" }, [_vm._v("+62 812 8192 5236")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticStyle: { width: "317px" } }, [
+      _c("div", { staticClass: "footer-help" }, [_vm._v("Sales Support")]),
+      _vm._v(" "),
+      _c("div", [
+        _vm._v(
+          "Ingin membuat mitra atau kerjasama dengan kami? silakan hubungi."
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "info" }, [
+        _c("div", { staticClass: "contact" }, [_vm._v("contact@nyuss.com")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "telp" }, [_vm._v("+62 812 8192 5236")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "info" }, [
+      _c("div", { staticClass: "contact" }, [_vm._v("contact@nyuss.com")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "telp" }, [_vm._v("+62 812 8192 5236")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/dashboard/Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "app" } }, [
+      _c("div", { staticClass: "main-wrapper main-wrapper-1" }, [
+        _c("div", { staticClass: "navbar-bg" }),
+        _vm._v(" "),
+        _c("nav", { staticClass: "navbar navbar-expand-lg main-navbar" }, [
+          _c("form", { staticClass: "form-inline mr-auto" }, [
+            _c("ul", { staticClass: "navbar-nav mr-3" }, [
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link nav-link-lg",
+                    attrs: { href: "#", "data-toggle": "sidebar" }
+                  },
+                  [_c("i", { staticClass: "fas fa-bars" })]
                 )
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "info" }, [
-                _c("div", { staticClass: "contact" }, [
-                  _vm._v("contact@nyuss.com")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "telp" }, [
-                  _vm._v("+62 812 8192 5236")
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticStyle: { width: "317px" } }, [
-              _c("div", { staticClass: "footer-help" }, [
-                _vm._v("Sales Support")
-              ]),
-              _vm._v(" "),
-              _c("div", [
-                _vm._v(
-                  "Ingin membuat mitra atau kerjasama dengan kami? silakan hubungi."
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link nav-link-lg d-sm-none",
+                    attrs: { href: "#", "data-toggle": "search" }
+                  },
+                  [_c("i", { staticClass: "fas fa-search" })]
                 )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "info" }, [
-                _c("div", { staticClass: "contact" }, [
-                  _vm._v("contact@nyuss.com")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "telp" }, [
-                  _vm._v("+62 812 8192 5236")
-                ])
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticStyle: { width: "317px" } }, [
-              _c("div", { staticClass: "footer-help" }, [
-                _vm._v("Tech Support")
+            _c("div", { staticClass: "search-element" }, [
+              _c("input", {
+                staticClass: "form-control",
+                attrs: {
+                  type: "search",
+                  placeholder: "Search",
+                  "aria-label": "Search",
+                  "data-width": "250"
+                }
+              }),
+              _vm._v(" "),
+              _c("button", { staticClass: "btn", attrs: { type: "submit" } }, [
+                _c("i", { staticClass: "fas fa-search" })
               ]),
               _vm._v(" "),
-              _c("div", [
-                _vm._v("Terdapat kesalahan pada sistem kami? silakan hubungi.")
-              ]),
+              _c("div", { staticClass: "search-backdrop" }),
               _vm._v(" "),
-              _c("div", { staticClass: "info" }, [
-                _c("div", { staticClass: "contact" }, [
-                  _vm._v("contact@nyuss.com")
+              _c("div", { staticClass: "search-result" }, [
+                _c("div", { staticClass: "search-header" }, [
+                  _vm._v("\n              Histories\n            ")
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "telp" }, [
-                  _vm._v("+62 812 8192 5236")
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("How to hack NASA using CSS")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "search-close", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fas fa-times" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Kodinger.com")]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "search-close", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fas fa-times" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("#Stisla")]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "search-close", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fas fa-times" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-header" }, [
+                  _vm._v("\n              Result\n            ")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("img", {
+                      staticClass: "mr-3 rounded",
+                      attrs: {
+                        width: "30",
+                        src: "assets/img/products/product-3-50.png",
+                        alt: "product"
+                      }
+                    }),
+                    _vm._v(
+                      "\n                oPhone S9 Limited Edition\n              "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("img", {
+                      staticClass: "mr-3 rounded",
+                      attrs: {
+                        width: "30",
+                        src: "assets/img/products/product-2-50.png",
+                        alt: "product"
+                      }
+                    }),
+                    _vm._v(
+                      "\n                Drone X2 New Gen-7\n              "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("img", {
+                      staticClass: "mr-3 rounded",
+                      attrs: {
+                        width: "30",
+                        src: "assets/img/products/product-1-50.png",
+                        alt: "product"
+                      }
+                    }),
+                    _vm._v("\n                Headphone Blitz\n              ")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-header" }, [
+                  _vm._v("\n              Projects\n            ")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c(
+                      "div",
+                      { staticClass: "search-icon bg-danger text-white mr-3" },
+                      [_c("i", { staticClass: "fas fa-code" })]
+                    ),
+                    _vm._v(
+                      "\n                Stisla Admin Template\n              "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "search-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c(
+                      "div",
+                      { staticClass: "search-icon bg-primary text-white mr-3" },
+                      [_c("i", { staticClass: "fas fa-laptop" })]
+                    ),
+                    _vm._v(
+                      "\n                Create a new Homepage Design\n              "
+                    )
+                  ])
                 ])
               ])
             ])
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "navbar-nav navbar-right" }, [
+            _c("li", { staticClass: "dropdown dropdown-list-toggle" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link nav-link-lg message-toggle beep",
+                  attrs: { href: "#", "data-toggle": "dropdown" }
+                },
+                [_c("i", { staticClass: "far fa-envelope" })]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "dropdown-menu dropdown-list dropdown-menu-right"
+                },
+                [
+                  _c("div", { staticClass: "dropdown-header" }, [
+                    _vm._v("Messages\n              "),
+                    _c("div", { staticClass: "float-right" }, [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v("Mark All As Read")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "dropdown-list-content dropdown-list-message"
+                    },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item dropdown-item-unread",
+                          attrs: { href: "#" }
+                        },
+                        [
+                          _c("div", { staticClass: "dropdown-item-avatar" }, [
+                            _c("img", {
+                              staticClass: "rounded-circle",
+                              attrs: {
+                                alt: "image",
+                                src: "assets/img/avatar/avatar-1.png"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "is-online" })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _c("b", [_vm._v("Kusnaedi")]),
+                            _vm._v(" "),
+                            _c("p", [_vm._v("Hello, Bro!")]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("10 Hours Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item dropdown-item-unread",
+                          attrs: { href: "#" }
+                        },
+                        [
+                          _c("div", { staticClass: "dropdown-item-avatar" }, [
+                            _c("img", {
+                              staticClass: "rounded-circle",
+                              attrs: {
+                                alt: "image",
+                                src: "assets/img/avatar/avatar-2.png"
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _c("b", [_vm._v("Dedik Sugiharto")]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("12 Hours Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item dropdown-item-unread",
+                          attrs: { href: "#" }
+                        },
+                        [
+                          _c("div", { staticClass: "dropdown-item-avatar" }, [
+                            _c("img", {
+                              staticClass: "rounded-circle",
+                              attrs: {
+                                alt: "image",
+                                src: "assets/img/avatar/avatar-3.png"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "is-online" })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _c("b", [_vm._v("Agung Ardiansyah")]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "Sunt in culpa qui officia deserunt mollit anim id est laborum."
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("12 Hours Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        { staticClass: "dropdown-item", attrs: { href: "#" } },
+                        [
+                          _c("div", { staticClass: "dropdown-item-avatar" }, [
+                            _c("img", {
+                              staticClass: "rounded-circle",
+                              attrs: {
+                                alt: "image",
+                                src: "assets/img/avatar/avatar-4.png"
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _c("b", [_vm._v("Ardian Rahardiansyah")]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "Duis aute irure dolor in reprehenderit in voluptate velit ess"
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("16 Hours Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        { staticClass: "dropdown-item", attrs: { href: "#" } },
+                        [
+                          _c("div", { staticClass: "dropdown-item-avatar" }, [
+                            _c("img", {
+                              staticClass: "rounded-circle",
+                              attrs: {
+                                alt: "image",
+                                src: "assets/img/avatar/avatar-5.png"
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _c("b", [_vm._v("Alfa Zulkarnain")]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "Exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("Yesterday")
+                            ])
+                          ])
+                        ]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "dropdown-footer text-center" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("View All "),
+                      _c("i", { staticClass: "fas fa-chevron-right" })
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "dropdown dropdown-list-toggle" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link notification-toggle nav-link-lg beep",
+                  attrs: { href: "#", "data-toggle": "dropdown" }
+                },
+                [_c("i", { staticClass: "far fa-bell" })]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "dropdown-menu dropdown-list dropdown-menu-right"
+                },
+                [
+                  _c("div", { staticClass: "dropdown-header" }, [
+                    _vm._v("Notifications\n              "),
+                    _c("div", { staticClass: "float-right" }, [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v("Mark All As Read")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "dropdown-list-content dropdown-list-icons"
+                    },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item dropdown-item-unread",
+                          attrs: { href: "#" }
+                        },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "dropdown-item-icon bg-primary text-white"
+                            },
+                            [_c("i", { staticClass: "fas fa-code" })]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _vm._v(
+                              "\n                  Template update is available now!\n                  "
+                            ),
+                            _c("div", { staticClass: "time text-primary" }, [
+                              _vm._v("2 Min Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        { staticClass: "dropdown-item", attrs: { href: "#" } },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "dropdown-item-icon bg-info text-white"
+                            },
+                            [_c("i", { staticClass: "far fa-user" })]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _c("b", [_vm._v("You")]),
+                            _vm._v(" and "),
+                            _c("b", [_vm._v("Dedik Sugiharto")]),
+                            _vm._v(" are now friends\n                  "),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("10 Hours Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        { staticClass: "dropdown-item", attrs: { href: "#" } },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "dropdown-item-icon bg-success text-white"
+                            },
+                            [_c("i", { staticClass: "fas fa-check" })]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _c("b", [_vm._v("Kusnaedi")]),
+                            _vm._v(" has moved task "),
+                            _c("b", [_vm._v("Fix bug header")]),
+                            _vm._v(" to "),
+                            _c("b", [_vm._v("Done")]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("12 Hours Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        { staticClass: "dropdown-item", attrs: { href: "#" } },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "dropdown-item-icon bg-danger text-white"
+                            },
+                            [
+                              _c("i", {
+                                staticClass: "fas fa-exclamation-triangle"
+                              })
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _vm._v(
+                              "\n                  Low disk space. Let's clean it!\n                  "
+                            ),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("17 Hours Ago")
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        { staticClass: "dropdown-item", attrs: { href: "#" } },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "dropdown-item-icon bg-info text-white"
+                            },
+                            [_c("i", { staticClass: "fas fa-bell" })]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "dropdown-item-desc" }, [
+                            _vm._v(
+                              "\n                  Welcome to Stisla template!\n                  "
+                            ),
+                            _c("div", { staticClass: "time" }, [
+                              _vm._v("Yesterday")
+                            ])
+                          ])
+                        ]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "dropdown-footer text-center" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("View All "),
+                      _c("i", { staticClass: "fas fa-chevron-right" })
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "dropdown" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "nav-link dropdown-toggle nav-link-lg nav-link-user",
+                  attrs: { href: "#", "data-toggle": "dropdown" }
+                },
+                [
+                  _c("img", {
+                    staticClass: "rounded-circle mr-1",
+                    attrs: {
+                      alt: "image",
+                      src: "assets/img/avatar/avatar-1.png"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "d-sm-none d-lg-inline-block" }, [
+                    _vm._v("Hi, Ujang Maman")
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "dropdown-menu dropdown-menu-right" }, [
+                _c("div", { staticClass: "dropdown-title" }, [
+                  _vm._v("Logged in 5 min ago")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "dropdown-item has-icon",
+                    attrs: { href: "features-profile.html" }
+                  },
+                  [
+                    _c("i", { staticClass: "far fa-user" }),
+                    _vm._v(" Profile\n            ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "dropdown-item has-icon",
+                    attrs: { href: "features-activities.html" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-bolt" }),
+                    _vm._v(" Activities\n            ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "dropdown-item has-icon",
+                    attrs: { href: "features-settings.html" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-cog" }),
+                    _vm._v(" Settings\n            ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "dropdown-divider" }),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "dropdown-item has-icon text-danger",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-sign-out-alt" }),
+                    _vm._v(" Logout\n            ")
+                  ]
+                )
+              ])
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "main-sidebar sidebar-style-2" }, [
+          _c("aside", { attrs: { id: "sidebar-wrapper" } }, [
+            _c("div", { staticClass: "sidebar-brand" }, [
+              _c("a", { attrs: { href: "index.html" } }, [_vm._v("Stisla")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "sidebar-brand sidebar-brand-sm" }, [
+              _c("a", { attrs: { href: "index.html" } }, [_vm._v("St")])
+            ]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "sidebar-menu" }, [
+              _c("li", { staticClass: "menu-header" }, [_vm._v("Dashboard")]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-fire" }),
+                    _c("span", [_vm._v("Dashboard")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "index-0.html" }
+                      },
+                      [_vm._v("General Dashboard")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "index.html" }
+                      },
+                      [_vm._v("Ecommerce Dashboard")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "menu-header" }, [_vm._v("Starter")]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#", "data-toggle": "dropdown" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-columns" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Layout")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "layout-default.html" }
+                      },
+                      [_vm._v("Default Layout")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "layout-transparent.html" }
+                      },
+                      [_vm._v("Transparent Sidebar")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "layout-top-navigation.html" }
+                      },
+                      [_vm._v("Top Navigation")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "active" }, [
+                _c(
+                  "a",
+                  { staticClass: "nav-link", attrs: { href: "blank.html" } },
+                  [
+                    _c("i", { staticClass: "far fa-square" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Blank Page")])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-th" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Bootstrap")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-alert.html" }
+                      },
+                      [_vm._v("Alert")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-badge.html" }
+                      },
+                      [_vm._v("Badge")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-breadcrumb.html" }
+                      },
+                      [_vm._v("Breadcrumb")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-buttons.html" }
+                      },
+                      [_vm._v("Buttons")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-card.html" }
+                      },
+                      [_vm._v("Card")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-carousel.html" }
+                      },
+                      [_vm._v("Carousel")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-collapse.html" }
+                      },
+                      [_vm._v("Collapse")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-dropdown.html" }
+                      },
+                      [_vm._v("Dropdown")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-form.html" }
+                      },
+                      [_vm._v("Form")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-list-group.html" }
+                      },
+                      [_vm._v("List Group")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-media-object.html" }
+                      },
+                      [_vm._v("Media Object")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-modal.html" }
+                      },
+                      [_vm._v("Modal")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-nav.html" }
+                      },
+                      [_vm._v("Nav")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-navbar.html" }
+                      },
+                      [_vm._v("Navbar")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-pagination.html" }
+                      },
+                      [_vm._v("Pagination")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-popover.html" }
+                      },
+                      [_vm._v("Popover")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-progress.html" }
+                      },
+                      [_vm._v("Progress")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-table.html" }
+                      },
+                      [_vm._v("Table")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-tooltip.html" }
+                      },
+                      [_vm._v("Tooltip")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "bootstrap-typography.html" }
+                      },
+                      [_vm._v("Typography")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "menu-header" }, [_vm._v("Stisla")]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-th-large" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Components")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-article.html" }
+                      },
+                      [_vm._v("Article")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link beep beep-sidebar",
+                        attrs: { href: "components-avatar.html" }
+                      },
+                      [_vm._v("Avatar")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-chat-box.html" }
+                      },
+                      [_vm._v("Chat Box")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link beep beep-sidebar",
+                        attrs: { href: "components-empty-state.html" }
+                      },
+                      [_vm._v("Empty State")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-gallery.html" }
+                      },
+                      [_vm._v("Gallery")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link beep beep-sidebar",
+                        attrs: { href: "components-hero.html" }
+                      },
+                      [_vm._v("Hero")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-multiple-upload.html" }
+                      },
+                      [_vm._v("Multiple Upload")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link beep beep-sidebar",
+                        attrs: { href: "components-pricing.html" }
+                      },
+                      [_vm._v("Pricing")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-statistic.html" }
+                      },
+                      [_vm._v("Statistic")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-tab.html" }
+                      },
+                      [_vm._v("Tab")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-table.html" }
+                      },
+                      [_vm._v("Table")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "components-user.html" }
+                      },
+                      [_vm._v("User")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link beep beep-sidebar",
+                        attrs: { href: "components-wizard.html" }
+                      },
+                      [_vm._v("Wizard")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "far fa-file-alt" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Forms")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "forms-advanced-form.html" }
+                      },
+                      [_vm._v("Advanced Form")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "forms-editor.html" }
+                      },
+                      [_vm._v("Editor")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "forms-validation.html" }
+                      },
+                      [_vm._v("Validation")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Google Maps")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c("a", { attrs: { href: "gmaps-advanced-route.html" } }, [
+                      _vm._v("Advanced Route")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "gmaps-draggable-marker.html" } },
+                      [_vm._v("Draggable Marker")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "gmaps-geocoding.html" } }, [
+                      _vm._v("Geocoding")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "gmaps-geolocation.html" } }, [
+                      _vm._v("Geolocation")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "gmaps-marker.html" } }, [
+                      _vm._v("Marker")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "gmaps-multiple-marker.html" } }, [
+                      _vm._v("Multiple Marker")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "gmaps-route.html" } }, [
+                      _vm._v("Route")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "gmaps-simple.html" } }, [
+                      _vm._v("Simple")
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-plug" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Modules")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-calendar.html" }
+                      },
+                      [_vm._v("Calendar")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-chartjs.html" }
+                      },
+                      [_vm._v("ChartJS")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-datatables.html" }
+                      },
+                      [_vm._v("DataTables")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-flag.html" }
+                      },
+                      [_vm._v("Flag")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-font-awesome.html" }
+                      },
+                      [_vm._v("Font Awesome")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-ion-icons.html" }
+                      },
+                      [_vm._v("Ion Icons")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-owl-carousel.html" }
+                      },
+                      [_vm._v("Owl Carousel")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-sparkline.html" }
+                      },
+                      [_vm._v("Sparkline")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-sweet-alert.html" }
+                      },
+                      [_vm._v("Sweet Alert")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-toastr.html" }
+                      },
+                      [_vm._v("Toastr")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-vector-map.html" }
+                      },
+                      [_vm._v("Vector Map")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "modules-weather-icon.html" }
+                      },
+                      [_vm._v("Weather Icon")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "menu-header" }, [_vm._v("Pages")]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "far fa-user" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Auth")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c("a", { attrs: { href: "auth-forgot-password.html" } }, [
+                      _vm._v("Forgot Password")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "auth-login.html" } }, [
+                      _vm._v("Login")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "auth-register.html" } }, [
+                      _vm._v("Register")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "auth-reset-password.html" } }, [
+                      _vm._v("Reset Password")
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-exclamation" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Errors")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "errors-503.html" }
+                      },
+                      [_vm._v("503")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "errors-403.html" }
+                      },
+                      [_vm._v("403")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "errors-404.html" }
+                      },
+                      [_vm._v("404")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "errors-500.html" }
+                      },
+                      [_vm._v("500")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-bicycle" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Features")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "features-activities.html" }
+                      },
+                      [_vm._v("Activities")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "features-post-create.html" }
+                      },
+                      [_vm._v("Post Create")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "features-posts.html" }
+                      },
+                      [_vm._v("Posts")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "features-profile.html" }
+                      },
+                      [_vm._v("Profile")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "features-settings.html" }
+                      },
+                      [_vm._v("Settings")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "features-setting-detail.html" }
+                      },
+                      [_vm._v("Setting Detail")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "features-tickets.html" }
+                      },
+                      [_vm._v("Tickets")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "dropdown" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link has-dropdown",
+                    attrs: { href: "#" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-ellipsis-h" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Utilities")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("ul", { staticClass: "dropdown-menu" }, [
+                  _c("li", [
+                    _c("a", { attrs: { href: "utilities-contact.html" } }, [
+                      _vm._v("Contact")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { href: "utilities-invoice.html" }
+                      },
+                      [_vm._v("Invoice")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "utilities-subscribe.html" } }, [
+                      _vm._v("Subscribe")
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { staticClass: "nav-link", attrs: { href: "credits.html" } },
+                  [
+                    _c("i", { staticClass: "fas fa-pencil-ruler" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Credits")])
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mt-4 mb-4 p-3 hide-sidebar-mini" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "btn btn-primary btn-lg btn-block btn-icon-split",
+                  attrs: { href: "https://getstisla.com/docs" }
+                },
+                [
+                  _c("i", { staticClass: "fas fa-rocket" }),
+                  _vm._v(" Documentation\n          ")
+                ]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "main-content" }, [
+          _c("section", { staticClass: "section" }, [
+            _c("div", { staticClass: "section-header" }, [
+              _c("h1", [_vm._v("Blank Page")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "section-body" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("footer", { staticClass: "main-footer" }, [
+          _c("div", { staticClass: "footer-left" }, [
+            _vm._v("\n        Copyright © 2018 "),
+            _c("div", { staticClass: "bullet" }),
+            _vm._v(" Design By "),
+            _c("a", { attrs: { href: "https://nauval.in/" } }, [
+              _vm._v("Muhamad Nauval Azhar")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "footer-right" })
         ])
-      ]
-    )
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -38093,6 +54211,39 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./node_modules/webpack/buildin/module.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(module) {
+	if (!module.webpackPolyfill) {
+		module.deprecate = function() {};
+		module.paths = [];
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -38244,6 +54395,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _views_Home_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/Home.vue */ "./resources/js/views/Home.vue");
 /* harmony import */ var _views_About_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../views/About.vue */ "./resources/js/views/About.vue");
+/* harmony import */ var _views_dashboard_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../views/dashboard/index */ "./resources/js/views/dashboard/index.js");
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -38257,6 +54410,13 @@ __webpack_require__.r(__webpack_exports__);
     path: "/about",
     name: "about",
     component: _views_About_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }, {
+    path: "/dashboard/",
+    name: "Dashboard",
+    component: _views_dashboard_index__WEBPACK_IMPORTED_MODULE_2__["Dashboard"],
+    meta: {
+      hideNavigation: true
+    }
   }]
 });
 
@@ -38500,6 +54660,128 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_63cd6604_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_63cd6604_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/views/dashboard/Dashboard.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/views/dashboard/Dashboard.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Dashboard_vue_vue_type_template_id_2307ab0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true& */ "./resources/js/views/dashboard/Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true&");
+/* harmony import */ var _Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dashboard.vue?vue&type=script&lang=js& */ "./resources/js/views/dashboard/Dashboard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Dashboard_vue_vue_type_style_index_0_id_2307ab0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css& */ "./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css&");
+/* harmony import */ var _Dashboard_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Dashboard.vue?vue&type=style&index=1&lang=scss& */ "./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__["default"])(
+  _Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Dashboard_vue_vue_type_template_id_2307ab0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Dashboard_vue_vue_type_template_id_2307ab0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "2307ab0a",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/dashboard/Dashboard.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/views/dashboard/Dashboard.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/views/dashboard/Dashboard.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css& ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_0_id_2307ab0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=0&id=2307ab0a&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_0_id_2307ab0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_0_id_2307ab0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_0_id_2307ab0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_0_id_2307ab0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_0_id_2307ab0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss& ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=style&index=1&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=style&index=1&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/views/dashboard/Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/views/dashboard/Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_2307ab0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/dashboard/Dashboard.vue?vue&type=template&id=2307ab0a&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_2307ab0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_2307ab0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/views/dashboard/index.js":
+/*!***********************************************!*\
+  !*** ./resources/js/views/dashboard/index.js ***!
+  \***********************************************/
+/*! exports provided: Dashboard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Dashboard_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Dashboard.vue */ "./resources/js/views/dashboard/Dashboard.vue");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Dashboard", function() { return _Dashboard_vue__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
 
 
 

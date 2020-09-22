@@ -29,7 +29,7 @@
         <div class="menu">
           <div class="menu-text text-center">Menu</div>
           <div class="menu-subtext text-center">Pilih sesuai selera kamu.</div>
-          <div class="menu-category my-4">
+          <div class="menu-category my-4 text-center">
             <button
               v-on:click="filterKey = category.filter"
               class="btn btn-primary px-5 mr-3 py-0"
@@ -86,6 +86,7 @@
               <div class="contact">contact@nyuss.com</div>
               <div class="telp">+62 812 8192 5236</div>
             </div>
+            <Hello/>
           </div>
         </div>
       </div>
