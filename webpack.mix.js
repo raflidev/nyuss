@@ -13,7 +13,6 @@ mix.styles([
 ], 'public/css/all.css');
 
 mix.scripts([
-    'public/assets/js/page/index.js',
     'public/assets/js/scripts.js',
     'public/assets/js/bundle.js',
 ], 'public/js/all.js');

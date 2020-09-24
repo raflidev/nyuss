@@ -29,6 +29,7 @@
         "bootstrap": "^4.2.1",
         "jquery": "^3.3.1",
         "vue-router": "^3.4.3",
-        "vuex": "^3.5.1"
+        "vuex": "^3.5.1",
+        "weathericons": "^2.1.0"
     }
 }
