@@ -11,6 +11,7 @@ try {
 
 import Vue from "vue";
 import VueRouter from "vue-router";
+window.$ = window.jQuery = require("jquery");
 
 Vue.use(VueRouter);
 

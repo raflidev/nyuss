@@ -86,7 +86,6 @@
               <div class="contact">contact@nyuss.com</div>
               <div class="telp">+62 812 8192 5236</div>
             </div>
-            <Hello/>
           </div>
         </div>
       </div>
